@@ -29,7 +29,7 @@ The following table shows the target hardware for the application projects.
 
 | Project Name| Board|
 |:---------|:---------:|
-| sam_c21n_xpro.X | [PIC32CM LE00 Curiosity Pro Evaluation Kit]()
+| pic32cm_le00_curiosity_pro.X | [PIC32CM LE00 Curiosity Pro Evaluation Kit]()
 |||
 
 ### Setting up [PIC32CM LE00 Curiosity Pro Evaluation Kit]()
