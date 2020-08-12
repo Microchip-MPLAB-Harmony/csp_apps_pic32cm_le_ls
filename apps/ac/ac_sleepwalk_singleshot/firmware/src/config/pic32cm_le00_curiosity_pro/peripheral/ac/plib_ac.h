@@ -48,7 +48,6 @@
 #include <stdint.h>
 #include <stdbool.h>
 #include <stddef.h>
-#include "pic32cm5164le00100.h"
 
 // DOM-IGNORE-BEGIN
 #ifdef __cplusplus  // Provide C++ Compatibility
@@ -69,6 +68,31 @@ typedef enum
     AC_CHANNEL2 = 2,
     AC_CHANNEL3 = 3,
 }AC_CHANNEL;
+
+typedef enum
+{
+    AC_POSINPUT_AIN0 = AC_COMPCTRL_MUXPOS_AIN0,
+    AC_POSINPUT_AIN4 = AC_COMPCTRL_MUXPOS_AIN4,
+    AC_POSINPUT_AIN1 = AC_COMPCTRL_MUXPOS_AIN1,
+    AC_POSINPUT_AIN5 = AC_COMPCTRL_MUXPOS_AIN5,
+    AC_POSINPUT_AIN2 = AC_COMPCTRL_MUXPOS_AIN2,
+    AC_POSINPUT_AIN6 = AC_COMPCTRL_MUXPOS_AIN6,
+    AC_POSINPUT_AIN3 = AC_COMPCTRL_MUXPOS_AIN3,
+    AC_POSINPUT_AIN7 = AC_COMPCTRL_MUXPOS_AIN7,
+}AC_POSINPUT;
+
+
+typedef enum
+{
+    AC_NEGINPUT_AIN0 = AC_COMPCTRL_MUXNEG_AIN0,
+    AC_NEGINPUT_AIN4 = AC_COMPCTRL_MUXNEG_AIN4,
+    AC_NEGINPUT_AIN1 = AC_COMPCTRL_MUXNEG_AIN1,
+    AC_NEGINPUT_AIN5 = AC_COMPCTRL_MUXNEG_AIN5,
+    AC_NEGINPUT_AIN2 = AC_COMPCTRL_MUXNEG_AIN2,
+    AC_NEGINPUT_AIN6 = AC_COMPCTRL_MUXNEG_AIN6,
+    AC_NEGINPUT_AIN3 = AC_COMPCTRL_MUXNEG_AIN3,
+    AC_NEGINPUT_AIN7 = AC_COMPCTRL_MUXNEG_AIN7,
+}AC_NEGINPUT;
 
 typedef void (*AC_CALLBACK) (uint8_t int_flags, uintptr_t context);
 
@@ -97,5 +121,11 @@ bool AC_StatusGet (AC_CHANNEL channel);
 void AC_CallbackRegister (AC_CALLBACK callback, uintptr_t context);
 
 void AC_SetVddScalar( AC_CHANNEL channel_id , uint8_t vdd_scalar);
+
+void AC_ChannelSelect( AC_CHANNEL channel_id , AC_POSINPUT positiveInput, AC_NEGINPUT negativeInput);
+
+#ifdef __cplusplus // Provide C++ Compatibility
+}
+#endif
 
 #endif /* PLIB_AC_H */
