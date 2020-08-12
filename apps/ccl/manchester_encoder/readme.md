@@ -35,7 +35,7 @@ The following table shows the target hardware for the application projects.
 ### Setting up [PIC32CM LE00 Curiosity Pro Evaluation Kit]()
 
 - Use jumper from PB03 (EXT1 pin 18) to PA18 (EXT3 pin 15). This routes SCK to CCL_IN[2]
-- PB02 (EXT1 pin 16) has MOSI output
+- Use jumper from PB02 (EXT1 pin 16) to PB00 (EXT1 pin 15). This routes MOSI to CCL_IN[1]
 - PA19 (EXT3 pin 17) has CCL output (CCL_OUT)
 - Connect the Debug USB port on the board to the computer using a micro USB cable
 
@@ -45,6 +45,7 @@ The following table shows the target hardware for the application projects.
 2. Connect a logic analyzer to SCK pin
 3. Connect a logic analyzer to the Manchester-encoded output CCL_OUT pin
 4. Refer to the following table for pin details:
+
     |Board| MOSI pin | SCK pin  | CCL_OUT pin |
     |-----|----------|----------|-------------|
     |[PIC32CM LE00 Curiosity Pro Evaluation Kit]()| PB02 (EXT1 pin 16) | PB03 (EXT1 pin 18) | PA19 (EXT3 pin 17) |
