@@ -20,7 +20,7 @@
  *
  */
 
-/* file generated from device description version 2020-06-26T11:54:32Z */
+/* file generated from device description version 2020-08-03T13:09:11Z */
 #ifndef _PIC32CM5164LE00100_GPIO_H_
 #define _PIC32CM5164LE00100_GPIO_H_
 

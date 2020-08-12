@@ -45,5 +45,5 @@ Following table provides the LED name:
 
 | Board      | LED Name |
 | ---------- | ---------------- |--------- |
-| [PIC32CM LE00 Curiosity Pro Evaluation Kit]() | LED0 |
+| [PIC32CM LE00 Curiosity Pro Evaluation Kit]() | LED1 |
 |||
