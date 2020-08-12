@@ -78,7 +78,7 @@ int main ( void )
     printf("\n\r     FREQM module demo");
     printf("\n\n\r----------------------------------------------");
     
-    printf("\n\n\rFREQM module Configured to measure 48MHz internal oscillator clock using known 32KHz external crystal");
+    printf("\n\n\rFREQM module Configured to measure 48MHz internal oscillator clock using known 32KHz external oscillator");
     
     FREQM_CallbackRegister(freqm_event_handler,(uintptr_t)NULL);
     
