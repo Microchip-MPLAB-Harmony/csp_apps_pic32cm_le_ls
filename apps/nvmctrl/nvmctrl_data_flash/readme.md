@@ -57,3 +57,5 @@ The following table shows the target hardware for the application projects.
 5. Observe output message in console as follows:
 
     ![output](images/output_nvmctrl_data_flash.png)
+
+    NOTE: Value of Flag incremented while erase is happening from data flash area may vary
