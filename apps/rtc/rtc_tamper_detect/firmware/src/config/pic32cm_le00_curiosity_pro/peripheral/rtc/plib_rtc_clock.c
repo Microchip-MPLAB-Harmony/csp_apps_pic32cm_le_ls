@@ -164,7 +164,7 @@ bool RTC_RTCCAlarmSet (struct tm * alarmTime, RTC_ALARM_MASK mask)
      * Set YEAR(according to Reference Year), MONTH and DAY
      * Set Hour, Minute and second
      */
-    RTC_REGS->MODE2.RTC_ALARM = ((TM_STRUCT_REFERENCE_YEAR + alarmTime->tm_year) - REFERENCE_YEAR) << RTC_MODE2_CLOCK_YEAR_Pos |
+    RTC_REGS->MODE2.RTC_ALARM0 = ((TM_STRUCT_REFERENCE_YEAR + alarmTime->tm_year) - REFERENCE_YEAR) << RTC_MODE2_CLOCK_YEAR_Pos |
                     (ADJUST_MONTH(alarmTime->tm_mon) << RTC_MODE2_CLOCK_MONTH_Pos) |
                     (alarmTime->tm_mday << RTC_MODE2_CLOCK_DAY_Pos) |
                     (alarmTime->tm_hour << RTC_MODE2_CLOCK_HOUR_Pos) |
@@ -176,7 +176,7 @@ bool RTC_RTCCAlarmSet (struct tm * alarmTime, RTC_ALARM_MASK mask)
         /* Synchronization after writing to ALARM register */
     }
 
-    RTC_REGS->MODE2.RTC_MASK = mask;
+    RTC_REGS->MODE2.RTC_MASK0 = mask;
 
     while((RTC_REGS->MODE2.RTC_SYNCBUSY & RTC_MODE2_SYNCBUSY_MASK0_Msk) == RTC_MODE2_SYNCBUSY_MASK0_Msk)
     {
