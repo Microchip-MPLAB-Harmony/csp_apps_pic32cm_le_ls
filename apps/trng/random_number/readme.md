@@ -55,7 +55,8 @@ The following table shows the target hardware for the application projects.
     ![output](images/output_trng_random_number_2.png)
 
 Following table provides the switch names:
+
 | Board      | Switch Name |
-| ---------- | ---------|
+| ---------- | ----------- |
 | [PIC32CM LE00 Curiosity Pro Evaluation Kit]() | SW1 |
 ||||
