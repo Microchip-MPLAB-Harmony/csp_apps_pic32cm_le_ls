@@ -48,7 +48,6 @@
 #include <stdint.h>
 #include <stdbool.h>
 #include <stddef.h>
-#include "pic32cm5164le00100.h"
 
 // DOM-IGNORE-BEGIN
 #ifdef __cplusplus  // Provide C++ Compatibility
