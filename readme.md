@@ -55,7 +55,7 @@ The following applications are provided to demonstrate the typical or interestin
 | [FREQM measurement](apps/freqm/freqm_measure_clock_freq/readme.md) | This example application demonstrates how to use the FREQM peripheral to measure the frequency of the internal RC Oscillator |
 | [NVMCTRL data flash](apps/nvmctrl/nvmctrl_data_flash/readme.md) | This example application demonstrates how to use the NVMCTRL to erase data Flash memory |
 | [NVMCTRL read write](apps/nvmctrl/nvmctrl_flash_read_write/readme.md) | This example application demonstrates how to use the NVMCTRL to erase and program the internal Flash memory |
-| [OPAMP ADC gain](apps/opamp/opamp_adc_gain_amp/readme.md) | This application shows how OPAMP can be used as gain stage for the internal ADC peripheral |
+| [OPAMP ADC gain](apps/opamp/opamp_adc_gain/readme.md) | This application shows how OPAMP can be used as gain stage for the internal ADC peripheral |
 | [PM wakeup using EIC](apps/pm/pm_wakeup_eic/readme.md) | This application demonstrates entering the low power modes and exiting it using the EIC |
 | [PM wakeup using RTC](apps/pm/pm_wakeup_rtc/readme.md) | This example demonstrates entering the low power modes and exiting it using the RTC |
 | [PORT polling](apps/port/port_led_on_off_polling/readme.md) | This example application demonstrate how to poll the switch input, and indicate the switch status using the LED |
