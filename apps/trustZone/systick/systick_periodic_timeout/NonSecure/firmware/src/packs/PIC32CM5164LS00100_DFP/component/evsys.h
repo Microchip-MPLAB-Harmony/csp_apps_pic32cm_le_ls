@@ -20,7 +20,7 @@
  *
  */
 
-/* file generated from device description version 2020-06-09T10:48:45Z */
+/* file generated from device description version 2020-08-03T13:09:29Z */
 #ifndef _PIC32CMLS00_EVSYS_COMPONENT_H_
 #define _PIC32CMLS00_EVSYS_COMPONENT_H_
 
