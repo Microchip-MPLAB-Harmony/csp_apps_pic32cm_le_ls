@@ -1,5 +1,5 @@
 ﻿---
-title: Harmony 3 peripheral library application examples for PIC32CM LE00/LS00 family
+title: Harmony 3 peripheral library application examples for PIC32CM LE/LS family
 nav_order: 1
 has_children: true
 has_toc: false
@@ -7,7 +7,7 @@ has_toc: false
 
 [![MCHP](https://www.microchip.com/ResourcePackages/Microchip/assets/dist/images/logo.png)](https://www.microchip.com)
 
-# Harmony 3 peripheral library application examples for PIC32CM LE00/LS00 family
+# Harmony 3 peripheral library application examples for PIC32CM LE/LS family
 
 MPLAB® Harmony 3 is an extension of the MPLAB® ecosystem for creating embedded firmware solutions for Microchip 32-bit SAM and PIC® microcontroller and microprocessor devices.  Refer to the following links for more information.
 
@@ -17,14 +17,13 @@ MPLAB® Harmony 3 is an extension of the MPLAB® ecosystem for creating embedded
 - [Microchip MPLAB® Harmony](https://www.microchip.com/mplab/mplab-harmony)
 - [Microchip MPLAB® Harmony Pages](https://microchip-mplab-harmony.github.io/)
 
-This repository contains the MPLAB® Harmony 3 peripheral library application examples for PIC32CM LE00/LS00 family
+This repository contains the MPLAB® Harmony 3 peripheral library application examples for PIC32CM LE/LS family
 
 - [Release Notes](release_notes.md)
 - [MPLAB® Harmony License](mplab_harmony_license.md)
 
-To download or clone these application from Github, go to the [top level of the repository](https://github.com/Microchip-MPLAB-Harmony/csp_apps_pic32cm_le00_ls00) page and click:
-
-![clone](./docs/images/clone.png)
+To clone or download these applications from Github, go to the [main page of this repository](https://github.com/Microchip-MPLAB-Harmony/csp_apps_pic32cm_le_ls) and then click **Clone** button to clone this repository or download as zip file.
+This content can also be downloaded using content manager by following these [instructions](https://github.com/Microchip-MPLAB-Harmony/contentmanager/wiki).
 
 ## Contents Summary
 
@@ -53,7 +52,7 @@ The following applications are provided to demonstrate the typical or interestin
 | [EIC Interrupt](apps/eic/eic_led_on_off/readme.md) | This example application demonstrates how to generate interrupt using the EIC on switch press and indicate it through an LED |
 | [EVSYS trigger](apps/evsys/evsys_trigger/readme.md) | This example application demonstrates how to use the EVSYS Peripheral library to setup autonomous, low-latency and configurable communication between peripherals |
 | [FREQM measurement](apps/freqm/freqm_measure_clock_freq/readme.md) | This example application demonstrates how to use the FREQM peripheral to measure the frequency of the internal RC Oscillator |
-| [NVMCTRL data flash](apps/nvmctrl/nvmctrl_data_flash/readme.md) | This example application demonstrates how to use the NVMCTRL to erase data Flash memory |
+| [NVMCTRL data flash](apps/nvmctrl/nvmctrl_data_flash/readme.md) | This example application demonstrates code execution from the main Flash memory while performing erase operation in data flash section |
 | [NVMCTRL read write](apps/nvmctrl/nvmctrl_flash_read_write/readme.md) | This example application demonstrates how to use the NVMCTRL to erase and program the internal Flash memory |
 | [OPAMP ADC gain](apps/opamp/opamp_adc_gain/readme.md) | This application shows how OPAMP can be used as gain stage for the internal ADC peripheral |
 | [PM wakeup using EIC](apps/pm/pm_wakeup_eic/readme.md) | This application demonstrates entering the low power modes and exiting it using the EIC |
@@ -78,18 +77,19 @@ The following applications are provided to demonstrate the typical or interestin
 | [TRAM erase on tamper detect](apps/tram/tram_tamper_erase/readme.md) | This example application shows how to configure and use tamper detect feature of RTC and TrustRam |
 | [TRNG random number](apps/trng/random_number/readme.md) | This example shows how to use the TRNG Peripheral library to generate and read a random number |
 | [TrustZone EIC pin toggle](apps/trustZone/eic/eic_pin_toggle/readme.md) | This example application demonstrates handling of external pin interrupt in secure and non-secure project |
-| [TrustZone EVSYS trigger](apps/trustZone/evsys/evsys_trigger/readme.md) | This example application demonstrates peripheral event handling with event system in secure and non-secure projec |
+| [TrustZone EVSYS trigger](apps/trustZone/evsys/evsys_trigger/readme.md) | This example application demonstrates peripheral event handling with event system in secure and non-secure project |
 | [TrustZone Systick periodic timeout](apps/trustZone/systick/systick_periodic_timeout/readme.md) | This example application shows how to use the SysTick to generate periodic interrupts on both Secure and Non-secure modes |
 | [TrustZone basic demonstration](apps/trustZone/trustZone_basic/readme.md) | This example application performs Add and Multiply Math operations in secure mode and I/O operations in non-secure mode |
 | [WDT timeout](apps/wdt/wdt_timeout/readme.md) | This example shows how to generate a Watchdog timer reset by emulating a deadlock |
 |||
+
 ____
 
-[![License](https://img.shields.io/badge/license-Harmony%20license-orange.svg)](https://github.com/Microchip-MPLAB-Harmony/%package%/blob/master/mplab_harmony_license.md)
-[![Latest release](https://img.shields.io/github/release/Microchip-MPLAB-Harmony/%package%.svg)](https://github.com/Microchip-MPLAB-Harmony/%package%/releases/latest)
-[![Latest release date](https://img.shields.io/github/release-date/Microchip-MPLAB-Harmony/%package%.svg)](https://github.com/Microchip-MPLAB-Harmony/%package%/releases/latest)
-[![Commit activity](https://img.shields.io/github/commit-activity/y/Microchip-MPLAB-Harmony/%package%.svg)](https://github.com/Microchip-MPLAB-Harmony/%package%/graphs/commit-activity)
-[![Contributors](https://img.shields.io/github/contributors-anon/Microchip-MPLAB-Harmony/%package%.svg)]()
+[![License](https://img.shields.io/badge/license-Harmony%20license-orange.svg)](https://github.com/Microchip-MPLAB-Harmony/csp_apps_pic32cm_le_ls/blob/master/mplab_harmony_license.md)
+[![Latest release](https://img.shields.io/github/release/Microchip-MPLAB-Harmony/csp_apps_pic32cm_le_ls.svg)](https://github.com/Microchip-MPLAB-Harmony/csp_apps_pic32cm_le_ls/releases/latest)
+[![Latest release date](https://img.shields.io/github/release-date/Microchip-MPLAB-Harmony/csp_apps_pic32cm_le_ls.svg)](https://github.com/Microchip-MPLAB-Harmony/csp_apps_pic32cm_le_ls/releases/latest)
+[![Commit activity](https://img.shields.io/github/commit-activity/y/Microchip-MPLAB-Harmony/csp_apps_pic32cm_le_ls.svg)](https://github.com/Microchip-MPLAB-Harmony/csp_apps_pic32cm_le_ls/graphs/commit-activity)
+[![Contributors](https://img.shields.io/github/contributors-anon/Microchip-MPLAB-Harmony/csp_apps_pic32cm_le_ls.svg)]()
 
 ____
 
@@ -98,5 +98,5 @@ ____
 [![Follow us on Facebook](https://img.shields.io/badge/Facebook-Follow%20us%20on%20Facebook-blue.svg)](https://www.facebook.com/microchiptechnology/)
 [![Follow us on Twitter](https://img.shields.io/twitter/follow/MicrochipTech.svg?style=social)](https://twitter.com/MicrochipTech)
 
-[![](https://img.shields.io/github/stars/Microchip-MPLAB-Harmony/%package%.svg?style=social)]()
-[![](https://img.shields.io/github/watchers/Microchip-MPLAB-Harmony/%package%.svg?style=social)]()
+[![](https://img.shields.io/github/stars/Microchip-MPLAB-Harmony/csp_apps_pic32cm_le_ls.svg?style=social)]()
+[![](https://img.shields.io/github/watchers/Microchip-MPLAB-Harmony/csp_apps_pic32cm_le_ls.svg?style=social)]()
