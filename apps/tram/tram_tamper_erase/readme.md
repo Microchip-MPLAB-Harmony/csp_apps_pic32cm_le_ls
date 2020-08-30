@@ -41,6 +41,7 @@ The following table shows the target hardware for the application projects.
 ### Setting up [PIC32CM LE00 Curiosity Pro Evaluation Kit]()
 
 - Connect the Debug USB port on the board to the computer using a micro USB cable
+- Short RTC Input pin (EXT3, PIN 3) to Vcc
 
 ## Running the Application
 
@@ -57,8 +58,7 @@ The following table shows the target hardware for the application projects.
     ![output_1](images/output_tram_tamper_erase_1.png)
 
 5. To emulate tampering, create a falling edge on the RTC input pin
-    - Short RTC Input pin to Vcc
-    - Remove the short to create a falling edge
+    - Short RTC Input pin to Vcc and then remove the short, and connect RTC Input pin to GND to create a falling edge
 
     | Board| RTC input| Vcc|
     |:---------|:---------:|:---------:|
