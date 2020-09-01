@@ -30,7 +30,7 @@ The ADC is configured as follows:
 To clone or download this application from Github, go to the [main page of this repository](https://github.com/Microchip-MPLAB-Harmony/csp_apps_pic32cm_le_ls) and then click **Clone** button to clone this repository or download as zip file.
 This content can also be downloaded using content manager by following these [instructions](https://github.com/Microchip-MPLAB-Harmony/contentmanager/wiki).
 
-Path of the application within the repository is **apps/opamp/opamp_adc_gain_amp/firmware** .
+Path of the application within the repository is **apps/opamp/opamp_adc_gain/firmware** .
 
 To build the application, refer to the following table and open the project using its IDE.
 
