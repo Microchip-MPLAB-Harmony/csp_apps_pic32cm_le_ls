@@ -57,8 +57,8 @@ The following table shows the target hardware for the application projects.
 
     ![output](images/output_pm_wakeup_eic_1.png)
 
-6. Select 'a' or 'b' to enter the low power mode (The LED is turned off when the device enters low power mode)
-7. Press the switch to exit the low power mode
+6. Select 'a' or 'b' or 'c' to enter the low power mode (The LED is turned off when the device enters low power mode)
+7. Press the switch SW1 if 'a' or 'b' selected or press the switch RESET if 'c' selected to exit the low power mode
 8. LED will start blinking and the console displays the following message:
 
     ![output](images/output_pm_wakeup_eic_2.png)
@@ -67,5 +67,5 @@ The following table provides the detail of switch and LED
 
 | Board      | Switch Name | LED Name   |
 | ---------- | ----------- | ---------- |
-| [PIC32CM LE00 Curiosity Pro Evaluation Kit]() |SW1 | LED1 |
+| [PIC32CM LE00 Curiosity Pro Evaluation Kit]() | SW1 and RESET | LED1 |
 ||||
