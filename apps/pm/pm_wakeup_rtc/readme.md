@@ -57,15 +57,15 @@ The following table shows the target hardware for the application projects.
 
     ![output_1](images/output_pm_wakeup_rtc_1.png)
 
-6. Select 'a' or 'b' to enter the low power mode (LED is turned off when the device enters low power mode)
-7. When the device wakes up on RTC compare match interrupt, the LED starts blinking and the console displays the following
-message
+6. Select 'a' or 'b' or 'c' to enter the low power mode (LED is turned off when the device enters low power mode)
+7. When the device wakes up on RTC compare match interrupt if 'a' or 'b' selected or press the switch RESET if 'c' selected to wakeup the device
+8. LED will start blinking and the console displays the following message
 
     ![output_2](images/output_pm_wakeup_rtc_2.png)
 
 The following table provides the details of LED
 
-| Board      | LED Name   |
-| ---------- | ---------- |
-| [PIC32CM LE00 Curiosity Pro Evaluation Kit]() | LED1 |
+| Board      | Switch Name | LED Name   |
+| ---------- | ----------- | ---------- |
+| [PIC32CM LE00 Curiosity Pro Evaluation Kit]() | RESET | LED1 |
 ||||
