@@ -121,10 +121,18 @@
       <itemPath>../src/config/pic32cm_le00_curiosity_pro/harmony.prj</itemPath>
       <itemPath>../src/config/pic32cm_le00_curiosity_pro/pic32cm_le00_curiosity_pro.xml</itemPath>
       <itemPath>../../../../../../mhc/../csp_apps_pic32cm_le00_ls00/apps/pm/pm_wakeup_eic/firmware/src/config/pic32cm_le00_curiosity_pro/pic32cm_le00_curiosity_pro.xml</itemPath>
+      <itemPath>../src/config/pic32cm_le00_curiosity_pro/harmony-manifest-success.yml</itemPath>
     </logicalFolder>
     <logicalFolder name="LinkerScript"
                    displayName="Linker Files"
                    projectFiles="true">
+      <logicalFolder name="f1" displayName="config" projectFiles="true">
+        <logicalFolder name="f1"
+                       displayName="pic32cm_le00_curiosity_pro"
+                       projectFiles="true">
+          <itemPath>../src/config/pic32cm_le00_curiosity_pro/PIC32CM5164LE00100.ld</itemPath>
+        </logicalFolder>
+      </logicalFolder>
     </logicalFolder>
     <logicalFolder name="SourceFiles"
                    displayName="Source Files"
@@ -262,7 +270,7 @@
         <property key="enable-unroll-loops" value="false"/>
         <property key="exclude-floating-point" value="false"/>
         <property key="extra-include-directories"
-                  value="../src;../src/config/pic32cm_le00_curiosity_pro;../src/packs/PIC32CM5164LE00100_DFP;../src/packs/CMSIS/CMSIS/Core/Include;../src/packs/CMSIS/"/>
+                  value="../src;../src/config/pic32cm_le00_curiosity_pro;../src/packs/PIC32CM5164LE00100_DFP;../src/packs/CMSIS/CMSIS/Core/Include;../src/packs/CMSIS/;"/>
         <property key="generate-16-bit-code" value="false"/>
         <property key="generate-micro-compressed-code" value="false"/>
         <property key="isolate-each-function" value="true"/>
@@ -358,7 +366,7 @@
         <property key="exceptions" value="true"/>
         <property key="exclude-floating-point" value="false"/>
         <property key="extra-include-directories"
-                  value="../src;../src/config/pic32cm_le00_curiosity_pro;../src/packs/PIC32CM5164LE00100_DFP;../src/packs/CMSIS/CMSIS/Core/Include;../src/packs/CMSIS/"/>
+                  value="../src;../src/config/pic32cm_le00_curiosity_pro;../src/packs/PIC32CM5164LE00100_DFP;../src/packs/CMSIS/CMSIS/Core/Include;../src/packs/CMSIS/;"/>
         <property key="generate-16-bit-code" value="false"/>
         <property key="generate-micro-compressed-code" value="false"/>
         <property key="isolate-each-function" value="true"/>
