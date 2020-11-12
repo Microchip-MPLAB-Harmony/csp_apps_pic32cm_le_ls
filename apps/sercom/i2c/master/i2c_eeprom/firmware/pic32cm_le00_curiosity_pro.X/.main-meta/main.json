@@ -1,0 +1,79 @@
+{
+	"metaDataVersion": "1.0.0",
+	"category": "com.microchip.ide.project",
+	"content": {
+		"metaDataVersion": "1.1.0",
+		"name": "com.microchip.mcu32.mplabx.project.csp_apps_pic32cm_le_ls_i2c_eeprom",
+		"version": "3.0.1",
+		"displayName": "SERCOM I2C EEPROM read write Example for PIC32CM LE00/LS00/LS60 Family",
+		"projectName": "i2c_eeprom_pic32cm_le00_curiosity_pro",
+		"shortDescription": "This example application demonstrates how to use the SERCOM peripheral to write and read from the I2C serial EEPROM memory.",
+		"ide": {
+			"name": "MPLABX",
+			"semverRange": ">=5.40.0"
+		},
+		"compiler": [
+			{
+				"name": "XC32",
+				"semverRange": ">=2.40.0"
+			}
+		],
+		"dfp": {
+			"name": "PIC32CM-LE_DFP",
+			"semverRange": "^1.0.85"
+		},
+		"configurator": {
+			"name": "MHC",
+			"semverRange": ">=3.5.1"
+		},
+		"device": {
+			"metaDataVersion": "1.0.0",
+			"category": "com.microchip.portal.contentRef",
+			"content": {
+				"metaDataVersion": "1.0.0",
+				"category": "com.microchip.device",
+				"name": "PIC32CM5164LE00100",
+				"versionRange": "*"
+			}
+		},
+		"author": "Microchip",
+		"subcategories": [
+			[
+				"Development Kit", "PIC32CM LE00 Curiosity Pro Evaluation Kit"
+			],
+			[
+				"Harmony", "Peripherals", "SERCOM"
+			],
+			[
+				"Peripherals", "SERCOM"
+			]
+		],
+		"peripherals": [
+			"SERCOM"
+		],
+		"keywords": [
+			"MHC",
+			"Harmony",
+			"PIC32CM5164LE00100",
+			"PIC32CM LE00/LS00/LS60 Family",
+			"FLEXCOM",
+			"Serial Communication",
+			"I2C",
+			"SPI",
+			"UART",
+			"SERCOM",
+			"TWI"
+		],
+		"additionalData": {
+			"longDescription": {
+				"metaDataVersion": "1.0.0",
+				"category": "com.microchip.portal.fileRef",
+				"content": {
+					"metaDataVersion": "1.0.0",
+					"fileName": "./../../readme.md",
+					"mimeType": "text/markdown"
+				}
+			}
+		}
+	}
+}

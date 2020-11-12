@@ -1,0 +1,77 @@
+{
+	"metaDataVersion": "1.0.0",
+	"category": "com.microchip.ide.project",
+	"content": {
+		"metaDataVersion": "1.1.0",
+		"name": "com.microchip.mcu32.mplabx.project.csp_apps_pic32cm_le_ls_rtc_periodic_timeout",
+		"version": "3.0.1",
+		"displayName": "RTC periodic interrupt Example for PIC32CM LE00/LS00/LS60 Family",
+		"projectName": "rtc_periodic_timeout_pic32cm_le00_curiosity_pro",
+		"shortDescription": "This example application shows how to use the RTC to generate periodic interrupts.",
+		"ide": {
+			"name": "MPLABX",
+			"semverRange": ">=5.40.0"
+		},
+		"compiler": [
+			{
+				"name": "XC32",
+				"semverRange": ">=2.40.0"
+			}
+		],
+		"dfp": {
+			"name": "PIC32CM-LE_DFP",
+			"semverRange": "^1.0.85"
+		},
+		"configurator": {
+			"name": "MHC",
+			"semverRange": ">=3.5.1"
+		},
+		"device": {
+			"metaDataVersion": "1.0.0",
+			"category": "com.microchip.portal.contentRef",
+			"content": {
+				"metaDataVersion": "1.0.0",
+				"category": "com.microchip.device",
+				"name": "PIC32CM5164LE00100",
+				"versionRange": "*"
+			}
+		},
+		"author": "Microchip",
+		"subcategories": [
+			[
+				"Development Kit", "PIC32CM LE00 Curiosity Pro Evaluation Kit"
+			],
+			[
+				"Harmony", "Peripherals", "RTC"
+			],
+			[
+				"Peripherals", "RTC"
+			]
+		],
+		"peripherals": [
+			"RTC"
+		],
+		"keywords": [
+			"MHC",
+			"Harmony",
+			"PIC32CM5164LE00100",
+			"PIC32CM LE00/LS00/LS60 Family",
+			"RTC",
+			"RTT",
+			"RTCC",
+			"Timer",
+			"Real Time Counter"
+		],
+		"additionalData": {
+			"longDescription": {
+				"metaDataVersion": "1.0.0",
+				"category": "com.microchip.portal.fileRef",
+				"content": {
+					"metaDataVersion": "1.0.0",
+					"fileName": "./../../readme.md",
+					"mimeType": "text/markdown"
+				}
+			}
+		}
+	}
+}
