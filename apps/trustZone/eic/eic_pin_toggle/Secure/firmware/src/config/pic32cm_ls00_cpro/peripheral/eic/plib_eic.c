@@ -86,7 +86,7 @@ void EIC_Initialize (void)
         | EIC_CONFIG0_SENSE1_NONE 
         | EIC_CONFIG0_SENSE2_RISE | EIC_CONFIG0_FILTEN2_Msk
         | EIC_CONFIG0_SENSE3_NONE 
-        | EIC_CONFIG0_SENSE4_NONE 
+        | EIC_CONFIG0_SENSE4_RISE | EIC_CONFIG0_FILTEN4_Msk
         | EIC_CONFIG0_SENSE5_NONE 
         | EIC_CONFIG0_SENSE6_NONE 
         | EIC_CONFIG0_SENSE7_NONE ;
@@ -101,13 +101,13 @@ void EIC_Initialize (void)
         | EIC_CONFIG1_SENSE15_NONE ;
 
     /* External Interrupt Asynchronous Mode enable */
-    EIC_SEC_REGS->EIC_ASYNCH = 0x1004;
+    EIC_SEC_REGS->EIC_ASYNCH = 0x1014;
 
 
 
 
     /* External Interrupt enable*/
-    EIC_SEC_REGS->EIC_INTENSET = 0x1004;
+    EIC_SEC_REGS->EIC_INTENSET = 0x1014;
     /* Callbacks for enabled interrupts */
     eicCallbackObject[0].eicPinNo = EIC_PIN_MAX;
     eicCallbackObject[1].eicPinNo = EIC_PIN_MAX;
@@ -126,7 +126,7 @@ void EIC_Initialize (void)
     eicCallbackObject[14].eicPinNo = EIC_PIN_MAX;
     eicCallbackObject[15].eicPinNo = EIC_PIN_MAX;
 
-    EIC_SEC_REGS->EIC_NONSEC = 0x4 ;
+    EIC_SEC_REGS->EIC_NONSEC = 0x14 ;
     /* Enable the EIC */
     EIC_SEC_REGS->EIC_CTRLA |= EIC_CTRLA_ENABLE_Msk;
 

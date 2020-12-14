@@ -10,6 +10,9 @@
             <logicalFolder name="f2" displayName="eic" projectFiles="true">
               <itemPath>../src/config/pic32cm_ls00_cpro/peripheral/eic/plib_eic.h</itemPath>
             </logicalFolder>
+            <logicalFolder name="f4" displayName="nvic" projectFiles="true">
+              <itemPath>../src/config/pic32cm_ls00_cpro/peripheral/nvic/plib_nvic.h</itemPath>
+            </logicalFolder>
             <logicalFolder name="f1" displayName="port" projectFiles="true">
               <itemPath>../src/config/pic32cm_ls00_cpro/peripheral/port/plib_port.h</itemPath>
             </logicalFolder>
@@ -21,6 +24,8 @@
           <itemPath>../src/config/pic32cm_ls00_cpro/toolchain_specifics.h</itemPath>
           <itemPath>../src/config/pic32cm_ls00_cpro/definitions.h</itemPath>
           <itemPath>../src/config/pic32cm_ls00_cpro/device.h</itemPath>
+          <itemPath>../src/config/pic32cm_ls00_cpro/interrupts.h</itemPath>
+          <itemPath>../src/config/pic32cm_ls00_cpro/device_vectors.h</itemPath>
         </logicalFolder>
       </logicalFolder>
       <logicalFolder name="f3" displayName="packs" projectFiles="true">
@@ -92,6 +97,11 @@
     <logicalFolder name="LinkerScript"
                    displayName="Linker Files"
                    projectFiles="true">
+      <logicalFolder name="f1" displayName="config" projectFiles="true">
+        <logicalFolder name="f1" displayName="pic32cm_ls00_cpro" projectFiles="true">
+          <itemPath>../src/config/pic32cm_ls00_cpro/PIC32CM5164LS00100.ld</itemPath>
+        </logicalFolder>
+      </logicalFolder>
     </logicalFolder>
     <logicalFolder name="SourceFiles"
                    displayName="Source Files"
@@ -101,6 +111,9 @@
           <logicalFolder name="f2" displayName="peripheral" projectFiles="true">
             <logicalFolder name="f2" displayName="eic" projectFiles="true">
               <itemPath>../src/config/pic32cm_ls00_cpro/peripheral/eic/plib_eic.c</itemPath>
+            </logicalFolder>
+            <logicalFolder name="f4" displayName="nvic" projectFiles="true">
+              <itemPath>../src/config/pic32cm_ls00_cpro/peripheral/nvic/plib_nvic.c</itemPath>
             </logicalFolder>
             <logicalFolder name="f1" displayName="port" projectFiles="true">
               <itemPath>../src/config/pic32cm_ls00_cpro/peripheral/port/plib_port.c</itemPath>
@@ -124,9 +137,23 @@
     <logicalFolder name="ExternalFiles"
                    displayName="Important Files"
                    projectFiles="false">
+      <logicalFolder name="f1"
+                     displayName="pic32cm_ls00_cpro.mhc"
+                     projectFiles="true">
+        <itemPath>../src/config/pic32cm_ls00_cpro/pic32cm_ls00_cpro.mhc/cmsis.yml</itemPath>
+        <itemPath>../src/config/pic32cm_ls00_cpro/pic32cm_ls00_cpro.mhc/core.yml</itemPath>
+        <itemPath>../src/config/pic32cm_ls00_cpro/pic32cm_ls00_cpro.mhc/dfp.yml</itemPath>
+        <itemPath>../src/config/pic32cm_ls00_cpro/pic32cm_ls00_cpro.mhc/eic.yml</itemPath>
+        <itemPath>../src/config/pic32cm_ls00_cpro/pic32cm_ls00_cpro.mhc/evsys.yml</itemPath>
+        <itemPath>../src/config/pic32cm_ls00_cpro/pic32cm_ls00_cpro.mhc/GraphSettings.yml</itemPath>
+        <itemPath>../src/config/pic32cm_ls00_cpro/pic32cm_ls00_cpro.mhc/nvmctrl.yml</itemPath>
+        <itemPath>../src/config/pic32cm_ls00_cpro/pic32cm_ls00_cpro.mhc/pm.yml</itemPath>
+        <itemPath>../src/config/pic32cm_ls00_cpro/pic32cm_ls00_cpro.mhc/project.yml</itemPath>
+        <itemPath>../src/config/pic32cm_ls00_cpro/pic32cm_ls00_cpro.mhc/rtc.yml</itemPath>
+        <itemPath>../src/config/pic32cm_ls00_cpro/pic32cm_ls00_cpro.mhc/settings.yml</itemPath>
+      </logicalFolder>
       <itemPath>Makefile</itemPath>
-      <itemPath>../src/config/pic32cm_ls00_cpro/harmony.prj</itemPath>
-      <itemPath>../src/config/pic32cm_ls00_cpro/pic32cm_ls00_cpro.xml</itemPath>
+      <itemPath>../src/config/pic32cm_ls00_cpro/harmony-manifest-success.yml</itemPath>
     </logicalFolder>
   </logicalFolder>
   <sourceRootList>
@@ -183,6 +210,7 @@
       </compileType>
       <makeCustomizationType>
         <makeCustomizationPreStepEnabled>false</makeCustomizationPreStepEnabled>
+        <makeUseCleanTarget>false</makeUseCleanTarget>
         <makeCustomizationPreStep></makeCustomizationPreStep>
         <makeCustomizationPostStepEnabled>false</makeCustomizationPostStepEnabled>
         <makeCustomizationPostStep></makeCustomizationPostStep>

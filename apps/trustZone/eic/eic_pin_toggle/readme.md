@@ -1,6 +1,6 @@
 ---
 parent: Harmony 3 peripheral library application examples for PIC32CM LE/LS family
-title: TrustZone EIC pin toggle 
+title: TrustZone EIC pin toggle
 has_children: false
 has_toc: false
 ---
@@ -16,8 +16,8 @@ This example application demonstrates handling of external pin interrupt in secu
 This demonstrates TrustZone feature and uses two projects viz., Secure and Non-Secure Project that work together on the same
 MCU and offering security isolation between the Trusted and the Non-trusted resources in the device.
 
-- Secure project uses an EIC pin to generate interrupt on rising edge and toggles the LED
-- Non-secure project uses an EIC pin to generate interrupt on rising edge and toggle an GPIO pin
+- Secure project uses an EIC pin to generate interrupt on rising edge and toggles the LED0
+- Non-secure project uses an EIC pin to generate interrupt on rising edge and toggle an GPIO pin and LED1
 - Non-secure project also uses RTC to generate periodic event to toggle a GPIO pin
 
 ## Components Used
@@ -25,7 +25,8 @@ MCU and offering security isolation between the Trusted and the Non-trusted reso
 - **EIC** - Configured as Mix-Secure Peripheral for Secure EIC and Non-secure EIC interrupts
 - **Event System** - Configured as Mix-Secure Peripheral for the Secure and Non-secure events
 - **RTC** - Configured as Non-secure mode
-- **LED** - Configured as Secure mode
+- **LED0** - Configured as Secure mode
+- **LED1** - Configured as Non-secure mode
 - **Two NON_SECURE_PIN** - Configured as Non-secure mode
 
 ## Downloading and building the application
@@ -72,7 +73,8 @@ The following table shows the target hardware for the application projects.
 1. Open the project group in the MPLAB X IDE and set the non-secure project as main project
 2. Build and program the application
 3. Observe the output for [PIC32CM LS00 Curiosity Pro Evaluation Kit]() as follows:
-    - LED1 is toggled on Switch (SW1) press using EIC interrupt in secure project
+    - LED0(Green) is toggled on Switch (SW0) press using EIC interrupt in secure project
+    - LED1(Red) is toggled on Switch (SW1) press using EIC interrupt in non-secure project
     - Pin PA22 is toggled on Switch (connected to PA23) press using EIC interrupt in non-secure project
     - Periodic RTC event (every ~32ms) toggles PB31 pin in non-secure project
 

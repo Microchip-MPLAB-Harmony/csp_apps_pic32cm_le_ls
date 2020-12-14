@@ -74,7 +74,7 @@ void EIC_Initialize (void)
     eicCallbackObject[1].eicPinNo = EIC_PIN_MAX;
     eicCallbackObject[2].eicPinNo = EIC_PIN_2;
     eicCallbackObject[3].eicPinNo = EIC_PIN_MAX;
-    eicCallbackObject[4].eicPinNo = EIC_PIN_MAX;
+    eicCallbackObject[4].eicPinNo = EIC_PIN_4;
     eicCallbackObject[5].eicPinNo = EIC_PIN_MAX;
     eicCallbackObject[6].eicPinNo = EIC_PIN_MAX;
     eicCallbackObject[7].eicPinNo = EIC_PIN_MAX;
@@ -117,6 +117,17 @@ void EIC_EXTINT_2_InterruptHandler(void)
     if ((eicCallbackObject[2].callback != NULL))
     {
         eicCallbackObject[2].callback(eicCallbackObject[2].context);
+    }
+
+}
+void EIC_EXTINT_4_InterruptHandler(void)
+{
+    /* Clear interrupt flag */
+    EIC_REGS->EIC_INTFLAG = (1UL << 4);
+    /* Find any associated callback entries in the callback table */
+    if ((eicCallbackObject[4].callback != NULL))
+    {
+        eicCallbackObject[4].callback(eicCallbackObject[4].context);
     }
 
 }

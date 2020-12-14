@@ -66,6 +66,9 @@ extern "C" {
 /* Non-secure start address */
 #define TZ_START_NS 0x40000
 
+/* CPU clock frequency */
+#define CPU_CLOCK_FREQUENCY 48000000
+
 // *****************************************************************************
 // *****************************************************************************
 // Section: System Functions

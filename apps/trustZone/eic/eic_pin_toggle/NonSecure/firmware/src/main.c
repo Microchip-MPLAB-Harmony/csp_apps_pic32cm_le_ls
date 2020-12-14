@@ -32,6 +32,11 @@ void SWITCH_handler(uintptr_t context)
 	NON_SECURE_PIN_Toggle();
 }
 
+void SWITCH1_handler(uintptr_t context)
+{
+	LED_NON_SECURE_Toggle();
+}
+
 // *****************************************************************************
 // *****************************************************************************
 // Section: Main Entry Point
@@ -44,6 +49,7 @@ int main ( void )
     SYS_Initialize ( NULL );
 
     EIC_CallbackRegister(EIC_PIN_2, SWITCH_handler,  (uintptr_t) NULL);
+    EIC_CallbackRegister(EIC_PIN_4, SWITCH1_handler,  (uintptr_t) NULL);
     RTC_Timer32Start();
 
     while ( true )
