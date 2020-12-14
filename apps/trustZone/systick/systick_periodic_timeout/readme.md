@@ -15,13 +15,14 @@ This example application shows how to use the SysTick to generate periodic inter
 
 This demonstrates TrustZone feature and uses two projects viz., Secure and Non-Secure Project that work together on the same MCU and offering security isolation between the Trusted and the Non-trusted resources in the device.
 
-- Secure project uses secure SysTick timer to generate periodic interrupt every 50ms to toggle a GPIO pin and an LED
-- Non-secure project uses non-secure SysTick timer to generate periodic interrupt every 100ms and toggles a GPIO pin
+- Secure project uses secure SysTick timer to generate periodic interrupt every 50ms to toggle a GPIO pin and an LED0
+- Non-secure project uses non-secure SysTick timer to generate periodic interrupt every 100ms to toggle a GPIO pin and an LED1
 
 ## Components Used
 
 - **Systick** - Secure and non-secure systicks
-- **LED** - Configured as non-secure mode
+- **LED0** - Configured as secure mode
+- **LED1** - Configured as non-secure mode
 - **SECURE_PIN and NON_SECURE_PIN** - Configured as secure and non-secure mode respectively
 
 ## Downloading and building the application
@@ -65,7 +66,7 @@ The following table shows the target hardware for the application projects.
 1. Open the project group in the MPLAB X IDE and set the non-secure project as main project
 2. Build and program the application
 3. Observe the output for [PIC32CM LS00 Curiosity Pro Evaluation Kit]() as follows:
-    - LED1 and PA10 (Secure pin) is toggled every ~50ms in secure project.
-    - PA11 (Non-secure pin) is toggled every ~100ms in non-secure project
+    - LED0(Green) and PA10 (Secure pin) is toggled every ~50ms in secure project.
+    - LED1(Red) and PA11 (Non-secure pin) is toggled every ~100ms in non-secure project
 
     ![output](images/output_systick_periodic_timeout.png)

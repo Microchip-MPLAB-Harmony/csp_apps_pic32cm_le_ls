@@ -48,6 +48,8 @@
 // Section: Included Files
 // *****************************************************************************
 // *****************************************************************************
+#include "device_vectors.h"
+#include "interrupts.h"
 #include "definitions.h"
 
 // *****************************************************************************
@@ -57,14 +59,16 @@
 // *****************************************************************************
 
 extern uint32_t _stack;
+extern const H3DeviceVectors exception_table;
 
+extern void Dummy_Handler(void);
 /* Brief default interrupt handler for unused IRQs.*/
-void __attribute__((optimize("-O1"),section(".text.Dummy_Handler"),long_call))Dummy_Handler(void)
+void __attribute__((optimize("-O1"),section(".text.Dummy_Handler"),long_call, noreturn))Dummy_Handler(void)
 {
 #if defined(__DEBUG) || defined(__DEBUG_D) && defined(__XC32)
     __builtin_software_breakpoint();
 #endif
-    while (1)
+    while (true)
     {
     }
 }
@@ -149,15 +153,15 @@ void TRAM_Handler               ( void ) __attribute__((weak, alias("Dummy_Handl
 
 
 
-/* Mutiple handlers for vector */
+/* Multiple handlers for vector */
 
 
 
 __attribute__ ((section(".vectors")))
-const DeviceVectors exception_table=
+const H3DeviceVectors exception_table=
 {
     /* Configure Initial Stack Pointer, using linker-generated symbols */
-    .pvStack = (void*) (&_stack),
+    .pvStack = &_stack,
 
     .pfnReset_Handler              = ( void * ) Reset_Handler,
     .pfnNonMaskableInt_Handler     = ( void * ) NonMaskableInt_Handler,

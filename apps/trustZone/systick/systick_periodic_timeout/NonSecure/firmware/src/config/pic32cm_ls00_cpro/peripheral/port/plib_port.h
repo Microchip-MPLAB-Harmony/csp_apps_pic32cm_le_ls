@@ -74,6 +74,15 @@
 #define NON_SECURE_PIN_Get()               (((PORT_REGS->GROUP[0].PORT_IN >> 11)) & 0x01)
 #define NON_SECURE_PIN_PIN                  PORT_PIN_PA11
 
+/*** Macros for LED_NON_SECURE pin ***/
+#define LED_NON_SECURE_Set()               (PORT_REGS->GROUP[2].PORT_OUTSET = 1 << 27)
+#define LED_NON_SECURE_Clear()             (PORT_REGS->GROUP[2].PORT_OUTCLR = 1 << 27)
+#define LED_NON_SECURE_Toggle()            (PORT_REGS->GROUP[2].PORT_OUTTGL = 1 << 27)
+#define LED_NON_SECURE_OutputEnable()      (PORT_REGS->GROUP[2].PORT_DIRSET = 1 << 27)
+#define LED_NON_SECURE_InputEnable()       (PORT_REGS->GROUP[2].PORT_DIRCLR = 1 << 27)
+#define LED_NON_SECURE_Get()               (((PORT_REGS->GROUP[2].PORT_IN >> 27)) & 0x01)
+#define LED_NON_SECURE_PIN                  PORT_PIN_PC27
+
 // *****************************************************************************
 /* PORT Group
 
@@ -130,6 +139,9 @@ typedef enum
 {
     /* PA11 pin */
     PORT_PIN_PA11 = 11,
+
+    /* PC27 pin */
+    PORT_PIN_PC27 = 27,
 
     /* This element should not be used in any of the PORT APIs.
      * It will be used by other modules or application to denote that none of

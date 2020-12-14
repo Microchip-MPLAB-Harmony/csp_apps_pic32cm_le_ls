@@ -29,6 +29,7 @@
 
 void timeout_handler(uintptr_t context)
 {
+	LED_NON_SECURE_Toggle();
     NON_SECURE_PIN_Toggle();
 }
 // *****************************************************************************

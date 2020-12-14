@@ -7,6 +7,9 @@
       <logicalFolder name="f1" displayName="config" projectFiles="true">
         <logicalFolder name="f1" displayName="pic32cm_ls00_cpro" projectFiles="true">
           <logicalFolder name="f1" displayName="peripheral" projectFiles="true">
+            <logicalFolder name="f3" displayName="nvic" projectFiles="true">
+              <itemPath>../src/config/pic32cm_ls00_cpro/peripheral/nvic/plib_nvic.h</itemPath>
+            </logicalFolder>
             <logicalFolder name="f1" displayName="port" projectFiles="true">
               <itemPath>../src/config/pic32cm_ls00_cpro/peripheral/port/plib_port.h</itemPath>
             </logicalFolder>
@@ -18,6 +21,8 @@
           <itemPath>../src/config/pic32cm_ls00_cpro/toolchain_specifics.h</itemPath>
           <itemPath>../src/config/pic32cm_ls00_cpro/definitions.h</itemPath>
           <itemPath>../src/config/pic32cm_ls00_cpro/device.h</itemPath>
+          <itemPath>../src/config/pic32cm_ls00_cpro/interrupts.h</itemPath>
+          <itemPath>../src/config/pic32cm_ls00_cpro/device_vectors.h</itemPath>
         </logicalFolder>
       </logicalFolder>
       <logicalFolder name="f3" displayName="packs" projectFiles="true">
@@ -89,6 +94,11 @@
     <logicalFolder name="LinkerScript"
                    displayName="Linker Files"
                    projectFiles="true">
+      <logicalFolder name="f1" displayName="config" projectFiles="true">
+        <logicalFolder name="f1" displayName="pic32cm_ls00_cpro" projectFiles="true">
+          <itemPath>../src/config/pic32cm_ls00_cpro/PIC32CM5164LS00100.ld</itemPath>
+        </logicalFolder>
+      </logicalFolder>
     </logicalFolder>
     <logicalFolder name="SourceFiles"
                    displayName="Source Files"
@@ -96,6 +106,9 @@
       <logicalFolder name="f1" displayName="config" projectFiles="true">
         <logicalFolder name="f1" displayName="pic32cm_ls00_cpro" projectFiles="true">
           <logicalFolder name="f2" displayName="peripheral" projectFiles="true">
+            <logicalFolder name="f3" displayName="nvic" projectFiles="true">
+              <itemPath>../src/config/pic32cm_ls00_cpro/peripheral/nvic/plib_nvic.c</itemPath>
+            </logicalFolder>
             <logicalFolder name="f1" displayName="port" projectFiles="true">
               <itemPath>../src/config/pic32cm_ls00_cpro/peripheral/port/plib_port.c</itemPath>
             </logicalFolder>
@@ -118,9 +131,21 @@
     <logicalFolder name="ExternalFiles"
                    displayName="Important Files"
                    projectFiles="false">
+      <logicalFolder name="f1"
+                     displayName="pic32cm_ls00_cpro.mhc"
+                     projectFiles="true">
+        <itemPath>../src/config/pic32cm_ls00_cpro/pic32cm_ls00_cpro.mhc/cmsis.yml</itemPath>
+        <itemPath>../src/config/pic32cm_ls00_cpro/pic32cm_ls00_cpro.mhc/core.yml</itemPath>
+        <itemPath>../src/config/pic32cm_ls00_cpro/pic32cm_ls00_cpro.mhc/dfp.yml</itemPath>
+        <itemPath>../src/config/pic32cm_ls00_cpro/pic32cm_ls00_cpro.mhc/evsys.yml</itemPath>
+        <itemPath>../src/config/pic32cm_ls00_cpro/pic32cm_ls00_cpro.mhc/GraphSettings.yml</itemPath>
+        <itemPath>../src/config/pic32cm_ls00_cpro/pic32cm_ls00_cpro.mhc/nvmctrl.yml</itemPath>
+        <itemPath>../src/config/pic32cm_ls00_cpro/pic32cm_ls00_cpro.mhc/pm.yml</itemPath>
+        <itemPath>../src/config/pic32cm_ls00_cpro/pic32cm_ls00_cpro.mhc/project.yml</itemPath>
+        <itemPath>../src/config/pic32cm_ls00_cpro/pic32cm_ls00_cpro.mhc/settings.yml</itemPath>
+      </logicalFolder>
       <itemPath>Makefile</itemPath>
-      <itemPath>../src/config/pic32cm_ls00_cpro/harmony.prj</itemPath>
-      <itemPath>../src/config/pic32cm_ls00_cpro/pic32cm_ls00_cpro.xml</itemPath>
+      <itemPath>../src/config/pic32cm_ls00_cpro/harmony-manifest-success.yml</itemPath>
     </logicalFolder>
   </logicalFolder>
   <sourceRootList>
@@ -177,6 +202,7 @@
       </compileType>
       <makeCustomizationType>
         <makeCustomizationPreStepEnabled>false</makeCustomizationPreStepEnabled>
+        <makeUseCleanTarget>false</makeUseCleanTarget>
         <makeCustomizationPreStep></makeCustomizationPreStep>
         <makeCustomizationPostStepEnabled>false</makeCustomizationPostStepEnabled>
         <makeCustomizationPostStep></makeCustomizationPostStep>
@@ -217,7 +243,7 @@
         <property key="enable-unroll-loops" value="false"/>
         <property key="exclude-floating-point" value="false"/>
         <property key="extra-include-directories"
-                  value="../src;../src/config/pic32cm_ls00_cpro;../src/packs/PIC32CM5164LS00100_DFP;../src/packs/CMSIS/CMSIS/Core/Include;../src/packs/CMSIS/"/>
+                  value="../src;../src/config/pic32cm_ls00_cpro;../src/packs/PIC32CM5164LS00100_DFP;../src/packs/CMSIS/CMSIS/Core/Include;../src/packs/CMSIS/;"/>
         <property key="generate-16-bit-code" value="false"/>
         <property key="generate-micro-compressed-code" value="false"/>
         <property key="isolate-each-function" value="true"/>
@@ -270,7 +296,7 @@
         <property key="enable-check-sections" value="false"/>
         <property key="exclude-floating-point-library" value="false"/>
         <property key="exclude-standard-libraries" value="false"/>
-        <property key="extra-lib-directories" value="./"/>
+        <property key="extra-lib-directories" value="./;"/>
         <property key="fill-flash-options-addr" value=""/>
         <property key="fill-flash-options-const" value=""/>
         <property key="fill-flash-options-how" value="0"/>
@@ -292,7 +318,7 @@
         <property key="oXC32ld-extra-opts" value=""/>
         <property key="optimization-level" value=""/>
         <property key="preprocessor-macros"
-                  value="NONSECURE;AS_SIZE=0x40000;BOOTPROT_SIZE=0x0;RS_SIZE=0x8000"/>
+                  value="NONSECURE;;AS_SIZE=0x40000;BOOTPROT_SIZE=0x0;RS_SIZE=0x8000"/>
         <property key="remove-unused-sections" value="true"/>
         <property key="report-memory-usage" value="false"/>
         <property key="serial-length" value=""/>
@@ -315,7 +341,7 @@
         <property key="exceptions" value="true"/>
         <property key="exclude-floating-point" value="false"/>
         <property key="extra-include-directories"
-                  value="../src;../src/config/pic32cm_ls00_cpro;../src/packs/PIC32CM5164LS00100_DFP;../src/packs/CMSIS/CMSIS/Core/Include;../src/packs/CMSIS/"/>
+                  value="../src;../src/config/pic32cm_ls00_cpro;../src/packs/PIC32CM5164LS00100_DFP;../src/packs/CMSIS/CMSIS/Core/Include;../src/packs/CMSIS/;"/>
         <property key="generate-16-bit-code" value="false"/>
         <property key="generate-micro-compressed-code" value="false"/>
         <property key="isolate-each-function" value="true"/>
