@@ -83,7 +83,7 @@ void EIC_Initialize (void)
         | EIC_CONFIG0_SENSE1_NONE 
         | EIC_CONFIG0_SENSE2_NONE 
         | EIC_CONFIG0_SENSE3_NONE 
-        | EIC_CONFIG0_SENSE4_NONE 
+        | EIC_CONFIG0_SENSE4_RISE | EIC_CONFIG0_FILTEN4_Msk
         | EIC_CONFIG0_SENSE5_NONE 
         | EIC_CONFIG0_SENSE6_NONE 
         | EIC_CONFIG0_SENSE7_NONE ;
@@ -98,11 +98,11 @@ void EIC_Initialize (void)
         | EIC_CONFIG1_SENSE15_NONE ;
 
     /* External Interrupt Asynchronous Mode enable */
-    EIC_SEC_REGS->EIC_ASYNCH = 0x1000;
+    EIC_SEC_REGS->EIC_ASYNCH = 0x1010;
 
 
     /* Event Control Output enable */
-    EIC_SEC_REGS->EIC_EVCTRL = 0x1000;
+    EIC_SEC_REGS->EIC_EVCTRL = 0x1010;
 
 
 
