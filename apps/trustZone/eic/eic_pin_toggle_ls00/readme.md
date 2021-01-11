@@ -38,9 +38,9 @@ Path of the application within the repository is as shown below:
 
 | Type        | Path                         |
 |:-----------:|:----------------------------:|
-| Project group | apps/trustZone/eic/eic_pin_toggle |
-|Secure Project|  apps/trustZone/eic/eic_pin_toggle/Secure/firmware |
-|Non-Secure Project|  apps/trustZone/eic/eic_pin_toggle/NonSecure/firmware |
+| Project group | apps/trustZone/eic/eic_pin_toggle_ls00 |
+|Secure Project|  apps/trustZone/eic/eic_pin_toggle_ls00/Secure/firmware |
+|Non-Secure Project|  apps/trustZone/eic/eic_pin_toggle_ls00/NonSecure/firmware |
 ||||
 
 To build the application, refer to the following table and open the project using its IDE.
