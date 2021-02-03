@@ -67,7 +67,7 @@ The following table shows the target hardware for the application projects.
 
     | Board| Switch name |
     |:---------|:---------:|
-    | [PIC32CM LE00 Curiosity Pro Evaluation Kit]()    | SW1|
+    | [PIC32CM LE00 Curiosity Pro Evaluation Kit]()    | SW0 |
     |||
 
 7. Console displays the ADC count and the ADC input voltage in the console as shown below:
