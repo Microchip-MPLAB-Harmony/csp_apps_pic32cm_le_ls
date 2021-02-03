@@ -67,5 +67,5 @@ The following table provides the details of LED
 
 | Board      | Switch Name | LED Name   |
 | ---------- | ----------- | ---------- |
-| [PIC32CM LE00 Curiosity Pro Evaluation Kit]() | RESET | LED1 |
+| [PIC32CM LE00 Curiosity Pro Evaluation Kit]() | RESET | LED0 |
 ||||
