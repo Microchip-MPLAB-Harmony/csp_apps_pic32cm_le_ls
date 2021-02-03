@@ -64,5 +64,5 @@ Below table shows the AC input pin and LED name for the board
 
 | Board| AC input pin | LED name|
 |------|----------|---------|
-| [PIC32CM LE00 Curiosity Pro Evaluation Kit]() | pin 4 of the EXT2 connector | LED1 |
+| [PIC32CM LE00 Curiosity Pro Evaluation Kit]() | pin 4 of the EXT2 connector | LED0 |
 |||
