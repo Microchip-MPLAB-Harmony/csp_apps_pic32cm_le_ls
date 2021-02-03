@@ -64,5 +64,5 @@ Following table provides the switch names:
 
 | Board      | Switch Name |
 | ---------- | ----------- |
-| [PIC32CM LE00 Curiosity Pro Evaluation Kit]() | SW1 |
+| [PIC32CM LE00 Curiosity Pro Evaluation Kit]() | SW0 |
 ||||
