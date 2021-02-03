@@ -52,5 +52,5 @@ The following table shows the target hardware for the application projects.
 
 | Board      | DAC output pins | Switch Name |
 | ----------------- |-----------|-------------|
-| [PIC32CM LE00 Curiosity Pro Evaluation Kit]() | pin 3 of EXT1 header | SW1 |
+| [PIC32CM LE00 Curiosity Pro Evaluation Kit]() | pin 3 of EXT1 header | SW0 |
 ||||
