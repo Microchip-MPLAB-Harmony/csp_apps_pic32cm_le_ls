@@ -56,5 +56,5 @@ Refer to the following table for clock output pin and LED name for different boa
 
 | Board      | Clock output pin | LED Name |
 | ---------- | ---------------- |--------- |
-| [PIC32CM LE00 Curiosity Pro Evaluation Kit]() | PA15 (Pin #10 on the EXT3 header)  | LED1 |
+| [PIC32CM LE00 Curiosity Pro Evaluation Kit]() | PA15 (Pin #10 on the EXT3 header)  | LED0 |
 |||
