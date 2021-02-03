@@ -61,6 +61,6 @@ The following table shows the target hardware for the application projects.
 7. The following table provides the LED names
 
 | Board      | LED Name                                    |
-| ----------------- | ---------------------------------------------- |
-| [PIC32CM LE00 Curiosity Pro Evaluation Kit]() |LED1 |
+| -----------| ------------------------------------------- |
+| [PIC32CM LE00 Curiosity Pro Evaluation Kit]() | LED0 |
 |||
