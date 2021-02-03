@@ -27,20 +27,20 @@ files:
   security: SECURE
   type: SOURCE
   userChecksum: 956D7AA8665EB2CF4D798CEE1E7B067A
-- generatedChecksum: C0978F191396902A61261D5E9933F3E2
+- generatedChecksum: E9B0C2965AF2C229BB5AC142ECC78203
   logicalPath: config\pic32cm_ls00_cpro
   name: interrupts.c
   physicalPath: ''
   security: NON_SECURE
   type: SOURCE
-  userChecksum: C0978F191396902A61261D5E9933F3E2
-- generatedChecksum: 523690F6FBB7FABA35BE609F183FE4FF
+  userChecksum: E9B0C2965AF2C229BB5AC142ECC78203
+- generatedChecksum: F27D8ED31FC9A88EAC91CADCC8A67F96
   logicalPath: config\pic32cm_ls00_cpro
   name: interrupts.c
   physicalPath: ''
   security: SECURE
   type: SOURCE
-  userChecksum: 523690F6FBB7FABA35BE609F183FE4FF
+  userChecksum: F27D8ED31FC9A88EAC91CADCC8A67F96
 - generatedChecksum: 6513F2461B8F476B68CA73906086047F
   logicalPath: config\pic32cm_ls00_cpro
   name: libc_syscalls.c
@@ -76,62 +76,62 @@ files:
   security: SECURE
   type: SOURCE
   userChecksum: null
-- generatedChecksum: 9C876FBE72F16608071941DBAC830FC7
+- generatedChecksum: 3A78F13AF39A92EA60E83D07A92E5DEC
   logicalPath: config\pic32cm_ls00_cpro\peripheral\clock
   name: plib_clock.c
   physicalPath: peripheral\clock
   security: SECURE
   type: SOURCE
-  userChecksum: 9C876FBE72F16608071941DBAC830FC7
-- generatedChecksum: 20ABDB3A4F4FEBCE6263B516BE4FE56C
+  userChecksum: 3A78F13AF39A92EA60E83D07A92E5DEC
+- generatedChecksum: A529A23FFCE6B8F3B1566E9D3DE8CC60
   logicalPath: config\pic32cm_ls00_cpro\peripheral\eic
   name: plib_eic.c
   physicalPath: peripheral\eic
   security: SECURE
   type: SOURCE
-  userChecksum: 20ABDB3A4F4FEBCE6263B516BE4FE56C
-- generatedChecksum: 8DDD2AA26B070728B6163A8F156B2E41
+  userChecksum: A529A23FFCE6B8F3B1566E9D3DE8CC60
+- generatedChecksum: 857C894F0543EE62FCCA3E1EE272E66D
   logicalPath: config\pic32cm_ls00_cpro\peripheral\eic
   name: plib_eic.c
   physicalPath: peripheral\eic
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 8DDD2AA26B070728B6163A8F156B2E41
-- generatedChecksum: 600930B37D48BB260120C67C747EEAC5
+  userChecksum: 857C894F0543EE62FCCA3E1EE272E66D
+- generatedChecksum: 3D9260C2753FC350A1BE60BC313063FE
   logicalPath: config\pic32cm_ls00_cpro\peripheral\evsys
   name: plib_evsys.c
   physicalPath: peripheral\evsys
   security: SECURE
   type: SOURCE
-  userChecksum: 600930B37D48BB260120C67C747EEAC5
-- generatedChecksum: B238D6611914634406C03870248D1C8A
+  userChecksum: 3D9260C2753FC350A1BE60BC313063FE
+- generatedChecksum: CADAFF28D3D36A806436BF1B75220220
   logicalPath: config\pic32cm_ls00_cpro\peripheral\nvic
   name: plib_nvic.c
   physicalPath: peripheral\nvic
   security: SECURE
   type: SOURCE
-  userChecksum: B238D6611914634406C03870248D1C8A
-- generatedChecksum: 3CE45A335495856059F15944FA0DB461
+  userChecksum: CADAFF28D3D36A806436BF1B75220220
+- generatedChecksum: 0342D70F425CED24D35A9373DD432516
   logicalPath: config\pic32cm_ls00_cpro\peripheral\nvic
   name: plib_nvic.c
   physicalPath: peripheral\nvic
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 3CE45A335495856059F15944FA0DB461
-- generatedChecksum: 2DCBC580E4837BC89EDE4B079504CC13
+  userChecksum: 0342D70F425CED24D35A9373DD432516
+- generatedChecksum: 3CE3ED8CD148997B5E97688BCA4DE69B
   logicalPath: config\pic32cm_ls00_cpro\peripheral\nvmctrl
   name: plib_nvmctrl.c
   physicalPath: peripheral\nvmctrl
   security: SECURE
   type: SOURCE
-  userChecksum: 2DCBC580E4837BC89EDE4B079504CC13
-- generatedChecksum: 17A1A8E48FB06583C3281A1C8F7EB737
+  userChecksum: 3CE3ED8CD148997B5E97688BCA4DE69B
+- generatedChecksum: 295EC4F84D0FFCF4D1DA1954720E7FA9
   logicalPath: config\pic32cm_ls00_cpro\peripheral\pm
   name: plib_pm.c
   physicalPath: peripheral\pm
   security: SECURE
   type: SOURCE
-  userChecksum: 17A1A8E48FB06583C3281A1C8F7EB737
+  userChecksum: 295EC4F84D0FFCF4D1DA1954720E7FA9
 - generatedChecksum: B6E7D3E56CCEA187BC8CF382C0707E3E
   logicalPath: config\pic32cm_ls00_cpro\peripheral\port
   name: plib_port.c
@@ -146,13 +146,13 @@ files:
   security: NON_SECURE
   type: SOURCE
   userChecksum: 9BC97F5FB8F64ED6E9FE55AA377C2EFD
-- generatedChecksum: 75D75B3F66D266F6DBDE50F2FD08830D
+- generatedChecksum: B8391C2718C99C08F75C0DCF5968A15B
   logicalPath: config\pic32cm_ls00_cpro\peripheral\rtc
   name: plib_rtc_timer.c
   physicalPath: peripheral\rtc
   security: NON_SECURE
   type: SOURCE
-  userChecksum: 75D75B3F66D266F6DBDE50F2FD08830D
+  userChecksum: B8391C2718C99C08F75C0DCF5968A15B
 - generatedChecksum: 2645E564BD945DAED1424FD8D7B39330
   logicalPath: config\pic32cm_ls00_cpro
   name: startup_xc32.c
@@ -181,34 +181,62 @@ files:
   security: SECURE
   type: SOURCE
   userChecksum: 8FE661617DFA3746224E82F17BF678BF
-- generatedChecksum: A48187A92E53657F2D510F1D7265B1C1
+- generatedChecksum: 24F10EB023B8078FB2BD519DB524A80D
   logicalPath: packs\PIC32CM5164LS00100_DFP\component
   name: ac.h
   physicalPath: ..\..\packs\PIC32CM5164LS00100_DFP\component
   security: NON_SECURE
   type: HEADER
-  userChecksum: A48187A92E53657F2D510F1D7265B1C1
-- generatedChecksum: A48187A92E53657F2D510F1D7265B1C1
+  userChecksum: 24F10EB023B8078FB2BD519DB524A80D
+- generatedChecksum: DD6BA090DB8985B9B38D2C12BF4890BC
+  logicalPath: packs\PIC32CM5164LS00100_DFP\instance
+  name: ac.h
+  physicalPath: ..\..\packs\PIC32CM5164LS00100_DFP\instance
+  security: NON_SECURE
+  type: HEADER
+  userChecksum: DD6BA090DB8985B9B38D2C12BF4890BC
+- generatedChecksum: 24F10EB023B8078FB2BD519DB524A80D
   logicalPath: packs\PIC32CM5164LS00100_DFP\component
   name: ac.h
   physicalPath: ..\..\packs\PIC32CM5164LS00100_DFP\component
   security: SECURE
   type: HEADER
-  userChecksum: A48187A92E53657F2D510F1D7265B1C1
-- generatedChecksum: 7632AD526BA91806587B801849B8869A
+  userChecksum: 24F10EB023B8078FB2BD519DB524A80D
+- generatedChecksum: DD6BA090DB8985B9B38D2C12BF4890BC
+  logicalPath: packs\PIC32CM5164LS00100_DFP\instance
+  name: ac.h
+  physicalPath: ..\..\packs\PIC32CM5164LS00100_DFP\instance
+  security: SECURE
+  type: HEADER
+  userChecksum: DD6BA090DB8985B9B38D2C12BF4890BC
+- generatedChecksum: 5E5A4466E63E412EACFA9748F6A52AED
   logicalPath: packs\PIC32CM5164LS00100_DFP\component
   name: adc.h
   physicalPath: ..\..\packs\PIC32CM5164LS00100_DFP\component
   security: NON_SECURE
   type: HEADER
-  userChecksum: 7632AD526BA91806587B801849B8869A
-- generatedChecksum: 7632AD526BA91806587B801849B8869A
+  userChecksum: 5E5A4466E63E412EACFA9748F6A52AED
+- generatedChecksum: 1B8960B31142C0E36798D82CA71C53B5
+  logicalPath: packs\PIC32CM5164LS00100_DFP\instance
+  name: adc.h
+  physicalPath: ..\..\packs\PIC32CM5164LS00100_DFP\instance
+  security: NON_SECURE
+  type: HEADER
+  userChecksum: 1B8960B31142C0E36798D82CA71C53B5
+- generatedChecksum: 5E5A4466E63E412EACFA9748F6A52AED
   logicalPath: packs\PIC32CM5164LS00100_DFP\component
   name: adc.h
   physicalPath: ..\..\packs\PIC32CM5164LS00100_DFP\component
   security: SECURE
   type: HEADER
-  userChecksum: 7632AD526BA91806587B801849B8869A
+  userChecksum: 5E5A4466E63E412EACFA9748F6A52AED
+- generatedChecksum: 1B8960B31142C0E36798D82CA71C53B5
+  logicalPath: packs\PIC32CM5164LS00100_DFP\instance
+  name: adc.h
+  physicalPath: ..\..\packs\PIC32CM5164LS00100_DFP\instance
+  security: SECURE
+  type: HEADER
+  userChecksum: 1B8960B31142C0E36798D82CA71C53B5
 - generatedChecksum: 01B82424BC59A54620F7E9E0DB808EBB
   logicalPath: packs\CMSIS\CMSIS\Core\Include
   name: cachel1_armv7.h
@@ -223,20 +251,34 @@ files:
   security: SECURE
   type: HEADER
   userChecksum: 01B82424BC59A54620F7E9E0DB808EBB
-- generatedChecksum: B1611F5AE776AB008840205A6DCF0C17
+- generatedChecksum: 0635A9B2A2C8092DEEC3808C65503494
   logicalPath: packs\PIC32CM5164LS00100_DFP\component
   name: ccl.h
   physicalPath: ..\..\packs\PIC32CM5164LS00100_DFP\component
   security: NON_SECURE
   type: HEADER
-  userChecksum: B1611F5AE776AB008840205A6DCF0C17
-- generatedChecksum: B1611F5AE776AB008840205A6DCF0C17
+  userChecksum: 0635A9B2A2C8092DEEC3808C65503494
+- generatedChecksum: CE639D6C8D2037A0125205B6D84E73C7
+  logicalPath: packs\PIC32CM5164LS00100_DFP\instance
+  name: ccl.h
+  physicalPath: ..\..\packs\PIC32CM5164LS00100_DFP\instance
+  security: NON_SECURE
+  type: HEADER
+  userChecksum: CE639D6C8D2037A0125205B6D84E73C7
+- generatedChecksum: 0635A9B2A2C8092DEEC3808C65503494
   logicalPath: packs\PIC32CM5164LS00100_DFP\component
   name: ccl.h
   physicalPath: ..\..\packs\PIC32CM5164LS00100_DFP\component
   security: SECURE
   type: HEADER
-  userChecksum: B1611F5AE776AB008840205A6DCF0C17
+  userChecksum: 0635A9B2A2C8092DEEC3808C65503494
+- generatedChecksum: CE639D6C8D2037A0125205B6D84E73C7
+  logicalPath: packs\PIC32CM5164LS00100_DFP\instance
+  name: ccl.h
+  physicalPath: ..\..\packs\PIC32CM5164LS00100_DFP\instance
+  security: SECURE
+  type: HEADER
+  userChecksum: CE639D6C8D2037A0125205B6D84E73C7
 - generatedChecksum: 00A88E28C299A373117BC4D5B9E80C80
   logicalPath: packs\CMSIS\CMSIS\Core\Include
   name: cmsis_armcc.h
@@ -349,20 +391,34 @@ files:
   security: SECURE
   type: HEADER
   userChecksum: 0FA8F383A68E6909F4F1D040B920F2F2
-- generatedChecksum: 6DF763688C47C43E13480759FFC13174
+- generatedChecksum: FBE7EE3F1674C7D5F839CDE83D07334E
   logicalPath: packs\PIC32CM5164LS00100_DFP\component
   name: dac.h
   physicalPath: ..\..\packs\PIC32CM5164LS00100_DFP\component
   security: NON_SECURE
   type: HEADER
-  userChecksum: 6DF763688C47C43E13480759FFC13174
-- generatedChecksum: 6DF763688C47C43E13480759FFC13174
+  userChecksum: FBE7EE3F1674C7D5F839CDE83D07334E
+- generatedChecksum: 99A2CCAE456DEBDFD381D3B7695215D8
+  logicalPath: packs\PIC32CM5164LS00100_DFP\instance
+  name: dac.h
+  physicalPath: ..\..\packs\PIC32CM5164LS00100_DFP\instance
+  security: NON_SECURE
+  type: HEADER
+  userChecksum: 99A2CCAE456DEBDFD381D3B7695215D8
+- generatedChecksum: FBE7EE3F1674C7D5F839CDE83D07334E
   logicalPath: packs\PIC32CM5164LS00100_DFP\component
   name: dac.h
   physicalPath: ..\..\packs\PIC32CM5164LS00100_DFP\component
   security: SECURE
   type: HEADER
-  userChecksum: 6DF763688C47C43E13480759FFC13174
+  userChecksum: FBE7EE3F1674C7D5F839CDE83D07334E
+- generatedChecksum: 99A2CCAE456DEBDFD381D3B7695215D8
+  logicalPath: packs\PIC32CM5164LS00100_DFP\instance
+  name: dac.h
+  physicalPath: ..\..\packs\PIC32CM5164LS00100_DFP\instance
+  security: SECURE
+  type: HEADER
+  userChecksum: 99A2CCAE456DEBDFD381D3B7695215D8
 - generatedChecksum: 65D3B90145B76C2759115CDC628F58E7
   logicalPath: config\pic32cm_ls00_cpro
   name: definitions.h
@@ -370,13 +426,13 @@ files:
   security: NON_SECURE
   type: HEADER
   userChecksum: 65D3B90145B76C2759115CDC628F58E7
-- generatedChecksum: D77F93846A552BB53C7AD428A3AEAC11
+- generatedChecksum: 456F4C284063713C69C164D4B3D11A5C
   logicalPath: config\pic32cm_ls00_cpro
   name: definitions.h
   physicalPath: ''
   security: SECURE
   type: HEADER
-  userChecksum: D77F93846A552BB53C7AD428A3AEAC11
+  userChecksum: 456F4C284063713C69C164D4B3D11A5C
 - generatedChecksum: AE0DD3B26E718430786665DD4A3F9902
   logicalPath: config\pic32cm_ls00_cpro
   name: device.h
@@ -419,146 +475,272 @@ files:
   security: SECURE
   type: HEADER
   userChecksum: 177A2A2686C1F0BD6C60137658D97322
-- generatedChecksum: A140224096791068C6A6B9A60FD9F655
+- generatedChecksum: 53C93F13BE983C71F6DD041C29E2A0B4
   logicalPath: packs\PIC32CM5164LS00100_DFP\component
   name: dmac.h
   physicalPath: ..\..\packs\PIC32CM5164LS00100_DFP\component
   security: NON_SECURE
   type: HEADER
-  userChecksum: A140224096791068C6A6B9A60FD9F655
-- generatedChecksum: A140224096791068C6A6B9A60FD9F655
+  userChecksum: 53C93F13BE983C71F6DD041C29E2A0B4
+- generatedChecksum: A3044C3ABDFB09EF1CA724834FA643C9
+  logicalPath: packs\PIC32CM5164LS00100_DFP\instance
+  name: dmac.h
+  physicalPath: ..\..\packs\PIC32CM5164LS00100_DFP\instance
+  security: NON_SECURE
+  type: HEADER
+  userChecksum: A3044C3ABDFB09EF1CA724834FA643C9
+- generatedChecksum: 53C93F13BE983C71F6DD041C29E2A0B4
   logicalPath: packs\PIC32CM5164LS00100_DFP\component
   name: dmac.h
   physicalPath: ..\..\packs\PIC32CM5164LS00100_DFP\component
   security: SECURE
   type: HEADER
-  userChecksum: A140224096791068C6A6B9A60FD9F655
-- generatedChecksum: 5B58E324AD76217663BC511831B62CF2
+  userChecksum: 53C93F13BE983C71F6DD041C29E2A0B4
+- generatedChecksum: A3044C3ABDFB09EF1CA724834FA643C9
+  logicalPath: packs\PIC32CM5164LS00100_DFP\instance
+  name: dmac.h
+  physicalPath: ..\..\packs\PIC32CM5164LS00100_DFP\instance
+  security: SECURE
+  type: HEADER
+  userChecksum: A3044C3ABDFB09EF1CA724834FA643C9
+- generatedChecksum: 8EEDEC1B90B36AB410AD6FC8482D0442
   logicalPath: packs\PIC32CM5164LS00100_DFP\component
   name: dsu.h
   physicalPath: ..\..\packs\PIC32CM5164LS00100_DFP\component
   security: NON_SECURE
   type: HEADER
-  userChecksum: 5B58E324AD76217663BC511831B62CF2
-- generatedChecksum: 5B58E324AD76217663BC511831B62CF2
+  userChecksum: 8EEDEC1B90B36AB410AD6FC8482D0442
+- generatedChecksum: DF2EF8C044DAD06C9E9A2012962EA559
+  logicalPath: packs\PIC32CM5164LS00100_DFP\instance
+  name: dsu.h
+  physicalPath: ..\..\packs\PIC32CM5164LS00100_DFP\instance
+  security: NON_SECURE
+  type: HEADER
+  userChecksum: DF2EF8C044DAD06C9E9A2012962EA559
+- generatedChecksum: 8EEDEC1B90B36AB410AD6FC8482D0442
   logicalPath: packs\PIC32CM5164LS00100_DFP\component
   name: dsu.h
   physicalPath: ..\..\packs\PIC32CM5164LS00100_DFP\component
   security: SECURE
   type: HEADER
-  userChecksum: 5B58E324AD76217663BC511831B62CF2
-- generatedChecksum: 2ABD05A2C6F01EF4E48F5D8478AAB8BC
+  userChecksum: 8EEDEC1B90B36AB410AD6FC8482D0442
+- generatedChecksum: DF2EF8C044DAD06C9E9A2012962EA559
+  logicalPath: packs\PIC32CM5164LS00100_DFP\instance
+  name: dsu.h
+  physicalPath: ..\..\packs\PIC32CM5164LS00100_DFP\instance
+  security: SECURE
+  type: HEADER
+  userChecksum: DF2EF8C044DAD06C9E9A2012962EA559
+- generatedChecksum: 5AA69F423220AC23B1C3ED8BF22F0D31
   logicalPath: packs\PIC32CM5164LS00100_DFP\component
   name: eic.h
   physicalPath: ..\..\packs\PIC32CM5164LS00100_DFP\component
   security: NON_SECURE
   type: HEADER
-  userChecksum: 2ABD05A2C6F01EF4E48F5D8478AAB8BC
-- generatedChecksum: 2ABD05A2C6F01EF4E48F5D8478AAB8BC
+  userChecksum: 5AA69F423220AC23B1C3ED8BF22F0D31
+- generatedChecksum: 90B8DA1F5A74CEF3A0E6B0A6E49C6F5C
+  logicalPath: packs\PIC32CM5164LS00100_DFP\instance
+  name: eic.h
+  physicalPath: ..\..\packs\PIC32CM5164LS00100_DFP\instance
+  security: NON_SECURE
+  type: HEADER
+  userChecksum: 90B8DA1F5A74CEF3A0E6B0A6E49C6F5C
+- generatedChecksum: 5AA69F423220AC23B1C3ED8BF22F0D31
   logicalPath: packs\PIC32CM5164LS00100_DFP\component
   name: eic.h
   physicalPath: ..\..\packs\PIC32CM5164LS00100_DFP\component
   security: SECURE
   type: HEADER
-  userChecksum: 2ABD05A2C6F01EF4E48F5D8478AAB8BC
-- generatedChecksum: FCD8BA1A74EDBA42FFE3B5D0646CAF0B
+  userChecksum: 5AA69F423220AC23B1C3ED8BF22F0D31
+- generatedChecksum: 90B8DA1F5A74CEF3A0E6B0A6E49C6F5C
+  logicalPath: packs\PIC32CM5164LS00100_DFP\instance
+  name: eic.h
+  physicalPath: ..\..\packs\PIC32CM5164LS00100_DFP\instance
+  security: SECURE
+  type: HEADER
+  userChecksum: 90B8DA1F5A74CEF3A0E6B0A6E49C6F5C
+- generatedChecksum: 3C64C999D80E69FC0EAF0FB5BBA8E645
   logicalPath: packs\PIC32CM5164LS00100_DFP\component
   name: evsys.h
   physicalPath: ..\..\packs\PIC32CM5164LS00100_DFP\component
   security: NON_SECURE
   type: HEADER
-  userChecksum: FCD8BA1A74EDBA42FFE3B5D0646CAF0B
-- generatedChecksum: FCD8BA1A74EDBA42FFE3B5D0646CAF0B
+  userChecksum: 3C64C999D80E69FC0EAF0FB5BBA8E645
+- generatedChecksum: 10BBD9BCAF7F8E6183D4E24F6003C106
+  logicalPath: packs\PIC32CM5164LS00100_DFP\instance
+  name: evsys.h
+  physicalPath: ..\..\packs\PIC32CM5164LS00100_DFP\instance
+  security: NON_SECURE
+  type: HEADER
+  userChecksum: 10BBD9BCAF7F8E6183D4E24F6003C106
+- generatedChecksum: 3C64C999D80E69FC0EAF0FB5BBA8E645
   logicalPath: packs\PIC32CM5164LS00100_DFP\component
   name: evsys.h
   physicalPath: ..\..\packs\PIC32CM5164LS00100_DFP\component
   security: SECURE
   type: HEADER
-  userChecksum: FCD8BA1A74EDBA42FFE3B5D0646CAF0B
-- generatedChecksum: ED9E4E4835A003653ABC01F86EDFDA68
+  userChecksum: 3C64C999D80E69FC0EAF0FB5BBA8E645
+- generatedChecksum: 10BBD9BCAF7F8E6183D4E24F6003C106
+  logicalPath: packs\PIC32CM5164LS00100_DFP\instance
+  name: evsys.h
+  physicalPath: ..\..\packs\PIC32CM5164LS00100_DFP\instance
+  security: SECURE
+  type: HEADER
+  userChecksum: 10BBD9BCAF7F8E6183D4E24F6003C106
+- generatedChecksum: D7BE9DEA300E3346F89BD4DC8DC10616
   logicalPath: packs\PIC32CM5164LS00100_DFP\component
   name: freqm.h
   physicalPath: ..\..\packs\PIC32CM5164LS00100_DFP\component
   security: NON_SECURE
   type: HEADER
-  userChecksum: ED9E4E4835A003653ABC01F86EDFDA68
-- generatedChecksum: ED9E4E4835A003653ABC01F86EDFDA68
+  userChecksum: D7BE9DEA300E3346F89BD4DC8DC10616
+- generatedChecksum: 2FEEB0F163F5334BE73432E14B328394
+  logicalPath: packs\PIC32CM5164LS00100_DFP\instance
+  name: freqm.h
+  physicalPath: ..\..\packs\PIC32CM5164LS00100_DFP\instance
+  security: NON_SECURE
+  type: HEADER
+  userChecksum: 2FEEB0F163F5334BE73432E14B328394
+- generatedChecksum: D7BE9DEA300E3346F89BD4DC8DC10616
   logicalPath: packs\PIC32CM5164LS00100_DFP\component
   name: freqm.h
   physicalPath: ..\..\packs\PIC32CM5164LS00100_DFP\component
   security: SECURE
   type: HEADER
-  userChecksum: ED9E4E4835A003653ABC01F86EDFDA68
-- generatedChecksum: 0CD910A22D8E332DCB0F5AB27DC86D57
+  userChecksum: D7BE9DEA300E3346F89BD4DC8DC10616
+- generatedChecksum: 2FEEB0F163F5334BE73432E14B328394
+  logicalPath: packs\PIC32CM5164LS00100_DFP\instance
+  name: freqm.h
+  physicalPath: ..\..\packs\PIC32CM5164LS00100_DFP\instance
+  security: SECURE
+  type: HEADER
+  userChecksum: 2FEEB0F163F5334BE73432E14B328394
+- generatedChecksum: 23EBCC993634A891D287E5B1BFC35E9D
   logicalPath: packs\PIC32CM5164LS00100_DFP\component
   name: gclk.h
   physicalPath: ..\..\packs\PIC32CM5164LS00100_DFP\component
   security: NON_SECURE
   type: HEADER
-  userChecksum: 0CD910A22D8E332DCB0F5AB27DC86D57
-- generatedChecksum: 0CD910A22D8E332DCB0F5AB27DC86D57
+  userChecksum: 23EBCC993634A891D287E5B1BFC35E9D
+- generatedChecksum: EFC247271B5398641A3DF2FA56C093A5
+  logicalPath: packs\PIC32CM5164LS00100_DFP\instance
+  name: gclk.h
+  physicalPath: ..\..\packs\PIC32CM5164LS00100_DFP\instance
+  security: NON_SECURE
+  type: HEADER
+  userChecksum: EFC247271B5398641A3DF2FA56C093A5
+- generatedChecksum: 23EBCC993634A891D287E5B1BFC35E9D
   logicalPath: packs\PIC32CM5164LS00100_DFP\component
   name: gclk.h
   physicalPath: ..\..\packs\PIC32CM5164LS00100_DFP\component
   security: SECURE
   type: HEADER
-  userChecksum: 0CD910A22D8E332DCB0F5AB27DC86D57
-- generatedChecksum: 3390364CF04178754E15F6568D42ADC8
+  userChecksum: 23EBCC993634A891D287E5B1BFC35E9D
+- generatedChecksum: EFC247271B5398641A3DF2FA56C093A5
+  logicalPath: packs\PIC32CM5164LS00100_DFP\instance
+  name: gclk.h
+  physicalPath: ..\..\packs\PIC32CM5164LS00100_DFP\instance
+  security: SECURE
+  type: HEADER
+  userChecksum: EFC247271B5398641A3DF2FA56C093A5
+- generatedChecksum: 13796BD62C57668930FCDDBECD95E1D7
   logicalPath: packs\PIC32CM5164LS00100_DFP\component
   name: i2s.h
   physicalPath: ..\..\packs\PIC32CM5164LS00100_DFP\component
   security: NON_SECURE
   type: HEADER
-  userChecksum: 3390364CF04178754E15F6568D42ADC8
-- generatedChecksum: 3390364CF04178754E15F6568D42ADC8
+  userChecksum: 13796BD62C57668930FCDDBECD95E1D7
+- generatedChecksum: 5336B2218486ADC628FF93C60A79E25E
+  logicalPath: packs\PIC32CM5164LS00100_DFP\instance
+  name: i2s.h
+  physicalPath: ..\..\packs\PIC32CM5164LS00100_DFP\instance
+  security: NON_SECURE
+  type: HEADER
+  userChecksum: 5336B2218486ADC628FF93C60A79E25E
+- generatedChecksum: 13796BD62C57668930FCDDBECD95E1D7
   logicalPath: packs\PIC32CM5164LS00100_DFP\component
   name: i2s.h
   physicalPath: ..\..\packs\PIC32CM5164LS00100_DFP\component
   security: SECURE
   type: HEADER
-  userChecksum: 3390364CF04178754E15F6568D42ADC8
-- generatedChecksum: CF3815CF3797B24121ECD0CBED6A6BD4
+  userChecksum: 13796BD62C57668930FCDDBECD95E1D7
+- generatedChecksum: 5336B2218486ADC628FF93C60A79E25E
+  logicalPath: packs\PIC32CM5164LS00100_DFP\instance
+  name: i2s.h
+  physicalPath: ..\..\packs\PIC32CM5164LS00100_DFP\instance
+  security: SECURE
+  type: HEADER
+  userChecksum: 5336B2218486ADC628FF93C60A79E25E
+- generatedChecksum: F87793E7D4652A69A0BC9FAD23A4F5E4
   logicalPath: packs\PIC32CM5164LS00100_DFP\component
   name: idau.h
   physicalPath: ..\..\packs\PIC32CM5164LS00100_DFP\component
   security: NON_SECURE
   type: HEADER
-  userChecksum: CF3815CF3797B24121ECD0CBED6A6BD4
-- generatedChecksum: CF3815CF3797B24121ECD0CBED6A6BD4
+  userChecksum: F87793E7D4652A69A0BC9FAD23A4F5E4
+- generatedChecksum: 5243EF815A5FC99E3F1E0FF2BEE7C494
+  logicalPath: packs\PIC32CM5164LS00100_DFP\instance
+  name: idau.h
+  physicalPath: ..\..\packs\PIC32CM5164LS00100_DFP\instance
+  security: NON_SECURE
+  type: HEADER
+  userChecksum: 5243EF815A5FC99E3F1E0FF2BEE7C494
+- generatedChecksum: F87793E7D4652A69A0BC9FAD23A4F5E4
   logicalPath: packs\PIC32CM5164LS00100_DFP\component
   name: idau.h
   physicalPath: ..\..\packs\PIC32CM5164LS00100_DFP\component
   security: SECURE
   type: HEADER
-  userChecksum: CF3815CF3797B24121ECD0CBED6A6BD4
-- generatedChecksum: 4CF4A86296482D5331331BA301C20BB2
+  userChecksum: F87793E7D4652A69A0BC9FAD23A4F5E4
+- generatedChecksum: 5243EF815A5FC99E3F1E0FF2BEE7C494
+  logicalPath: packs\PIC32CM5164LS00100_DFP\instance
+  name: idau.h
+  physicalPath: ..\..\packs\PIC32CM5164LS00100_DFP\instance
+  security: SECURE
+  type: HEADER
+  userChecksum: 5243EF815A5FC99E3F1E0FF2BEE7C494
+- generatedChecksum: 1576AE959E94D43BC8356F7A0E5E3559
   logicalPath: config\pic32cm_ls00_cpro
   name: interrupts.h
   physicalPath: ''
   security: NON_SECURE
   type: HEADER
-  userChecksum: 4CF4A86296482D5331331BA301C20BB2
-- generatedChecksum: 4CF4A86296482D5331331BA301C20BB2
+  userChecksum: 1576AE959E94D43BC8356F7A0E5E3559
+- generatedChecksum: DD0C47E51D0A5D549BAD029B7EAEDB97
   logicalPath: config\pic32cm_ls00_cpro
   name: interrupts.h
   physicalPath: ''
   security: SECURE
   type: HEADER
-  userChecksum: 4CF4A86296482D5331331BA301C20BB2
-- generatedChecksum: 206A63C081465E1D6B389E35DB164758
+  userChecksum: DD0C47E51D0A5D549BAD029B7EAEDB97
+- generatedChecksum: 9E598F4721A742949FAEC32426CA01D0
   logicalPath: packs\PIC32CM5164LS00100_DFP\component
   name: mclk.h
   physicalPath: ..\..\packs\PIC32CM5164LS00100_DFP\component
   security: NON_SECURE
   type: HEADER
-  userChecksum: 206A63C081465E1D6B389E35DB164758
-- generatedChecksum: 206A63C081465E1D6B389E35DB164758
+  userChecksum: 9E598F4721A742949FAEC32426CA01D0
+- generatedChecksum: 31F4848EE9305F7E8E91408733CAAD13
+  logicalPath: packs\PIC32CM5164LS00100_DFP\instance
+  name: mclk.h
+  physicalPath: ..\..\packs\PIC32CM5164LS00100_DFP\instance
+  security: NON_SECURE
+  type: HEADER
+  userChecksum: 31F4848EE9305F7E8E91408733CAAD13
+- generatedChecksum: 9E598F4721A742949FAEC32426CA01D0
   logicalPath: packs\PIC32CM5164LS00100_DFP\component
   name: mclk.h
   physicalPath: ..\..\packs\PIC32CM5164LS00100_DFP\component
   security: SECURE
   type: HEADER
-  userChecksum: 206A63C081465E1D6B389E35DB164758
+  userChecksum: 9E598F4721A742949FAEC32426CA01D0
+- generatedChecksum: 31F4848EE9305F7E8E91408733CAAD13
+  logicalPath: packs\PIC32CM5164LS00100_DFP\instance
+  name: mclk.h
+  physicalPath: ..\..\packs\PIC32CM5164LS00100_DFP\instance
+  security: SECURE
+  type: HEADER
+  userChecksum: 31F4848EE9305F7E8E91408733CAAD13
 - generatedChecksum: AF4D338B8CE47DE6D837EBA192EB7ADC
   logicalPath: packs\CMSIS\CMSIS\Core\Include
   name: mpu_armv8.h
@@ -580,104 +762,174 @@ files:
   security: NON_SECURE
   type: HEADER
   userChecksum: null
-- generatedChecksum: 707005B48C363EC98B39B6FB18610BCB
+- generatedChecksum: AB12A285E888FCA3AD9EE40B66C0E1FB
   logicalPath: packs\PIC32CM5164LS00100_DFP\component
   name: nvmctrl.h
   physicalPath: ..\..\packs\PIC32CM5164LS00100_DFP\component
   security: NON_SECURE
   type: HEADER
-  userChecksum: 707005B48C363EC98B39B6FB18610BCB
-- generatedChecksum: 707005B48C363EC98B39B6FB18610BCB
+  userChecksum: AB12A285E888FCA3AD9EE40B66C0E1FB
+- generatedChecksum: 47A8EF096112EE263E52FF4EB9A8003C
+  logicalPath: packs\PIC32CM5164LS00100_DFP\instance
+  name: nvmctrl.h
+  physicalPath: ..\..\packs\PIC32CM5164LS00100_DFP\instance
+  security: NON_SECURE
+  type: HEADER
+  userChecksum: 47A8EF096112EE263E52FF4EB9A8003C
+- generatedChecksum: AB12A285E888FCA3AD9EE40B66C0E1FB
   logicalPath: packs\PIC32CM5164LS00100_DFP\component
   name: nvmctrl.h
   physicalPath: ..\..\packs\PIC32CM5164LS00100_DFP\component
   security: SECURE
   type: HEADER
-  userChecksum: 707005B48C363EC98B39B6FB18610BCB
-- generatedChecksum: 38B3722EEC28E9D720A284748AF4A38C
+  userChecksum: AB12A285E888FCA3AD9EE40B66C0E1FB
+- generatedChecksum: 47A8EF096112EE263E52FF4EB9A8003C
+  logicalPath: packs\PIC32CM5164LS00100_DFP\instance
+  name: nvmctrl.h
+  physicalPath: ..\..\packs\PIC32CM5164LS00100_DFP\instance
+  security: SECURE
+  type: HEADER
+  userChecksum: 47A8EF096112EE263E52FF4EB9A8003C
+- generatedChecksum: 50767BA14F00325C514FE12523F492D5
   logicalPath: packs\PIC32CM5164LS00100_DFP\component
   name: opamp.h
   physicalPath: ..\..\packs\PIC32CM5164LS00100_DFP\component
   security: NON_SECURE
   type: HEADER
-  userChecksum: 38B3722EEC28E9D720A284748AF4A38C
-- generatedChecksum: 38B3722EEC28E9D720A284748AF4A38C
+  userChecksum: 50767BA14F00325C514FE12523F492D5
+- generatedChecksum: 353142DE60EAE10A597AA9FC643745E1
+  logicalPath: packs\PIC32CM5164LS00100_DFP\instance
+  name: opamp.h
+  physicalPath: ..\..\packs\PIC32CM5164LS00100_DFP\instance
+  security: NON_SECURE
+  type: HEADER
+  userChecksum: 353142DE60EAE10A597AA9FC643745E1
+- generatedChecksum: 50767BA14F00325C514FE12523F492D5
   logicalPath: packs\PIC32CM5164LS00100_DFP\component
   name: opamp.h
   physicalPath: ..\..\packs\PIC32CM5164LS00100_DFP\component
   security: SECURE
   type: HEADER
-  userChecksum: 38B3722EEC28E9D720A284748AF4A38C
-- generatedChecksum: 2B0F5DA8AEDC6CE4080C3BEDC530ECB1
+  userChecksum: 50767BA14F00325C514FE12523F492D5
+- generatedChecksum: 353142DE60EAE10A597AA9FC643745E1
+  logicalPath: packs\PIC32CM5164LS00100_DFP\instance
+  name: opamp.h
+  physicalPath: ..\..\packs\PIC32CM5164LS00100_DFP\instance
+  security: SECURE
+  type: HEADER
+  userChecksum: 353142DE60EAE10A597AA9FC643745E1
+- generatedChecksum: C2C15DB0E6C8AF8795130EF39103DEBD
   logicalPath: packs\PIC32CM5164LS00100_DFP\component
   name: osc32kctrl.h
   physicalPath: ..\..\packs\PIC32CM5164LS00100_DFP\component
   security: NON_SECURE
   type: HEADER
-  userChecksum: 2B0F5DA8AEDC6CE4080C3BEDC530ECB1
-- generatedChecksum: 2B0F5DA8AEDC6CE4080C3BEDC530ECB1
+  userChecksum: C2C15DB0E6C8AF8795130EF39103DEBD
+- generatedChecksum: FE83CB8E5F87BD643BF4C3BB7CEA22C4
+  logicalPath: packs\PIC32CM5164LS00100_DFP\instance
+  name: osc32kctrl.h
+  physicalPath: ..\..\packs\PIC32CM5164LS00100_DFP\instance
+  security: NON_SECURE
+  type: HEADER
+  userChecksum: FE83CB8E5F87BD643BF4C3BB7CEA22C4
+- generatedChecksum: C2C15DB0E6C8AF8795130EF39103DEBD
   logicalPath: packs\PIC32CM5164LS00100_DFP\component
   name: osc32kctrl.h
   physicalPath: ..\..\packs\PIC32CM5164LS00100_DFP\component
   security: SECURE
   type: HEADER
-  userChecksum: 2B0F5DA8AEDC6CE4080C3BEDC530ECB1
-- generatedChecksum: 4AB8075BC1C61D237044AAD81D946F61
+  userChecksum: C2C15DB0E6C8AF8795130EF39103DEBD
+- generatedChecksum: FE83CB8E5F87BD643BF4C3BB7CEA22C4
+  logicalPath: packs\PIC32CM5164LS00100_DFP\instance
+  name: osc32kctrl.h
+  physicalPath: ..\..\packs\PIC32CM5164LS00100_DFP\instance
+  security: SECURE
+  type: HEADER
+  userChecksum: FE83CB8E5F87BD643BF4C3BB7CEA22C4
+- generatedChecksum: 7B6715336BBAB28671D054448E1882A3
   logicalPath: packs\PIC32CM5164LS00100_DFP\component
   name: oscctrl.h
   physicalPath: ..\..\packs\PIC32CM5164LS00100_DFP\component
   security: NON_SECURE
   type: HEADER
-  userChecksum: 4AB8075BC1C61D237044AAD81D946F61
-- generatedChecksum: 4AB8075BC1C61D237044AAD81D946F61
+  userChecksum: 7B6715336BBAB28671D054448E1882A3
+- generatedChecksum: 1ABB980FD2D059BA8DF571DFBC2B894C
+  logicalPath: packs\PIC32CM5164LS00100_DFP\instance
+  name: oscctrl.h
+  physicalPath: ..\..\packs\PIC32CM5164LS00100_DFP\instance
+  security: NON_SECURE
+  type: HEADER
+  userChecksum: 1ABB980FD2D059BA8DF571DFBC2B894C
+- generatedChecksum: 7B6715336BBAB28671D054448E1882A3
   logicalPath: packs\PIC32CM5164LS00100_DFP\component
   name: oscctrl.h
   physicalPath: ..\..\packs\PIC32CM5164LS00100_DFP\component
   security: SECURE
   type: HEADER
-  userChecksum: 4AB8075BC1C61D237044AAD81D946F61
-- generatedChecksum: 2FC73A360C57F90A07ED6A7F3324B6C4
+  userChecksum: 7B6715336BBAB28671D054448E1882A3
+- generatedChecksum: 1ABB980FD2D059BA8DF571DFBC2B894C
+  logicalPath: packs\PIC32CM5164LS00100_DFP\instance
+  name: oscctrl.h
+  physicalPath: ..\..\packs\PIC32CM5164LS00100_DFP\instance
+  security: SECURE
+  type: HEADER
+  userChecksum: 1ABB980FD2D059BA8DF571DFBC2B894C
+- generatedChecksum: 6207A982EBBB9F952990C364F8F7B18D
   logicalPath: packs\PIC32CM5164LS00100_DFP\component
   name: pac.h
   physicalPath: ..\..\packs\PIC32CM5164LS00100_DFP\component
   security: NON_SECURE
   type: HEADER
-  userChecksum: 2FC73A360C57F90A07ED6A7F3324B6C4
-- generatedChecksum: 2FC73A360C57F90A07ED6A7F3324B6C4
+  userChecksum: 6207A982EBBB9F952990C364F8F7B18D
+- generatedChecksum: 0C4D00276BC68E4CD9C9782550EF6E36
+  logicalPath: packs\PIC32CM5164LS00100_DFP\instance
+  name: pac.h
+  physicalPath: ..\..\packs\PIC32CM5164LS00100_DFP\instance
+  security: NON_SECURE
+  type: HEADER
+  userChecksum: 0C4D00276BC68E4CD9C9782550EF6E36
+- generatedChecksum: 6207A982EBBB9F952990C364F8F7B18D
   logicalPath: packs\PIC32CM5164LS00100_DFP\component
   name: pac.h
   physicalPath: ..\..\packs\PIC32CM5164LS00100_DFP\component
   security: SECURE
   type: HEADER
-  userChecksum: 2FC73A360C57F90A07ED6A7F3324B6C4
-- generatedChecksum: B36B162136CBC590657777627B794C21
+  userChecksum: 6207A982EBBB9F952990C364F8F7B18D
+- generatedChecksum: 0C4D00276BC68E4CD9C9782550EF6E36
+  logicalPath: packs\PIC32CM5164LS00100_DFP\instance
+  name: pac.h
+  physicalPath: ..\..\packs\PIC32CM5164LS00100_DFP\instance
+  security: SECURE
+  type: HEADER
+  userChecksum: 0C4D00276BC68E4CD9C9782550EF6E36
+- generatedChecksum: 86DA04482ED9C3408C3EB7410F855359
   logicalPath: packs\PIC32CM5164LS00100_DFP
   name: pic32cm5164ls00100.h
   physicalPath: ..\..\packs\PIC32CM5164LS00100_DFP
   security: NON_SECURE
   type: HEADER
-  userChecksum: B36B162136CBC590657777627B794C21
-- generatedChecksum: 2FA5D3CD1EDDB8A8061E25624F073747
+  userChecksum: 86DA04482ED9C3408C3EB7410F855359
+- generatedChecksum: EB1AD10614532089580295193D0CCD27
   logicalPath: packs\PIC32CM5164LS00100_DFP\pio
   name: pic32cm5164ls00100.h
   physicalPath: ..\..\packs\PIC32CM5164LS00100_DFP\pio
   security: NON_SECURE
   type: HEADER
-  userChecksum: 2FA5D3CD1EDDB8A8061E25624F073747
-- generatedChecksum: B36B162136CBC590657777627B794C21
+  userChecksum: EB1AD10614532089580295193D0CCD27
+- generatedChecksum: 86DA04482ED9C3408C3EB7410F855359
   logicalPath: packs\PIC32CM5164LS00100_DFP
   name: pic32cm5164ls00100.h
   physicalPath: ..\..\packs\PIC32CM5164LS00100_DFP
   security: SECURE
   type: HEADER
-  userChecksum: B36B162136CBC590657777627B794C21
-- generatedChecksum: 2FA5D3CD1EDDB8A8061E25624F073747
+  userChecksum: 86DA04482ED9C3408C3EB7410F855359
+- generatedChecksum: EB1AD10614532089580295193D0CCD27
   logicalPath: packs\PIC32CM5164LS00100_DFP\pio
   name: pic32cm5164ls00100.h
   physicalPath: ..\..\packs\PIC32CM5164LS00100_DFP\pio
   security: SECURE
   type: HEADER
-  userChecksum: 2FA5D3CD1EDDB8A8061E25624F073747
+  userChecksum: EB1AD10614532089580295193D0CCD27
 - generatedChecksum: 17A0CD0F2C5488302659FD45B4CABC5B
   logicalPath: config\pic32cm_ls00_cpro\peripheral\clock
   name: plib_clock.h
@@ -706,27 +958,27 @@ files:
   security: SECURE
   type: HEADER
   userChecksum: CCAEF942C66AF995876DFD85CEFF611F
-- generatedChecksum: E95AB23B866AA0CE6F0ABF637E9E2C83
+- generatedChecksum: 55ECCC7FA71BD15B46EF80DC0515ED7A
   logicalPath: config\pic32cm_ls00_cpro\peripheral\nvic
   name: plib_nvic.h
   physicalPath: peripheral\nvic
   security: SECURE
   type: HEADER
-  userChecksum: E95AB23B866AA0CE6F0ABF637E9E2C83
-- generatedChecksum: E95AB23B866AA0CE6F0ABF637E9E2C83
+  userChecksum: 55ECCC7FA71BD15B46EF80DC0515ED7A
+- generatedChecksum: 55ECCC7FA71BD15B46EF80DC0515ED7A
   logicalPath: config\pic32cm_ls00_cpro\peripheral\nvic
   name: plib_nvic.h
   physicalPath: peripheral\nvic
   security: NON_SECURE
   type: HEADER
-  userChecksum: E95AB23B866AA0CE6F0ABF637E9E2C83
-- generatedChecksum: 91201C30A799C1B37301E97D4A1E4978
+  userChecksum: 55ECCC7FA71BD15B46EF80DC0515ED7A
+- generatedChecksum: 0E7FEB394523DCCE854AAECAA1E7C301
   logicalPath: config\pic32cm_ls00_cpro\peripheral\nvmctrl
   name: plib_nvmctrl.h
   physicalPath: peripheral\nvmctrl
   security: SECURE
   type: HEADER
-  userChecksum: 91201C30A799C1B37301E97D4A1E4978
+  userChecksum: 0E7FEB394523DCCE854AAECAA1E7C301
 - generatedChecksum: 8C396397F7AACEFD9F327A14A8ED33F1
   logicalPath: config\pic32cm_ls00_cpro\peripheral\pm
   name: plib_pm.h
@@ -748,139 +1000,405 @@ files:
   security: NON_SECURE
   type: HEADER
   userChecksum: A112A1A695D68EA1F74492C609A36B46
-- generatedChecksum: F4D9C1F62211B4F449BD92508D0D2384
+- generatedChecksum: CFB2F067B701B3CB0926CB0E2A6A8B49
   logicalPath: config\pic32cm_ls00_cpro\peripheral\rtc
   name: plib_rtc.h
   physicalPath: peripheral\rtc
   security: NON_SECURE
   type: HEADER
-  userChecksum: F4D9C1F62211B4F449BD92508D0D2384
-- generatedChecksum: 16E635DF5717EF52CDB414CDBC0E0233
+  userChecksum: CFB2F067B701B3CB0926CB0E2A6A8B49
+- generatedChecksum: 030A72B0939FB4C564A798C416D71DA4
   logicalPath: packs\PIC32CM5164LS00100_DFP\component
   name: pm.h
   physicalPath: ..\..\packs\PIC32CM5164LS00100_DFP\component
   security: NON_SECURE
   type: HEADER
-  userChecksum: 16E635DF5717EF52CDB414CDBC0E0233
-- generatedChecksum: 16E635DF5717EF52CDB414CDBC0E0233
+  userChecksum: 030A72B0939FB4C564A798C416D71DA4
+- generatedChecksum: 9E87B58A2D314D22907B46E16B0437E2
+  logicalPath: packs\PIC32CM5164LS00100_DFP\instance
+  name: pm.h
+  physicalPath: ..\..\packs\PIC32CM5164LS00100_DFP\instance
+  security: NON_SECURE
+  type: HEADER
+  userChecksum: 9E87B58A2D314D22907B46E16B0437E2
+- generatedChecksum: 030A72B0939FB4C564A798C416D71DA4
   logicalPath: packs\PIC32CM5164LS00100_DFP\component
   name: pm.h
   physicalPath: ..\..\packs\PIC32CM5164LS00100_DFP\component
   security: SECURE
   type: HEADER
-  userChecksum: 16E635DF5717EF52CDB414CDBC0E0233
-- generatedChecksum: 1201D37C28AAA1F128A24804D2517DF3
+  userChecksum: 030A72B0939FB4C564A798C416D71DA4
+- generatedChecksum: 9E87B58A2D314D22907B46E16B0437E2
+  logicalPath: packs\PIC32CM5164LS00100_DFP\instance
+  name: pm.h
+  physicalPath: ..\..\packs\PIC32CM5164LS00100_DFP\instance
+  security: SECURE
+  type: HEADER
+  userChecksum: 9E87B58A2D314D22907B46E16B0437E2
+- generatedChecksum: 8AED7DC7C1AC1105AC0855A763A6DDF8
   logicalPath: packs\PIC32CM5164LS00100_DFP\component
   name: port.h
   physicalPath: ..\..\packs\PIC32CM5164LS00100_DFP\component
   security: NON_SECURE
   type: HEADER
-  userChecksum: 1201D37C28AAA1F128A24804D2517DF3
-- generatedChecksum: 1201D37C28AAA1F128A24804D2517DF3
+  userChecksum: 8AED7DC7C1AC1105AC0855A763A6DDF8
+- generatedChecksum: A1417FB1A7A95E296029279A5222543F
+  logicalPath: packs\PIC32CM5164LS00100_DFP\instance
+  name: port.h
+  physicalPath: ..\..\packs\PIC32CM5164LS00100_DFP\instance
+  security: NON_SECURE
+  type: HEADER
+  userChecksum: A1417FB1A7A95E296029279A5222543F
+- generatedChecksum: 8AED7DC7C1AC1105AC0855A763A6DDF8
   logicalPath: packs\PIC32CM5164LS00100_DFP\component
   name: port.h
   physicalPath: ..\..\packs\PIC32CM5164LS00100_DFP\component
   security: SECURE
   type: HEADER
-  userChecksum: 1201D37C28AAA1F128A24804D2517DF3
-- generatedChecksum: 1BB3A8260CB3088C5EBF2D5E69175404
+  userChecksum: 8AED7DC7C1AC1105AC0855A763A6DDF8
+- generatedChecksum: A1417FB1A7A95E296029279A5222543F
+  logicalPath: packs\PIC32CM5164LS00100_DFP\instance
+  name: port.h
+  physicalPath: ..\..\packs\PIC32CM5164LS00100_DFP\instance
+  security: SECURE
+  type: HEADER
+  userChecksum: A1417FB1A7A95E296029279A5222543F
+- generatedChecksum: FFF3907FE4FAE469E1DCAA4930C3F1D1
   logicalPath: packs\PIC32CM5164LS00100_DFP\component
   name: ptc.h
   physicalPath: ..\..\packs\PIC32CM5164LS00100_DFP\component
   security: NON_SECURE
   type: HEADER
-  userChecksum: 1BB3A8260CB3088C5EBF2D5E69175404
-- generatedChecksum: 1BB3A8260CB3088C5EBF2D5E69175404
+  userChecksum: FFF3907FE4FAE469E1DCAA4930C3F1D1
+- generatedChecksum: DF5AD0057DB3ADC93226CC05C257E9F4
+  logicalPath: packs\PIC32CM5164LS00100_DFP\instance
+  name: ptc.h
+  physicalPath: ..\..\packs\PIC32CM5164LS00100_DFP\instance
+  security: NON_SECURE
+  type: HEADER
+  userChecksum: DF5AD0057DB3ADC93226CC05C257E9F4
+- generatedChecksum: FFF3907FE4FAE469E1DCAA4930C3F1D1
   logicalPath: packs\PIC32CM5164LS00100_DFP\component
   name: ptc.h
   physicalPath: ..\..\packs\PIC32CM5164LS00100_DFP\component
   security: SECURE
   type: HEADER
-  userChecksum: 1BB3A8260CB3088C5EBF2D5E69175404
-- generatedChecksum: 4704F114282386A3A46A01A9FE36EE6B
+  userChecksum: FFF3907FE4FAE469E1DCAA4930C3F1D1
+- generatedChecksum: DF5AD0057DB3ADC93226CC05C257E9F4
+  logicalPath: packs\PIC32CM5164LS00100_DFP\instance
+  name: ptc.h
+  physicalPath: ..\..\packs\PIC32CM5164LS00100_DFP\instance
+  security: SECURE
+  type: HEADER
+  userChecksum: DF5AD0057DB3ADC93226CC05C257E9F4
+- generatedChecksum: A26C8385F7DCC686A7CA09B8958FC8AC
   logicalPath: packs\PIC32CM5164LS00100_DFP\component
   name: rstc.h
   physicalPath: ..\..\packs\PIC32CM5164LS00100_DFP\component
   security: NON_SECURE
   type: HEADER
-  userChecksum: 4704F114282386A3A46A01A9FE36EE6B
-- generatedChecksum: 4704F114282386A3A46A01A9FE36EE6B
+  userChecksum: A26C8385F7DCC686A7CA09B8958FC8AC
+- generatedChecksum: F76CFD93155E3C5809EA002270D6B8C7
+  logicalPath: packs\PIC32CM5164LS00100_DFP\instance
+  name: rstc.h
+  physicalPath: ..\..\packs\PIC32CM5164LS00100_DFP\instance
+  security: NON_SECURE
+  type: HEADER
+  userChecksum: F76CFD93155E3C5809EA002270D6B8C7
+- generatedChecksum: A26C8385F7DCC686A7CA09B8958FC8AC
   logicalPath: packs\PIC32CM5164LS00100_DFP\component
   name: rstc.h
   physicalPath: ..\..\packs\PIC32CM5164LS00100_DFP\component
   security: SECURE
   type: HEADER
-  userChecksum: 4704F114282386A3A46A01A9FE36EE6B
-- generatedChecksum: CCD98FD510B91C7ABEB223BEA4B6BE7F
+  userChecksum: A26C8385F7DCC686A7CA09B8958FC8AC
+- generatedChecksum: F76CFD93155E3C5809EA002270D6B8C7
+  logicalPath: packs\PIC32CM5164LS00100_DFP\instance
+  name: rstc.h
+  physicalPath: ..\..\packs\PIC32CM5164LS00100_DFP\instance
+  security: SECURE
+  type: HEADER
+  userChecksum: F76CFD93155E3C5809EA002270D6B8C7
+- generatedChecksum: 902532DC76CE2BB9130D37075A9638EC
   logicalPath: packs\PIC32CM5164LS00100_DFP\component
   name: rtc.h
   physicalPath: ..\..\packs\PIC32CM5164LS00100_DFP\component
   security: NON_SECURE
   type: HEADER
-  userChecksum: CCD98FD510B91C7ABEB223BEA4B6BE7F
-- generatedChecksum: CCD98FD510B91C7ABEB223BEA4B6BE7F
+  userChecksum: 902532DC76CE2BB9130D37075A9638EC
+- generatedChecksum: F24E28540CB5ED78C994058A3697ED40
+  logicalPath: packs\PIC32CM5164LS00100_DFP\instance
+  name: rtc.h
+  physicalPath: ..\..\packs\PIC32CM5164LS00100_DFP\instance
+  security: NON_SECURE
+  type: HEADER
+  userChecksum: F24E28540CB5ED78C994058A3697ED40
+- generatedChecksum: 902532DC76CE2BB9130D37075A9638EC
   logicalPath: packs\PIC32CM5164LS00100_DFP\component
   name: rtc.h
   physicalPath: ..\..\packs\PIC32CM5164LS00100_DFP\component
   security: SECURE
   type: HEADER
-  userChecksum: CCD98FD510B91C7ABEB223BEA4B6BE7F
-- generatedChecksum: 1B3F292CD12D88A938BB0F1CF80774E0
+  userChecksum: 902532DC76CE2BB9130D37075A9638EC
+- generatedChecksum: F24E28540CB5ED78C994058A3697ED40
+  logicalPath: packs\PIC32CM5164LS00100_DFP\instance
+  name: rtc.h
+  physicalPath: ..\..\packs\PIC32CM5164LS00100_DFP\instance
+  security: SECURE
+  type: HEADER
+  userChecksum: F24E28540CB5ED78C994058A3697ED40
+- generatedChecksum: D3902394140F37E90E4BB484F2C1702D
   logicalPath: packs\PIC32CM5164LS00100_DFP\component
   name: sercom.h
   physicalPath: ..\..\packs\PIC32CM5164LS00100_DFP\component
   security: NON_SECURE
   type: HEADER
-  userChecksum: 1B3F292CD12D88A938BB0F1CF80774E0
-- generatedChecksum: 1B3F292CD12D88A938BB0F1CF80774E0
+  userChecksum: D3902394140F37E90E4BB484F2C1702D
+- generatedChecksum: D3902394140F37E90E4BB484F2C1702D
   logicalPath: packs\PIC32CM5164LS00100_DFP\component
   name: sercom.h
   physicalPath: ..\..\packs\PIC32CM5164LS00100_DFP\component
   security: SECURE
   type: HEADER
-  userChecksum: 1B3F292CD12D88A938BB0F1CF80774E0
-- generatedChecksum: 7C10C9E9613AE47594BBC8D305A17572
+  userChecksum: D3902394140F37E90E4BB484F2C1702D
+- generatedChecksum: A95AD6C28FD07712B79FBD48C1FD70F5
+  logicalPath: packs\PIC32CM5164LS00100_DFP\instance
+  name: sercom0.h
+  physicalPath: ..\..\packs\PIC32CM5164LS00100_DFP\instance
+  security: NON_SECURE
+  type: HEADER
+  userChecksum: A95AD6C28FD07712B79FBD48C1FD70F5
+- generatedChecksum: A95AD6C28FD07712B79FBD48C1FD70F5
+  logicalPath: packs\PIC32CM5164LS00100_DFP\instance
+  name: sercom0.h
+  physicalPath: ..\..\packs\PIC32CM5164LS00100_DFP\instance
+  security: SECURE
+  type: HEADER
+  userChecksum: A95AD6C28FD07712B79FBD48C1FD70F5
+- generatedChecksum: 3BBA596871D01576280D1A12EF83DE83
+  logicalPath: packs\PIC32CM5164LS00100_DFP\instance
+  name: sercom1.h
+  physicalPath: ..\..\packs\PIC32CM5164LS00100_DFP\instance
+  security: NON_SECURE
+  type: HEADER
+  userChecksum: 3BBA596871D01576280D1A12EF83DE83
+- generatedChecksum: 3BBA596871D01576280D1A12EF83DE83
+  logicalPath: packs\PIC32CM5164LS00100_DFP\instance
+  name: sercom1.h
+  physicalPath: ..\..\packs\PIC32CM5164LS00100_DFP\instance
+  security: SECURE
+  type: HEADER
+  userChecksum: 3BBA596871D01576280D1A12EF83DE83
+- generatedChecksum: DEC02E8FDBBF7B7DC35BE8B8798D5E36
+  logicalPath: packs\PIC32CM5164LS00100_DFP\instance
+  name: sercom2.h
+  physicalPath: ..\..\packs\PIC32CM5164LS00100_DFP\instance
+  security: NON_SECURE
+  type: HEADER
+  userChecksum: DEC02E8FDBBF7B7DC35BE8B8798D5E36
+- generatedChecksum: DEC02E8FDBBF7B7DC35BE8B8798D5E36
+  logicalPath: packs\PIC32CM5164LS00100_DFP\instance
+  name: sercom2.h
+  physicalPath: ..\..\packs\PIC32CM5164LS00100_DFP\instance
+  security: SECURE
+  type: HEADER
+  userChecksum: DEC02E8FDBBF7B7DC35BE8B8798D5E36
+- generatedChecksum: 1155621AB4E3ECA280E1E919F496624D
+  logicalPath: packs\PIC32CM5164LS00100_DFP\instance
+  name: sercom3.h
+  physicalPath: ..\..\packs\PIC32CM5164LS00100_DFP\instance
+  security: NON_SECURE
+  type: HEADER
+  userChecksum: 1155621AB4E3ECA280E1E919F496624D
+- generatedChecksum: 1155621AB4E3ECA280E1E919F496624D
+  logicalPath: packs\PIC32CM5164LS00100_DFP\instance
+  name: sercom3.h
+  physicalPath: ..\..\packs\PIC32CM5164LS00100_DFP\instance
+  security: SECURE
+  type: HEADER
+  userChecksum: 1155621AB4E3ECA280E1E919F496624D
+- generatedChecksum: C635E0666B35168B503EB9CE17032C38
+  logicalPath: packs\PIC32CM5164LS00100_DFP\instance
+  name: sercom4.h
+  physicalPath: ..\..\packs\PIC32CM5164LS00100_DFP\instance
+  security: NON_SECURE
+  type: HEADER
+  userChecksum: C635E0666B35168B503EB9CE17032C38
+- generatedChecksum: C635E0666B35168B503EB9CE17032C38
+  logicalPath: packs\PIC32CM5164LS00100_DFP\instance
+  name: sercom4.h
+  physicalPath: ..\..\packs\PIC32CM5164LS00100_DFP\instance
+  security: SECURE
+  type: HEADER
+  userChecksum: C635E0666B35168B503EB9CE17032C38
+- generatedChecksum: EDA2AAD9C98A892DDC55E93298010E21
+  logicalPath: packs\PIC32CM5164LS00100_DFP\instance
+  name: sercom5.h
+  physicalPath: ..\..\packs\PIC32CM5164LS00100_DFP\instance
+  security: NON_SECURE
+  type: HEADER
+  userChecksum: EDA2AAD9C98A892DDC55E93298010E21
+- generatedChecksum: EDA2AAD9C98A892DDC55E93298010E21
+  logicalPath: packs\PIC32CM5164LS00100_DFP\instance
+  name: sercom5.h
+  physicalPath: ..\..\packs\PIC32CM5164LS00100_DFP\instance
+  security: SECURE
+  type: HEADER
+  userChecksum: EDA2AAD9C98A892DDC55E93298010E21
+- generatedChecksum: D711E869EB582A33A341E62D9AF42E7C
   logicalPath: packs\PIC32CM5164LS00100_DFP\component
   name: supc.h
   physicalPath: ..\..\packs\PIC32CM5164LS00100_DFP\component
   security: NON_SECURE
   type: HEADER
-  userChecksum: 7C10C9E9613AE47594BBC8D305A17572
-- generatedChecksum: 7C10C9E9613AE47594BBC8D305A17572
+  userChecksum: D711E869EB582A33A341E62D9AF42E7C
+- generatedChecksum: 5D8550F7B69DA1835784A8F68F7852EC
+  logicalPath: packs\PIC32CM5164LS00100_DFP\instance
+  name: supc.h
+  physicalPath: ..\..\packs\PIC32CM5164LS00100_DFP\instance
+  security: NON_SECURE
+  type: HEADER
+  userChecksum: 5D8550F7B69DA1835784A8F68F7852EC
+- generatedChecksum: D711E869EB582A33A341E62D9AF42E7C
   logicalPath: packs\PIC32CM5164LS00100_DFP\component
   name: supc.h
   physicalPath: ..\..\packs\PIC32CM5164LS00100_DFP\component
   security: SECURE
   type: HEADER
-  userChecksum: 7C10C9E9613AE47594BBC8D305A17572
-- generatedChecksum: 9249ED96B1C45FA31E78A015F17763CD
+  userChecksum: D711E869EB582A33A341E62D9AF42E7C
+- generatedChecksum: 5D8550F7B69DA1835784A8F68F7852EC
+  logicalPath: packs\PIC32CM5164LS00100_DFP\instance
+  name: supc.h
+  physicalPath: ..\..\packs\PIC32CM5164LS00100_DFP\instance
+  security: SECURE
+  type: HEADER
+  userChecksum: 5D8550F7B69DA1835784A8F68F7852EC
+- generatedChecksum: 17421ECD0F423168DFCC2C0969726739
   logicalPath: packs\PIC32CM5164LS00100_DFP\component
   name: tc.h
   physicalPath: ..\..\packs\PIC32CM5164LS00100_DFP\component
   security: NON_SECURE
   type: HEADER
-  userChecksum: 9249ED96B1C45FA31E78A015F17763CD
-- generatedChecksum: 9249ED96B1C45FA31E78A015F17763CD
+  userChecksum: 17421ECD0F423168DFCC2C0969726739
+- generatedChecksum: 17421ECD0F423168DFCC2C0969726739
   logicalPath: packs\PIC32CM5164LS00100_DFP\component
   name: tc.h
   physicalPath: ..\..\packs\PIC32CM5164LS00100_DFP\component
   security: SECURE
   type: HEADER
-  userChecksum: 9249ED96B1C45FA31E78A015F17763CD
-- generatedChecksum: 746CE91646D1D054EC8CE8946215B074
+  userChecksum: 17421ECD0F423168DFCC2C0969726739
+- generatedChecksum: E045FBBFDE94844474952860D5D6DB42
+  logicalPath: packs\PIC32CM5164LS00100_DFP\instance
+  name: tc0.h
+  physicalPath: ..\..\packs\PIC32CM5164LS00100_DFP\instance
+  security: NON_SECURE
+  type: HEADER
+  userChecksum: E045FBBFDE94844474952860D5D6DB42
+- generatedChecksum: E045FBBFDE94844474952860D5D6DB42
+  logicalPath: packs\PIC32CM5164LS00100_DFP\instance
+  name: tc0.h
+  physicalPath: ..\..\packs\PIC32CM5164LS00100_DFP\instance
+  security: SECURE
+  type: HEADER
+  userChecksum: E045FBBFDE94844474952860D5D6DB42
+- generatedChecksum: 8A357432B0840C1F7552FB2691113DD8
+  logicalPath: packs\PIC32CM5164LS00100_DFP\instance
+  name: tc1.h
+  physicalPath: ..\..\packs\PIC32CM5164LS00100_DFP\instance
+  security: NON_SECURE
+  type: HEADER
+  userChecksum: 8A357432B0840C1F7552FB2691113DD8
+- generatedChecksum: 8A357432B0840C1F7552FB2691113DD8
+  logicalPath: packs\PIC32CM5164LS00100_DFP\instance
+  name: tc1.h
+  physicalPath: ..\..\packs\PIC32CM5164LS00100_DFP\instance
+  security: SECURE
+  type: HEADER
+  userChecksum: 8A357432B0840C1F7552FB2691113DD8
+- generatedChecksum: C934DFE0169F3A7BE881E6ED29337168
+  logicalPath: packs\PIC32CM5164LS00100_DFP\instance
+  name: tc2.h
+  physicalPath: ..\..\packs\PIC32CM5164LS00100_DFP\instance
+  security: NON_SECURE
+  type: HEADER
+  userChecksum: C934DFE0169F3A7BE881E6ED29337168
+- generatedChecksum: C934DFE0169F3A7BE881E6ED29337168
+  logicalPath: packs\PIC32CM5164LS00100_DFP\instance
+  name: tc2.h
+  physicalPath: ..\..\packs\PIC32CM5164LS00100_DFP\instance
+  security: SECURE
+  type: HEADER
+  userChecksum: C934DFE0169F3A7BE881E6ED29337168
+- generatedChecksum: 26228A0CC9DD350A93EDA26866E9BB2F
   logicalPath: packs\PIC32CM5164LS00100_DFP\component
   name: tcc.h
   physicalPath: ..\..\packs\PIC32CM5164LS00100_DFP\component
   security: NON_SECURE
   type: HEADER
-  userChecksum: 746CE91646D1D054EC8CE8946215B074
-- generatedChecksum: 746CE91646D1D054EC8CE8946215B074
+  userChecksum: 26228A0CC9DD350A93EDA26866E9BB2F
+- generatedChecksum: 26228A0CC9DD350A93EDA26866E9BB2F
   logicalPath: packs\PIC32CM5164LS00100_DFP\component
   name: tcc.h
   physicalPath: ..\..\packs\PIC32CM5164LS00100_DFP\component
   security: SECURE
   type: HEADER
-  userChecksum: 746CE91646D1D054EC8CE8946215B074
+  userChecksum: 26228A0CC9DD350A93EDA26866E9BB2F
+- generatedChecksum: AA6475B51964D7944A139A829687C6A0
+  logicalPath: packs\PIC32CM5164LS00100_DFP\instance
+  name: tcc0.h
+  physicalPath: ..\..\packs\PIC32CM5164LS00100_DFP\instance
+  security: NON_SECURE
+  type: HEADER
+  userChecksum: AA6475B51964D7944A139A829687C6A0
+- generatedChecksum: AA6475B51964D7944A139A829687C6A0
+  logicalPath: packs\PIC32CM5164LS00100_DFP\instance
+  name: tcc0.h
+  physicalPath: ..\..\packs\PIC32CM5164LS00100_DFP\instance
+  security: SECURE
+  type: HEADER
+  userChecksum: AA6475B51964D7944A139A829687C6A0
+- generatedChecksum: 1E9C7C0C1C80B21A23A40A9ABF04F202
+  logicalPath: packs\PIC32CM5164LS00100_DFP\instance
+  name: tcc1.h
+  physicalPath: ..\..\packs\PIC32CM5164LS00100_DFP\instance
+  security: NON_SECURE
+  type: HEADER
+  userChecksum: 1E9C7C0C1C80B21A23A40A9ABF04F202
+- generatedChecksum: 1E9C7C0C1C80B21A23A40A9ABF04F202
+  logicalPath: packs\PIC32CM5164LS00100_DFP\instance
+  name: tcc1.h
+  physicalPath: ..\..\packs\PIC32CM5164LS00100_DFP\instance
+  security: SECURE
+  type: HEADER
+  userChecksum: 1E9C7C0C1C80B21A23A40A9ABF04F202
+- generatedChecksum: 1A6F39D915E0EA476F1917CBE5883A3C
+  logicalPath: packs\PIC32CM5164LS00100_DFP\instance
+  name: tcc2.h
+  physicalPath: ..\..\packs\PIC32CM5164LS00100_DFP\instance
+  security: NON_SECURE
+  type: HEADER
+  userChecksum: 1A6F39D915E0EA476F1917CBE5883A3C
+- generatedChecksum: 1A6F39D915E0EA476F1917CBE5883A3C
+  logicalPath: packs\PIC32CM5164LS00100_DFP\instance
+  name: tcc2.h
+  physicalPath: ..\..\packs\PIC32CM5164LS00100_DFP\instance
+  security: SECURE
+  type: HEADER
+  userChecksum: 1A6F39D915E0EA476F1917CBE5883A3C
+- generatedChecksum: 4319B826A064B3B058804F64E8E630F7
+  logicalPath: packs\PIC32CM5164LS00100_DFP\instance
+  name: tcc3.h
+  physicalPath: ..\..\packs\PIC32CM5164LS00100_DFP\instance
+  security: NON_SECURE
+  type: HEADER
+  userChecksum: 4319B826A064B3B058804F64E8E630F7
+- generatedChecksum: 4319B826A064B3B058804F64E8E630F7
+  logicalPath: packs\PIC32CM5164LS00100_DFP\instance
+  name: tcc3.h
+  physicalPath: ..\..\packs\PIC32CM5164LS00100_DFP\instance
+  security: SECURE
+  type: HEADER
+  userChecksum: 4319B826A064B3B058804F64E8E630F7
 - generatedChecksum: 20E829A99B86C2889E4E2E536161C27A
   logicalPath: config\pic32cm_ls00_cpro
   name: toolchain_specifics.h
@@ -895,34 +1413,62 @@ files:
   security: SECURE
   type: HEADER
   userChecksum: 20E829A99B86C2889E4E2E536161C27A
-- generatedChecksum: 2B34F1A38DDC2C56E4CFF8B76ED15986
+- generatedChecksum: 12D2FCBE3B7A70D43B0E2A1E55595729
   logicalPath: packs\PIC32CM5164LS00100_DFP\component
   name: tram.h
   physicalPath: ..\..\packs\PIC32CM5164LS00100_DFP\component
   security: NON_SECURE
   type: HEADER
-  userChecksum: 2B34F1A38DDC2C56E4CFF8B76ED15986
-- generatedChecksum: 2B34F1A38DDC2C56E4CFF8B76ED15986
+  userChecksum: 12D2FCBE3B7A70D43B0E2A1E55595729
+- generatedChecksum: 59E46454850F6AA3B28492EC7BC6241D
+  logicalPath: packs\PIC32CM5164LS00100_DFP\instance
+  name: tram.h
+  physicalPath: ..\..\packs\PIC32CM5164LS00100_DFP\instance
+  security: NON_SECURE
+  type: HEADER
+  userChecksum: 59E46454850F6AA3B28492EC7BC6241D
+- generatedChecksum: 12D2FCBE3B7A70D43B0E2A1E55595729
   logicalPath: packs\PIC32CM5164LS00100_DFP\component
   name: tram.h
   physicalPath: ..\..\packs\PIC32CM5164LS00100_DFP\component
   security: SECURE
   type: HEADER
-  userChecksum: 2B34F1A38DDC2C56E4CFF8B76ED15986
-- generatedChecksum: BFB9AD857C94601AC529E56221FC8108
+  userChecksum: 12D2FCBE3B7A70D43B0E2A1E55595729
+- generatedChecksum: 59E46454850F6AA3B28492EC7BC6241D
+  logicalPath: packs\PIC32CM5164LS00100_DFP\instance
+  name: tram.h
+  physicalPath: ..\..\packs\PIC32CM5164LS00100_DFP\instance
+  security: SECURE
+  type: HEADER
+  userChecksum: 59E46454850F6AA3B28492EC7BC6241D
+- generatedChecksum: 0588AD8128F1B442DAA085105B33197E
   logicalPath: packs\PIC32CM5164LS00100_DFP\component
   name: trng.h
   physicalPath: ..\..\packs\PIC32CM5164LS00100_DFP\component
   security: NON_SECURE
   type: HEADER
-  userChecksum: BFB9AD857C94601AC529E56221FC8108
-- generatedChecksum: BFB9AD857C94601AC529E56221FC8108
+  userChecksum: 0588AD8128F1B442DAA085105B33197E
+- generatedChecksum: 6F2CEF99721EC09B791CCBAAD8F3B692
+  logicalPath: packs\PIC32CM5164LS00100_DFP\instance
+  name: trng.h
+  physicalPath: ..\..\packs\PIC32CM5164LS00100_DFP\instance
+  security: NON_SECURE
+  type: HEADER
+  userChecksum: 6F2CEF99721EC09B791CCBAAD8F3B692
+- generatedChecksum: 0588AD8128F1B442DAA085105B33197E
   logicalPath: packs\PIC32CM5164LS00100_DFP\component
   name: trng.h
   physicalPath: ..\..\packs\PIC32CM5164LS00100_DFP\component
   security: SECURE
   type: HEADER
-  userChecksum: BFB9AD857C94601AC529E56221FC8108
+  userChecksum: 0588AD8128F1B442DAA085105B33197E
+- generatedChecksum: 6F2CEF99721EC09B791CCBAAD8F3B692
+  logicalPath: packs\PIC32CM5164LS00100_DFP\instance
+  name: trng.h
+  physicalPath: ..\..\packs\PIC32CM5164LS00100_DFP\instance
+  security: SECURE
+  type: HEADER
+  userChecksum: 6F2CEF99721EC09B791CCBAAD8F3B692
 - generatedChecksum: 8710F2682DA1C97558850902DABA38BA
   logicalPath: packs\CMSIS\CMSIS\Core\Include
   name: tz_context.h
@@ -937,48 +1483,76 @@ files:
   security: SECURE
   type: HEADER
   userChecksum: 8710F2682DA1C97558850902DABA38BA
-- generatedChecksum: 6A8086E079A08EA09CF3D074209A4E34
+- generatedChecksum: 677966C35009C5E8746926393E9FB4FB
   logicalPath: packs\PIC32CM5164LS00100_DFP\component
   name: usb.h
   physicalPath: ..\..\packs\PIC32CM5164LS00100_DFP\component
   security: NON_SECURE
   type: HEADER
-  userChecksum: 6A8086E079A08EA09CF3D074209A4E34
-- generatedChecksum: 6A8086E079A08EA09CF3D074209A4E34
+  userChecksum: 677966C35009C5E8746926393E9FB4FB
+- generatedChecksum: B82EC2D7B6A08237EBDE9DE5B1E72CE7
+  logicalPath: packs\PIC32CM5164LS00100_DFP\instance
+  name: usb.h
+  physicalPath: ..\..\packs\PIC32CM5164LS00100_DFP\instance
+  security: NON_SECURE
+  type: HEADER
+  userChecksum: B82EC2D7B6A08237EBDE9DE5B1E72CE7
+- generatedChecksum: 677966C35009C5E8746926393E9FB4FB
   logicalPath: packs\PIC32CM5164LS00100_DFP\component
   name: usb.h
   physicalPath: ..\..\packs\PIC32CM5164LS00100_DFP\component
   security: SECURE
   type: HEADER
-  userChecksum: 6A8086E079A08EA09CF3D074209A4E34
-- generatedChecksum: 174A30755D8FD7336C35666F50D0A7D1
+  userChecksum: 677966C35009C5E8746926393E9FB4FB
+- generatedChecksum: B82EC2D7B6A08237EBDE9DE5B1E72CE7
+  logicalPath: packs\PIC32CM5164LS00100_DFP\instance
+  name: usb.h
+  physicalPath: ..\..\packs\PIC32CM5164LS00100_DFP\instance
+  security: SECURE
+  type: HEADER
+  userChecksum: B82EC2D7B6A08237EBDE9DE5B1E72CE7
+- generatedChecksum: 837EDAB6AAA9128AE9F9ED2A2B16CF9A
   logicalPath: packs\PIC32CM5164LS00100_DFP\component
   name: wdt.h
   physicalPath: ..\..\packs\PIC32CM5164LS00100_DFP\component
   security: NON_SECURE
   type: HEADER
-  userChecksum: 174A30755D8FD7336C35666F50D0A7D1
-- generatedChecksum: 174A30755D8FD7336C35666F50D0A7D1
+  userChecksum: 837EDAB6AAA9128AE9F9ED2A2B16CF9A
+- generatedChecksum: 73C8068CEB4ED4FC90E349F29F78C9A7
+  logicalPath: packs\PIC32CM5164LS00100_DFP\instance
+  name: wdt.h
+  physicalPath: ..\..\packs\PIC32CM5164LS00100_DFP\instance
+  security: NON_SECURE
+  type: HEADER
+  userChecksum: 73C8068CEB4ED4FC90E349F29F78C9A7
+- generatedChecksum: 837EDAB6AAA9128AE9F9ED2A2B16CF9A
   logicalPath: packs\PIC32CM5164LS00100_DFP\component
   name: wdt.h
   physicalPath: ..\..\packs\PIC32CM5164LS00100_DFP\component
   security: SECURE
   type: HEADER
-  userChecksum: 174A30755D8FD7336C35666F50D0A7D1
-- generatedChecksum: A8377657FEE970CD7D41F49FBED27153
+  userChecksum: 837EDAB6AAA9128AE9F9ED2A2B16CF9A
+- generatedChecksum: 73C8068CEB4ED4FC90E349F29F78C9A7
+  logicalPath: packs\PIC32CM5164LS00100_DFP\instance
+  name: wdt.h
+  physicalPath: ..\..\packs\PIC32CM5164LS00100_DFP\instance
+  security: SECURE
+  type: HEADER
+  userChecksum: 73C8068CEB4ED4FC90E349F29F78C9A7
+- generatedChecksum: 7F6CC594ADFF0FEDFBD57A0ED683BE58
   logicalPath: config\pic32cm_ls00_cpro
   name: PIC32CM5164LS00100.ld
   physicalPath: ''
   security: NON_SECURE
   type: LINKER
-  userChecksum: A8377657FEE970CD7D41F49FBED27153
-- generatedChecksum: A8377657FEE970CD7D41F49FBED27153
+  userChecksum: 7F6CC594ADFF0FEDFBD57A0ED683BE58
+- generatedChecksum: 7F6CC594ADFF0FEDFBD57A0ED683BE58
   logicalPath: config\pic32cm_ls00_cpro
   name: PIC32CM5164LS00100.ld
   physicalPath: ''
   security: SECURE
   type: LINKER
-  userChecksum: A8377657FEE970CD7D41F49FBED27153
+  userChecksum: 7F6CC594ADFF0FEDFBD57A0ED683BE58
 format_version: v1.0
 libraries: []
 settings:

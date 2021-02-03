@@ -76,16 +76,10 @@ void __attribute__((optimize("-O1"),section(".text.Dummy_Handler"),long_call, no
     }
 }
 /* Device vectors list dummy definition*/
-void Reset_Handler              ( void ) __attribute__((weak, alias("Dummy_Handler")));
-void NonMaskableInt_Handler     ( void ) __attribute__((weak, alias("Dummy_Handler")));
-void HardFault_Handler          ( void ) __attribute__((weak, alias("Dummy_Handler")));
-void SVCall_Handler             ( void ) __attribute__((weak, alias("Dummy_Handler")));
-void PendSV_Handler             ( void ) __attribute__((weak, alias("Dummy_Handler")));
-void SysTick_Handler            ( void ) __attribute__((weak, alias("Dummy_Handler")));
-void RTC_InterruptHandler       ( void ) __attribute__((weak, alias("Dummy_Handler")));
-void EIC_EXTINT_2_InterruptHandler ( void ) __attribute__((weak, alias("Dummy_Handler")));
-void EIC_EXTINT_4_InterruptHandler ( void ) __attribute__((weak, alias("Dummy_Handler")));
-void EVSYS_0_Handler            ( void ) __attribute__((weak, alias("Dummy_Handler")));
+extern void SVCall_Handler             ( void ) __attribute__((weak, alias("Dummy_Handler")));
+extern void PendSV_Handler             ( void ) __attribute__((weak, alias("Dummy_Handler")));
+extern void SysTick_Handler            ( void ) __attribute__((weak, alias("Dummy_Handler")));
+extern void EVSYS_0_Handler            ( void ) __attribute__((weak, alias("Dummy_Handler")));
 
 
 
@@ -99,16 +93,16 @@ const H3DeviceVectors exception_table=
     /* Configure Initial Stack Pointer, using linker-generated symbols */
     .pvStack = &_stack,
 
-    .pfnReset_Handler              = ( void * ) Reset_Handler,
-    .pfnNonMaskableInt_Handler     = ( void * ) NonMaskableInt_Handler,
-    .pfnHardFault_Handler          = ( void * ) HardFault_Handler,
-    .pfnSVCall_Handler             = ( void * ) SVCall_Handler,
-    .pfnPendSV_Handler             = ( void * ) PendSV_Handler,
-    .pfnSysTick_Handler            = ( void * ) SysTick_Handler,
-    .pfnRTC_Handler                = ( void * ) RTC_InterruptHandler,
-    .pfnEIC_EXTINT_2_Handler       = ( void * ) EIC_EXTINT_2_InterruptHandler,
-    .pfnEIC_EXTINT_4_Handler       = ( void * ) EIC_EXTINT_4_InterruptHandler,
-    .pfnEVSYS_0_Handler            = ( void * ) EVSYS_0_Handler,
+    .pfnReset_Handler              = Reset_Handler,
+    .pfnNonMaskableInt_Handler     = NonMaskableInt_Handler,
+    .pfnHardFault_Handler          = HardFault_Handler,
+    .pfnSVCall_Handler             = SVCall_Handler,
+    .pfnPendSV_Handler             = PendSV_Handler,
+    .pfnSysTick_Handler            = SysTick_Handler,
+    .pfnRTC_Handler                = RTC_InterruptHandler,
+    .pfnEIC_EXTINT_2_Handler       = EIC_EXTINT_2_InterruptHandler,
+    .pfnEIC_EXTINT_4_Handler       = EIC_EXTINT_4_InterruptHandler,
+    .pfnEVSYS_0_Handler            = EVSYS_0_Handler,
 
 
 };
