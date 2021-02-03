@@ -119,11 +119,11 @@ int main ( void )
             case IDLE_SLEEP_MODE:
             {
                 printf("\n\rEntering IDLE SLEEP Mode");
-                printf("\n\rPress SW1 to wakeup the device"); 
+                printf("\n\rPress SW0 to wakeup the device"); 
                 SYSTICK_TimerStop();
                 LED_OFF();
                 PM_IdleModeEnter();
-                printf("\n\rSW1 Pressed exiting Sleep mode......");
+                printf("\n\rSW0 Pressed exiting Sleep mode......");
                 SYSTICK_TimerStart();
                 display_menu();
                 break;
@@ -131,11 +131,11 @@ int main ( void )
             case STANDBY_SLEEP_MODE:
             {
                 printf("\n\rEntering STANDBY SLEEP Mode");
-                printf("\n\rPress SW1 to wakeup the device");   
+                printf("\n\rPress SW0 to wakeup the device");   
                 SYSTICK_TimerStop();
                 LED_OFF();
                 PM_StandbyModeEnter();
-                printf("\n\rSW1 Pressed exiting Standby mode......");
+                printf("\n\rSW0 Pressed exiting Standby mode......");
                 SYSTICK_TimerStart();
                 display_menu();
                 break;
