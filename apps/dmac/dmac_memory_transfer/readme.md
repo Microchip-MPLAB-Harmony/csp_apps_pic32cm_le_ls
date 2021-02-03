@@ -58,7 +58,7 @@ The following table shows the target hardware for the application projects.
 
     | Board Name | LED Name |
     |------------| -------- |
-    | [PIC32CM LE00 Curiosity Pro Evaluation Kit]() | LED1 |
+    | [PIC32CM LE00 Curiosity Pro Evaluation Kit]() | LED0 |
 
 5. Observe output message in console as follows:
 
