@@ -32,7 +32,7 @@ var myVariable = `
   },"5": {
     "doc": "ADC DMA sleepwalking",
     "title": "Running the Application",
-    "content": ". | Open the Terminal application (Ex.:Tera term) on the computer | Connect to the EDBG Virtual COM port and configure the serial settings as follows: . | Baud : 115200 | Data : 8 Bits | Parity : None | Stop : 1 Bit | Flow Control : None | . | Build and Program the application using its IDE | Vary the on-board potentiometer to change the ADC input voltage | CPU wakes up after every 16 transfers of ADC result and updates the console as shown below: . | Failure is indicated by turning ON the user LED (i.e. application failed if the LED is turned ON) | . Refer to the table below for details of LED: . | Board | LED name | . | PIC32CM LE00 Curiosity Pro Evaluation Kit | LED1 | . |   |   | . ",
+    "content": ". | Open the Terminal application (Ex.:Tera term) on the computer | Connect to the EDBG Virtual COM port and configure the serial settings as follows: . | Baud : 115200 | Data : 8 Bits | Parity : None | Stop : 1 Bit | Flow Control : None | . | Build and Program the application using its IDE | Vary the on-board potentiometer to change the ADC input voltage | CPU wakes up after every 16 transfers of ADC result and updates the console as shown below: . | Failure is indicated by turning ON the user LED (i.e. application failed if the LED is turned ON) | . Refer to the table below for details of LED: . | Board | LED name | . | PIC32CM LE00 Curiosity Pro Evaluation Kit | LED0 | . |   |   | . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/adc/adc_dmac_sleepwalking/readme.html#running-the-application",
     "relUrl": "/apps/adc/adc_dmac_sleepwalking/readme.html#running-the-application"
   },"6": {
@@ -68,7 +68,7 @@ var myVariable = `
   },"11": {
     "doc": "ADC Sample",
     "title": "Running the Application",
-    "content": ". | Open the Terminal application (Ex.:Tera term) on the computer | Connect to the EDBG Virtual COM port and configure the serial settings as follows: . | Baud : 115200 | Data : 8 Bits | Parity : None | Stop : 1 Bit | Flow Control : None | . | Build and Program the application using its IDE | Press switch to change the DAC value | ADC input voltage changes by 0.1 V when the switch is pressed, from 0.0 V to 3.3 V | Refer to the table below for the switch details: . | Board | Switch name | . | PIC32CM LE00 Curiosity Pro Evaluation Kit | SW1 | . |   |   | . | Console displays the ADC count and the ADC input voltage in the console as shown below: . | . ",
+    "content": ". | Open the Terminal application (Ex.:Tera term) on the computer | Connect to the EDBG Virtual COM port and configure the serial settings as follows: . | Baud : 115200 | Data : 8 Bits | Parity : None | Stop : 1 Bit | Flow Control : None | . | Build and Program the application using its IDE | Press switch to change the DAC value | ADC input voltage changes by 0.1 V when the switch is pressed, from 0.0 V to 3.3 V | Refer to the table below for the switch details: . | Board | Switch name | . | PIC32CM LE00 Curiosity Pro Evaluation Kit | SW0 | . |   |   | . | Console displays the ADC count and the ADC input voltage in the console as shown below: . | . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/adc/adc_sample/readme.html#running-the-application",
     "relUrl": "/apps/adc/adc_sample/readme.html#running-the-application"
   },"12": {
@@ -176,7 +176,7 @@ var myVariable = `
   },"29": {
     "doc": "Clock configuration",
     "title": "Running the Application",
-    "content": ". | Build and Program the application using its IDE | Observe a clock of 4 MHz on the clock output pin . | LED should be blinking continuosly | . Refer to the following table for clock output pin and LED name for different boards: . | Board | Clock output pin | LED Name | . | PIC32CM LE00 Curiosity Pro Evaluation Kit | PA15 (Pin #10 on the EXT3 header) | LED1 | . |   |   |   | . ",
+    "content": ". | Build and Program the application using its IDE | Observe a clock of 4 MHz on the clock output pin . | LED should be blinking continuosly | . Refer to the following table for clock output pin and LED name for different boards: . | Board | Clock output pin | LED Name | . | PIC32CM LE00 Curiosity Pro Evaluation Kit | PA15 (Pin #10 on the EXT3 header) | LED0 | . |   |   |   | . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/clock/clock_config/readme.html#running-the-application",
     "relUrl": "/apps/clock/clock_config/readme.html#running-the-application"
   },"30": {
@@ -212,7 +212,7 @@ var myVariable = `
   },"35": {
     "doc": "DAC waveform generation",
     "title": "Running the Application",
-    "content": ". | Build and Program the application using its IDE | Observe a sine wave of 1 KHz frequency on DAC output pins | Press switch to toggle the waveform shape from sine wave to sawtooth wave and back | Refer to the below table for dac output pin and switch details: | . | Board | DAC output pins | Switch Name | . | PIC32CM LE00 Curiosity Pro Evaluation Kit | pin 3 of EXT1 header | SW1 | . |   |   |   | . ",
+    "content": ". | Build and Program the application using its IDE | Observe a sine wave of 1 KHz frequency on DAC output pins | Press switch to toggle the waveform shape from sine wave to sawtooth wave and back | Refer to the below table for dac output pin and switch details: | . | Board | DAC output pins | Switch Name | . | PIC32CM LE00 Curiosity Pro Evaluation Kit | pin 3 of EXT1 header | SW0 | . |   |   |   | . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/dac/dac_wav_gen/readme.html#running-the-application",
     "relUrl": "/apps/dac/dac_wav_gen/readme.html#running-the-application"
   },"36": {
@@ -284,7 +284,7 @@ var myVariable = `
   },"47": {
     "doc": "DMAC memory transfer",
     "title": "Running the Application",
-    "content": ". | Open the Terminal application (Ex.:Tera term) on the computer | Connect to the EDBG Virtual COM port and configure the serial settings as follows: . | Baud : 115200 | Data : 8 Bits | Parity : None | Stop : 1 Bit | Flow Control : None | . | Build and Program the application using its IDE | LED indicates the success or failure: . | LED is turned ON when the DMAC memory transfer is successful. | Following table provides the LED name | . | Board Name | LED Name | . | PIC32CM LE00 Curiosity Pro Evaluation Kit | LED1 | . | Observe output message in console as follows: . NOTE: The number of transfer cycles may vary . | . ",
+    "content": ". | Open the Terminal application (Ex.:Tera term) on the computer | Connect to the EDBG Virtual COM port and configure the serial settings as follows: . | Baud : 115200 | Data : 8 Bits | Parity : None | Stop : 1 Bit | Flow Control : None | . | Build and Program the application using its IDE | LED indicates the success or failure: . | LED is turned ON when the DMAC memory transfer is successful. | Following table provides the LED name | . | Board Name | LED Name | . | PIC32CM LE00 Curiosity Pro Evaluation Kit | LED0 | . | Observe output message in console as follows: . NOTE: The number of transfer cycles may vary . | . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/dmac/dmac_memory_transfer/readme.html#running-the-application",
     "relUrl": "/apps/dmac/dmac_memory_transfer/readme.html#running-the-application"
   },"48": {
@@ -320,7 +320,7 @@ var myVariable = `
   },"53": {
     "doc": "DMAC USART echo",
     "title": "Running the Application",
-    "content": ". | Open the Terminal application (Ex.:Tera term) on the computer | Connect to the EDBG Virtual COM port and configure the serial settings as follows: . | Baud : 115200 | Data : 8 Bits | Parity : None | Stop : 1 Bit | Flow Control : None | . | Build and Program the application using its IDE | Type 10 characters in the console | Entered 10 characters will be echoed back and the LED is toggled | The console displays the following message . | The following table provides the LED names | . | Board | LED Name | . | PIC32CM LE00 Curiosity Pro Evaluation Kit | LED1 | . |   |   | . ",
+    "content": ". | Open the Terminal application (Ex.:Tera term) on the computer | Connect to the EDBG Virtual COM port and configure the serial settings as follows: . | Baud : 115200 | Data : 8 Bits | Parity : None | Stop : 1 Bit | Flow Control : None | . | Build and Program the application using its IDE | Type 10 characters in the console | Entered 10 characters will be echoed back and the LED is toggled | The console displays the following message . | The following table provides the LED names | . | Board | LED Name | . | PIC32CM LE00 Curiosity Pro Evaluation Kit | LED0 | . |   |   | . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/dmac/dmac_usart_echo/readme.html#running-the-application",
     "relUrl": "/apps/dmac/dmac_usart_echo/readme.html#running-the-application"
   },"54": {
@@ -356,7 +356,7 @@ var myVariable = `
   },"59": {
     "doc": "DSU compute CRC32",
     "title": "Running the Application",
-    "content": ". | Build and Program the application using its IDE | The LED indicates the success or failure: . | LED is turned ON when the hardware CRC value matched with the software calculated CRC value | LED is turned OFF when the hardware CRC value did not match with the software calculated CRC value | . | . The following table provides the LED name . | Board | LED Name | . | PIC32CM LE00 Curiosity Pro Evaluation Kit | LED1 | . |   |   | . ",
+    "content": ". | Build and Program the application using its IDE | The LED indicates the success or failure: . | LED is turned ON when the hardware CRC value matched with the software calculated CRC value | LED is turned OFF when the hardware CRC value did not match with the software calculated CRC value | . | . The following table provides the LED name . | Board | LED Name | . | PIC32CM LE00 Curiosity Pro Evaluation Kit | LED0 | . |   |   | . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/dsu/dsu_crc32_generate/readme.html#running-the-application",
     "relUrl": "/apps/dsu/dsu_crc32_generate/readme.html#running-the-application"
   },"60": {
@@ -392,7 +392,7 @@ var myVariable = `
   },"65": {
     "doc": "EIC Interrupt",
     "title": "Running the Application",
-    "content": ". | Build and Program the application using its IDE | LED toggles on every switch release | . Following table provides the LED name: . | Board | Switch Name | LED Name | . | PIC32CM LE00 Curiosity Pro Evaluation Kit | SW1 | LED1 | . |   |   |   | . ",
+    "content": ". | Build and Program the application using its IDE | LED toggles on every switch release | . Following table provides the LED name: . | Board | Switch Name | LED Name | . | PIC32CM LE00 Curiosity Pro Evaluation Kit | SW0 | LED0 | . |   |   |   | . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/eic/eic_led_on_off/readme.html#running-the-application",
     "relUrl": "/apps/eic/eic_led_on_off/readme.html#running-the-application"
   },"66": {
@@ -428,7 +428,7 @@ var myVariable = `
   },"71": {
     "doc": "EVSYS trigger",
     "title": "Running the Application",
-    "content": ". | Build and Program the application using its IDE | LED toggles on every switch press | . Following table provides the LED and switch names: . | Board | Switch Name | LED Name | . | PIC32CM LE00 Curiosity Pro Evaluation Kit | SW1 | LED1 | . |   |   |   | . ",
+    "content": ". | Build and Program the application using its IDE | LED toggles on every switch release | . Following table provides the LED and switch names: . | Board | Switch Name | LED Name | . | PIC32CM LE00 Curiosity Pro Evaluation Kit | SW0 | LED0 | . |   |   |   | . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/evsys/evsys_trigger/readme.html#running-the-application",
     "relUrl": "/apps/evsys/evsys_trigger/readme.html#running-the-application"
   },"72": {
@@ -500,7 +500,7 @@ var myVariable = `
   },"83": {
     "doc": "NVMCTRL data flash",
     "title": "Running the Application",
-    "content": ". | Open the Terminal application (Ex.:Tera term) on the computer | Connect to the EDBG Virtual COM port and configure the serial settings as follows: . | Baud : 115200 | Data : 8 Bits | Parity : None | Stop : 1 Bit | Flow Control : None | . | Build and Program the application using its IDE | The LED blinks continuously on success . The following table provides the LED name. | Board Name | LED Name | . | PIC32CM LE00 Curiosity Pro Evaluation Kit | LED1 | . | Observe output message in console as follows: . NOTE: Value of Flag incremented while erase is happening from data flash area may vary . | . ",
+    "content": ". | Open the Terminal application (Ex.:Tera term) on the computer | Connect to the EDBG Virtual COM port and configure the serial settings as follows: . | Baud : 115200 | Data : 8 Bits | Parity : None | Stop : 1 Bit | Flow Control : None | . | Build and Program the application using its IDE | The LED blinks continuously on success . The following table provides the LED name. | Board Name | LED Name | . | PIC32CM LE00 Curiosity Pro Evaluation Kit | LED0 | . | Observe output message in console as follows: . NOTE: Value of Flag incremented while erase is happening from data flash area may vary . | . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/nvmctrl/nvmctrl_data_flash/readme.html#running-the-application",
     "relUrl": "/apps/nvmctrl/nvmctrl_data_flash/readme.html#running-the-application"
   },"84": {
@@ -536,7 +536,7 @@ var myVariable = `
   },"89": {
     "doc": "NVMCTRL read write",
     "title": "Running the Application",
-    "content": ". | Build and Program the application using its IDE | The LED indicates the success or failure: . | LED is turned ON when the value read from the flash memory matched with the written value | LED is turned OFF when the value read from the flash memory did not match with the written value | . | The following table provides the LED name: | . | Board | LED Name | . | PIC32CM LE00 Curiosity Pro Evaluation Kit | LED1 | . |   |   | . ",
+    "content": ". | Build and Program the application using its IDE | The LED indicates the success or failure: . | LED is turned ON when the value read from the flash memory matched with the written value | LED is turned OFF when the value read from the flash memory did not match with the written value | . | The following table provides the LED name: | . | Board | LED Name | . | PIC32CM LE00 Curiosity Pro Evaluation Kit | LED0 | . |   |   | . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/nvmctrl/nvmctrl_flash_read_write/readme.html#running-the-application",
     "relUrl": "/apps/nvmctrl/nvmctrl_flash_read_write/readme.html#running-the-application"
   },"90": {
@@ -608,7 +608,7 @@ var myVariable = `
   },"101": {
     "doc": "PM wakeup using EIC",
     "title": "Running the Application",
-    "content": ". | Open the Terminal application (Ex.:Tera term) on the computer | Connect to the EDBG Virtual COM port and configure the serial settings as follows: . | Baud : 115200 | Data : 8 Bits | Parity : None | Stop : 1 Bit | Flow Control : None | . | Build and Program the application using its IDE | LED is blinked continuously using the SysTick Timer | The console displays the following message . | Select ‘a’ or ‘b’ or ‘c’ to enter the low power mode (The LED is turned off when the device enters low power mode) | Press the switch SW1 if ‘a’ or ‘b’ selected or press the switch RESET if ‘c’ selected to exit the low power mode | LED will start blinking and the console displays the following message: . | . The following table provides the detail of switch and LED . | Board | Switch Name | LED Name | . | PIC32CM LE00 Curiosity Pro Evaluation Kit | SW1 and RESET | LED1 | . |   |   |   | . ",
+    "content": ". | Open the Terminal application (Ex.:Tera term) on the computer | Connect to the EDBG Virtual COM port and configure the serial settings as follows: . | Baud : 115200 | Data : 8 Bits | Parity : None | Stop : 1 Bit | Flow Control : None | . | Build and Program the application using its IDE | LED is blinked continuously using the SysTick Timer | The console displays the following message . | Select ‘a’ or ‘b’ or ‘c’ to enter the low power mode (The LED is turned off when the device enters low power mode) | Press the switch SW0 if ‘a’ or ‘b’ selected or press the switch RESET if ‘c’ selected to exit the low power mode | LED will start blinking and the console displays the following message: . | . The following table provides the detail of switch and LED . | Board | Switch Name | LED Name | . | PIC32CM LE00 Curiosity Pro Evaluation Kit | SW0 and RESET | LED0 | . |   |   |   | . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/pm/pm_wakeup_eic/readme.html#running-the-application",
     "relUrl": "/apps/pm/pm_wakeup_eic/readme.html#running-the-application"
   },"102": {
@@ -644,7 +644,7 @@ var myVariable = `
   },"107": {
     "doc": "PM wakeup using RTC",
     "title": "Running the Application",
-    "content": ". | Open the Terminal application (Ex.:Tera term) on the computer | Connect to the EDBG Virtual COM port and configure the serial settings as follows: . | Baud : 115200 | Data : 8 Bits | Parity : None | Stop : 1 Bit | Flow Control : None | . | Build and Program the application using its IDE | LED is blinked continuously using the SysTick Timer | The console displays the following message . | Select ‘a’ or ‘b’ or ‘c’ to enter the low power mode (LED is turned off when the device enters low power mode) | When the device wakes up on RTC compare match interrupt if ‘a’ or ‘b’ selected or press the switch RESET if ‘c’ selected to wakeup the device | LED will start blinking and the console displays the following message . | . The following table provides the details of LED . | Board | Switch Name | LED Name | . | PIC32CM LE00 Curiosity Pro Evaluation Kit | RESET | LED1 | . |   |   |   | . ",
+    "content": ". | Open the Terminal application (Ex.:Tera term) on the computer | Connect to the EDBG Virtual COM port and configure the serial settings as follows: . | Baud : 115200 | Data : 8 Bits | Parity : None | Stop : 1 Bit | Flow Control : None | . | Build and Program the application using its IDE | LED is blinked continuously using the SysTick Timer | The console displays the following message . | Select ‘a’ or ‘b’ or ‘c’ to enter the low power mode (LED is turned off when the device enters low power mode) | When the device wakes up on RTC compare match interrupt if ‘a’ or ‘b’ selected or press the switch RESET if ‘c’ selected to wakeup the device | LED will start blinking and the console displays the following message . | . The following table provides the details of LED . | Board | Switch Name | LED Name | . | PIC32CM LE00 Curiosity Pro Evaluation Kit | RESET | LED0 | . |   |   |   | . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/pm/pm_wakeup_rtc/readme.html#running-the-application",
     "relUrl": "/apps/pm/pm_wakeup_rtc/readme.html#running-the-application"
   },"108": {
@@ -680,7 +680,7 @@ var myVariable = `
   },"113": {
     "doc": "PORT polling",
     "title": "Running the Application",
-    "content": ". | Build and Program the application using its IDE | LED is turned on when the switch is pressed and turned off when the switch is released. | . Refer the table below for details of switch and LED . | Board | Switch Name | LED Name | . | PIC32CM LE00 Curiosity Pro Evaluation Kit | SW1 | LED1 | . |   |   |   | . ",
+    "content": ". | Build and Program the application using its IDE | LED is turned on when the switch is pressed and turned off when the switch is released. | . Refer the table below for details of switch and LED . | Board | Switch Name | LED Name | . | PIC32CM LE00 Curiosity Pro Evaluation Kit | SW0 | LED0 | . |   |   |   | . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/port/port_led_on_off_polling/readme.html#running-the-application",
     "relUrl": "/apps/port/port_led_on_off_polling/readme.html#running-the-application"
   },"114": {
@@ -716,7 +716,7 @@ var myVariable = `
   },"119": {
     "doc": "RSTC reset cause",
     "title": "Running the Application",
-    "content": ". | Open the Terminal application (Ex.:Tera term) on the computer | Connect to the EDBG Virtual COM port and configure the serial settings as follows: . | Baud : 115200 | Data : 8 Bits | Parity : None | Stop : 1 Bit | Flow Control : None | . | Build and Program the application using its IDE | LED is blinked continuously using the SysTick Timer | Console displays the following message . | Watchdog timer is fed periodically using System Timer (SysTick) to prevent the WDT reset and the LED is toggled | Press the switch to put the system in deadlock (LED should stop blinking) | WDT will reset the device in four seconds and the demonstration should restart | Console should display the following message . | . Following table provides the details of switch and LED . | Board | Switch Name | LED Name | . | PIC32CM LE00 Curiosity Pro Evaluation Kit | SW1 | LED1 | . |   |   |   | . ",
+    "content": ". | Open the Terminal application (Ex.:Tera term) on the computer | Connect to the EDBG Virtual COM port and configure the serial settings as follows: . | Baud : 115200 | Data : 8 Bits | Parity : None | Stop : 1 Bit | Flow Control : None | . | Build and Program the application using its IDE | LED is blinked continuously using the SysTick Timer | Console displays the following message . | Watchdog timer is fed periodically using System Timer (SysTick) to prevent the WDT reset and the LED is toggled | Press the switch to put the system in deadlock (LED should stop blinking) | WDT will reset the device in four seconds and the demonstration should restart | Console should display the following message . | . Following table provides the details of switch and LED . | Board | Switch Name | LED Name | . | PIC32CM LE00 Curiosity Pro Evaluation Kit | SW0 | LED0 | . |   |   |   | . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/rstc/rstc_reset_cause/readme.html#running-the-application",
     "relUrl": "/apps/rstc/rstc_reset_cause/readme.html#running-the-application"
   },"120": {
@@ -752,7 +752,7 @@ var myVariable = `
   },"125": {
     "doc": "RTC alarm interrupt",
     "title": "Running the Application",
-    "content": ". | Open the Terminal application (Ex.:Tera term) on the computer | Connect to the EDBG Virtual COM port and configure the serial settings as follows: . | Baud : 115200 | Data : 8 Bits | Parity : None | Stop : 1 Bit | Flow Control : None | . | Build and Program the application project using its IDE | The console displays the current time and the alarm time (System time starts at 12:00:00 and gets updated every second) . | Once the alarm time is reached, it print the alarm message and turns on the LED (System time keeps updating) . | . Following table provides the LED name: . | Board | LED Name | . | PIC32CM LE00 Curiosity Pro Evaluation Kit | LED1 | . |   |   | . ",
+    "content": ". | Open the Terminal application (Ex.:Tera term) on the computer | Connect to the EDBG Virtual COM port and configure the serial settings as follows: . | Baud : 115200 | Data : 8 Bits | Parity : None | Stop : 1 Bit | Flow Control : None | . | Build and Program the application project using its IDE | The console displays the current time and the alarm time (System time starts at 12:00:00 and gets updated every second) . | Once the alarm time is reached, it print the alarm message and turns on the LED (System time keeps updating) . | . Following table provides the LED name: . | Board | LED Name | . | PIC32CM LE00 Curiosity Pro Evaluation Kit | LED0 | . |   |   | . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/rtc/rtc_alarm/readme.html#running-the-application",
     "relUrl": "/apps/rtc/rtc_alarm/readme.html#running-the-application"
   },"126": {
@@ -788,7 +788,7 @@ var myVariable = `
   },"131": {
     "doc": "RTC periodic interrupt",
     "title": "Running the Application",
-    "content": ". | Build and Program the application using its IDE | The LED blinks continuously | . Following table provides the LED name: . | Board | LED Name | . | PIC32CM LE00 Curiosity Pro Evaluation Kit | LED1 | . |   |   | . ",
+    "content": ". | Build and Program the application using its IDE | The LED blinks continuously | . Following table provides the LED name: . | Board | LED Name | . | PIC32CM LE00 Curiosity Pro Evaluation Kit | LED0 | . |   |   | . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/rtc/rtc_periodic_timeout/readme.html#running-the-application",
     "relUrl": "/apps/rtc/rtc_periodic_timeout/readme.html#running-the-application"
   },"132": {
@@ -824,7 +824,7 @@ var myVariable = `
   },"137": {
     "doc": "RTC tamper detect",
     "title": "Running the Application",
-    "content": ". | Open the Terminal application (Ex.:Tera term) on the computer | Connect to the EDBG Virtual COM port and configure the serial settings as follows: . | Baud : 115200 | Data : 8 Bits | Parity : None | Stop : 1 Bit | Flow Control : None | . | Build and Program the application project using its IDE | System time is displayed in terminal session as RTC is configured in calendar mode. NOTE: System time value shown in the screen capture are for illustration purpose only. it will be updated every second while running the application. | To generate a tamper event, make the connection as follows: . | Board | Pad | Connection details | . | PIC32CM LE00 Curiosity Pro Evaluation Kit | PA08 | EXT 3, Pin 3 to Vcc and remove the connection to generate falling edge on RTC_IN0 (tamper event) | . |   |   |   | . NOTE: Using wires/jumpers may cause multiple detection because of connectivity glitch while shorting . | Upon detection of the tamper event, LED will be toggled and the console output will be updated as follows: . | . Following table provides the LED name: . | Board | LED Name | . | PIC32CM LE00 Curiosity Pro Evaluation Kit | LED1 | . |   |   | . ",
+    "content": ". | Open the Terminal application (Ex.:Tera term) on the computer | Connect to the EDBG Virtual COM port and configure the serial settings as follows: . | Baud : 115200 | Data : 8 Bits | Parity : None | Stop : 1 Bit | Flow Control : None | . | Build and Program the application project using its IDE | System time is displayed in terminal session as RTC is configured in calendar mode. NOTE: System time value shown in the screen capture are for illustration purpose only. it will be updated every second while running the application. | To generate a tamper event, make the connection as follows: . | Board | Pad | Connection details | . | PIC32CM LE00 Curiosity Pro Evaluation Kit | PA08 | EXT 3, Pin 3 to Vcc and remove the connection to generate falling edge on RTC_IN0 (tamper event) | . |   |   |   | . NOTE: Using wires/jumpers may cause multiple detection because of connectivity glitch while shorting . | Upon detection of the tamper event, LED will be toggled and the console output will be updated as follows: . | . Following table provides the LED name: . | Board | LED Name | . | PIC32CM LE00 Curiosity Pro Evaluation Kit | LED0 | . |   |   | . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/rtc/rtc_tamper_detect/readme.html#running-the-application",
     "relUrl": "/apps/rtc/rtc_tamper_detect/readme.html#running-the-application"
   },"138": {
@@ -860,7 +860,7 @@ var myVariable = `
   },"143": {
     "doc": "SERCOM I2C EEPROM read write",
     "title": "Running the Application",
-    "content": ". | Build and Program the application using its IDE | LED indicates success or failure: . | The LED is turned ON when the value read from the EEPROM matched with the written value | The LED is turned OFF when the value read from the EEPROM did not match with the written value | . | . The following table provides the LED name: . | Board | LED Name | . | PIC32CM LE00 Curiosity Pro Evaluation Kit | LED1 | . |   |   | . ",
+    "content": ". | Build and Program the application using its IDE | LED indicates success or failure: . | The LED is turned ON when the value read from the EEPROM matched with the written value | The LED is turned OFF when the value read from the EEPROM did not match with the written value | . | . The following table provides the LED name: . | Board | LED Name | . | PIC32CM LE00 Curiosity Pro Evaluation Kit | LED0 | . |   |   | . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/sercom/i2c/master/i2c_eeprom/readme.html#running-the-application",
     "relUrl": "/apps/sercom/i2c/master/i2c_eeprom/readme.html#running-the-application"
   },"144": {
@@ -932,7 +932,7 @@ var myVariable = `
   },"155": {
     "doc": "SERCOM SPI EEPROM read write",
     "title": "Running the Application",
-    "content": ". | Build and Program the application project using its IDE | LED indicates the success or failure: . | LED is turned ON when the value read from the EEPROM matched with the written value | LED is turned OFF when the value read from the EEPROM did not match with the written value | . | . Following table provides the LED name: . | Board | LED Name | . | PIC32CM LE00 Curiosity Pro Evaluation Kit | LED1 | . |   |   | . ",
+    "content": ". | Build and Program the application project using its IDE | LED indicates the success or failure: . | LED is turned ON when the value read from the EEPROM matched with the written value | LED is turned OFF when the value read from the EEPROM did not match with the written value | . | . Following table provides the LED name: . | Board | LED Name | . | PIC32CM LE00 Curiosity Pro Evaluation Kit | LED0 | . |   |   | . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/sercom/spi/spi_eeprom_write_read/readme.html#running-the-application",
     "relUrl": "/apps/sercom/spi/spi_eeprom_write_read/readme.html#running-the-application"
   },"156": {
@@ -968,7 +968,7 @@ var myVariable = `
   },"161": {
     "doc": "SERCOM SPI ping pong with DMA",
     "title": "Running the Application",
-    "content": ". | Build and Program the application project using its IDE | LED indicates the success or failure: . | The LED is turned ON when the value received matched with the transmitted value | The LED is turned OFF when the value received did not match with the transmitted value | . | . Following table provides the LED name: . | Board | LED Name | . | PIC32CM LE00 Curiosity Pro Evaluation Kit | LED1 | . |   |   | . ",
+    "content": ". | Build and Program the application project using its IDE | LED indicates the success or failure: . | The LED is turned ON when the value received matched with the transmitted value | The LED is turned OFF when the value received did not match with the transmitted value | . | . Following table provides the LED name: . | Board | LED Name | . | PIC32CM LE00 Curiosity Pro Evaluation Kit | LED0 | . |   |   | . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/sercom/spi/spi_ping_pong_with_dma/readme.html#running-the-application",
     "relUrl": "/apps/sercom/spi/spi_ping_pong_with_dma/readme.html#running-the-application"
   },"162": {
@@ -1004,7 +1004,7 @@ var myVariable = `
   },"167": {
     "doc": "SERCOM USART blocking",
     "title": "Running the Application",
-    "content": ". | Open the Terminal application (Ex.:Tera term) on the computer | Connect to the EDBG Virtual COM port and configure the serial settings as follows: . | Baud : 115200 | Data : 8 Bits | Parity : None | Stop : 1 Bit | Flow Control : None | . | Build and Program the application using its IDE | The console displays the following message . | Type a line of characters and press the Enter key (NOTE: Number of characters entered before pressing enter key must be less than 256)) | Entered line will be echoed back and the LED is toggled | The following table provides the LED names | . | Board | LED Name | . | PIC32CM LE00 Curiosity Pro Evaluation Kit | LED1 | . |   |   | . ",
+    "content": ". | Open the Terminal application (Ex.:Tera term) on the computer | Connect to the EDBG Virtual COM port and configure the serial settings as follows: . | Baud : 115200 | Data : 8 Bits | Parity : None | Stop : 1 Bit | Flow Control : None | . | Build and Program the application using its IDE | The console displays the following message . | Type a line of characters and press the Enter key (NOTE: Number of characters entered before pressing enter key must be less than 256)) | Entered line will be echoed back and the LED is toggled | The following table provides the LED names | . | Board | LED Name | . | PIC32CM LE00 Curiosity Pro Evaluation Kit | LED0 | . |   |   | . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/sercom/usart/usart_echo_blocking/readme.html#running-the-application",
     "relUrl": "/apps/sercom/usart/usart_echo_blocking/readme.html#running-the-application"
   },"168": {
@@ -1040,7 +1040,7 @@ var myVariable = `
   },"173": {
     "doc": "SERCOM USART interrupt",
     "title": "Running the Application",
-    "content": ". | Open the Terminal application (Ex.:Tera term) on the computer | Connect to the EDBG Virtual COM port and configure the serial settings as follows: . | Baud : 115200 | Data : 8 Bits | Parity : None | Stop : 1 Bit | Flow Control : None | . | Build and Program the application using its IDE | The console displays the following message . | Type 10 characters in the console | Entered characters will be echoed back and the LED is toggled | The following table provides the LED names | . | Board | LED Name | . | PIC32CM LE00 Curiosity Pro Evaluation Kit | LED1 | . |   |   | . ",
+    "content": ". | Open the Terminal application (Ex.:Tera term) on the computer | Connect to the EDBG Virtual COM port and configure the serial settings as follows: . | Baud : 115200 | Data : 8 Bits | Parity : None | Stop : 1 Bit | Flow Control : None | . | Build and Program the application using its IDE | The console displays the following message . | Type 10 characters in the console | Entered characters will be echoed back and the LED is toggled | The following table provides the LED names | . | Board | LED Name | . | PIC32CM LE00 Curiosity Pro Evaluation Kit | LED0 | . |   |   | . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/sercom/usart/usart_echo_interrupt/readme.html#running-the-application",
     "relUrl": "/apps/sercom/usart/usart_echo_interrupt/readme.html#running-the-application"
   },"174": {
@@ -1112,7 +1112,7 @@ var myVariable = `
   },"185": {
     "doc": "Systick periodic interrupt",
     "title": "Running the Application",
-    "content": ". | Build and Program the application using its IDE | The LED blinks continuously | . Following table provides the LED name: . | Board | LED Name | . | PIC32CM LE00 Curiosity Pro Evaluation Kit | LED1 | . |   |   | . ",
+    "content": ". | Build and Program the application using its IDE | The LED blinks continuously | . Following table provides the LED name: . | Board | LED Name | . | PIC32CM LE00 Curiosity Pro Evaluation Kit | LED0 | . |   |   | . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/systick/systick_periodic_timeout/readme.html#running-the-application",
     "relUrl": "/apps/systick/systick_periodic_timeout/readme.html#running-the-application"
   },"186": {
@@ -1220,7 +1220,7 @@ var myVariable = `
   },"203": {
     "doc": "TC timer mode",
     "title": "Running the Application",
-    "content": ". | Build and Program the application using its IDE | Observe that the LED blinks once every second | . Following table provides the LED name: . | Board | LED Name | . | PIC32CM LE00 Curiosity Pro Evaluation Kit | LED1 | . |   |   | . ",
+    "content": ". | Build and Program the application using its IDE | Observe that the LED blinks once every second | . Following table provides the LED name: . | Board | LED Name | . | PIC32CM LE00 Curiosity Pro Evaluation Kit | LED0 | . |   |   | . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/tc/tc_timer_mode/readme.html#running-the-application",
     "relUrl": "/apps/tc/tc_timer_mode/readme.html#running-the-application"
   },"204": {
@@ -1328,7 +1328,7 @@ var myVariable = `
   },"221": {
     "doc": "TRNG random number",
     "title": "Running the Application",
-    "content": ". | Open the Terminal application (Ex.:Tera term) on the computer | Connect to the EDBG Virtual COM port and configure the serial settings as follows: . | Baud : 115200 | Data : 8 Bits | Parity : None | Stop : 1 Bit | Flow Control : None | . | Build and program the application using its IDE | The console displays the following message . | Every time the switch is pressed, a new random number is generated and displayed on the console . | . Following table provides the switch names: . | Board | Switch Name |   | . | PIC32CM LE00 Curiosity Pro Evaluation Kit | SW1 |   | . |   |   |   | . ",
+    "content": ". | Open the Terminal application (Ex.:Tera term) on the computer | Connect to the EDBG Virtual COM port and configure the serial settings as follows: . | Baud : 115200 | Data : 8 Bits | Parity : None | Stop : 1 Bit | Flow Control : None | . | Build and program the application using its IDE | The console displays the following message . | Every time the switch is pressed, a new random number is generated and displayed on the console . | . Following table provides the switch names: . | Board | Switch Name |   | . | PIC32CM LE00 Curiosity Pro Evaluation Kit | SW0 |   | . |   |   |   | . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trng/random_number/readme.html#running-the-application",
     "relUrl": "/apps/trng/random_number/readme.html#running-the-application"
   },"222": {
@@ -1341,264 +1341,444 @@ var myVariable = `
     "doc": "TrustZone EIC pin toggle",
     "title": "TrustZone EIC pin toggle",
     "content": "This example application demonstrates handling of external pin interrupt in secure and non-secure project. ",
-    "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/eic/eic_pin_toggle/readme.html#trustzone-eic-pin-toggle",
-    "relUrl": "/apps/trustZone/eic/eic_pin_toggle/readme.html#trustzone-eic-pin-toggle"
+    "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/eic/eic_pin_toggle_ls00/readme.html#trustzone-eic-pin-toggle",
+    "relUrl": "/apps/trustZone/eic/eic_pin_toggle_ls00/readme.html#trustzone-eic-pin-toggle"
   },"224": {
     "doc": "TrustZone EIC pin toggle",
     "title": "Description",
-    "content": "This demonstrates TrustZone feature and uses two projects viz., Secure and Non-Secure Project that work together on the same MCU and offering security isolation between the Trusted and the Non-trusted resources in the device. | Secure project uses an EIC pin to generate interrupt on rising edge and toggles the LED | Non-secure project uses an EIC pin to generate interrupt on rising edge and toggle an GPIO pin | Non-secure project also uses RTC to generate periodic event to toggle a GPIO pin | . ",
-    "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/eic/eic_pin_toggle/readme.html#description",
-    "relUrl": "/apps/trustZone/eic/eic_pin_toggle/readme.html#description"
+    "content": "This demonstrates TrustZone feature and uses two projects viz., Secure and Non-Secure Project that work together on the same MCU and offering security isolation between the Trusted and the Non-trusted resources in the device. | Secure project uses an EIC pin to generate interrupt on rising edge and toggles the LED0 | Non-secure project uses an EIC pin to generate interrupt on rising edge and toggle an GPIO pin and LED1 | Non-secure project also uses RTC to generate periodic event to toggle a GPIO pin | . ",
+    "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/eic/eic_pin_toggle_ls00/readme.html#description",
+    "relUrl": "/apps/trustZone/eic/eic_pin_toggle_ls00/readme.html#description"
   },"225": {
     "doc": "TrustZone EIC pin toggle",
     "title": "Components Used",
-    "content": ". | EIC - Configured as Mix-Secure Peripheral for Secure EIC and Non-secure EIC interrupts | Event System - Configured as Mix-Secure Peripheral for the Secure and Non-secure events | RTC - Configured as Non-secure mode | LED - Configured as Secure mode | Two NON_SECURE_PIN - Configured as Non-secure mode | . ",
-    "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/eic/eic_pin_toggle/readme.html#components-used",
-    "relUrl": "/apps/trustZone/eic/eic_pin_toggle/readme.html#components-used"
+    "content": ". | EIC - Configured as Mix-Secure Peripheral for Secure EIC and Non-secure EIC interrupts | Event System - Configured as Mix-Secure Peripheral for the Secure and Non-secure events | RTC - Configured as Non-secure mode | LED0 - Configured as Secure mode | LED1 - Configured as Non-secure mode | Two NON_SECURE_PIN - Configured as Non-secure mode | . ",
+    "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/eic/eic_pin_toggle_ls00/readme.html#components-used",
+    "relUrl": "/apps/trustZone/eic/eic_pin_toggle_ls00/readme.html#components-used"
   },"226": {
     "doc": "TrustZone EIC pin toggle",
     "title": "Downloading and building the application",
-    "content": "To clone or download this application from Github, go to the main page of this repository and then click Clone button to clone this repository or download as zip file. This content can also be downloaded using content manager by following these instructions. Path of the application within the repository is as shown below: . | Type | Path |   | . | Project group | apps/trustZone/eic/eic_pin_toggle |   | . | Secure Project | apps/trustZone/eic/eic_pin_toggle/Secure/firmware |   | . | Non-Secure Project | apps/trustZone/eic/eic_pin_toggle/NonSecure/firmware |   | . |   |   |   | . To build the application, refer to the following table and open the project using its IDE. | Project Name | Description | . | pic32cm_ls00_cpro_Secure.X pic32cm_ls00_cpro_NonSecure.X | Secure and Non-secure MPLABX project for PIC32CM LS00 Curiosity Pro Evaluation Kit | . |   |   | . ",
-    "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/eic/eic_pin_toggle/readme.html#downloading-and-building-the-application",
-    "relUrl": "/apps/trustZone/eic/eic_pin_toggle/readme.html#downloading-and-building-the-application"
+    "content": "To clone or download this application from Github, go to the main page of this repository and then click Clone button to clone this repository or download as zip file. This content can also be downloaded using content manager by following these instructions. Path of the application within the repository is as shown below: . | Type | Path |   | . | Project group | apps/trustZone/eic/eic_pin_toggle_ls00 |   | . | Secure Project | apps/trustZone/eic/eic_pin_toggle_ls00/Secure/firmware |   | . | Non-Secure Project | apps/trustZone/eic/eic_pin_toggle_ls00/NonSecure/firmware |   | . |   |   |   | . To build the application, refer to the following table and open the project using its IDE. | Project Name | Description | . | pic32cm_ls00_cpro_Secure.X pic32cm_ls00_cpro_NonSecure.X | Secure and Non-secure MPLABX project for PIC32CM LS00 Curiosity Pro Evaluation Kit | . |   |   | . ",
+    "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/eic/eic_pin_toggle_ls00/readme.html#downloading-and-building-the-application",
+    "relUrl": "/apps/trustZone/eic/eic_pin_toggle_ls00/readme.html#downloading-and-building-the-application"
   },"227": {
     "doc": "TrustZone EIC pin toggle",
     "title": "Setting up the hardware",
     "content": "The following table shows the target hardware for the application projects. | Project Name | Board | . | pic32cm_ls00_cpro_Secure.X pic32cm_ls00_cpro_NonSecure.X | PIC32CM LS00 Curiosity Pro Evaluation Kit | . |   |   | . Setting up PIC32CM LS00 Curiosity Pro Evaluation Kit . | Connect the Debug USB port on the board to the computer using a micro USB cable | Connect an oscilloscope/Logic analyzer to monitor the PORT pin PA22 (Pin #14 on EXT1) | Connect an oscilloscope/Logic analyzer to monitor the PORT pin PB31 (Pin #12 on EXT1) | Tie a pushbutton switch to PA23 (Pin #13 on EXT1) to drive the line LOW on switch press and also connect the same to the oscilloscope/logic analyzer . | . ",
-    "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/eic/eic_pin_toggle/readme.html#setting-up-the-hardware",
-    "relUrl": "/apps/trustZone/eic/eic_pin_toggle/readme.html#setting-up-the-hardware"
+    "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/eic/eic_pin_toggle_ls00/readme.html#setting-up-the-hardware",
+    "relUrl": "/apps/trustZone/eic/eic_pin_toggle_ls00/readme.html#setting-up-the-hardware"
   },"228": {
     "doc": "TrustZone EIC pin toggle",
     "title": "Running the Application",
-    "content": ". | Open the project group in the MPLAB X IDE and set the non-secure project as main project | Build and program the application | Observe the output for PIC32CM LS00 Curiosity Pro Evaluation Kit as follows: . | LED1 is toggled on Switch (SW1) press using EIC interrupt in secure project | Pin PA22 is toggled on Switch (connected to PA23) press using EIC interrupt in non-secure project | Periodic RTC event (every ~32ms) toggles PB31 pin in non-secure project | . | . ",
-    "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/eic/eic_pin_toggle/readme.html#running-the-application",
-    "relUrl": "/apps/trustZone/eic/eic_pin_toggle/readme.html#running-the-application"
+    "content": ". | Open the project group in the MPLAB X IDE and set the non-secure project as main project | Build and program the application | Observe the output for PIC32CM LS00 Curiosity Pro Evaluation Kit as follows: . | LED0(Green) is toggled on Switch (SW0) press using EIC interrupt in secure project | LED1(Red) is toggled on Switch (SW1) press using EIC interrupt in non-secure project | Pin PA22 is toggled on Switch (connected to PA23) press using EIC interrupt in non-secure project | Periodic RTC event (every ~32ms) toggles PB31 pin in non-secure project | . | . ",
+    "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/eic/eic_pin_toggle_ls00/readme.html#running-the-application",
+    "relUrl": "/apps/trustZone/eic/eic_pin_toggle_ls00/readme.html#running-the-application"
   },"229": {
     "doc": "TrustZone EIC pin toggle",
     "title": "TrustZone EIC pin toggle",
     "content": ". ",
-    "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/eic/eic_pin_toggle/readme.html",
-    "relUrl": "/apps/trustZone/eic/eic_pin_toggle/readme.html"
+    "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/eic/eic_pin_toggle_ls00/readme.html",
+    "relUrl": "/apps/trustZone/eic/eic_pin_toggle_ls00/readme.html"
   },"230": {
+    "doc": "TrustZone EIC pin toggle",
+    "title": "TrustZone EIC pin toggle",
+    "content": "This example application demonstrates handling of external pin interrupt in secure and non-secure project. ",
+    "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/eic/eic_pin_toggle_ls60/readme.html#trustzone-eic-pin-toggle",
+    "relUrl": "/apps/trustZone/eic/eic_pin_toggle_ls60/readme.html#trustzone-eic-pin-toggle"
+  },"231": {
+    "doc": "TrustZone EIC pin toggle",
+    "title": "Description",
+    "content": "This demonstrates TrustZone feature and uses two projects viz., Secure and Non-Secure Project that work together on the same MCU and offering security isolation between the Trusted and the Non-trusted resources in the device. | Secure project uses an EIC pin to generate interrupt on rising edge and toggles the LED0 | Non-secure project uses an EIC pin to generate interrupt on rising edge and toggle an GPIO pin and LED1 | Non-secure project also uses RTC to generate periodic event to toggle a GPIO pin | . ",
+    "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/eic/eic_pin_toggle_ls60/readme.html#description",
+    "relUrl": "/apps/trustZone/eic/eic_pin_toggle_ls60/readme.html#description"
+  },"232": {
+    "doc": "TrustZone EIC pin toggle",
+    "title": "Components Used",
+    "content": ". | EIC - Configured as Mix-Secure Peripheral for Secure EIC and Non-secure EIC interrupts | Event System - Configured as Mix-Secure Peripheral for the Secure and Non-secure events | RTC - Configured as Non-secure mode | LED0 - Configured as Secure mode | LED1 - Configured as Non-secure mode | Two NON_SECURE_PIN - Configured as Non-secure mode | . ",
+    "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/eic/eic_pin_toggle_ls60/readme.html#components-used",
+    "relUrl": "/apps/trustZone/eic/eic_pin_toggle_ls60/readme.html#components-used"
+  },"233": {
+    "doc": "TrustZone EIC pin toggle",
+    "title": "Downloading and building the application",
+    "content": "To clone or download this application from Github, go to the main page of this repository and then click Clone button to clone this repository or download as zip file. This content can also be downloaded using content manager by following these instructions. Path of the application within the repository is as shown below: . | Type | Path |   | . | Project group | apps/trustZone/eic/eic_pin_toggle_ls60 |   | . | Secure Project | apps/trustZone/eic/eic_pin_toggle_ls60/Secure/firmware |   | . | Non-Secure Project | apps/trustZone/eic/eic_pin_toggle_ls60/NonSecure/firmware |   | . |   |   |   | . To build the application, refer to the following table and open the project using its IDE. | Project Name | Description | . | pic32cm_ls60_cpro_Secure.X pic32cm_ls60_cpro_NonSecure.X | Secure and Non-secure MPLABX project for PIC32CM LS60 Curiosity Pro Evaluation Kit | . |   |   | . ",
+    "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/eic/eic_pin_toggle_ls60/readme.html#downloading-and-building-the-application",
+    "relUrl": "/apps/trustZone/eic/eic_pin_toggle_ls60/readme.html#downloading-and-building-the-application"
+  },"234": {
+    "doc": "TrustZone EIC pin toggle",
+    "title": "Setting up the hardware",
+    "content": "The following table shows the target hardware for the application projects. | Project Name | Board | . | pic32cm_ls60_cpro_Secure.X pic32cm_ls60_cpro_NonSecure.X | PIC32CM LS60 Curiosity Pro Evaluation Kit | . |   |   | . Setting up PIC32CM LS60 Curiosity Pro Evaluation Kit . | Connect the Debug USB port on the board to the computer using a micro USB cable | Connect an oscilloscope/Logic analyzer to monitor the PORT pin PA22 (Pin #14 on EXT1) | Connect an oscilloscope/Logic analyzer to monitor the PORT pin PB31 (Pin #12 on EXT1) | Tie a pushbutton switch to PA23 (Pin #13 on EXT1) to drive the line LOW on switch press and also connect the same to the oscilloscope/logic analyzer . | . ",
+    "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/eic/eic_pin_toggle_ls60/readme.html#setting-up-the-hardware",
+    "relUrl": "/apps/trustZone/eic/eic_pin_toggle_ls60/readme.html#setting-up-the-hardware"
+  },"235": {
+    "doc": "TrustZone EIC pin toggle",
+    "title": "Running the Application",
+    "content": ". | Open the project group in the MPLAB X IDE and set the non-secure project as main project | Build and program the application | Observe the output for PIC32CM LS60 Curiosity Pro Evaluation Kit as follows: . | LED0(Green) is toggled on Switch (SW0) press using EIC interrupt in secure project | LED1(Red) is toggled on Switch (SW1) press using EIC interrupt in non-secure project | Pin PA22 is toggled on Switch (connected to PA23) press using EIC interrupt in non-secure project | Periodic RTC event (every ~32ms) toggles PB31 pin in non-secure project | . | . ",
+    "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/eic/eic_pin_toggle_ls60/readme.html#running-the-application",
+    "relUrl": "/apps/trustZone/eic/eic_pin_toggle_ls60/readme.html#running-the-application"
+  },"236": {
+    "doc": "TrustZone EIC pin toggle",
+    "title": "TrustZone EIC pin toggle",
+    "content": ". ",
+    "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/eic/eic_pin_toggle_ls60/readme.html",
+    "relUrl": "/apps/trustZone/eic/eic_pin_toggle_ls60/readme.html"
+  },"237": {
     "doc": "TrustZone EVSYS trigger",
     "title": "TrustZone EVSYS trigger",
     "content": "This example application demonstrates peripheral event handling with event system in secure and non-secure project . ",
-    "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/evsys/evsys_trigger/readme.html#trustzone-evsys-trigger",
-    "relUrl": "/apps/trustZone/evsys/evsys_trigger/readme.html#trustzone-evsys-trigger"
-  },"231": {
+    "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/evsys/evsys_trigger_ls00/readme.html#trustzone-evsys-trigger",
+    "relUrl": "/apps/trustZone/evsys/evsys_trigger_ls00/readme.html#trustzone-evsys-trigger"
+  },"238": {
     "doc": "TrustZone EVSYS trigger",
     "title": "Description",
-    "content": "This demonstrates TrustZone feature and uses two projects viz., Secure and Non-Secure Project that work together on the same MCU and offering security isolation between the Trusted and the Non-trusted resources in the device. | Secure project route the events generated by RTC periodic event to toggle a GPIO pin assigned to secure side and a GPIO pin assigned to non-secure side without CPU intervention = Non secure project route the EIC event to toggle an LED without CPU intervention | . ",
-    "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/evsys/evsys_trigger/readme.html#description",
-    "relUrl": "/apps/trustZone/evsys/evsys_trigger/readme.html#description"
-  },"232": {
+    "content": "This demonstrates TrustZone feature and uses two projects viz., Secure and Non-Secure Project that work together on the same MCU and offering security isolation between the Trusted and the Non-trusted resources in the device. | Secure project route the events generated by RTC periodic event to toggle a GPIO pin assigned to secure side and a GPIO pin assigned to non-secure side without CPU intervention | Secure project route the EIC event to toggle an LED0 without CPU intervention | Non secure project route the EIC event to toggle an LED1 without CPU intervention | . ",
+    "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/evsys/evsys_trigger_ls00/readme.html#description",
+    "relUrl": "/apps/trustZone/evsys/evsys_trigger_ls00/readme.html#description"
+  },"239": {
     "doc": "TrustZone EVSYS trigger",
     "title": "Components Used",
-    "content": ". | EIC - Configured as mix-secure Peripheral for Secure EIC and Non-secure EIC interrupts | Event System - Configured as mix-secure Peripheral for the Secure and Non-secure events | RTC - Configured as secure mode | LED - Configured as non-secure mode | SECURE_PIN and NON_SECURE_PIN - Configured as secure and non-secure mode respectively | . ",
-    "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/evsys/evsys_trigger/readme.html#components-used",
-    "relUrl": "/apps/trustZone/evsys/evsys_trigger/readme.html#components-used"
-  },"233": {
+    "content": ". | EIC - Configured as mix-secure peripheral to route Secure EIC event on SW0 press and Non-secure EIC event on SW1 press | Event System - Configured as mix-secure Peripheral for the Secure and Non-secure events | RTC - Configured as secure mode | LED0 - Configured as secure mode | LED1 - Configured as non-secure mode | SECURE_PIN and NON_SECURE_PIN - Configured as secure and non-secure mode respectively | . ",
+    "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/evsys/evsys_trigger_ls00/readme.html#components-used",
+    "relUrl": "/apps/trustZone/evsys/evsys_trigger_ls00/readme.html#components-used"
+  },"240": {
     "doc": "TrustZone EVSYS trigger",
     "title": "Downloading and building the application",
-    "content": "To clone or download this application from Github, go to the main page of this repository and then click Clone button to clone this repository or download as zip file. This content can also be downloaded using content manager by following these instructions. Path of the application within the repository is as shown below: . | Type | Path |   | . | Project group | apps/trustZone/evsys/evsys_trigger |   | . | Secure Project | apps/trustZone/evsys/evsys_trigger/Secure/firmware |   | . | Non-Secure Project | apps/trustZone/evsys/evsys_trigger/NonSecure/firmware |   | . |   |   |   | . To build the application, refer to the following table and open the project using its IDE. | Project Name | Description | . | pic32cm_ls00_cpro_Secure.X pic32cm_ls00_cpro_NonSecure.X | Secure and Non-secure MPLABX project for PIC32CM LS00 Curiosity Pro Evaluation Kit | . |   |   | . ",
-    "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/evsys/evsys_trigger/readme.html#downloading-and-building-the-application",
-    "relUrl": "/apps/trustZone/evsys/evsys_trigger/readme.html#downloading-and-building-the-application"
-  },"234": {
+    "content": "To clone or download this application from Github, go to the main page of this repository and then click Clone button to clone this repository or download as zip file. This content can also be downloaded using content manager by following these instructions. Path of the application within the repository is as shown below: . | Type | Path |   | . | Project group | apps/trustZone/evsys/evsys_trigger_ls00 |   | . | Secure Project | apps/trustZone/evsys/evsys_trigger_ls00/Secure/firmware |   | . | Non-Secure Project | apps/trustZone/evsys/evsys_trigger_ls00/NonSecure/firmware |   | . |   |   |   | . To build the application, refer to the following table and open the project using its IDE. | Project Name | Description | . | pic32cm_ls00_cpro_Secure.X pic32cm_ls00_cpro_NonSecure.X | Secure and Non-secure MPLABX project for PIC32CM LS00 Curiosity Pro Evaluation Kit | . |   |   | . ",
+    "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/evsys/evsys_trigger_ls00/readme.html#downloading-and-building-the-application",
+    "relUrl": "/apps/trustZone/evsys/evsys_trigger_ls00/readme.html#downloading-and-building-the-application"
+  },"241": {
     "doc": "TrustZone EVSYS trigger",
     "title": "Setting up the hardware",
     "content": "The following table shows the target hardware for the application projects. | Project Name | Board | . | pic32cm_ls00_cpro_Secure.X pic32cm_ls00_cpro_NonSecure.X | PIC32CM LS00 Curiosity Pro Evaluation Kit | . |   |   | . Setting up PIC32CM LS00 Curiosity Pro Evaluation Kit . | Connect the Debug USB port on the board to the computer using a micro USB cable | Connect an oscilloscope/Logic analyzer to monitor the PORT pin PA22 (Pin #14 on EXT1) | Connect an oscilloscope/Logic analyzer to monitor the PORT pin PA23 (Pin #13 on EXT1) | . ",
-    "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/evsys/evsys_trigger/readme.html#setting-up-the-hardware",
-    "relUrl": "/apps/trustZone/evsys/evsys_trigger/readme.html#setting-up-the-hardware"
-  },"235": {
+    "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/evsys/evsys_trigger_ls00/readme.html#setting-up-the-hardware",
+    "relUrl": "/apps/trustZone/evsys/evsys_trigger_ls00/readme.html#setting-up-the-hardware"
+  },"242": {
     "doc": "TrustZone EVSYS trigger",
     "title": "Running the Application",
-    "content": ". | Open the project group in the MPLAB X IDE and set the non-secure project as main project | Build and program the application | Observe the output for PIC32CM LS00 Curiosity Pro Evaluation Kit as follows: . | Periodic RTC event (every ~250ms) toggles PA22 (secure pin) and PA23 (non-secure pin) in secure and non-secure project respectively | LED1 is toggled on Switch (SW1) press in non-secure project | . | . ",
-    "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/evsys/evsys_trigger/readme.html#running-the-application",
-    "relUrl": "/apps/trustZone/evsys/evsys_trigger/readme.html#running-the-application"
-  },"236": {
+    "content": ". | Open the project group in the MPLAB X IDE and set the non-secure project as main project | Build and program the application | Observe the output for PIC32CM LS00 Curiosity Pro Evaluation Kit as follows: . | Periodic RTC event (every ~250ms) toggles PA22 (secure pin) and PA23 (non-secure pin) in secure and non-secure project respectively | LED0(Green) is toggled on Switch (SW0) press in secure project | LED1(Red) is toggled on Switch (SW1) press in non-secure project | . | . ",
+    "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/evsys/evsys_trigger_ls00/readme.html#running-the-application",
+    "relUrl": "/apps/trustZone/evsys/evsys_trigger_ls00/readme.html#running-the-application"
+  },"243": {
     "doc": "TrustZone EVSYS trigger",
     "title": "TrustZone EVSYS trigger",
     "content": ". ",
-    "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/evsys/evsys_trigger/readme.html",
-    "relUrl": "/apps/trustZone/evsys/evsys_trigger/readme.html"
-  },"237": {
+    "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/evsys/evsys_trigger_ls00/readme.html",
+    "relUrl": "/apps/trustZone/evsys/evsys_trigger_ls00/readme.html"
+  },"244": {
+    "doc": "TrustZone EVSYS trigger",
+    "title": "TrustZone EVSYS trigger",
+    "content": "This example application demonstrates peripheral event handling with event system in secure and non-secure project . ",
+    "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/evsys/evsys_trigger_ls60/readme.html#trustzone-evsys-trigger",
+    "relUrl": "/apps/trustZone/evsys/evsys_trigger_ls60/readme.html#trustzone-evsys-trigger"
+  },"245": {
+    "doc": "TrustZone EVSYS trigger",
+    "title": "Description",
+    "content": "This demonstrates TrustZone feature and uses two projects viz., Secure and Non-Secure Project that work together on the same MCU and offering security isolation between the Trusted and the Non-trusted resources in the device. | Secure project route the events generated by RTC periodic event to toggle a GPIO pin assigned to secure side and a GPIO pin assigned to non-secure side without CPU intervention | Secure project route the EIC event to toggle an LED0 without CPU intervention | Non secure project route the EIC event to toggle an LED1 without CPU intervention | . ",
+    "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/evsys/evsys_trigger_ls60/readme.html#description",
+    "relUrl": "/apps/trustZone/evsys/evsys_trigger_ls60/readme.html#description"
+  },"246": {
+    "doc": "TrustZone EVSYS trigger",
+    "title": "Components Used",
+    "content": ". | EIC - Configured as mix-secure peripheral to route Secure EIC event on SW0 press and Non-secure EIC event on SW1 press | Event System - Configured as mix-secure Peripheral for the Secure and Non-secure events | RTC - Configured as secure mode | LED0 - Configured as secure mode | LED1 - Configured as non-secure mode | SECURE_PIN and NON_SECURE_PIN - Configured as secure and non-secure mode respectively | . ",
+    "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/evsys/evsys_trigger_ls60/readme.html#components-used",
+    "relUrl": "/apps/trustZone/evsys/evsys_trigger_ls60/readme.html#components-used"
+  },"247": {
+    "doc": "TrustZone EVSYS trigger",
+    "title": "Downloading and building the application",
+    "content": "To clone or download this application from Github, go to the main page of this repository and then click Clone button to clone this repository or download as zip file. This content can also be downloaded using content manager by following these instructions. Path of the application within the repository is as shown below: . | Type | Path |   | . | Project group | apps/trustZone/evsys/evsys_trigger_ls60 |   | . | Secure Project | apps/trustZone/evsys/evsys_trigger_ls60/Secure/firmware |   | . | Non-Secure Project | apps/trustZone/evsys/evsys_trigger_ls60/NonSecure/firmware |   | . |   |   |   | . To build the application, refer to the following table and open the project using its IDE. | Project Name | Description | . | pic32cm_ls60_cpro_Secure.X pic32cm_ls60_cpro_NonSecure.X | Secure and Non-secure MPLABX project for PIC32CM LS60 Curiosity Pro Evaluation Kit | . |   |   | . ",
+    "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/evsys/evsys_trigger_ls60/readme.html#downloading-and-building-the-application",
+    "relUrl": "/apps/trustZone/evsys/evsys_trigger_ls60/readme.html#downloading-and-building-the-application"
+  },"248": {
+    "doc": "TrustZone EVSYS trigger",
+    "title": "Setting up the hardware",
+    "content": "The following table shows the target hardware for the application projects. | Project Name | Board | . | pic32cm_ls60_cpro_Secure.X pic32cm_ls60_cpro_NonSecure.X | PIC32CM LS60 Curiosity Pro Evaluation Kit | . |   |   | . Setting up PIC32CM LS60 Curiosity Pro Evaluation Kit . | Connect the Debug USB port on the board to the computer using a micro USB cable | Connect an oscilloscope/Logic analyzer to monitor the PORT pin PA22 (Pin #14 on EXT1) | Connect an oscilloscope/Logic analyzer to monitor the PORT pin PA23 (Pin #13 on EXT1) | . ",
+    "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/evsys/evsys_trigger_ls60/readme.html#setting-up-the-hardware",
+    "relUrl": "/apps/trustZone/evsys/evsys_trigger_ls60/readme.html#setting-up-the-hardware"
+  },"249": {
+    "doc": "TrustZone EVSYS trigger",
+    "title": "Running the Application",
+    "content": ". | Open the project group in the MPLAB X IDE and set the non-secure project as main project | Build and program the application | Observe the output for PIC32CM LS60 Curiosity Pro Evaluation Kit as follows: . | Periodic RTC event (every ~250ms) toggles PA22 (secure pin) and PA23 (non-secure pin) in secure and non-secure project respectively | LED0(Green) is toggled on Switch (SW0) press in secure project | LED1(Red) is toggled on Switch (SW1) press in non-secure project | . | . ",
+    "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/evsys/evsys_trigger_ls60/readme.html#running-the-application",
+    "relUrl": "/apps/trustZone/evsys/evsys_trigger_ls60/readme.html#running-the-application"
+  },"250": {
+    "doc": "TrustZone EVSYS trigger",
+    "title": "TrustZone EVSYS trigger",
+    "content": ". ",
+    "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/evsys/evsys_trigger_ls60/readme.html",
+    "relUrl": "/apps/trustZone/evsys/evsys_trigger_ls60/readme.html"
+  },"251": {
     "doc": "TrustZone Systick periodic timeout",
     "title": "TrustZone Systick periodic timeout",
     "content": "This example application shows how to use the SysTick to generate periodic interrupts on both Secure and Non-secure modes. ",
-    "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/systick/systick_periodic_timeout/readme.html#trustzone-systick-periodic-timeout",
-    "relUrl": "/apps/trustZone/systick/systick_periodic_timeout/readme.html#trustzone-systick-periodic-timeout"
-  },"238": {
+    "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/systick/systick_periodic_timeout_ls00/readme.html#trustzone-systick-periodic-timeout",
+    "relUrl": "/apps/trustZone/systick/systick_periodic_timeout_ls00/readme.html#trustzone-systick-periodic-timeout"
+  },"252": {
     "doc": "TrustZone Systick periodic timeout",
     "title": "Description",
-    "content": "This demonstrates TrustZone feature and uses two projects viz., Secure and Non-Secure Project that work together on the same MCU and offering security isolation between the Trusted and the Non-trusted resources in the device. | Secure project uses secure SysTick timer to generate periodic interrupt every 50ms to toggle a GPIO pin and an LED | Non-secure project uses non-secure SysTick timer to generate periodic interrupt every 100ms and toggles a GPIO pin | . ",
-    "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/systick/systick_periodic_timeout/readme.html#description",
-    "relUrl": "/apps/trustZone/systick/systick_periodic_timeout/readme.html#description"
-  },"239": {
+    "content": "This demonstrates TrustZone feature and uses two projects viz., Secure and Non-Secure Project that work together on the same MCU and offering security isolation between the Trusted and the Non-trusted resources in the device. | Secure project uses secure SysTick timer to generate periodic interrupt every 50ms to toggle a GPIO pin and an LED0 | Non-secure project uses non-secure SysTick timer to generate periodic interrupt every 100ms to toggle a GPIO pin and an LED1 | . ",
+    "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/systick/systick_periodic_timeout_ls00/readme.html#description",
+    "relUrl": "/apps/trustZone/systick/systick_periodic_timeout_ls00/readme.html#description"
+  },"253": {
     "doc": "TrustZone Systick periodic timeout",
     "title": "Components Used",
-    "content": ". | Systick - Secure and non-secure systicks | LED - Configured as non-secure mode | SECURE_PIN and NON_SECURE_PIN - Configured as secure and non-secure mode respectively | . ",
-    "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/systick/systick_periodic_timeout/readme.html#components-used",
-    "relUrl": "/apps/trustZone/systick/systick_periodic_timeout/readme.html#components-used"
-  },"240": {
+    "content": ". | Systick - Secure and non-secure systicks | LED0 - Configured as secure mode | LED1 - Configured as non-secure mode | SECURE_PIN and NON_SECURE_PIN - Configured as secure and non-secure mode respectively | . ",
+    "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/systick/systick_periodic_timeout_ls00/readme.html#components-used",
+    "relUrl": "/apps/trustZone/systick/systick_periodic_timeout_ls00/readme.html#components-used"
+  },"254": {
     "doc": "TrustZone Systick periodic timeout",
     "title": "Downloading and building the application",
-    "content": "To clone or download this application from Github, go to the main page of this repository and then click Clone button to clone this repository or download as zip file. This content can also be downloaded using content manager by following these instructions. Path of the application within the repository is as shown below: . | Type | Path |   | . | Project group | apps/trustZone/systick/systick_periodic_timeout |   | . | Secure Project | apps/trustZone/systick/systick_periodic_timeout/Secure/firmware |   | . | Non-Secure Project | apps/trustZone/systick/systick_periodic_timeout/NonSecure/firmware |   | . |   |   |   | . To build the application, refer to the following table and open the project using its IDE. | Project Name | Description | . | pic32cm_ls00_cpro_Secure.X pic32cm_ls00_cpro_NonSecure.X | Secure and Non-secure MPLABX project for PIC32CM LS00 Curiosity Pro Evaluation Kit | . |   |   | . ",
-    "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/systick/systick_periodic_timeout/readme.html#downloading-and-building-the-application",
-    "relUrl": "/apps/trustZone/systick/systick_periodic_timeout/readme.html#downloading-and-building-the-application"
-  },"241": {
+    "content": "To clone or download this application from Github, go to the main page of this repository and then click Clone button to clone this repository or download as zip file. This content can also be downloaded using content manager by following these instructions. Path of the application within the repository is as shown below: . | Type | Path |   | . | Project group | apps/trustZone/systick/systick_periodic_timeout_ls00 |   | . | Secure Project | apps/trustZone/systick/systick_periodic_timeout_ls00/Secure/firmware |   | . | Non-Secure Project | apps/trustZone/systick/systick_periodic_timeout_ls00/NonSecure/firmware |   | . |   |   |   | . To build the application, refer to the following table and open the project using its IDE. | Project Name | Description | . | pic32cm_ls00_cpro_Secure.X pic32cm_ls00_cpro_NonSecure.X | Secure and Non-secure MPLABX project for PIC32CM LS00 Curiosity Pro Evaluation Kit | . |   |   | . ",
+    "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/systick/systick_periodic_timeout_ls00/readme.html#downloading-and-building-the-application",
+    "relUrl": "/apps/trustZone/systick/systick_periodic_timeout_ls00/readme.html#downloading-and-building-the-application"
+  },"255": {
     "doc": "TrustZone Systick periodic timeout",
     "title": "Setting up the hardware",
     "content": "The following table shows the target hardware for the application projects. | Project Name | Board | . | pic32cm_ls00_cpro_Secure.X pic32cm_ls00_cpro_NonSecure.X | PIC32CM LS00 Curiosity Pro Evaluation Kit | . |   |   | . Setting up PIC32CM LS00 Curiosity Pro Evaluation Kit . | Connect the Debug USB port on the board to the computer using a micro USB cable | Connect an oscilloscope/Logic analyzer to monitor the PORT pin PA10 (Pin #5 on EXT1) | Connect an oscilloscope/Logic analyzer to monitor the PORT pin PA11 (Pin #6 on EXT1) | . ",
-    "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/systick/systick_periodic_timeout/readme.html#setting-up-the-hardware",
-    "relUrl": "/apps/trustZone/systick/systick_periodic_timeout/readme.html#setting-up-the-hardware"
-  },"242": {
+    "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/systick/systick_periodic_timeout_ls00/readme.html#setting-up-the-hardware",
+    "relUrl": "/apps/trustZone/systick/systick_periodic_timeout_ls00/readme.html#setting-up-the-hardware"
+  },"256": {
     "doc": "TrustZone Systick periodic timeout",
     "title": "Running the Application",
-    "content": ". | Open the project group in the MPLAB X IDE and set the non-secure project as main project | Build and program the application | Observe the output for PIC32CM LS00 Curiosity Pro Evaluation Kit as follows: . | LED1 and PA10 (Secure pin) is toggled every ~50ms in secure project. | PA11 (Non-secure pin) is toggled every ~100ms in non-secure project | . | . ",
-    "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/systick/systick_periodic_timeout/readme.html#running-the-application",
-    "relUrl": "/apps/trustZone/systick/systick_periodic_timeout/readme.html#running-the-application"
-  },"243": {
+    "content": ". | Open the project group in the MPLAB X IDE and set the non-secure project as main project | Build and program the application | Observe the output for PIC32CM LS00 Curiosity Pro Evaluation Kit as follows: . | LED0(Green) and PA10 (Secure pin) is toggled every ~50ms in secure project. | LED1(Red) and PA11 (Non-secure pin) is toggled every ~100ms in non-secure project | . | . ",
+    "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/systick/systick_periodic_timeout_ls00/readme.html#running-the-application",
+    "relUrl": "/apps/trustZone/systick/systick_periodic_timeout_ls00/readme.html#running-the-application"
+  },"257": {
     "doc": "TrustZone Systick periodic timeout",
     "title": "TrustZone Systick periodic timeout",
     "content": ". ",
-    "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/systick/systick_periodic_timeout/readme.html",
-    "relUrl": "/apps/trustZone/systick/systick_periodic_timeout/readme.html"
-  },"244": {
+    "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/systick/systick_periodic_timeout_ls00/readme.html",
+    "relUrl": "/apps/trustZone/systick/systick_periodic_timeout_ls00/readme.html"
+  },"258": {
+    "doc": "TrustZone Systick periodic timeout",
+    "title": "TrustZone Systick periodic timeout",
+    "content": "This example application shows how to use the SysTick to generate periodic interrupts on both Secure and Non-secure modes. ",
+    "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/systick/systick_periodic_timeout_ls60/readme.html#trustzone-systick-periodic-timeout",
+    "relUrl": "/apps/trustZone/systick/systick_periodic_timeout_ls60/readme.html#trustzone-systick-periodic-timeout"
+  },"259": {
+    "doc": "TrustZone Systick periodic timeout",
+    "title": "Description",
+    "content": "This demonstrates TrustZone feature and uses two projects viz., Secure and Non-Secure Project that work together on the same MCU and offering security isolation between the Trusted and the Non-trusted resources in the device. | Secure project uses secure SysTick timer to generate periodic interrupt every 50ms to toggle a GPIO pin and an LED0 | Non-secure project uses non-secure SysTick timer to generate periodic interrupt every 100ms to toggle a GPIO pin and an LED1 | . ",
+    "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/systick/systick_periodic_timeout_ls60/readme.html#description",
+    "relUrl": "/apps/trustZone/systick/systick_periodic_timeout_ls60/readme.html#description"
+  },"260": {
+    "doc": "TrustZone Systick periodic timeout",
+    "title": "Components Used",
+    "content": ". | Systick - Secure and non-secure systicks | LED0 - Configured as secure mode | LED1 - Configured as non-secure mode | SECURE_PIN and NON_SECURE_PIN - Configured as secure and non-secure mode respectively | . ",
+    "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/systick/systick_periodic_timeout_ls60/readme.html#components-used",
+    "relUrl": "/apps/trustZone/systick/systick_periodic_timeout_ls60/readme.html#components-used"
+  },"261": {
+    "doc": "TrustZone Systick periodic timeout",
+    "title": "Downloading and building the application",
+    "content": "To clone or download this application from Github, go to the main page of this repository and then click Clone button to clone this repository or download as zip file. This content can also be downloaded using content manager by following these instructions. Path of the application within the repository is as shown below: . | Type | Path |   | . | Project group | apps/trustZone/systick/systick_periodic_timeout_ls60 |   | . | Secure Project | apps/trustZone/systick/systick_periodic_timeout_ls60/Secure/firmware |   | . | Non-Secure Project | apps/trustZone/systick/systick_periodic_timeout_ls60/NonSecure/firmware |   | . |   |   |   | . To build the application, refer to the following table and open the project using its IDE. | Project Name | Description | . | pic32cm_ls60_cpro_Secure.X pic32cm_ls60_cpro_NonSecure.X | Secure and Non-secure MPLABX project for PIC32CM LS60 Curiosity Pro Evaluation Kit | . |   |   | . ",
+    "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/systick/systick_periodic_timeout_ls60/readme.html#downloading-and-building-the-application",
+    "relUrl": "/apps/trustZone/systick/systick_periodic_timeout_ls60/readme.html#downloading-and-building-the-application"
+  },"262": {
+    "doc": "TrustZone Systick periodic timeout",
+    "title": "Setting up the hardware",
+    "content": "The following table shows the target hardware for the application projects. | Project Name | Board | . | pic32cm_ls60_cpro_Secure.X pic32cm_ls60_cpro_NonSecure.X | PIC32CM LS60 Curiosity Pro Evaluation Kit | . |   |   | . Setting up PIC32CM LS60 Curiosity Pro Evaluation Kit . | Connect the Debug USB port on the board to the computer using a micro USB cable | Connect an oscilloscope/Logic analyzer to monitor the PORT pin PA10 (Pin #5 on EXT1) | Connect an oscilloscope/Logic analyzer to monitor the PORT pin PA11 (Pin #6 on EXT1) | . ",
+    "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/systick/systick_periodic_timeout_ls60/readme.html#setting-up-the-hardware",
+    "relUrl": "/apps/trustZone/systick/systick_periodic_timeout_ls60/readme.html#setting-up-the-hardware"
+  },"263": {
+    "doc": "TrustZone Systick periodic timeout",
+    "title": "Running the Application",
+    "content": ". | Open the project group in the MPLAB X IDE and set the non-secure project as main project | Build and program the application | Observe the output for PIC32CM LS60 Curiosity Pro Evaluation Kit as follows: . | LED0(Green) and PA10 (Secure pin) is toggled every ~50ms in secure project. | LED1(Red) and PA11 (Non-secure pin) is toggled every ~100ms in non-secure project | . | . ",
+    "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/systick/systick_periodic_timeout_ls60/readme.html#running-the-application",
+    "relUrl": "/apps/trustZone/systick/systick_periodic_timeout_ls60/readme.html#running-the-application"
+  },"264": {
+    "doc": "TrustZone Systick periodic timeout",
+    "title": "TrustZone Systick periodic timeout",
+    "content": ". ",
+    "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/systick/systick_periodic_timeout_ls60/readme.html",
+    "relUrl": "/apps/trustZone/systick/systick_periodic_timeout_ls60/readme.html"
+  },"265": {
     "doc": "TrustZone basic demonstration",
     "title": "TrustZone basic demonstration",
     "content": "This example application performs Add and Multiply Math operations in secure mode and I/O operations in non-secure mode. ",
-    "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/trustZone_basic/readme.html#trustzone-basic-demonstration",
-    "relUrl": "/apps/trustZone/trustZone_basic/readme.html#trustzone-basic-demonstration"
-  },"245": {
+    "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/trustZone_basic_ls00/readme.html#trustzone-basic-demonstration",
+    "relUrl": "/apps/trustZone/trustZone_basic_ls00/readme.html#trustzone-basic-demonstration"
+  },"266": {
     "doc": "TrustZone basic demonstration",
     "title": "Description",
     "content": "This demonstrates TrustZone feature and uses two projects viz., Secure and Non-Secure Project that work together on the same MCU and offering security isolation between the Trusted and the Non-trusted resources in the device. | Secure project implements math functions (add and multiply as example) | Non-secure project uses the math functions exposed by secure project for math operations | . ",
-    "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/trustZone_basic/readme.html#description",
-    "relUrl": "/apps/trustZone/trustZone_basic/readme.html#description"
-  },"246": {
+    "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/trustZone_basic_ls00/readme.html#description",
+    "relUrl": "/apps/trustZone/trustZone_basic_ls00/readme.html#description"
+  },"267": {
     "doc": "TrustZone basic demonstration",
     "title": "Components Used",
     "content": ". | SERCOM - Configured as Non-secure mode | . ",
-    "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/trustZone_basic/readme.html#components-used",
-    "relUrl": "/apps/trustZone/trustZone_basic/readme.html#components-used"
-  },"247": {
+    "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/trustZone_basic_ls00/readme.html#components-used",
+    "relUrl": "/apps/trustZone/trustZone_basic_ls00/readme.html#components-used"
+  },"268": {
     "doc": "TrustZone basic demonstration",
     "title": "Downloading and building the application",
-    "content": "To clone or download this application from Github, go to the main page of this repository and then click Clone button to clone this repository or download as zip file. This content can also be downloaded using content manager by following these instructions. Path of the application within the repository is as shown below: . | Type | Path |   | . | Project group | apps/trustZone/trustZone_basic |   | . | Secure Project | apps/trustZone/trustZone_basic/Secure/firmware |   | . | Non-Secure Project | apps/trustZone/trustZone_basic/NonSecure/firmware |   | . |   |   |   | . To build the application, refer to the following table and open the project using its IDE. | Project Name | Description | . | pic32cm_ls00_cpro_Secure.X pic32cm_ls00_cpro_NonSecure.X | Secure and Non-secure MPLABX project for PIC32CM LS00 Curiosity Pro Evaluation Kit | . |   |   | . ",
-    "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/trustZone_basic/readme.html#downloading-and-building-the-application",
-    "relUrl": "/apps/trustZone/trustZone_basic/readme.html#downloading-and-building-the-application"
-  },"248": {
+    "content": "To clone or download this application from Github, go to the main page of this repository and then click Clone button to clone this repository or download as zip file. This content can also be downloaded using content manager by following these instructions. Path of the application within the repository is as shown below: . | Type | Path |   | . | Project group | apps/trustZone/trustZone_basic_ls00 |   | . | Secure Project | apps/trustZone/trustZone_basic_ls00/Secure/firmware |   | . | Non-Secure Project | apps/trustZone/trustZone_basic_ls00/NonSecure/firmware |   | . |   |   |   | . To build the application, refer to the following table and open the project using its IDE. | Project Name | Description | . | pic32cm_ls00_cpro_Secure.X pic32cm_ls00_cpro_NonSecure.X | Secure and Non-secure MPLABX project for PIC32CM LS00 Curiosity Pro Evaluation Kit | . |   |   | . ",
+    "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/trustZone_basic_ls00/readme.html#downloading-and-building-the-application",
+    "relUrl": "/apps/trustZone/trustZone_basic_ls00/readme.html#downloading-and-building-the-application"
+  },"269": {
     "doc": "TrustZone basic demonstration",
     "title": "Setting up the hardware",
     "content": "The following table shows the target hardware for the application projects. | Project Name | Board | . | pic32cm_ls00_cpro_Secure.X pic32cm_ls00_cpro_NonSecure.X | PIC32CM LS00 Curiosity Pro Evaluation Kit | . |   |   | . Setting up PIC32CM LS00 Curiosity Pro Evaluation Kit . | Connect the Debug USB port on the board to the computer using a micro USB cable | . ",
-    "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/trustZone_basic/readme.html#setting-up-the-hardware",
-    "relUrl": "/apps/trustZone/trustZone_basic/readme.html#setting-up-the-hardware"
-  },"249": {
+    "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/trustZone_basic_ls00/readme.html#setting-up-the-hardware",
+    "relUrl": "/apps/trustZone/trustZone_basic_ls00/readme.html#setting-up-the-hardware"
+  },"270": {
     "doc": "TrustZone basic demonstration",
     "title": "Running the Application",
     "content": ". | Open the Terminal application (Ex.:Tera term) on the computer | Connect to the EDBG Virtual COM port and configure the serial settings as follows: . | Baud : 115200 | Data : 8 Bits | Parity : None | Stop : 1 Bit | Flow Control : None | . | Open the project group in the MPLAB X IDE and set the non-secure project as main project | Build and program the application | Perform the following sequence of operations to do addition of two numbers: . | Press ‘a’ to start an addition operation | Enter a 16 bit unsigned integer and press ‘Enter’ on keyboard | Enter second 16 bit unsigned number and press ‘Enter’ on keyboard | Observe the result which is addition of first and second 16 bit unsigned number | . | Perform the following sequence of operations to do multiplication of two numbers: . | Press ‘b’ to start an addition operation | Enter a 16 bit unsigned integer and press ‘Enter’ on keyboard | Enter second 16 bit unsigned number and press ‘Enter’ on keyboard | Observe the result which is multiplication of first and second 16 bit unsigned number | . | . ",
-    "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/trustZone_basic/readme.html#running-the-application",
-    "relUrl": "/apps/trustZone/trustZone_basic/readme.html#running-the-application"
-  },"250": {
+    "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/trustZone_basic_ls00/readme.html#running-the-application",
+    "relUrl": "/apps/trustZone/trustZone_basic_ls00/readme.html#running-the-application"
+  },"271": {
     "doc": "TrustZone basic demonstration",
     "title": "TrustZone basic demonstration",
     "content": ". ",
-    "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/trustZone_basic/readme.html",
-    "relUrl": "/apps/trustZone/trustZone_basic/readme.html"
-  },"251": {
+    "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/trustZone_basic_ls00/readme.html",
+    "relUrl": "/apps/trustZone/trustZone_basic_ls00/readme.html"
+  },"272": {
+    "doc": "TrustZone basic demonstration",
+    "title": "TrustZone basic demonstration",
+    "content": "This example application performs Add and Multiply Math operations in secure mode and I/O operations in non-secure mode. ",
+    "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/trustZone_basic_ls60/readme.html#trustzone-basic-demonstration",
+    "relUrl": "/apps/trustZone/trustZone_basic_ls60/readme.html#trustzone-basic-demonstration"
+  },"273": {
+    "doc": "TrustZone basic demonstration",
+    "title": "Description",
+    "content": "This demonstrates TrustZone feature and uses two projects viz., Secure and Non-Secure Project that work together on the same MCU and offering security isolation between the Trusted and the Non-trusted resources in the device. | Secure project implements math functions (add and multiply as example) | Non-secure project uses the math functions exposed by secure project for math operations | . ",
+    "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/trustZone_basic_ls60/readme.html#description",
+    "relUrl": "/apps/trustZone/trustZone_basic_ls60/readme.html#description"
+  },"274": {
+    "doc": "TrustZone basic demonstration",
+    "title": "Components Used",
+    "content": ". | SERCOM - Configured as Non-secure mode | . ",
+    "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/trustZone_basic_ls60/readme.html#components-used",
+    "relUrl": "/apps/trustZone/trustZone_basic_ls60/readme.html#components-used"
+  },"275": {
+    "doc": "TrustZone basic demonstration",
+    "title": "Downloading and building the application",
+    "content": "To clone or download this application from Github, go to the main page of this repository and then click Clone button to clone this repository or download as zip file. This content can also be downloaded using content manager by following these instructions. Path of the application within the repository is as shown below: . | Type | Path |   | . | Project group | apps/trustZone/trustZone_basic_ls60 |   | . | Secure Project | apps/trustZone/trustZone_basic_ls60/Secure/firmware |   | . | Non-Secure Project | apps/trustZone/trustZone_basic_ls60/NonSecure/firmware |   | . |   |   |   | . To build the application, refer to the following table and open the project using its IDE. | Project Name | Description | . | pic32cm_ls60_cpro_Secure.X pic32cm_ls60_cpro_NonSecure.X | Secure and Non-secure MPLABX project for PIC32CM LS60 Curiosity Pro Evaluation Kit | . |   |   | . ",
+    "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/trustZone_basic_ls60/readme.html#downloading-and-building-the-application",
+    "relUrl": "/apps/trustZone/trustZone_basic_ls60/readme.html#downloading-and-building-the-application"
+  },"276": {
+    "doc": "TrustZone basic demonstration",
+    "title": "Setting up the hardware",
+    "content": "The following table shows the target hardware for the application projects. | Project Name | Board | . | pic32cm_ls60_cpro_Secure.X pic32cm_ls60_cpro_NonSecure.X | PIC32CM LS60 Curiosity Pro Evaluation Kit | . |   |   | . Setting up PIC32CM LS60 Curiosity Pro Evaluation Kit . | Connect the Debug USB port on the board to the computer using a micro USB cable | . ",
+    "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/trustZone_basic_ls60/readme.html#setting-up-the-hardware",
+    "relUrl": "/apps/trustZone/trustZone_basic_ls60/readme.html#setting-up-the-hardware"
+  },"277": {
+    "doc": "TrustZone basic demonstration",
+    "title": "Running the Application",
+    "content": ". | Open the Terminal application (Ex.:Tera term) on the computer | Connect to the EDBG Virtual COM port and configure the serial settings as follows: . | Baud : 115200 | Data : 8 Bits | Parity : None | Stop : 1 Bit | Flow Control : None | . | Open the project group in the MPLAB X IDE and set the non-secure project as main project | Build and program the application | Perform the following sequence of operations to do addition of two numbers: . | Press ‘a’ to start an addition operation | Enter a 16 bit unsigned integer and press ‘Enter’ on keyboard | Enter second 16 bit unsigned number and press ‘Enter’ on keyboard | Observe the result which is addition of first and second 16 bit unsigned number | . | Perform the following sequence of operations to do multiplication of two numbers: . | Press ‘b’ to start an addition operation | Enter a 16 bit unsigned integer and press ‘Enter’ on keyboard | Enter second 16 bit unsigned number and press ‘Enter’ on keyboard | Observe the result which is multiplication of first and second 16 bit unsigned number | . | . ",
+    "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/trustZone_basic_ls60/readme.html#running-the-application",
+    "relUrl": "/apps/trustZone/trustZone_basic_ls60/readme.html#running-the-application"
+  },"278": {
+    "doc": "TrustZone basic demonstration",
+    "title": "TrustZone basic demonstration",
+    "content": ". ",
+    "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/trustZone_basic_ls60/readme.html",
+    "relUrl": "/apps/trustZone/trustZone_basic_ls60/readme.html"
+  },"279": {
     "doc": "WDT timeout",
     "title": "WDT timeout",
     "content": "This example shows how to generate a Watchdog timer reset by emulating a deadlock. ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/wdt/wdt_timeout/readme.html#wdt-timeout",
     "relUrl": "/apps/wdt/wdt_timeout/readme.html#wdt-timeout"
-  },"252": {
+  },"280": {
     "doc": "WDT timeout",
     "title": "Description",
     "content": "This example application shows how the WDT peripheral library resets the watchdog timer by not feeding the watchdog on switch press. The application sets up the watchdog to reset the device. The application also sets up the timer to blink an LED to emulate a process. A user switch press forces the device to wait in an infinite loop to emulate a deadlock. As a result a device reset is triggered as the watchdog counter overflows the bounded value. ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/wdt/wdt_timeout/readme.html#description",
     "relUrl": "/apps/wdt/wdt_timeout/readme.html#description"
-  },"253": {
+  },"281": {
     "doc": "WDT timeout",
     "title": "Downloading and building the application",
     "content": "To clone or download this application from Github, go to the main page of this repository and then click Clone button to clone this repository or download as zip file. This content can also be downloaded using content manager by following these instructions. Path of the application within the repository is apps/wdt/wdt_timeout/firmware . To build the application, refer to the following table and open the project using its IDE. | Project Name | Description | . | pic32cm_le00_curiosity_pro.X | MPLABX project for PIC32CM LE00 Curiosity Pro Evaluation Kit | . |   |   | . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/wdt/wdt_timeout/readme.html#downloading-and-building-the-application",
     "relUrl": "/apps/wdt/wdt_timeout/readme.html#downloading-and-building-the-application"
-  },"254": {
+  },"282": {
     "doc": "WDT timeout",
     "title": "Setting up the hardware",
     "content": "The following table shows the target hardware for the application projects. | Project Name | Board | . | pic32cm_le00_curiosity_pro.X | PIC32CM LE00 Curiosity Pro Evaluation Kit | . |   |   | . Setting up PIC32CM LE00 Curiosity Pro Evaluation Kit . | Connect the Debug USB port on the board to the computer using a micro USB cable | . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/wdt/wdt_timeout/readme.html#setting-up-the-hardware",
     "relUrl": "/apps/wdt/wdt_timeout/readme.html#setting-up-the-hardware"
-  },"255": {
+  },"283": {
     "doc": "WDT timeout",
     "title": "Running the Application",
-    "content": ". | Open the Terminal application (Ex.:Tera term) on the computer | Connect to the EDBG Virtual COM port and configure the serial settings as follows: . | Baud : 115200 | Data : 8 Bits | Parity : None | Stop : 1 Bit | Flow Control : None | . | Build and Program the application project using its IDE | LED should be blinking and the console displays the following message . | Press the switch to put the system in a deadlock | LED should stop blinking and the console should print the following message . | WDT will reset the device in four seconds and the demonstration should restart | . Refer the table below for details of switch and LED: . | Board | Switch Name | LED Name | . | PIC32CM LE00 Curiosity Pro Evaluation Kit | SW1 | LED1 | . |   |   |   | . ",
+    "content": ". | Open the Terminal application (Ex.:Tera term) on the computer | Connect to the EDBG Virtual COM port and configure the serial settings as follows: . | Baud : 115200 | Data : 8 Bits | Parity : None | Stop : 1 Bit | Flow Control : None | . | Build and Program the application project using its IDE | LED should be blinking and the console displays the following message . | Press the switch to put the system in a deadlock | LED should stop blinking and the console should print the following message . | WDT will reset the device in four seconds and the demonstration should restart | . Refer the table below for details of switch and LED: . | Board | Switch Name | LED Name | . | PIC32CM LE00 Curiosity Pro Evaluation Kit | SW0 | LED0 | . |   |   |   | . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/wdt/wdt_timeout/readme.html#running-the-application",
     "relUrl": "/apps/wdt/wdt_timeout/readme.html#running-the-application"
-  },"256": {
+  },"284": {
     "doc": "WDT timeout",
     "title": "WDT timeout",
     "content": ". ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/wdt/wdt_timeout/readme.html",
     "relUrl": "/apps/wdt/wdt_timeout/readme.html"
-  },"257": {
+  },"285": {
     "doc": "AC Sleepwalking",
     "title": "AC Sleepwalking",
     "content": "This example application shows how to use the AC Peripheral library to perform a single shot comparison in standby sleep mode periodically and wake up the device at the end of a successful comparison. ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/ac/ac_sleepwalk_singleshot/readme.html#ac-sleepwalking",
     "relUrl": "/apps/ac/ac_sleepwalk_singleshot/readme.html#ac-sleepwalking"
-  },"258": {
+  },"286": {
     "doc": "AC Sleepwalking",
     "title": "Description",
     "content": "Single shot conversion is triggered by RTC compare event. Generation of a trigger and compare operation are done while the CPU is in the standby sleep mode. AC generates the interrupt on the end of the comparison which wakes the CPU. ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/ac/ac_sleepwalk_singleshot/readme.html#description",
     "relUrl": "/apps/ac/ac_sleepwalk_singleshot/readme.html#description"
-  },"259": {
+  },"287": {
     "doc": "AC Sleepwalking",
     "title": "Downloading and building the application",
     "content": "To clone or download this application from Github, go to the main page of this repository and then click Clone button to clone this repository or download as zip file. This content can also be downloaded using content manager by following these instructions. Path of the application within the repository is apps/ac/ac_sleepwalk_singleshot/firmware . To build the application, refer to the following table and open the project using its IDE. | Project Name | Description | . | pic32cm_le00_curiosity_pro.X | MPLABX project for PIC32CM LE00 Curiosity Pro Evaluation Kit | . |   |   | . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/ac/ac_sleepwalk_singleshot/readme.html#downloading-and-building-the-application",
     "relUrl": "/apps/ac/ac_sleepwalk_singleshot/readme.html#downloading-and-building-the-application"
-  },"260": {
+  },"288": {
     "doc": "AC Sleepwalking",
     "title": "Setting up the hardware",
     "content": "The following table shows the target hardware for the application projects. | Project Name | Board | . | pic32cm_le00_curiosity_pro.X | PIC32CM LE00 Curiosity Pro Evaluation Kit | . |   |   | . Setting up PIC32CM LE00 Curiosity Pro Evaluation Kit . | Connect a voltage below VDD to pin 4 of the EXT2 connector | Connect the Debug USB port on the board to the computer using a micro USB cable | . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/ac/ac_sleepwalk_singleshot/readme.html#setting-up-the-hardware",
     "relUrl": "/apps/ac/ac_sleepwalk_singleshot/readme.html#setting-up-the-hardware"
-  },"261": {
+  },"289": {
     "doc": "AC Sleepwalking",
     "title": "Running the Application",
-    "content": ". | Open the Terminal application (Ex.:Tera term) on the computer | Connect to the EDBG Virtual COM port and configure the serial settings as follows: . | Baud : 115200 | Data : 8 Bits | Parity : None | Stop : 1 Bit | Flow Control : None | . | Build and Program the application using its IDE | Observe output message in console as follows: . | Console displays the message stating whether voltage at AC input is lower or greater than the internal bandgap voltage (1.1 V) | LED toggles when comparison is done | . Below table shows the AC input pin and LED name for the board . | Board | AC input pin | LED name | . | PIC32CM LE00 Curiosity Pro Evaluation Kit | pin 4 of the EXT2 connector | LED1 | . |   |   |   | . ",
+    "content": ". | Open the Terminal application (Ex.:Tera term) on the computer | Connect to the EDBG Virtual COM port and configure the serial settings as follows: . | Baud : 115200 | Data : 8 Bits | Parity : None | Stop : 1 Bit | Flow Control : None | . | Build and Program the application using its IDE | Observe output message in console as follows: . | Console displays the message stating whether voltage at AC input is lower or greater than the internal bandgap voltage (1.1 V) | LED toggles when comparison is done | . Below table shows the AC input pin and LED name for the board . | Board | AC input pin | LED name | . | PIC32CM LE00 Curiosity Pro Evaluation Kit | pin 4 of the EXT2 connector | LED0 | . |   |   |   | . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/ac/ac_sleepwalk_singleshot/readme.html#running-the-application",
     "relUrl": "/apps/ac/ac_sleepwalk_singleshot/readme.html#running-the-application"
-  },"262": {
+  },"290": {
     "doc": "AC Sleepwalking",
     "title": "AC Sleepwalking",
     "content": ". ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/ac/ac_sleepwalk_singleshot/readme.html",
     "relUrl": "/apps/ac/ac_sleepwalk_singleshot/readme.html"
-  },"263": {
+  },"291": {
     "doc": "Release notes",
     "title": "Microchip MPLAB® Harmony 3 Release Notes",
     "content": " ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/release_notes.html#microchip-mplab-harmony-3-release-notes",
     "relUrl": "/release_notes.html#microchip-mplab-harmony-3-release-notes"
-  },"264": {
+  },"292": {
+    "doc": "Release notes",
+    "title": "Harmony 3 peripheral library application examples for PIC32CM LE/LS family  v3.1.0",
+    "content": "Development kit and demo application support . Following table provides number of peripheral library examples available for different development kits. | Development Kits | MPLABx applications | . | PIC32CM LE00 Curiosity Pro Evaluation Kit | 39 | . | PIC32CM LS00 Curiosity Pro Evaluation Kit | 8 | . | PIC32CM LS60 Curiosity Pro Evaluation Kit | 8 | . New Features . | None | . Known Issues . | None | . Development Tools . | MPLAB® X IDE v5.45 | MPLAB® X IDE plug-ins: . | MPLAB® Harmony Configurator (MHC) v3.7.0 | . | MPLAB® XC32 C/C++ Compiler v2.50 | . ",
+    "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/release_notes.html#harmony-3-peripheral-library-application-examples-for-pic32cm-lels-family--v310",
+    "relUrl": "/release_notes.html#harmony-3-peripheral-library-application-examples-for-pic32cm-lels-family--v310"
+  },"293": {
+    "doc": "Release notes",
+    "title": "Harmony 3 peripheral library application examples for PIC32CM LE/LS family  v3.0.1",
+    "content": "New Features . | Added discover.microchip.com metadata | . Bug fixes . | Same as v3.0.0 | . Known Issues . | Same as v3.0.0 | . Development Tools . | Same as v3.0.0 | . ",
+    "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/release_notes.html#harmony-3-peripheral-library-application-examples-for-pic32cm-lels-family--v301",
+    "relUrl": "/release_notes.html#harmony-3-peripheral-library-application-examples-for-pic32cm-lels-family--v301"
+  },"294": {
     "doc": "Release notes",
     "title": "Harmony 3 peripheral library application examples for PIC32CM LE/LS family  v3.0.0",
     "content": "Development kit and demo application support . Following table provides number of peripheral library examples available for different development kits. | Development Kits | MPLABx applications | . | PIC32CM LS00 Curiosity Pro Evaluation Kit | 8 | . | PIC32CM LE00 Curiosity Pro Evaluation Kit | 39 | . New Features . New features added in this release are as follows: . | Applications migrated from csp repository to this new application repository for PIC32CM LE/LS development boards | . Known Issues . The current known issues are as follows: . | The following product family requires newer DFP version to be downloaded from packs server and to be used in the MPLAB project to build with MPLAB X IDE v5.4. | PIC32CM LE/LS Family: PIC32CM-LE_DFP v1.0.88, PIC32CM-LS_DFP v1.0.88 | . | . Development Tools . | MPLAB® X IDE v5.40 | MPLAB® X IDE plug-ins: . | MPLAB® Harmony Configurator (MHC) v3.6.0 | . | MPLAB® XC32 C/C++ Compiler v2.41 | . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/release_notes.html#harmony-3-peripheral-library-application-examples-for-pic32cm-lels-family--v300",
     "relUrl": "/release_notes.html#harmony-3-peripheral-library-application-examples-for-pic32cm-lels-family--v300"
-  },"265": {
+  },"295": {
     "doc": "Release notes",
     "title": "Release notes",
     "content": ". ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/release_notes.html",
     "relUrl": "/release_notes.html"
-  },"266": {
+  },"296": {
     "doc": "Harmony 3 peripheral library application examples for PIC32CM LE/LS family",
     "title": "Harmony 3 peripheral library application examples for PIC32CM LE/LS family",
-    "content": "[![MCHP](https://www.microchip.com/ResourcePackages/Microchip/assets/dist/images/logo.png)](https://www.microchip.com) # Harmony 3 peripheral library application examples for PIC32CM LE/LS family MPLAB® Harmony 3 is an extension of the MPLAB® ecosystem for creating embedded firmware solutions for Microchip 32-bit SAM and PIC® microcontroller and microprocessor devices. Refer to the following links for more information. - [Microchip 32-bit MCUs](https://www.microchip.com/design-centers/32-bit) - [Microchip 32-bit MPUs](https://www.microchip.com/design-centers/32-bit-mpus) - [Microchip MPLAB X IDE](https://www.microchip.com/mplab/mplab-x-ide) - [Microchip MPLAB® Harmony](https://www.microchip.com/mplab/mplab-harmony) - [Microchip MPLAB® Harmony Pages](https://microchip-mplab-harmony.github.io/) This repository contains the MPLAB® Harmony 3 peripheral library application examples for PIC32CM LE/LS family - [Release Notes](/csp_apps_pic32cm_le_ls/release_notes.html) - [MPLAB® Harmony License](/csp_apps_pic32cm_le_ls/mplab_harmony_license.html) To clone or download these applications from Github, go to the [main page of this repository](https://github.com/Microchip-MPLAB-Harmony/csp_apps_pic32cm_le_ls) and then click **Clone** button to clone this repository or download as zip file. This content can also be downloaded using content manager by following these [instructions](https://github.com/Microchip-MPLAB-Harmony/contentmanager/wiki). ## Contents Summary | Folder | Description | --- | --- | apps | Contains peripheral library example applications | docs | Contains documentation in html format for offline viewing (to be used only after cloning this repository onto a local machine). Use [github pages](https://microchip-mplab-harmony.github.io/csp_apps_pic32cm_le_ls/) of this repository for viewing it online. | ## Code Examples The following applications are provided to demonstrate the typical or interesting usage models of one or more peripheral libraries. | Name | Description | ---- | ----------- | [AC Sleepwalking](/csp_apps_pic32cm_le_ls/apps/ac/ac_sleepwalk_singleshot/readme.html) | This example application shows how to use the AC Peripheral library to perform a single shot comparison in standby sleep mode periodically and wake up the device at the end of a successful comparison | [ADC DMA sleepwalking](/csp_apps_pic32cm_le_ls/apps/adc/adc_dmac_sleepwalking/readme.html) | This application shows how to configure the ADC in a sleepwalking operation, where the input voltage is measured at a fixed interval, and then the device is woken from sleep after conversion of 16 samples | [ADC Sample](../adc_sample/readme.md) | This example application shows how to sample an analog input using the ADC and displays the converted samples on a serial terminal | [ADC window sleepwalking](/csp_apps_pic32cm_le_ls/apps/adc/adc_window_sleepwalking/readme.html) | This application shows how to configure ADC in a sleepwalking operation, where input voltage is measured at a fixed interval, but device is not woken from sleep until the measured value is below a given threshold | [CCL Manchester Encoder](../../ccl/manchester_encoder/readme.md) | This example application shows how to use the CCL peripheral library and generate a Manchester-encoded output | [Clock configuration](/csp_apps_pic32cm_le_ls/apps/clock/clock_config/readme.html) | This example application shows how to configure the clock system to run the device at maximum frequency. It also outputs a prescaled clock signal on a GPIO pin for measurement and verification | [DAC waveform generation](../../dac/dac_wav_gen/readme.md) | This example application shows how to use the DAC to generate a 1 KHz Sine or Sawtooth wave with a lookup table | [DAC waveform generation with DMA](/csp_apps_pic32cm_le_ls/apps/dac/dac_wav_gen_dma/readme.html) | This example application shows how to use the DAC with the DMA to generate a 5 KHz sinusoidal waveform without CPU intervention | [DMAC memory transfer](../../dmac/dmac_memory_transfer/readme.md) | This example application demonstrates how to use the DMAC peripheral to do a memory to memory transfer | [DMAC USART echo](/csp_apps_pic32cm_le_ls/apps/dmac/dmac_usart_echo/readme.html) | This example application demonstrates USART transfer with DMA to receive 10 bytes and echo back the received bytes | [DSU compute CRC32](../../dsu/dsu_crc32_generate/readme.md) | This example application demonstrates how to use the DSU Peripheral library to compute 32-bit Cyclic Redundancy Checksum (CRC) | [EIC Interrupt](/csp_apps_pic32cm_le_ls/apps/eic/eic_led_on_off/readme.html) | This example application demonstrates how to generate interrupt using the EIC on switch press and indicate it through an LED | [EVSYS trigger](../../evsys/evsys_trigger/readme.md) | This example application demonstrates how to use the EVSYS Peripheral library to setup autonomous, low-latency and configurable communication between peripherals | [FREQM measurement](/csp_apps_pic32cm_le_ls/apps/freqm/freqm_measure_clock_freq/readme.html) | This example application demonstrates how to use the FREQM peripheral to measure the frequency of the internal RC Oscillator | [NVMCTRL data flash](../../nvmctrl/nvmctrl_data_flash/readme.md) | This example application demonstrates code execution from the main Flash memory while performing erase operation in data flash section | [NVMCTRL read write](/csp_apps_pic32cm_le_ls/apps/nvmctrl/nvmctrl_flash_read_write/readme.html) | This example application demonstrates how to use the NVMCTRL to erase and program the internal Flash memory | [OPAMP ADC gain](../../opamp/opamp_adc_gain/readme.md) | This application shows how OPAMP can be used as gain stage for the internal ADC peripheral | [PM wakeup using EIC](/csp_apps_pic32cm_le_ls/apps/pm/pm_wakeup_eic/readme.html) | This application demonstrates entering the low power modes and exiting it using the EIC | [PM wakeup using RTC](../pm_wakeup_rtc/readme.md) | This example demonstrates entering the low power modes and exiting it using the RTC | [PORT polling](/csp_apps_pic32cm_le_ls/apps/port/port_led_on_off_polling/readme.html) | This example application demonstrate how to poll the switch input, and indicate the switch status using the LED | [RSTC reset cause](../../rstc/rstc_reset_cause/readme.md) | This example shows how to use the RSTC peripheral to indicate the cause of the device reset | [RTC alarm interrupt](/csp_apps_pic32cm_le_ls/apps/rtc/rtc_alarm/readme.html) | This example shows how to use the RTC to configure the time and generate the alarm | [RTC periodic interrupt](../rtc_periodic_timeout/readme.md) | This example application shows how to use the RTC to generate periodic interrupts | [RTC tamper detect](/csp_apps_pic32cm_le_ls/apps/rtc/rtc_tamper_detect/readme.html) | This example application shows how to configure and use tamper detect feature of RTC | [SERCOM I2C EEPROM read write](../../sercom/i2c/master/i2c_eeprom/readme.md) | This example application demonstrates how to use the SERCOM peripheral to write and read from the I2C serial EEPROM memory | [SERCOM I2C EEPROM emulation (I2C slave)](/csp_apps_pic32cm_le_ls/apps/sercom/i2c/slave/i2c_eeprom_emulation/readme.html) | This example application demonstrates how to use the SERCOM peripheral in slave mode | [SERCOM SPI EEPROM read write](../../../spi/spi_eeprom_write_read/readme.md) | This example application demonstrates how to use the SERCOM SPI peripheral to write and read from the SPI serial EEPROM memory | [SERCOM SPI ping pong with DMA](../../Projects/h3/csp_apps_pic32cm_le_ls/apps/sercom/spi/spi_ping_pong_with_dma/readme.md) | This example demonstrates how to continuously transmit and receive data over a SPI interface using ping pong buffers with DMA | [SERCOM USART blocking](/csp_apps_pic32cm_le_ls/apps/sercom/usart/usart_echo_blocking/readme.html) | This example application demonstrates how to use the SERCOM peripheral in USART mode to transfer block of data in a blocking manner | [SERCOM USART interrupt](../usart_echo_interrupt/readme.md) | This example application demonstrates how to use the SERCOM peripheral in USART mode to transfer data in a non-blocking manner | [SERCOM USART ring buffer](/csp_apps_pic32cm_le_ls/apps/sercom/usart/usart_ring_buffer_interrupt/readme.html) | This example application demonstrates how to use the SERCOM peripheral in USART ring buffer mode to transfer data in a non-blocking manner | [Systick periodic interrupt](../../../systick/systick_periodic_timeout/readme.md) | This example shows how to use the SysTick to generate periodic interrupts | [TC capture mode](../../Projects/h3/csp_apps_pic32cm_le_ls/apps/tc/tc_capture_mode/readme.md) | This example shows how to use the TC module in capture mode to measure duty cycle and frequency of an external input | [TC compare mode](/csp_apps_pic32cm_le_ls/apps/tc/tc_compare_mode/readme.html) | This example shows how to use the TC module in compare mode to generate an active low, active high, and toggle output on compare match | [TC timer mode](../tc_timer_mode/readme.md) | This example shows how to use the TC module in timer mode to generate periodic interrupt | [TCC PWM generation](/csp_apps_pic32cm_le_ls/apps/tcc/tcc_synchronous_pwm_channels/readme.html) | This example application shows how to use the TCC to generate a 2 or 3 phase PWM signals for motor control with dead time | [TRAM erase on tamper detect](../../tram/tram_tamper_erase/readme.md) | This example application shows how to configure and use tamper detect feature of RTC and TrustRam | [TRNG random number](/csp_apps_pic32cm_le_ls/apps/trng/random_number/readme.html) | This example shows how to use the TRNG Peripheral library to generate and read a random number | [TrustZone EIC pin toggle](../../trustZone/eic/eic_pin_toggle/readme.md) | This example application demonstrates handling of external pin interrupt in secure and non-secure project | [TrustZone EVSYS trigger](/csp_apps_pic32cm_le_ls/apps/trustZone/evsys/evsys_trigger/readme.html) | This example application demonstrates peripheral event handling with event system in secure and non-secure project | [TrustZone Systick periodic timeout](../../systick/systick_periodic_timeout/readme.md) | This example application shows how to use the SysTick to generate periodic interrupts on both Secure and Non-secure modes | [TrustZone basic demonstration](/csp_apps_pic32cm_le_ls/apps/trustZone/trustZone_basic/readme.html) | This example application performs Add and Multiply Math operations in secure mode and I/O operations in non-secure mode | [WDT timeout](../../wdt/wdt_timeout/readme.md) | This example shows how to generate a Watchdog timer reset by emulating a deadlock | ____ [![License](https://img.shields.io/badge/license-Harmony%20license-orange.svg)](https://github.com/Microchip-MPLAB-Harmony/csp_apps_pic32cm_le_ls/blob/master/mplab_harmony_license.md) [![Latest release](https://img.shields.io/github/release/Microchip-MPLAB-Harmony/csp_apps_pic32cm_le_ls.svg)](https://github.com/Microchip-MPLAB-Harmony/csp_apps_pic32cm_le_ls/releases/latest) [![Latest release date](https://img.shields.io/github/release-date/Microchip-MPLAB-Harmony/csp_apps_pic32cm_le_ls.svg)](https://github.com/Microchip-MPLAB-Harmony/csp_apps_pic32cm_le_ls/releases/latest) [![Commit activity](https://img.shields.io/github/commit-activity/y/Microchip-MPLAB-Harmony/csp_apps_pic32cm_le_ls.svg)](https://github.com/Microchip-MPLAB-Harmony/csp_apps_pic32cm_le_ls/graphs/commit-activity) [![Contributors](https://img.shields.io/github/contributors-anon/Microchip-MPLAB-Harmony/csp_apps_pic32cm_le_ls.svg)]() ____ [![Follow us on Youtube](https://img.shields.io/badge/Youtube-Follow%20us%20on%20Youtube-red.svg)](https://www.youtube.com/user/MicrochipTechnology) [![Follow us on LinkedIn](https://img.shields.io/badge/LinkedIn-Follow%20us%20on%20LinkedIn-blue.svg)](https://www.linkedin.com/company/microchip-technology) [![Follow us on Facebook](https://img.shields.io/badge/Facebook-Follow%20us%20on%20Facebook-blue.svg)](https://www.facebook.com/microchiptechnology/) [![Follow us on Twitter](https://img.shields.io/twitter/follow/MicrochipTech.svg?style=social)](https://twitter.com/MicrochipTech) [![](https://img.shields.io/github/stars/Microchip-MPLAB-Harmony/csp_apps_pic32cm_le_ls.svg?style=social)]() [![](https://img.shields.io/github/watchers/Microchip-MPLAB-Harmony/csp_apps_pic32cm_le_ls.svg?style=social)]() ",
+    "content": "[![MCHP](https://www.microchip.com/ResourcePackages/Microchip/assets/dist/images/logo.png)](https://www.microchip.com) # Harmony 3 peripheral library application examples for PIC32CM LE/LS family MPLAB® Harmony 3 is an extension of the MPLAB® ecosystem for creating embedded firmware solutions for Microchip 32-bit SAM and PIC® microcontroller and microprocessor devices. Refer to the following links for more information. - [Microchip 32-bit MCUs](https://www.microchip.com/design-centers/32-bit) - [Microchip 32-bit MPUs](https://www.microchip.com/design-centers/32-bit-mpus) - [Microchip MPLAB X IDE](https://www.microchip.com/mplab/mplab-x-ide) - [Microchip MPLAB® Harmony](https://www.microchip.com/mplab/mplab-harmony) - [Microchip MPLAB® Harmony Pages](https://microchip-mplab-harmony.github.io/) This repository contains the MPLAB® Harmony 3 peripheral library application examples for PIC32CM LE/LS family - [Release Notes](/csp_apps_pic32cm_le_ls/release_notes.html) - [MPLAB® Harmony License](/csp_apps_pic32cm_le_ls/mplab_harmony_license.html) To clone or download these applications from Github, go to the [main page of this repository](https://github.com/Microchip-MPLAB-Harmony/csp_apps_pic32cm_le_ls) and then click **Clone** button to clone this repository or download as zip file. This content can also be downloaded using content manager by following these [instructions](https://github.com/Microchip-MPLAB-Harmony/contentmanager/wiki). ## Contents Summary | Folder | Description | --- | --- | apps | Contains peripheral library example applications | docs | Contains documentation in html format for offline viewing (to be used only after cloning this repository onto a local machine). Use [github pages](https://microchip-mplab-harmony.github.io/csp_apps_pic32cm_le_ls/) of this repository for viewing it online. | ## Code Examples The following applications are provided to demonstrate the typical or interesting usage models of one or more peripheral libraries. | Name | Description | ---- | ----------- | [AC Sleepwalking](/csp_apps_pic32cm_le_ls/apps/ac/ac_sleepwalk_singleshot/readme.html) | This example application shows how to use the AC Peripheral library to perform a single shot comparison in standby sleep mode periodically and wake up the device at the end of a successful comparison | [ADC DMA sleepwalking](/csp_apps_pic32cm_le_ls/apps/adc/adc_dmac_sleepwalking/readme.html) | This application shows how to configure the ADC in a sleepwalking operation, where the input voltage is measured at a fixed interval, and then the device is woken from sleep after conversion of 16 samples | [ADC Sample](/csp_apps_pic32cm_le_ls/apps/adc/adc_sample/readme.html) | This example application shows how to sample an analog input using the ADC and displays the converted samples on a serial terminal | [ADC window sleepwalking](/csp_apps_pic32cm_le_ls/apps/adc/adc_window_sleepwalking/readme.html) | This application shows how to configure ADC in a sleepwalking operation, where input voltage is measured at a fixed interval, but device is not woken from sleep until the measured value is below a given threshold | [CCL Manchester Encoder](/csp_apps_pic32cm_le_ls/apps/ccl/manchester_encoder/readme.html) | This example application shows how to use the CCL peripheral library and generate a Manchester-encoded output | [Clock configuration](/csp_apps_pic32cm_le_ls/apps/clock/clock_config/readme.html) | This example application shows how to configure the clock system to run the device at maximum frequency. It also outputs a prescaled clock signal on a GPIO pin for measurement and verification | [DAC waveform generation](/csp_apps_pic32cm_le_ls/apps/dac/dac_wav_gen/readme.html) | This example application shows how to use the DAC to generate a 1 KHz Sine or Sawtooth wave with a lookup table | [DAC waveform generation with DMA](/csp_apps_pic32cm_le_ls/apps/dac/dac_wav_gen_dma/readme.html) | This example application shows how to use the DAC with the DMA to generate a 5 KHz sinusoidal waveform without CPU intervention | [DMAC memory transfer](/csp_apps_pic32cm_le_ls/apps/dmac/dmac_memory_transfer/readme.html) | This example application demonstrates how to use the DMAC peripheral to do a memory to memory transfer | [DMAC USART echo](/csp_apps_pic32cm_le_ls/apps/dmac/dmac_usart_echo/readme.html) | This example application demonstrates USART transfer with DMA to receive 10 bytes and echo back the received bytes | [DSU compute CRC32](/csp_apps_pic32cm_le_ls/apps/dsu/dsu_crc32_generate/readme.html) | This example application demonstrates how to use the DSU Peripheral library to compute 32-bit Cyclic Redundancy Checksum (CRC) | [EIC Interrupt](/csp_apps_pic32cm_le_ls/apps/eic/eic_led_on_off/readme.html) | This example application demonstrates how to generate interrupt using the EIC on switch press and indicate it through an LED | [EVSYS trigger](/csp_apps_pic32cm_le_ls/apps/evsys/evsys_trigger/readme.html) | This example application demonstrates how to use the EVSYS Peripheral library to setup autonomous, low-latency and configurable communication between peripherals | [FREQM measurement](/csp_apps_pic32cm_le_ls/apps/freqm/freqm_measure_clock_freq/readme.html) | This example application demonstrates how to use the FREQM peripheral to measure the frequency of the internal RC Oscillator | [NVMCTRL data flash](/csp_apps_pic32cm_le_ls/apps/nvmctrl/nvmctrl_data_flash/readme.html) | This example application demonstrates code execution from the main Flash memory while performing erase operation in data flash section | [NVMCTRL read write](/csp_apps_pic32cm_le_ls/apps/nvmctrl/nvmctrl_flash_read_write/readme.html) | This example application demonstrates how to use the NVMCTRL to erase and program the internal Flash memory | [OPAMP ADC gain](/csp_apps_pic32cm_le_ls/apps/opamp/opamp_adc_gain/readme.html) | This application shows how OPAMP can be used as gain stage for the internal ADC peripheral | [PM wakeup using EIC](/csp_apps_pic32cm_le_ls/apps/pm/pm_wakeup_eic/readme.html) | This application demonstrates entering the low power modes and exiting it using the EIC | [PM wakeup using RTC](/csp_apps_pic32cm_le_ls/apps/pm/pm_wakeup_rtc/readme.html) | This example demonstrates entering the low power modes and exiting it using the RTC | [PORT polling](/csp_apps_pic32cm_le_ls/apps/port/port_led_on_off_polling/readme.html) | This example application demonstrate how to poll the switch input, and indicate the switch status using the LED | [RSTC reset cause](/csp_apps_pic32cm_le_ls/apps/rstc/rstc_reset_cause/readme.html) | This example shows how to use the RSTC peripheral to indicate the cause of the device reset | [RTC alarm interrupt](/csp_apps_pic32cm_le_ls/apps/rtc/rtc_alarm/readme.html) | This example shows how to use the RTC to configure the time and generate the alarm | [RTC periodic interrupt](/csp_apps_pic32cm_le_ls/apps/rtc/rtc_periodic_timeout/readme.html) | This example application shows how to use the RTC to generate periodic interrupts | [RTC tamper detect](/csp_apps_pic32cm_le_ls/apps/rtc/rtc_tamper_detect/readme.html) | This example application shows how to configure and use tamper detect feature of RTC | [SERCOM I2C EEPROM read write](/csp_apps_pic32cm_le_ls/apps/sercom/i2c/master/i2c_eeprom/readme.html) | This example application demonstrates how to use the SERCOM peripheral to write and read from the I2C serial EEPROM memory | [SERCOM I2C EEPROM emulation (I2C slave)](/csp_apps_pic32cm_le_ls/apps/sercom/i2c/slave/i2c_eeprom_emulation/readme.html) | This example application demonstrates how to use the SERCOM peripheral in slave mode | [SERCOM SPI EEPROM read write](/csp_apps_pic32cm_le_ls/apps/sercom/spi/spi_eeprom_write_read/readme.html) | This example application demonstrates how to use the SERCOM SPI peripheral to write and read from the SPI serial EEPROM memory | [SERCOM SPI ping pong with DMA](/csp_apps_pic32cm_le_ls/apps/sercom/spi/spi_ping_pong_with_dma/readme.html) | This example demonstrates how to continuously transmit and receive data over a SPI interface using ping pong buffers with DMA | [SERCOM USART blocking](/csp_apps_pic32cm_le_ls/apps/sercom/usart/usart_echo_blocking/readme.html) | This example application demonstrates how to use the SERCOM peripheral in USART mode to transfer block of data in a blocking manner | [SERCOM USART interrupt](/csp_apps_pic32cm_le_ls/apps/sercom/usart/usart_echo_interrupt/readme.html) | This example application demonstrates how to use the SERCOM peripheral in USART mode to transfer data in a non-blocking manner | [SERCOM USART ring buffer](/csp_apps_pic32cm_le_ls/apps/sercom/usart/usart_ring_buffer_interrupt/readme.html) | This example application demonstrates how to use the SERCOM peripheral in USART ring buffer mode to transfer data in a non-blocking manner | [Systick periodic interrupt](/csp_apps_pic32cm_le_ls/apps/systick/systick_periodic_timeout/readme.html) | This example shows how to use the SysTick to generate periodic interrupts | [TC capture mode](/csp_apps_pic32cm_le_ls/apps/tc/tc_capture_mode/readme.html) | This example shows how to use the TC module in capture mode to measure duty cycle and frequency of an external input | [TC compare mode](/csp_apps_pic32cm_le_ls/apps/tc/tc_compare_mode/readme.html) | This example shows how to use the TC module in compare mode to generate an active low, active high, and toggle output on compare match | [TC timer mode](/csp_apps_pic32cm_le_ls/apps/tc/tc_timer_mode/readme.html) | This example shows how to use the TC module in timer mode to generate periodic interrupt | [TCC PWM generation](/csp_apps_pic32cm_le_ls/apps/tcc/tcc_synchronous_pwm_channels/readme.html) | This example application shows how to use the TCC to generate a 2 or 3 phase PWM signals for motor control with dead time | [TRAM erase on tamper detect](/csp_apps_pic32cm_le_ls/apps/tram/tram_tamper_erase/readme.html) | This example application shows how to configure and use tamper detect feature of RTC and TrustRam | [TRNG random number](/csp_apps_pic32cm_le_ls/apps/trng/random_number/readme.html) | This example shows how to use the TRNG Peripheral library to generate and read a random number | [TrustZone EIC pin toggle - PIC32CMLS00](/csp_apps_pic32cm_le_ls/apps/trustZone/eic/eic_pin_toggle_ls00/readme.html) | This example application demonstrates handling of external pin interrupt in secure and non-secure project | [TrustZone EIC pin toggle - PIC32CMLS60](/csp_apps_pic32cm_le_ls/apps/trustZone/eic/eic_pin_toggle_ls60/readme.html) | This example application demonstrates handling of external pin interrupt in secure and non-secure project | [TrustZone EVSYS trigger - PIC32CMLS00](/csp_apps_pic32cm_le_ls/apps/trustZone/evsys/evsys_trigger_ls00/readme.html) | This example application demonstrates peripheral event handling with event system in secure and non-secure project | [TrustZone EVSYS trigger - PIC32CMLS60](/csp_apps_pic32cm_le_ls/apps/trustZone/evsys/evsys_trigger_ls60/readme.html) | This example application demonstrates peripheral event handling with event system in secure and non-secure project | [TrustZone Systick periodic timeout - PIC32CMLS00](/csp_apps_pic32cm_le_ls/apps/trustZone/systick/systick_periodic_timeout_ls00/readme.html) | This example application shows how to use the SysTick to generate periodic interrupts on both Secure and Non-secure modes | [TrustZone Systick periodic timeout - PIC32CMLS60](/csp_apps_pic32cm_le_ls/apps/trustZone/systick/systick_periodic_timeout_ls60/readme.html) | This example application shows how to use the SysTick to generate periodic interrupts on both Secure and Non-secure modes | [TrustZone basic demonstration - PIC32CMLS00](/csp_apps_pic32cm_le_ls/apps/trustZone/trustZone_basic_ls00/readme.html) | This example application performs Add and Multiply Math operations in secure mode and I/O operations in non-secure mode | [TrustZone basic demonstration - PIC32CMLS60](/csp_apps_pic32cm_le_ls/apps/trustZone/trustZone_basic_ls60/readme.html) | This example application performs Add and Multiply Math operations in secure mode and I/O operations in non-secure mode | [WDT timeout](/csp_apps_pic32cm_le_ls/apps/wdt/wdt_timeout/readme.html) | This example shows how to generate a Watchdog timer reset by emulating a deadlock | ____ [![License](https://img.shields.io/badge/license-Harmony%20license-orange.svg)](https://github.com/Microchip-MPLAB-Harmony/csp_apps_pic32cm_le_ls/blob/master/mplab_harmony_license.md) [![Latest release](https://img.shields.io/github/release/Microchip-MPLAB-Harmony/csp_apps_pic32cm_le_ls.svg)](https://github.com/Microchip-MPLAB-Harmony/csp_apps_pic32cm_le_ls/releases/latest) [![Latest release date](https://img.shields.io/github/release-date/Microchip-MPLAB-Harmony/csp_apps_pic32cm_le_ls.svg)](https://github.com/Microchip-MPLAB-Harmony/csp_apps_pic32cm_le_ls/releases/latest) [![Commit activity](https://img.shields.io/github/commit-activity/y/Microchip-MPLAB-Harmony/csp_apps_pic32cm_le_ls.svg)](https://github.com/Microchip-MPLAB-Harmony/csp_apps_pic32cm_le_ls/graphs/commit-activity) [![Contributors](https://img.shields.io/github/contributors-anon/Microchip-MPLAB-Harmony/csp_apps_pic32cm_le_ls.svg)]() ____ [![Follow us on Youtube](https://img.shields.io/badge/Youtube-Follow%20us%20on%20Youtube-red.svg)](https://www.youtube.com/user/MicrochipTechnology) [![Follow us on LinkedIn](https://img.shields.io/badge/LinkedIn-Follow%20us%20on%20LinkedIn-blue.svg)](https://www.linkedin.com/company/microchip-technology) [![Follow us on Facebook](https://img.shields.io/badge/Facebook-Follow%20us%20on%20Facebook-blue.svg)](https://www.facebook.com/microchiptechnology/) [![Follow us on Twitter](https://img.shields.io/twitter/follow/MicrochipTech.svg?style=social)](https://twitter.com/MicrochipTech) [![](https://img.shields.io/github/stars/Microchip-MPLAB-Harmony/csp_apps_pic32cm_le_ls.svg?style=social)]() [![](https://img.shields.io/github/watchers/Microchip-MPLAB-Harmony/csp_apps_pic32cm_le_ls.svg?style=social)]() ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/",
     "relUrl": "/"
   }
