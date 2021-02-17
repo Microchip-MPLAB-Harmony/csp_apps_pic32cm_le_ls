@@ -3,19 +3,19 @@
 	"category": "com.microchip.ide.project",
 	"content": {
 		"metaDataVersion": "1.1.0",
-		"name": "com.microchip.mcu32.mplabx.project.csp_apps_pic32cm_le_ls_Secure_systick_periodic_timeout_ls00",
+		"name": "com.microchip.mcu32.mplabx.project.csp_apps_pic32cm_le_ls_Secure_eic_pin_toggle_ls60",
 		"version": "3.0.1",
-		"displayName": "TrustZone Systick periodic timeout Example for PIC32CM LE00/LS00/LS60 Family",
-		"projectName": "systick_periodic_timeout_pic32cm_ls00_cpro_Secure",
-		"shortDescription": "This example application shows how to use the SysTick to generate periodic interrupts on both Secure and Non-secure modes.",
+		"displayName": "TrustZone EIC pin toggle Example for PIC32CM LE00/LS00/LS60 Family",
+		"projectName": "eic_pin_toggle_pic32cm_ls60_cpro_Secure",
+		"shortDescription": "This example application demonstrates handling of external pin interrupt in secure and non-secure project.",
 		"ide": {
 			"name": "MPLABX",
-			"semverRange": ">=5.40.0"
+			"semverRange": ">=5.45.0"
 		},
 		"compiler": [
 			{
 				"name": "XC32",
-				"semverRange": ">=2.40.0"
+				"semverRange": ">=2.50.0"
 			}
 		],
 		"dfp": {
@@ -24,7 +24,7 @@
 		},
 		"configurator": {
 			"name": "MHC",
-			"semverRange": ">=3.5.1"
+			"semverRange": ">=3.7.0"
 		},
 		"device": {
 			"metaDataVersion": "1.0.0",
@@ -32,14 +32,14 @@
 			"content": {
 				"metaDataVersion": "1.0.0",
 				"category": "com.microchip.device",
-				"name": "PIC32CM5164LS00100",
+				"name": "PIC32CM5164LS60100",
 				"versionRange": "*"
 			}
 		},
 		"author": "Microchip",
 		"subcategories": [
 			[
-				"Development Kit", "PIC32CM LS00 Curiosity Pro Evaluation Kit"
+				"Development Kit", "PIC32CM LS60 Curiosity Pro Evaluation Kit"
 			],
 			[
 				"Harmony", "Peripherals", "TRUSTZONE"
@@ -54,7 +54,7 @@
 		"keywords": [
 			"MHC",
 			"Harmony",
-			"PIC32CM5164LS00100",
+			"PIC32CM5164LS60100",
 			"PIC32CM LE00/LS00/LS60 Family",
 			"TRUSTZONE",
 			"TrustZone",
