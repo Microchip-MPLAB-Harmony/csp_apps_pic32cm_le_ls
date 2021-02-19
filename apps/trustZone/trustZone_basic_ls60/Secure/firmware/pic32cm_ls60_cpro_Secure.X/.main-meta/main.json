@@ -4,7 +4,7 @@
 	"content": {
 		"metaDataVersion": "1.1.0",
 		"name": "com.microchip.mcu32.mplabx.project.csp_apps_pic32cm_le_ls_Secure_trustZone_basic_ls60",
-		"version": "3.0.1",
+		"version": "3.1.0",
 		"displayName": "TrustZone basic demonstration Example for PIC32CM LE00/LS00/LS60 Family",
 		"projectName": "trustZone_basic_pic32cm_ls60_cpro_Secure",
 		"shortDescription": "This example application performs Add and Multiply Math operations in secure mode and I/O operations in non-secure mode.",
@@ -39,13 +39,17 @@
 		"author": "Microchip",
 		"subcategories": [
 			[
-				"Development Kit", "PIC32CM LS60 Curiosity Pro Evaluation Kit"
+				"Development Kit",
+				"PIC32CM LS60 Curiosity Pro Evaluation Kit"
 			],
 			[
-				"Harmony", "Peripherals", "TRUSTZONE"
+				"Harmony",
+				"Peripherals",
+				"TRUSTZONE"
 			],
 			[
-				"Peripherals", "TRUSTZONE"
+				"Peripherals",
+				"TRUSTZONE"
 			]
 		],
 		"peripherals": [
