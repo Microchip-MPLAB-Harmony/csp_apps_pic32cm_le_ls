@@ -1,0 +1,14 @@
+configName: pic32cm_le00_curiosity_pro
+folderName: pic32cm_le00_curiosity_pro
+format_version: v1.0
+frameworkPath: ..\..\..\..
+processor: PIC32CM5164LE00100
+projectName: low_power_pic32cm_le00_curiosity_pro
+settings:
+  PackageFilter: aws_cloud;bsp;core;core_apps_pic32cm_le_ls;crypto;cryptoauthlib;csp;csp_apps_pic32cm_le_ls;csp_apps_pic32mz_ef;csp_apps_sam_e70_s70_v70_v71;csp_apps_sam_l10_l11;csp_apps_sam_l22;net;quick_docs;usb;usb_apps_device;wireless
+  FORCE_OPTIMIZATION: 'false'
+  GENERATE_BACKUP: 'true'
+  TRUSTZONE: 'false'
+  CMSISPath: .\dev_packs\arm\CMSIS\5.7.0
+  MERGE_STRATEGY: USER_ALL
+  DFPPath: .\dev_packs\Microchip\PIC32CM-LE_DFP\1.0.110\atdf\PIC32CM5164LE00100.atdf
