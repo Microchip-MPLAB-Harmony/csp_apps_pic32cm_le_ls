@@ -1,0 +1,52 @@
+format_version: v1.0
+type: UniqueComponent
+attributes: {id: pm}
+children:
+- type: Symbols
+  children:
+  - type: Boolean
+    attributes: {id: PLCFG_PLDIS}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: 'false'}
+  - type: KeyValueSet
+    attributes: {id: PM_PLCFG_PLSEL}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: pm, value: '1'}
+      - type: User
+        attributes: {value: '1'}
+  - type: Boolean
+    attributes: {id: PM_STDBYCFG_BBIASHS}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: 'false'}
+  - type: Boolean
+    attributes: {id: PM_STDBYCFG_BBIASTR}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: 'false'}
+  - type: Boolean
+    attributes: {id: PM_STDBYCFG_DPGPD}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: 'false'}
+  - type: KeyValueSet
+    attributes: {id: PM_STDBYCFG_PDCFG}
+    children:
+    - type: Values
+      children:
+      - type: User
+        attributes: {value: '1'}
+- type: ElementPosition
+  attributes: {x: '500', y: '20', id: pm}
