@@ -220,6 +220,9 @@ int main ( void )
                 RTC_Timer32InterruptDisable (RTC_TIMER32_INT_MASK_CMP0);
                 NVIC_DisableIRQ (RTC_IRQn);
 
+				// Initialize Event System for SleepWalking
+                EVSYS_Initialize();
+
                 while (!DMAC_Flag)
                 {
                     // Enter in IDLE Sleep Mode

@@ -1,6 +1,6 @@
 ---
-parent: Harmony 3 peripheral library application examples for PIC32CM LE/LS family
-title: Low Power Features 
+parent: Harmony 3 peripheral library application examples for PIC32CM LE00/LS00/LS60 family
+title: Low-Power Features 
 has_children: false
 has_toc: false
 ---
