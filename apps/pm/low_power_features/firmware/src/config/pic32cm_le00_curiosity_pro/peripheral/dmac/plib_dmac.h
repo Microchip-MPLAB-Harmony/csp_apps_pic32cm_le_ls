@@ -149,6 +149,8 @@ uint32_t DMAC_CRCRead( void );
 uint32_t DMAC_CRCCalculate(void *buffer, uint32_t length, DMAC_CRC_SETUP CRCSetup);
 
 void DMAC_CRCDisable( void );
+void DMAC_ChannelSuspend ( DMAC_CHANNEL channel );
+void DMAC_ChannelResume ( DMAC_CHANNEL channel );
 
 
 // DOM-IGNORE-BEGIN

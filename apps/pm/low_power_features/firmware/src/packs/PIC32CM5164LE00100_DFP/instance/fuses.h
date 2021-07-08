@@ -21,20 +21,7 @@
  */
 
 /* file generated from device description version 2021-04-27T09:12:45Z */
-#ifndef _PIC32CMLE00_PORT_INSTANCE_
-#define _PIC32CMLE00_PORT_INSTANCE_
+#ifndef _PIC32CMLE00_FUSES_INSTANCE_
+#define _PIC32CMLE00_FUSES_INSTANCE_
 
-
-/* ========== Instance Parameter definitions for PORT peripheral ========== */
-#define PORT_BITS                                _UL_(93)   
-#define PORT_DRVSTR                              _UL_(1)    /* DRVSTR supported? */
-#define PORT_EV_NUM                              _UL_(4)    
-#define PORT_GROUPS                              _UL_(3)    
-#define PORT_MSB                                 _UL_(92)   
-#define PORT_ODRAIN                              _UL_(0)    /* ODRAIN supported? */
-#define PORT_PPP_IMPLEMENTED                     _UL_(0)    /* IOBUS2 implemented? */
-#define PORT_SECURE_IMPLEMENTED                  _UL_(1)    /* Secure I/Os supported? */
-#define PORT_SLEWLIM                             _UL_(0)    /* SLEWLIM supported? */
-#define PORT_INSTANCE_ID                         _UL_(12)   /* Instance index for PORT */
-
-#endif /* _PIC32CMLE00_PORT_INSTANCE_ */
+#endif /* _PIC32CMLE00_FUSES_INSTANCE_ */
