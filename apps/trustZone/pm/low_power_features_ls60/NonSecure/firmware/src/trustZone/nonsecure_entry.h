@@ -52,6 +52,5 @@
 extern void nsc_pm_idle_mode_enter ( void );
 extern void nsc_pm_standby_mode_enter ( void );
 extern void nsc_pm_off_mode_enter ( void );
-extern void nsc_evsys_initialize ( void );
 
 #endif /* NONSECURE_ENTRY_H_ */

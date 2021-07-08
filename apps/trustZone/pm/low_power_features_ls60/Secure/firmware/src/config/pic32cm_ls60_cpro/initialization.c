@@ -64,8 +64,8 @@
 #pragma config WDT_EWOFFSET = 0xb
 #pragma config WDT_WEN = CLEAR
 #pragma config BOD33_HYST = CLEAR
-#pragma config BOOTROM_RXN = CLEAR
-#pragma config BOOTROM_DXN = SET
+#pragma config IDAU_RXN = CLEAR
+#pragma config NVMCTRL_DXN = SET
 #pragma config IDAU_AS = 0x400
 #pragma config IDAU_ANSC = 0x40
 #pragma config IDAU_DS = 0x40
@@ -206,6 +206,8 @@ void SYS_Initialize ( void* data )
 
 
     NVMCTRL_Initialize();
+
+    EVSYS_Initialize();
 
     SUPC_Initialize();
 

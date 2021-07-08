@@ -20,7 +20,7 @@
  *
  */
 
-/* file generated from device description version 2020-11-17T07:16:44Z */
+/* file generated from device description version 2021-04-27T09:13:14Z */
 #ifndef _PIC32CMLS60_USB_INSTANCE_
 #define _PIC32CMLS60_USB_INSTANCE_
 

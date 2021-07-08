@@ -247,6 +247,40 @@ uint16_t DMAC_ChannelGetTransferredCount( DMAC_CHANNEL channel )
 }
 
 
+void DMAC_ChannelSuspend ( DMAC_CHANNEL channel )
+{
+    uint8_t channelId = 0;
+
+    /* Save channel ID */
+    channelId = (uint8_t)DMAC_REGS->DMAC_CHID;
+
+    /* Set the DMA Channel ID */
+    DMAC_REGS->DMAC_CHID = channel;
+
+    /* Suspend the DMA channel */  
+    DMAC_REGS->DMAC_CHCTRLB = (DMAC_REGS->DMAC_CHCTRLB & ~DMAC_CHCTRLB_CMD_Msk) | DMAC_CHCTRLB_CMD_SUSPEND;
+    
+    /* Restore channel ID */
+    DMAC_REGS->DMAC_CHID = channelId;
+}
+
+void DMAC_ChannelResume ( DMAC_CHANNEL channel )
+{
+    uint8_t channelId = 0;
+
+    /* Save channel ID */
+    channelId = (uint8_t)DMAC_REGS->DMAC_CHID;
+
+    /* Set the DMA Channel ID */
+    DMAC_REGS->DMAC_CHID = channel;
+
+    /* Suspend the DMA channel */  
+    DMAC_REGS->DMAC_CHCTRLB = (DMAC_REGS->DMAC_CHCTRLB & ~DMAC_CHCTRLB_CMD_Msk) | DMAC_CHCTRLB_CMD_RESUME;
+    
+    /* Restore channel ID */
+    DMAC_REGS->DMAC_CHID = channelId;
+}
+
 /*******************************************************************************
     This function function allows a DMAC PLIB client to set an event handler.
 ********************************************************************************/
