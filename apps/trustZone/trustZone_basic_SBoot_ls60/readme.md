@@ -1,5 +1,5 @@
 ---
-parent: Harmony 3 peripheral library application examples for PIC32CM LE/LS family
+parent: Harmony 3 peripheral library application examples for PIC32CM LE00/LS00/LS60 family
 title: TrustZone basic with Secure Boot demonstration 
 has_children: false
 has_toc: false
@@ -17,14 +17,17 @@ For this example:
 - Performance Level 2 (PL2) is selected
 
 ## Description
-
+ 
 This example is based on trustZone_basic example and provides a BootSecure project in addition to the Secure and NonSeucre projects 
 to demonstrate Secure Boot feature capability over TrustZone feature.
 
-The TrustZone basic with Secure Boot demonstration then provides a three level project example:
-- BootSecure project implements math functions (add and multiply as example) and switch on the on-board LED0 (Green) on the BOOT region.
-- Secure project implements math functions (add and multiply as example) and switch on the on-board LED1 (Red) on the Secure APPLICATION region.
-- Non-secure project uses the math functions on the Non-Secure APPLICATION region exposed by bootsecure and secure projects for math operations through veneers.
+The TrustZone basic with Secure Boot demonstration then provides two project groups:
+- BootSec_App: Contains BootSecure and Dummy projects.
+-- The Dummy project is not used but is kept for H3 project architecture considerations.
+-- BootSecure project implements math functions (add and multiply as example) and switch on the on-board LED0 (Green) on the BOOT region.
+- App: Contains Secure and NonSecure projects.
+-- Secure project implements math functions (add and multiply as example) and switch on the on-board LED1 (Red) on the Secure APPLICATION region.
+-- Non-secure project uses the math functions on the Non-Secure APPLICATION region exposed by bootsecure and secure projects for math operations through veneers.
 
 ## Components Used
 
@@ -40,17 +43,20 @@ Path of the application within the repository is as shown below:
 
 | Type        | Path                         |
 |:-----------:|:----------------------------:|
-| Project group | apps/trustZone/trustZone_basic_SBoot_ls60 |
-|BootSecure Project|  apps/trustZone/trustZone_basic_SBoot_ls60/BootSecure/firmware |
-|Secure Project|  apps/trustZone/trustZone_basic_SBoot_ls60/Secure/firmware |
-|Non-Secure Project|  apps/trustZone/trustZone_basic_SBoot_ls60/NonSecure/firmware |
+| Project group | apps/trustZone/trustZone_basic_SBoot_ls60/BS_App |
+|BootSecure Project|  apps/trustZone/trustZone_basic_SBoot_ls60/BS_App/Secure/firmware |
+|Dummy Project|  apps/trustZone/trustZone_basic_SBoot_ls60/BS_App/NonSecure/firmware |
+| Project group | apps/trustZone/trustZone_basic_SBoot_ls60/App |
+|Secure Project|  apps/trustZone/trustZone_basic_SBoot_ls60/App/Secure/firmware |
+|NonSecure Project|  apps/trustZone/trustZone_basic_SBoot_ls60/App/NonSecure/firmware |
 ||||
 
 To build the application, refer to the following table and open the project using its IDE.
 
 | Project Name      | Description                                    |
 | :-----------------: | :----------------------------------------------: |
-| pic32cm_ls60_BootSecure.X <br> pic32cm_ls60_cpro_Secure.X <br> pic32cm_ls60_cpro_NonSecure.X | BootSecure, Secure and Non-secure MPLABX projects for [PIC32CM LS60 Curiosity Pro Evaluation Kit]() |
+| pic32cm_ls60_Secure.X <br> pic32cm_ls60_cpro_NonSecure.X <br> | Secure and NonSecure MPLABX projects from BS_App folder for [PIC32CM LS60 Curiosity Pro Evaluation Kit]() |
+| pic32cm_ls60_Secure.X <br> pic32cm_ls60_cpro_NonSecure.X <br> | Secure and NonSecure MPLABX projects from App folder for [PIC32CM LS60 Curiosity Pro Evaluation Kit]() |
 |||
 
 ## Setting up the hardware
@@ -59,7 +65,8 @@ The following table shows the target hardware for the application projects.
 
 | Project Name| Board|
 |:---------|:---------:|
-| pic32cm_ls60_BootSecure.X <br> pic32cm_ls60_cpro_Secure.X <br> pic32cm_ls60_cpro_NonSecure.X | [PIC32CM LS60 Curiosity Pro Evaluation Kit]() |
+| pic32cm_ls60_Secure.X <br> pic32cm_ls60_cpro_NonSecure.X <br> | [PIC32CM LS60 Curiosity Pro Evaluation Kit]() |
+| pic32cm_ls60_cpro_Secure.X <br> pic32cm_ls60_cpro_NonSecure.X | [PIC32CM LS60 Curiosity Pro Evaluation Kit]() |
 |||
 
 ### Setting up [PIC32CM LS60 Curiosity Pro Evaluation Kit]()
@@ -68,7 +75,10 @@ The following table shows the target hardware for the application projects.
 
 ## Running the Application
 
-1. Open the project group in the MPLAB X IDE and set the non-secure project as main project
+1. Open the BS_App and App projects group in the MPLAB X IDE
+2. Set the bootsecure project as main project
+3. Build and program the application
+4. Set the nonsecure project as main project then flash the application
 2. Build and program the application
 3. The two on-board LEDs should switch on with a delay due to the Secure Boot Verification and the math operations are performed in Non-Secure application
-**Note:** The application can be launched in debug mode to do step-by-step and observe how the jumps from non-secure project to bootsecure or secure project are performed
+**Note:** The application can be launched in debug mode to do step-by-step and observe how the jumps from non-secure project to secure project only are performed
