@@ -54,3 +54,5 @@ void EVSYS_Initialize( void )
                                     | EVSYS_CHANNEL_RUNSTDBY_Msk | EVSYS_CHANNEL_ONDEMAND_Msk;
     EVSYS_SEC_REGS->EVSYS_NONSECCHAN = 0x1;
 }
+
+

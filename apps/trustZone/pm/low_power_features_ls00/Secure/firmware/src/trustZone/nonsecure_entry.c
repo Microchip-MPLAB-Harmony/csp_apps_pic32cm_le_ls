@@ -56,8 +56,3 @@ void __attribute__((cmse_nonsecure_entry)) nsc_pm_off_mode_enter ( void )
 {
     PM_OffModeEnter ();
 }
-
-void __attribute__((cmse_nonsecure_entry)) nsc_evsys_initialize ( void )
-{
-    EVSYS_Initialize ();
-}

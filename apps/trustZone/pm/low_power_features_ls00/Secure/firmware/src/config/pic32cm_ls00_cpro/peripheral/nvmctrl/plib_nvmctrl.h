@@ -121,6 +121,11 @@ void NVMCTRL_SecureRegionLock (NVMCTRL_SECURE_MEMORY_REGION region);
 
 void NVMCTRL_SecureRegionUnlock (NVMCTRL_SECURE_MEMORY_REGION region);
 
+void NVMCTRL_DataScrambleKeySet(uint32_t dsckey);
+
+void NVMCTRL_DataScrambleEnable(bool enable);
+
+
 
 // DOM-IGNORE-BEGIN
 #ifdef __cplusplus // Provide C++ Compatibility

@@ -157,6 +157,9 @@ int main ( void )
     EIC_CallbackRegister (EIC_PIN_12, ButtonPressedCallback, 0);
     RTC_Timer32CallbackRegister (RTCCountFinished, 0);
     
+    // Disable Event System Generator 0
+    EVSYS_GeneratorDisable (0);
+    
     // Enable ADC peripheral
     ADC_Enable ();
     
@@ -220,8 +223,8 @@ int main ( void )
                 RTC_Timer32InterruptDisable (RTC_TIMER32_INT_MASK_CMP0);
                 NVIC_DisableIRQ (RTC_IRQn);
 
-                // Initialize Event System for SleepWalking
-                nsc_evsys_initialize ();
+                // Enable Event System Generator 0 for SleepWalking
+                EVSYS_GeneratorEnable (0, 12);
 
                 while (!DMAC_Flag)
                 {

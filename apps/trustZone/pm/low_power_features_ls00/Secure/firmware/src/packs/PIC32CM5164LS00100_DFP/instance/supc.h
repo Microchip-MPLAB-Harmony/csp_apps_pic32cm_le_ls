@@ -20,7 +20,7 @@
  *
  */
 
-/* file generated from device description version 2020-11-17T07:16:20Z */
+/* file generated from device description version 2021-04-27T09:12:59Z */
 #ifndef _PIC32CMLS00_SUPC_INSTANCE_
 #define _PIC32CMLS00_SUPC_INSTANCE_
 

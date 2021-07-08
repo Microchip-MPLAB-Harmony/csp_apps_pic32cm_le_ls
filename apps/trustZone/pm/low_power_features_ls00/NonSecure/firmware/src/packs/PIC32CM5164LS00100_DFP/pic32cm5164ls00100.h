@@ -20,7 +20,7 @@
  *
  */
 
-/* file generated from device description version 2020-11-17T07:16:20Z */
+/* file generated from device description version 2021-04-27T09:12:59Z */
 #ifndef _PIC32CM5164LS00100_H_
 #define _PIC32CM5164LS00100_H_
 
@@ -82,11 +82,11 @@ typedef enum IRQn
   PendSV_IRQn               =  -2, /**< -2  Pendable request for system service */
   SysTick_IRQn              =  -1, /**< -1  System Tick Timer                   */
 /******  PIC32CM5164LS00100 specific Interrupt Numbers ***********************************/
-  OSC32KCTRL_IRQn           =   0, /**< 0   Shared between MCLK OSCCTRL OSC32KCTRL PM SUPC (OSC32KCTRL) */
-  OSCCTRL_IRQn              =   0, /**< 0   Shared between MCLK OSCCTRL OSC32KCTRL PM SUPC (OSCCTRL) */
-  SUPC_IRQn                 =   0, /**< 0   Shared between MCLK OSCCTRL OSC32KCTRL PM SUPC (SUPC) */
   MCLK_IRQn                 =   0, /**< 0   Shared between MCLK OSCCTRL OSC32KCTRL PM SUPC (MCLK) */
+  OSCCTRL_IRQn              =   0, /**< 0   Shared between MCLK OSCCTRL OSC32KCTRL PM SUPC (OSCCTRL) */
+  OSC32KCTRL_IRQn           =   0, /**< 0   Shared between MCLK OSCCTRL OSC32KCTRL PM SUPC (OSC32KCTRL) */
   PM_IRQn                   =   0, /**< 0   Shared between MCLK OSCCTRL OSC32KCTRL PM SUPC (PM) */
+  SUPC_IRQn                 =   0, /**< 0   Shared between MCLK OSCCTRL OSC32KCTRL PM SUPC (SUPC) */
   WDT_IRQn                  =   1, /**< 1   Watchdog Timer (WDT)                */
   RTC_IRQn                  =   2, /**< 2   Real-Time Counter (RTC)             */
   EIC_EXTINT_0_IRQn         =   3, /**< 3   External Interrupt Controller (EIC) */
@@ -348,13 +348,13 @@ void TRAM_Handler                  ( void );
 #endif /* !(defined(__ASSEMBLER__) || defined(__IAR_SYSTEMS_ASM__)) */
 
 /** \brief Configuration of the CORTEX-M23 Processor and Core Peripherals */
-#define __FPU_PRESENT                  0 /**< FPU present or not                                                        */
-#define __MPU_PRESENT                  1 /**< MPU present or not                                                        */
-#define __NVIC_PRIO_BITS               2 /**< Number of NVIC Priority bits                                              */
-#define __VTOR_PRESENT                 1 /**< Vector Table Offset Register present or not                               */
-#define __Vendor_SysTickConfig         0 /**< Set to 1 if different SysTick Config is used                              */
-#define __ARCH_ARM                     1
-#define __ARCH_ARM_CORTEX_M            1
+#define __FPU_PRESENT                      0 /**< FPU present or not                                                        */
+#define __MPU_PRESENT                      1 /**< MPU present or not                                                        */
+#define __NVIC_PRIO_BITS                   2 /**< Number of NVIC Priority bits                                              */
+#define __VTOR_PRESENT                     1 /**< Vector Table Offset Register present or not                               */
+#define __Vendor_SysTickConfig             0 /**< Set to 1 if different SysTick Config is used                              */
+#define __ARCH_ARM                         1
+#define __ARCH_ARM_CORTEX_M                1
 
 /*
  * \brief CMSIS includes
@@ -380,6 +380,7 @@ void TRAM_Handler                  ( void );
 #include "component/eic.h"
 #include "component/evsys.h"
 #include "component/freqm.h"
+#include "component/fuses.h"
 #include "component/gclk.h"
 #include "component/i2s.h"
 #include "component/idau.h"
@@ -416,6 +417,7 @@ void TRAM_Handler                  ( void );
 #include "instance/eic.h"
 #include "instance/evsys.h"
 #include "instance/freqm.h"
+#include "instance/fuses.h"
 #include "instance/gclk.h"
 #include "instance/i2s.h"
 #include "instance/idau.h"
@@ -527,6 +529,11 @@ void TRAM_Handler                  ( void );
 #define MCLK_REGS                        ((mclk_registers_t*)0x40000800)               /**< \brief MCLK Registers Address       */
 #define NVMCTRL_REGS                     ((nvmctrl_registers_t*)0x41004000)            /**< \brief NVMCTRL Registers Address    */
 #define NVMCTRL_SEC_REGS                 ((nvmctrl_registers_t*)0x41005000)            /**< \brief NVMCTRL Registers Address    */
+#define BOCOR_FUSES_REGS                 ((fuses_bocor_fuses_registers_t*)0x0080c000)  /**< \brief FUSES Registers Address      */
+#define OTP1_FUSES_REGS                  ((fuses_otp1_fuses_registers_t*)0x00806000)   /**< \brief FUSES Registers Address      */
+#define OTP2_FUSES_REGS                  ((fuses_otp2_fuses_registers_t*)0x00806008)   /**< \brief FUSES Registers Address      */
+#define SW_CALIB_FUSES_REGS              ((fuses_sw_calib_fuses_registers_t*)0x00806020) /**< \brief FUSES Registers Address      */
+#define USER_FUSES_REGS                  ((fuses_user_fuses_registers_t*)0x00804000)   /**< \brief FUSES Registers Address      */
 #define OPAMP_REGS                       ((opamp_registers_t*)0x42005000)              /**< \brief OPAMP Registers Address      */
 #define OSC32KCTRL_REGS                  ((osc32kctrl_registers_t*)0x40001400)         /**< \brief OSC32KCTRL Registers Address */
 #define OSCCTRL_REGS                     ((oscctrl_registers_t*)0x40001000)            /**< \brief OSCCTRL Registers Address    */
@@ -586,6 +593,11 @@ void TRAM_Handler                  ( void );
 #define MCLK_BASE_ADDRESS                _UL_(0x40000800)                              /* MCLK Base Address */
 #define NVMCTRL_BASE_ADDRESS             _UL_(0x41004000)                              /* NVMCTRL Base Address */
 #define NVMCTRL_SEC_BASE_ADDRESS         _UL_(0x41005000)                              /* NVMCTRL Base Address */
+#define BOCOR_FUSES_BASE_ADDRESS         _UL_(0x0080c000)                              /* FUSES Base Address */
+#define OTP1_FUSES_BASE_ADDRESS          _UL_(0x00806000)                              /* FUSES Base Address */
+#define OTP2_FUSES_BASE_ADDRESS          _UL_(0x00806008)                              /* FUSES Base Address */
+#define SW_CALIB_FUSES_BASE_ADDRESS      _UL_(0x00806020)                              /* FUSES Base Address */
+#define USER_FUSES_BASE_ADDRESS          _UL_(0x00804000)                              /* FUSES Base Address */
 #define OPAMP_BASE_ADDRESS               _UL_(0x42005000)                              /* OPAMP Base Address */
 #define OSC32KCTRL_BASE_ADDRESS          _UL_(0x40001400)                              /* OSC32KCTRL Base Address */
 #define OSCCTRL_BASE_ADDRESS             _UL_(0x40001000)                              /* OSCCTRL Base Address */
