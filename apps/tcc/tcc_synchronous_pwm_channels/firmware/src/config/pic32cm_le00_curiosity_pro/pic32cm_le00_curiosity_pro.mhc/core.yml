@@ -180,7 +180,7 @@ children:
     - type: Values
       children:
       - type: Dynamic
-        attributes: {id: core, value: TCC0_PWMInterruptHandler}
+        attributes: {id: core, value: TCC0_InterruptHandler}
   - type: Boolean
     attributes: {id: NVIC_58_0_HANDLER_LOCK}
     children:
@@ -377,6 +377,34 @@ children:
       children:
       - type: Dynamic
         attributes: {id: core, value: '0x1'}
+  - type: Boolean
+    attributes: {id: PORT_GROUP_0_PIN_10_USED}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: 'true'}
+  - type: Boolean
+    attributes: {id: PORT_GROUP_0_PIN_12_USED}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: 'true'}
+  - type: Boolean
+    attributes: {id: PORT_GROUP_0_PIN_8_USED}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: 'true'}
+  - type: Boolean
+    attributes: {id: PORT_GROUP_0_PIN_9_USED}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: 'true'}
   - type: String
     attributes: {id: PORT_GROUP_0_PMUX4}
     children:
@@ -433,6 +461,20 @@ children:
       children:
       - type: Dynamic
         attributes: {id: core, value: '0x1'}
+  - type: Boolean
+    attributes: {id: PORT_GROUP_1_PIN_16_USED}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: 'true'}
+  - type: Boolean
+    attributes: {id: PORT_GROUP_1_PIN_17_USED}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: 'true'}
   - type: String
     attributes: {id: PORT_GROUP_1_PMUX8}
     children:
@@ -502,7 +544,7 @@ children:
     - type: Values
       children:
       - type: Dynamic
-        attributes: {id: tcc0, value: TCC0_PWMInterruptHandler}
+        attributes: {id: tcc0, value: TCC0_InterruptHandler}
   - type: Boolean
     attributes: {id: TCC0_INTERRUPT_HANDLER_LOCK}
     children:
