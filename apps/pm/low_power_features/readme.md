@@ -48,6 +48,7 @@ The following table shows the target hardware for the application projects.
 ### Setting up [PIC32CM LE00 Curiosity Pro Evaluation Kit]()
 
 - Plug the I/O1 Xplained Pro Extension Kit to the EXT1 header on the board
+- Short pin 2 and pin 3 of J205 jumper (XAM is measuring the MCU current consumption)
 - Connect the Debug USB port on the board to the computer using a micro USB cable
 
 ## Running the Application
@@ -58,7 +59,7 @@ The following table shows the target hardware for the application projects.
 	
 	![output](images/data_streamer_protocol.png)
 	
-	- Configure and Load the Data Streamer with the DataStream_Configuration text file available in firmware > src
+	- Configure and Load the Data Streamer with the DataStream_Configuration text file available in **apps/pm/low_power_features/firmware/src/**
 	
 	![output](images/data_stream_control_panel.png)
 	
@@ -86,10 +87,24 @@ The following table shows the target hardware for the application projects.
 	
 	![output](images/dgi_control_panel_start.png)
 
-3. Power consumption and SPI Output should appear on the screen
+3. Cover the light sensor (for example, by placing a hand over it) of I/O1 Xplained Pro Extension Kit and then uncover the light sensor. Observe the SPI Output as below
 
 	![output](images/spi_output_details.png)
-	
+
+4. Observe the power consumption in IDLE mode as below
+
 	![output](images/power_consumption_idle_mode.png)
 	
-4. Push SW0 button to go from one sleep mode to another (IDLE, STANDBY with IRQ, Static SleepWalking, OFF). Push RESET button when the device is in OFF mode to restart code example at initial sleep state (IDLE)
+5. Press SW0 button to enter STANDBY with IRQ mode and observe the power consumption as below
+
+	![output](images/power_consumption_standby_irq_mode.png)
+
+6. Press SW0 button to enter STANDBY with SleepWalking mode and observe the power consumption as below
+
+	![output](images/power_consumption_standby_sleepwalking_mode.png)
+	
+7. Press SW0 button to enter OFF mode and observe the power consumption as below
+
+	![output](images/power_consumption_off_mode.png)
+
+   Press RESET button when the device is in OFF mode to restart code example at initial sleep state (IDLE)
