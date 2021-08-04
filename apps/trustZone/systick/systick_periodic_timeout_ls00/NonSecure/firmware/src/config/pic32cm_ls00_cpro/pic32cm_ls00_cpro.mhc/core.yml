@@ -531,6 +531,27 @@ children:
       children:
       - type: Dynamic
         attributes: {id: core, value: '0x0'}
+  - type: Boolean
+    attributes: {id: PORT_GROUP_0_PIN_10_USED}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: 'true'}
+  - type: Boolean
+    attributes: {id: PORT_GROUP_0_PIN_11_USED}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: 'true'}
+  - type: Boolean
+    attributes: {id: PORT_GROUP_0_PIN_13_USED}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: 'false'}
   - type: String
     attributes: {id: PORT_GROUP_0_PMUX5}
     children:
@@ -601,6 +622,20 @@ children:
       children:
       - type: Dynamic
         attributes: {id: core, value: '0x0'}
+  - type: Boolean
+    attributes: {id: PORT_GROUP_2_PIN_19_USED}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: 'true'}
+  - type: Boolean
+    attributes: {id: PORT_GROUP_2_PIN_27_USED}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: core, value: 'true'}
   - type: String
     attributes: {id: PORT_GROUP_2_PMUX13}
     children:
@@ -776,6 +811,8 @@ children:
     children:
     - type: Values
       children:
+      - type: Dynamic
+        attributes: {id: core, value: 'false'}
       - type: User
         attributes: {value: 'true'}
   - type: Boolean
