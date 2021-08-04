@@ -327,14 +327,14 @@ children:
     - type: Values
       children:
       - type: Dynamic
-        attributes: {id: core, value: 'true'}
+        attributes: {id: core, value: 'false'}
   - type: Boolean
     attributes: {id: NVIC_-1_0_HANDLER_LOCK}
     children:
     - type: Values
       children:
       - type: Dynamic
-        attributes: {id: core, value: 'true'}
+        attributes: {id: core, value: 'false'}
   - type: Boolean
     attributes: {id: NVIC_13_0_ENABLE}
     children:
@@ -968,6 +968,42 @@ children:
       children:
       - type: Dynamic
         attributes: {id: core, value: '1000'}
+  - type: File
+    attributes: {id: SYSTICK_SECURE_FILE_0}
+    children:
+    - type: Attributes
+      children:
+      - type: Boolean
+        attributes: {id: enabled}
+        children:
+        - {type: Value, value: 'false'}
+  - type: File
+    attributes: {id: SYSTICK_SECURE_FILE_1}
+    children:
+    - type: Attributes
+      children:
+      - type: Boolean
+        attributes: {id: enabled}
+        children:
+        - {type: Value, value: 'false'}
+  - type: File
+    attributes: {id: SYSTICK_SECURE_FILE_2}
+    children:
+    - type: Attributes
+      children:
+      - type: Boolean
+        attributes: {id: enabled}
+        children:
+        - {type: Value, value: 'false'}
+  - type: Menu
+    attributes: {id: SYSTICK_SECURE_MENU_0}
+    children:
+    - type: Attributes
+      children:
+      - type: Boolean
+        attributes: {id: visible}
+        children:
+        - {type: Value, value: 'false'}
   - type: String
     attributes: {id: SYSTICK_SECURE_PERIOD}
     children:
@@ -997,21 +1033,21 @@ children:
     - type: Values
       children:
       - type: Dynamic
-        attributes: {id: core, value: 'true'}
+        attributes: {id: core, value: 'false'}
   - type: Boolean
     attributes: {id: SysTick_INTERRUPT_ENABLE_UPDATE}
     children:
     - type: Values
       children:
       - type: Dynamic
-        attributes: {id: core, value: 'false'}
+        attributes: {id: core, value: 'true'}
   - type: Boolean
     attributes: {id: SysTick_INTERRUPT_HANDLER_LOCK}
     children:
     - type: Values
       children:
       - type: Dynamic
-        attributes: {id: core, value: 'true'}
+        attributes: {id: core, value: 'false'}
   - type: Boolean
     attributes: {id: USE_SYSTICK_INTERRUPT}
     children:
@@ -1019,13 +1055,6 @@ children:
       children:
       - type: Dynamic
         attributes: {id: core, value: 'false'}
-      - type: User
-        attributes: {value: 'true'}
-  - type: Boolean
-    attributes: {id: USE_SYSTICK_SECURE_INTERRUPT}
-    children:
-    - type: Values
-      children:
       - type: User
         attributes: {value: 'true'}
   - type: Boolean
@@ -1051,13 +1080,15 @@ children:
       children:
       - type: User
         attributes: {value: 'true'}
-  - type: Boolean
-    attributes: {id: systickSecureEnable}
+  - type: File
+    attributes: {id: systickSecureSystemInitFile}
     children:
-    - type: Values
+    - type: Attributes
       children:
-      - type: User
-        attributes: {value: 'false'}
+      - type: Boolean
+        attributes: {id: enabled}
+        children:
+        - {type: Value, value: 'false'}
   - type: File
     attributes: {id: systickSystemInitFile}
     children:
