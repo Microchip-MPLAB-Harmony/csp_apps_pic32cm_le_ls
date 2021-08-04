@@ -1,5 +1,5 @@
 ---
-parent: Harmony 3 peripheral library application examples for PIC32CM LE00/LS00/LS60 family
+parent: Harmony 3 peripheral library application examples for PIC32CM LE00/LS00/LS00 family
 title: TrustZone basic with Secure Boot demonstration 
 has_children: false
 has_toc: false
@@ -55,8 +55,8 @@ To build the application, refer to the following table and open the project usin
 
 | Project Name      | Description                                    |
 | :-----------------: | :----------------------------------------------: |
-| pic32cm_ls60_Secure.X <br> pic32cm_ls60_cpro_NonSecure.X <br> | Secure and NonSecure MPLABX projects from BS_App folder for [PIC32CM LS60 Curiosity Pro Evaluation Kit]() |
-| pic32cm_ls60_Secure.X <br> pic32cm_ls60_cpro_NonSecure.X <br> | Secure and NonSecure MPLABX projects from App folder for [PIC32CM LS60 Curiosity Pro Evaluation Kit]() |
+| pic32cm_ls00_Secure.X <br> pic32cm_ls00_cpro_NonSecure.X <br> | Secure and NonSecure MPLABX projects from BS_App folder for [PIC32CM LS00 Curiosity Pro Evaluation Kit]() |
+| pic32cm_ls00_Secure.X <br> pic32cm_ls00_cpro_NonSecure.X <br> | Secure and NonSecure MPLABX projects from App folder for [PIC32CM LS00 Curiosity Pro Evaluation Kit]() |
 |||
 
 ## Setting up the hardware
@@ -65,8 +65,8 @@ The following table shows the target hardware for the application projects.
 
 | Project Name| Board|
 |:---------|:---------:|
-| pic32cm_ls60_Secure.X <br> pic32cm_ls60_cpro_NonSecure.X <br> | [PIC32CM LS60 Curiosity Pro Evaluation Kit]() |
-| pic32cm_ls60_cpro_Secure.X <br> pic32cm_ls60_cpro_NonSecure.X | [PIC32CM LS60 Curiosity Pro Evaluation Kit]() |
+| pic32cm_ls00_Secure.X <br> pic32cm_ls00_cpro_NonSecure.X <br> | [PIC32CM LS00 Curiosity Pro Evaluation Kit]() |
+| pic32cm_ls00_cpro_Secure.X <br> pic32cm_ls00_cpro_NonSecure.X | [PIC32CM LS00 Curiosity Pro Evaluation Kit]() |
 |||
 
 ### Setting up [PIC32CM LS00 Curiosity Pro Evaluation Kit]()
