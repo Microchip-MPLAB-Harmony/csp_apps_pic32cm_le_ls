@@ -7,7 +7,7 @@ has_toc: false
 
 [![MCHP](https://www.microchip.com/ResourcePackages/Microchip/assets/dist/images/logo.png)](https://www.microchip.com)
 
-# Data Flash with Silent Access and RTC Tamper Detection
+# NVMCTRL Data Flash with Silent Access and RTC Tamper Detection
 
 This example application displays the Data Flash content on a console which is refreshed every seconds. The Silent Access and Tamper Erase security features of the Data Flash are enabled.
 

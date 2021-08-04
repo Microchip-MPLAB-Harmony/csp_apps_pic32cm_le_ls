@@ -7,7 +7,7 @@ has_toc: false
 
 [![MCHP](https://www.microchip.com/ResourcePackages/Microchip/assets/dist/images/logo.png)](https://www.microchip.com)
 
-# TrustRAM with Security Features demonstration
+# TRAM with Security Features demonstration
 
 This example application displays the TrustRAM content on a console which is refreshed every seconds. This example allows to experiment static and dynamic tamper detections coupled with a TrustRAM full erase.
 

@@ -7,7 +7,7 @@ has_toc: false
 
 [![MCHP](https://www.microchip.com/ResourcePackages/Microchip/assets/dist/images/logo.png)](https://www.microchip.com)
 
-# Low-Power Features
+# PM Low-Power Features
 
 This example highlights the power consumption for each sleep mode based on the same application integration.
 
