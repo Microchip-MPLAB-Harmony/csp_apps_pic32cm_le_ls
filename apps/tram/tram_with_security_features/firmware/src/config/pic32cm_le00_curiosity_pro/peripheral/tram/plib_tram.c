@@ -49,7 +49,6 @@ void TRAM_Initialize( void )
         //wait for synchronization
     }
 
-    TRAM_REGS->TRAM_DSCC = TRAM_DSCC_DSCEN_Msk | TRAM_DSCC_DSCKEY (0xCAFE);
     TRAM_REGS->TRAM_CTRLA = TRAM_CTRLA_ENABLE_Msk | TRAM_CTRLA_SILACC_Msk | TRAM_CTRLA_DRP_Msk | TRAM_CTRLA_TAMPERS_Msk;
     
     while((TRAM_REGS->TRAM_SYNCBUSY & TRAM_SYNCBUSY_ENABLE_Msk) == TRAM_SYNCBUSY_ENABLE_Msk)
@@ -59,3 +58,44 @@ void TRAM_Initialize( void )
 
 }
 
+bool TRAM_RAMSet(uint32_t ramIndex, uint32_t data)
+{
+    if (ramIndex > 127)
+    {
+        return false;
+    }
+
+    TRAM_REGS->TRAM_RAM[ramIndex] = TRAM_RAM_DATA(data);
+
+    return true;
+}
+
+bool TRAM_RAMGet(uint32_t ramIndex, uint32_t *data)
+{
+    if (ramIndex > 127)
+    {
+        return false;
+    }
+
+    *data = TRAM_REGS->TRAM_RAM[ramIndex];
+
+    return true;
+}
+
+void TRAM_DataScrambleKeySet(uint32_t dsckey)
+{
+    TRAM_REGS->TRAM_DSCC = TRAM_DSCC_DSCKEY(dsckey);
+}
+
+void TRAM_DataScrambleEnable(bool enable)
+{
+    if (enable == true)
+    {
+        TRAM_REGS->TRAM_DSCC |= TRAM_DSCC_DSCEN_Msk;
+    }
+    else
+    {
+        /* Clear DSCEN bit and retain the DSCKEY bits (Existing values of DSCKEY bits will be XOR'ed with 0)*/
+        TRAM_REGS->TRAM_DSCC = TRAM_DSCC_RESETVALUE;
+    }
+}

@@ -45,6 +45,7 @@ The following table shows the target hardware for the application projects.
 ### Setting up [PIC32CM LE00 Curiosity Pro Evaluation Kit]()
 
 - Connect the Debug USB port on the board to the computer using a micro USB cable
+- Short PA08 pin (EXT3, PIN 3) to Vcc
 
 ## Running the Application
 
@@ -61,7 +62,7 @@ The following table shows the target hardware for the application projects.
 
 ![output](images/output_tram_filled.png)
 
-6. Tied down the PA08 pin with a jumper
+6. Tied down the PA08 pin with a jumper (Remove short from Vcc and connect it to GND to create a falling edge)
 7. The following TrustRAM content should be observed on console, meaning the TrustRAM Full Erase was performed because of Tamper Erase Detection:
 
 ![output](images/output_tram_erased.png)

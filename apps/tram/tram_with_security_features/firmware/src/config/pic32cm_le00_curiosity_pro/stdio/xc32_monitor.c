@@ -53,7 +53,7 @@ int _mon_getc(int canblock)
    (void)canblock;
    do
    {
-     success = SERCOM3_USART_Read(&c, 1);                
+       success = SERCOM3_USART_Read(&c, 1);                
    }while( !success);
    return c;
 }
