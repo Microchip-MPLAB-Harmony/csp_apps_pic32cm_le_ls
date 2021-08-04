@@ -55,8 +55,8 @@
 #define LED_OFF                     LED_Set
 #define LED_TOGGLE                  LED_Toggle
 
-const uint8_t nvm_user_start_address[NVMCTRL_FLASH_ROWSIZE] __attribute__((address(NVMCTRL_FLASH_START_ADDRESS+0x10000)))= {0};
-const uint8_t nvm_data_flash_user_start_address[(DATAFLASH_PAGE_SIZE * 4)] __attribute__((address(DATAFLASH_ADDR)))= {0};
+const uint8_t nvm_user_start_address[NVMCTRL_FLASH_ROWSIZE] __attribute__((address(NVMCTRL_FLASH_START_ADDRESS+0x10000),keep,externally_visible,space(prog)))= {0};
+const uint8_t nvm_data_flash_user_start_address[(DATAFLASH_PAGE_SIZE * 4)] __attribute__((address(DATAFLASH_ADDR),keep,externally_visible,space(prog)))= {0};
 
 // *****************************************************************************
 // *****************************************************************************
