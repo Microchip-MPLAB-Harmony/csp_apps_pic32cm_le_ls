@@ -107,6 +107,7 @@ bool NVMCTRL_RowErase( uint32_t address )
     return true;
 }
 
+
 NVMCTRL_ERROR NVMCTRL_ErrorGet( void )
 {
     volatile uint32_t nvm_error = 0;
@@ -134,3 +135,4 @@ void NVMCTRL_RegionUnlock(NVMCTRL_MEMORY_REGION region)
 {
     NVMCTRL_REGS->NVMCTRL_NSULCK |= NVMCTRL_NSULCK_NSLKEY_KEY | region;
 }
+

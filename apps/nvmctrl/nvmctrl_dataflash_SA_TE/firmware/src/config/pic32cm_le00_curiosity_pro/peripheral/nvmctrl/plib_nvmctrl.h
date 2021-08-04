@@ -66,6 +66,10 @@
 #define NVMCTRL_FLASH_PAGESIZE             (64U)
 #define NVMCTRL_FLASH_ROWSIZE              (256U)
 
+#define NVMCTRL_DATAFLASH_START_ADDRESS    (0x00400000U)
+#define NVMCTRL_DATAFLASH_PAGESIZE         (64U)
+#define NVMCTRL_DATAFLASH_ROWSIZE          (256U)
+
 
 typedef enum
 {
@@ -109,6 +113,8 @@ bool NVMCTRL_IsBusy( void );
 void NVMCTRL_RegionLock (NVMCTRL_MEMORY_REGION region);
 
 void NVMCTRL_RegionUnlock (NVMCTRL_MEMORY_REGION region);
+
+
 
 
 
