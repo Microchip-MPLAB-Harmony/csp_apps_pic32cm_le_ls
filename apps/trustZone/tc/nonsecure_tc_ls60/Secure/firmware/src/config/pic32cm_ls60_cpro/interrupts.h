@@ -61,6 +61,7 @@ void NonMaskableInt_Handler (void);
 void HardFault_Handler (void);
 void SVCall_Handler (void);
 void PendSV_Handler (void);
+void SysTick_Handler (void);
 
 
 
