@@ -1,5 +1,5 @@
-/**
- * \brief Component description for IDAU
+/*
+ * Component description for IDAU
  *
  * Copyright (c) 2021 Microchip Technology Inc. and its subsidiaries.
  *
@@ -20,7 +20,7 @@
  *
  */
 
-/* file generated from device description version 2021-04-27T09:12:59Z */
+/* file generated from device description version 2021-06-28T10:08:49Z */
 #ifndef _PIC32CMLS00_IDAU_COMPONENT_H_
 #define _PIC32CMLS00_IDAU_COMPONENT_H_
 
