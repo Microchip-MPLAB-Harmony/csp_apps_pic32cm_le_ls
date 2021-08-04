@@ -104,13 +104,13 @@ files:
   security: NON_SECURE
   type: SOURCE
   userChecksum: 807DADBE9A5FFBCAC76CC03B22AAF1D4
-- generatedChecksum: 901D6F821E0C02FD3C15D011484B0B4C
+- generatedChecksum: A42946F284CED128A9FC3E74DDDDF866
   logicalPath: config/pic32cm_ls60_cpro/peripheral/nvmctrl
   name: plib_nvmctrl.c
   physicalPath: peripheral/nvmctrl
   security: SECURE
   type: SOURCE
-  userChecksum: 901D6F821E0C02FD3C15D011484B0B4C
+  userChecksum: A42946F284CED128A9FC3E74DDDDF866
 - generatedChecksum: 7216EFD923D7E44D972EB3A8272F59ED
   logicalPath: config/pic32cm_ls60_cpro/peripheral/pm
   name: plib_pm.c
@@ -216,20 +216,20 @@ files:
   security: SECURE
   type: HEADER
   userChecksum: 3BCE3ECB24AE1E4782BF88653D168F3B
-- generatedChecksum: 01B82424BC59A54620F7E9E0DB808EBB
+- generatedChecksum: 14F1AD56D242EFD0AF76849C6ADFECC4
   logicalPath: packs/CMSIS/CMSIS/Core/Include
   name: cachel1_armv7.h
   physicalPath: ../../packs/CMSIS/CMSIS/Core/Include
   security: NON_SECURE
   type: HEADER
-  userChecksum: 01B82424BC59A54620F7E9E0DB808EBB
-- generatedChecksum: 01B82424BC59A54620F7E9E0DB808EBB
+  userChecksum: 14F1AD56D242EFD0AF76849C6ADFECC4
+- generatedChecksum: 14F1AD56D242EFD0AF76849C6ADFECC4
   logicalPath: packs/CMSIS/CMSIS/Core/Include
   name: cachel1_armv7.h
   physicalPath: ../../packs/CMSIS/CMSIS/Core/Include
   security: SECURE
   type: HEADER
-  userChecksum: 01B82424BC59A54620F7E9E0DB808EBB
+  userChecksum: 14F1AD56D242EFD0AF76849C6ADFECC4
 - generatedChecksum: 426E8C31392364D34ACBB4A0E71C5F59
   logicalPath: packs/PIC32CM5164LS60100_DFP/component
   name: ccl.h
@@ -258,48 +258,48 @@ files:
   security: SECURE
   type: HEADER
   userChecksum: 2403283E6059528993AD5375CD29A71F
-- generatedChecksum: 00A88E28C299A373117BC4D5B9E80C80
+- generatedChecksum: B79C08E0901948AD04D944B4BCE1B60D
   logicalPath: packs/CMSIS/CMSIS/Core/Include
   name: cmsis_armcc.h
   physicalPath: ../../packs/CMSIS/CMSIS/Core/Include
   security: NON_SECURE
   type: HEADER
-  userChecksum: 00A88E28C299A373117BC4D5B9E80C80
-- generatedChecksum: 00A88E28C299A373117BC4D5B9E80C80
+  userChecksum: B79C08E0901948AD04D944B4BCE1B60D
+- generatedChecksum: B79C08E0901948AD04D944B4BCE1B60D
   logicalPath: packs/CMSIS/CMSIS/Core/Include
   name: cmsis_armcc.h
   physicalPath: ../../packs/CMSIS/CMSIS/Core/Include
   security: SECURE
   type: HEADER
-  userChecksum: 00A88E28C299A373117BC4D5B9E80C80
-- generatedChecksum: 734DF6998F09B2D22A4D9FE1D544FDFC
+  userChecksum: B79C08E0901948AD04D944B4BCE1B60D
+- generatedChecksum: 6B4E2EBA8708D9E04E6136F29460ACB9
   logicalPath: packs/CMSIS/CMSIS/Core/Include
   name: cmsis_armclang.h
   physicalPath: ../../packs/CMSIS/CMSIS/Core/Include
   security: NON_SECURE
   type: HEADER
-  userChecksum: 734DF6998F09B2D22A4D9FE1D544FDFC
-- generatedChecksum: 734DF6998F09B2D22A4D9FE1D544FDFC
+  userChecksum: 6B4E2EBA8708D9E04E6136F29460ACB9
+- generatedChecksum: 6B4E2EBA8708D9E04E6136F29460ACB9
   logicalPath: packs/CMSIS/CMSIS/Core/Include
   name: cmsis_armclang.h
   physicalPath: ../../packs/CMSIS/CMSIS/Core/Include
   security: SECURE
   type: HEADER
-  userChecksum: 734DF6998F09B2D22A4D9FE1D544FDFC
-- generatedChecksum: 5D653BEFE5E6B1D00AB3682CE5D24C11
+  userChecksum: 6B4E2EBA8708D9E04E6136F29460ACB9
+- generatedChecksum: 415E22EBE7A3BACE87240A7F16492C46
   logicalPath: packs/CMSIS/CMSIS/Core/Include
   name: cmsis_armclang_ltm.h
   physicalPath: ../../packs/CMSIS/CMSIS/Core/Include
   security: NON_SECURE
   type: HEADER
-  userChecksum: 5D653BEFE5E6B1D00AB3682CE5D24C11
-- generatedChecksum: 5D653BEFE5E6B1D00AB3682CE5D24C11
+  userChecksum: 415E22EBE7A3BACE87240A7F16492C46
+- generatedChecksum: 415E22EBE7A3BACE87240A7F16492C46
   logicalPath: packs/CMSIS/CMSIS/Core/Include
   name: cmsis_armclang_ltm.h
   physicalPath: ../../packs/CMSIS/CMSIS/Core/Include
   security: SECURE
   type: HEADER
-  userChecksum: 5D653BEFE5E6B1D00AB3682CE5D24C11
+  userChecksum: 415E22EBE7A3BACE87240A7F16492C46
 - generatedChecksum: 60385A5C6C9882B5D30709A1F6EAEC35
   logicalPath: packs/CMSIS/CMSIS/Core/Include
   name: cmsis_compiler.h
@@ -314,34 +314,34 @@ files:
   security: SECURE
   type: HEADER
   userChecksum: 60385A5C6C9882B5D30709A1F6EAEC35
-- generatedChecksum: 42E8B722917508A3A9373D13AD827ED6
+- generatedChecksum: 4DC978B079559EB044AFD32A57768238
   logicalPath: packs/CMSIS/CMSIS/Core/Include
   name: cmsis_gcc.h
   physicalPath: ../../packs/CMSIS/CMSIS/Core/Include
   security: NON_SECURE
   type: HEADER
-  userChecksum: 42E8B722917508A3A9373D13AD827ED6
-- generatedChecksum: 42E8B722917508A3A9373D13AD827ED6
+  userChecksum: 4DC978B079559EB044AFD32A57768238
+- generatedChecksum: 4DC978B079559EB044AFD32A57768238
   logicalPath: packs/CMSIS/CMSIS/Core/Include
   name: cmsis_gcc.h
   physicalPath: ../../packs/CMSIS/CMSIS/Core/Include
   security: SECURE
   type: HEADER
-  userChecksum: 42E8B722917508A3A9373D13AD827ED6
-- generatedChecksum: 376D5C7FD29CAA507ACB1AAB8746B1AD
+  userChecksum: 4DC978B079559EB044AFD32A57768238
+- generatedChecksum: 11521476050CAC6C1F3A91A5BB5DBB9A
   logicalPath: packs/CMSIS/CMSIS/Core/Include
   name: cmsis_iccarm.h
   physicalPath: ../../packs/CMSIS/CMSIS/Core/Include
   security: NON_SECURE
   type: HEADER
-  userChecksum: 376D5C7FD29CAA507ACB1AAB8746B1AD
-- generatedChecksum: 376D5C7FD29CAA507ACB1AAB8746B1AD
+  userChecksum: 11521476050CAC6C1F3A91A5BB5DBB9A
+- generatedChecksum: 11521476050CAC6C1F3A91A5BB5DBB9A
   logicalPath: packs/CMSIS/CMSIS/Core/Include
   name: cmsis_iccarm.h
   physicalPath: ../../packs/CMSIS/CMSIS/Core/Include
   security: SECURE
   type: HEADER
-  userChecksum: 376D5C7FD29CAA507ACB1AAB8746B1AD
+  userChecksum: 11521476050CAC6C1F3A91A5BB5DBB9A
 - generatedChecksum: 52F91AC0727F2311EDA0E3BAA7719A9F
   logicalPath: packs/CMSIS/CMSIS/Core/Include
   name: cmsis_version.h
@@ -748,20 +748,20 @@ files:
   security: SECURE
   type: HEADER
   userChecksum: 2A3C0A2D2183CDC7A8FE2BFF52839E5C
-- generatedChecksum: AF4D338B8CE47DE6D837EBA192EB7ADC
+- generatedChecksum: CA6C24FDE943C3055EAAE0FB45F6DD27
   logicalPath: packs/CMSIS/CMSIS/Core/Include
   name: mpu_armv8.h
   physicalPath: ../../packs/CMSIS/CMSIS/Core/Include
   security: NON_SECURE
   type: HEADER
-  userChecksum: AF4D338B8CE47DE6D837EBA192EB7ADC
-- generatedChecksum: AF4D338B8CE47DE6D837EBA192EB7ADC
+  userChecksum: CA6C24FDE943C3055EAAE0FB45F6DD27
+- generatedChecksum: CA6C24FDE943C3055EAAE0FB45F6DD27
   logicalPath: packs/CMSIS/CMSIS/Core/Include
   name: mpu_armv8.h
   physicalPath: ../../packs/CMSIS/CMSIS/Core/Include
   security: SECURE
   type: HEADER
-  userChecksum: AF4D338B8CE47DE6D837EBA192EB7ADC
+  userChecksum: CA6C24FDE943C3055EAAE0FB45F6DD27
 - generatedChecksum: null
   logicalPath: trustZone
   name: nonsecure_entry.h
@@ -965,13 +965,13 @@ files:
   security: NON_SECURE
   type: HEADER
   userChecksum: 55ECCC7FA71BD15B46EF80DC0515ED7A
-- generatedChecksum: 3D8C5C47D8197B1811D4CF872C94FBC2
+- generatedChecksum: 2FD2E1410A187DAAFE7E8AAF480F6B90
   logicalPath: config/pic32cm_ls60_cpro/peripheral/nvmctrl
   name: plib_nvmctrl.h
   physicalPath: peripheral/nvmctrl
   security: SECURE
   type: HEADER
-  userChecksum: 3D8C5C47D8197B1811D4CF872C94FBC2
+  userChecksum: 2FD2E1410A187DAAFE7E8AAF480F6B90
 - generatedChecksum: 8C396397F7AACEFD9F327A14A8ED33F1
   logicalPath: config/pic32cm_ls60_cpro/peripheral/pm
   name: plib_pm.h
