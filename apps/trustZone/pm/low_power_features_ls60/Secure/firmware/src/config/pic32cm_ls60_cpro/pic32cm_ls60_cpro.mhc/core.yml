@@ -177,7 +177,7 @@ children:
     - type: Values
       children:
       - type: Dynamic
-        attributes: {id: core, value: 'true'}
+        attributes: {id: core, value: 'false'}
   - type: Boolean
     attributes: {id: DMAC_1_INTERRUPT_ENABLE_UPDATE}
     children:
@@ -191,14 +191,14 @@ children:
     - type: Values
       children:
       - type: Dynamic
-        attributes: {id: core, value: DMAC_1_InterruptHandler}
+        attributes: {id: core, value: DMAC_1_Handler}
   - type: Boolean
     attributes: {id: DMAC_1_INTERRUPT_HANDLER_LOCK}
     children:
     - type: Values
       children:
       - type: Dynamic
-        attributes: {id: core, value: 'true'}
+        attributes: {id: core, value: 'false'}
   - type: Boolean
     attributes: {id: DMAC_1_SET_NON_SECURE}
     children:
@@ -212,7 +212,7 @@ children:
     - type: Values
       children:
       - type: Dynamic
-        attributes: {id: core, value: 'true'}
+        attributes: {id: core, value: 'false'}
   - type: Boolean
     attributes: {id: DMAC_2_INTERRUPT_ENABLE_UPDATE}
     children:
@@ -226,14 +226,14 @@ children:
     - type: Values
       children:
       - type: Dynamic
-        attributes: {id: core, value: DMAC_2_InterruptHandler}
+        attributes: {id: core, value: DMAC_2_Handler}
   - type: Boolean
     attributes: {id: DMAC_2_INTERRUPT_HANDLER_LOCK}
     children:
     - type: Values
       children:
       - type: Dynamic
-        attributes: {id: core, value: 'true'}
+        attributes: {id: core, value: 'false'}
   - type: Boolean
     attributes: {id: DMAC_2_SET_NON_SECURE}
     children:
@@ -247,7 +247,7 @@ children:
     - type: Values
       children:
       - type: Dynamic
-        attributes: {id: core, value: 'true'}
+        attributes: {id: core, value: 'false'}
   - type: Boolean
     attributes: {id: DMAC_3_INTERRUPT_ENABLE_UPDATE}
     children:
@@ -261,14 +261,14 @@ children:
     - type: Values
       children:
       - type: Dynamic
-        attributes: {id: core, value: DMAC_3_InterruptHandler}
+        attributes: {id: core, value: DMAC_3_Handler}
   - type: Boolean
     attributes: {id: DMAC_3_INTERRUPT_HANDLER_LOCK}
     children:
     - type: Values
       children:
       - type: Dynamic
-        attributes: {id: core, value: 'true'}
+        attributes: {id: core, value: 'false'}
   - type: Boolean
     attributes: {id: DMAC_3_SET_NON_SECURE}
     children:
@@ -371,7 +371,7 @@ children:
     - type: Values
       children:
       - type: Dynamic
-        attributes: {id: core, value: 'true'}
+        attributes: {id: core, value: 'false'}
   - type: Boolean
     attributes: {id: DMAC_OTHER_INTERRUPT_ENABLE_UPDATE}
     children:
@@ -385,14 +385,14 @@ children:
     - type: Values
       children:
       - type: Dynamic
-        attributes: {id: core, value: DMAC_OTHER_InterruptHandler}
+        attributes: {id: core, value: DMAC_OTHER_Handler}
   - type: Boolean
     attributes: {id: DMAC_OTHER_INTERRUPT_HANDLER_LOCK}
     children:
     - type: Values
       children:
       - type: Dynamic
-        attributes: {id: core, value: 'true'}
+        attributes: {id: core, value: 'false'}
   - type: Boolean
     attributes: {id: DMAC_OTHER_SET_NON_SECURE}
     children:
@@ -1056,7 +1056,7 @@ children:
     - type: Values
       children:
       - type: Dynamic
-        attributes: {id: core, value: 'true'}
+        attributes: {id: core, value: 'false'}
       - type: User
         attributes: {value: 'false'}
   - type: String
@@ -1065,14 +1065,14 @@ children:
     - type: Values
       children:
       - type: Dynamic
-        attributes: {id: core, value: DMAC_1_InterruptHandler}
+        attributes: {id: core, value: DMAC_1_Handler}
   - type: Boolean
     attributes: {id: NVIC_16_0_HANDLER_LOCK}
     children:
     - type: Values
       children:
       - type: Dynamic
-        attributes: {id: core, value: 'true'}
+        attributes: {id: core, value: 'false'}
   - type: KeyValueSet
     attributes: {id: NVIC_16_0_SECURITY_TYPE}
     children:
@@ -1088,7 +1088,7 @@ children:
     - type: Values
       children:
       - type: Dynamic
-        attributes: {id: core, value: 'true'}
+        attributes: {id: core, value: 'false'}
       - type: User
         attributes: {value: 'false'}
   - type: String
@@ -1097,14 +1097,14 @@ children:
     - type: Values
       children:
       - type: Dynamic
-        attributes: {id: core, value: DMAC_2_InterruptHandler}
+        attributes: {id: core, value: DMAC_2_Handler}
   - type: Boolean
     attributes: {id: NVIC_17_0_HANDLER_LOCK}
     children:
     - type: Values
       children:
       - type: Dynamic
-        attributes: {id: core, value: 'true'}
+        attributes: {id: core, value: 'false'}
   - type: KeyValueSet
     attributes: {id: NVIC_17_0_SECURITY_TYPE}
     children:
@@ -1118,7 +1118,7 @@ children:
     - type: Values
       children:
       - type: Dynamic
-        attributes: {id: core, value: 'true'}
+        attributes: {id: core, value: 'false'}
       - type: User
         attributes: {value: 'false'}
   - type: String
@@ -1127,14 +1127,14 @@ children:
     - type: Values
       children:
       - type: Dynamic
-        attributes: {id: core, value: DMAC_3_InterruptHandler}
+        attributes: {id: core, value: DMAC_3_Handler}
   - type: Boolean
     attributes: {id: NVIC_18_0_HANDLER_LOCK}
     children:
     - type: Values
       children:
       - type: Dynamic
-        attributes: {id: core, value: 'true'}
+        attributes: {id: core, value: 'false'}
   - type: KeyValueSet
     attributes: {id: NVIC_18_0_SECURITY_TYPE}
     children:
@@ -1148,7 +1148,7 @@ children:
     - type: Values
       children:
       - type: Dynamic
-        attributes: {id: core, value: 'true'}
+        attributes: {id: core, value: 'false'}
       - type: User
         attributes: {value: 'false'}
   - type: String
@@ -1157,14 +1157,14 @@ children:
     - type: Values
       children:
       - type: Dynamic
-        attributes: {id: core, value: DMAC_OTHER_InterruptHandler}
+        attributes: {id: core, value: DMAC_OTHER_Handler}
   - type: Boolean
     attributes: {id: NVIC_19_0_HANDLER_LOCK}
     children:
     - type: Values
       children:
       - type: Dynamic
-        attributes: {id: core, value: 'true'}
+        attributes: {id: core, value: 'false'}
   - type: KeyValueSet
     attributes: {id: NVIC_19_0_SECURITY_TYPE}
     children:

@@ -79,10 +79,10 @@ void __attribute__((optimize("-O1"),section(".text.Dummy_Handler"),long_call, no
 extern void SVCall_Handler             ( void ) __attribute__((weak, alias("Dummy_Handler")));
 extern void PendSV_Handler             ( void ) __attribute__((weak, alias("Dummy_Handler")));
 extern void SysTick_Handler            ( void ) __attribute__((weak, alias("Dummy_Handler")));
-extern void DMAC_1_InterruptHandler    ( void ) __attribute__((weak, alias("Dummy_Handler")));
-extern void DMAC_2_InterruptHandler    ( void ) __attribute__((weak, alias("Dummy_Handler")));
-extern void DMAC_3_InterruptHandler    ( void ) __attribute__((weak, alias("Dummy_Handler")));
-extern void DMAC_OTHER_InterruptHandler ( void ) __attribute__((weak, alias("Dummy_Handler")));
+extern void DMAC_1_Handler             ( void ) __attribute__((weak, alias("Dummy_Handler")));
+extern void DMAC_2_Handler             ( void ) __attribute__((weak, alias("Dummy_Handler")));
+extern void DMAC_3_Handler             ( void ) __attribute__((weak, alias("Dummy_Handler")));
+extern void DMAC_OTHER_Handler         ( void ) __attribute__((weak, alias("Dummy_Handler")));
 extern void EVSYS_0_Handler            ( void ) __attribute__((weak, alias("Dummy_Handler")));
 extern void SERCOM4_0_Handler          ( void ) __attribute__((weak, alias("Dummy_Handler")));
 extern void SERCOM4_1_Handler          ( void ) __attribute__((weak, alias("Dummy_Handler")));
@@ -112,10 +112,10 @@ const H3DeviceVectors exception_table=
     .pfnRTC_Handler                = RTC_InterruptHandler,
     .pfnEIC_OTHER_Handler          = EIC_OTHER_InterruptHandler,
     .pfnDMAC_0_Handler             = DMAC_0_InterruptHandler,
-    .pfnDMAC_1_Handler             = DMAC_1_InterruptHandler,
-    .pfnDMAC_2_Handler             = DMAC_2_InterruptHandler,
-    .pfnDMAC_3_Handler             = DMAC_3_InterruptHandler,
-    .pfnDMAC_OTHER_Handler         = DMAC_OTHER_InterruptHandler,
+    .pfnDMAC_1_Handler             = DMAC_1_Handler,
+    .pfnDMAC_2_Handler             = DMAC_2_Handler,
+    .pfnDMAC_3_Handler             = DMAC_3_Handler,
+    .pfnDMAC_OTHER_Handler         = DMAC_OTHER_Handler,
     .pfnEVSYS_0_Handler            = EVSYS_0_Handler,
     .pfnSERCOM4_0_Handler          = SERCOM4_0_Handler,
     .pfnSERCOM4_1_Handler          = SERCOM4_1_Handler,

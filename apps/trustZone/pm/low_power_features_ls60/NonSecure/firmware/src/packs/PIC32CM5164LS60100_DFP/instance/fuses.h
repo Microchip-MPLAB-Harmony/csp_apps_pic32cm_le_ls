@@ -1,5 +1,5 @@
-/**
- * \brief Instance header file for PIC32CM5164LS60100
+/*
+ * Instance header file for PIC32CM5164LS60100
  *
  * Copyright (c) 2021 Microchip Technology Inc. and its subsidiaries.
  *
@@ -20,7 +20,7 @@
  *
  */
 
-/* file generated from device description version 2021-04-27T09:13:14Z */
+/* file generated from device description version 2021-06-28T10:09:19Z */
 #ifndef _PIC32CMLS60_FUSES_INSTANCE_
 #define _PIC32CMLS60_FUSES_INSTANCE_
 
