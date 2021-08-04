@@ -38,7 +38,7 @@ children:
     - type: Values
       children:
       - type: Dynamic
-        attributes: {id: nvmctrl, value: '2'}
+        attributes: {id: nvmctrl, value: '3'}
   - type: Boolean
     attributes: {id: SILENT_ACCESS_ENABLE}
     children:

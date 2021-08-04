@@ -21,17 +21,7 @@
  */
 
 /* file generated from device description version 2021-06-28T10:09:19Z */
-#ifndef _PIC32CMLS60_ADC_INSTANCE_
-#define _PIC32CMLS60_ADC_INSTANCE_
+#ifndef _PIC32CMLS60_FUSES_INSTANCE_
+#define _PIC32CMLS60_FUSES_INSTANCE_
 
-
-/* ========== Instance Parameter definitions for ADC peripheral ========== */
-#define ADC_DMAC_ID_RESRDY                       _UL_(41)   /* index of DMA RESRDY trigger */
-#define ADC_EXTCHANNEL_MSB                       _UL_(23)   /* Number of external channels */
-#define ADC_GCLK_ID                              _UL_(28)   /* Index of Generic Clock */
-#define ADC_INT_CH30                             _UL_(1)    /* Select OPAMP or CTAT on Channel 30 */
-#define ADC_MASTER_SLAVE_MODE                    _UL_(0)    /* ADC Master/Slave Mode */
-#define ADC_INSTANCE_ID                          _UL_(78)   /* Instance index for ADC */
-#define ADC_LOAD_CALIB                           _UL_(1)    /* CALIB register to be loaded from NVM */
-
-#endif /* _PIC32CMLS60_ADC_INSTANCE_ */
+#endif /* _PIC32CMLS60_FUSES_INSTANCE_ */
