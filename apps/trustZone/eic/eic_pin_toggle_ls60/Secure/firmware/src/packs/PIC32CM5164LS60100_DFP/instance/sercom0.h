@@ -1,5 +1,5 @@
-/**
- * \brief Instance header file for PIC32CM5164LS60100
+/*
+ * Instance header file for PIC32CM5164LS60100
  *
  * Copyright (c) 2021 Microchip Technology Inc. and its subsidiaries.
  *
@@ -20,7 +20,7 @@
  *
  */
 
-/* file generated from device description version 2020-11-17T07:16:44Z */
+/* file generated from device description version 2021-06-28T10:09:19Z */
 #ifndef _PIC32CMLS60_SERCOM0_INSTANCE_
 #define _PIC32CMLS60_SERCOM0_INSTANCE_
 
@@ -49,5 +49,17 @@
 #define SERCOM0_USART_LIN_MASTER                 _UL_(1)    /* USART LIN Master mode implemented? */
 #define SERCOM0_USART_RS485                      _UL_(1)    /* USART RS485 mode implemented? */
 #define SERCOM0_INSTANCE_ID                      _UL_(65)   /* Instance index for SERCOM0 */
+#define SERCOM0_SPI_TX_READY_INT_SRC             _UL_(31)   /* SPI TX READY Interrupt */
+#define SERCOM0_SPI_TX_COMPLETE_INT_SRC          _UL_(32)   /* SPI TX COMPLETE Interrupt */
+#define SERCOM0_SPI_RX_INT_SRC                   _UL_(33)   /* SPI RX Interrupt */
+#define SERCOM0_SPI_ERROR_INT_SRC                _UL_(34)   /* SPI ERROR Interrupt */
+#define SERCOM0_I2C_0_INT_SRC                    _UL_(31)   /* I2C 0 Interrupt */
+#define SERCOM0_I2C_1_INT_SRC                    _UL_(32)   /* I2C 1 Interrupt */
+#define SERCOM0_I2C_2_INT_SRC                    _UL_(33)   /* I2C 2 Interrupt */
+#define SERCOM0_I2C_3_INT_SRC                    _UL_(34)   /* I2C 3 Interrupt */
+#define SERCOM0_USART_TX_READY_INT_SRC           _UL_(31)   /* USART TX READY Interrupt */
+#define SERCOM0_USART_TX_COMPLETE_INT_SRC        _UL_(32)   /* USART TX COMPLETE Interrupt */
+#define SERCOM0_USART_RX_INT_SRC                 _UL_(33)   /* USART RX Interrupt */
+#define SERCOM0_USART_ERROR_INT_SRC              _UL_(34)   /* USART ERROR Interrupt */
 
 #endif /* _PIC32CMLS60_SERCOM0_INSTANCE_ */
