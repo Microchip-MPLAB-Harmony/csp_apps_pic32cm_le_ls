@@ -53,6 +53,13 @@ children:
       children:
       - type: Dynamic
         attributes: {id: rtc, value: '0'}
+  - type: Hex
+    attributes: {id: RTC_TAMPCTRL_REG}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: rtc, value: '16777217'}
   - type: KeyValueSet
     attributes: {id: TAMP_CHANNEL0_ACTION}
     children:
