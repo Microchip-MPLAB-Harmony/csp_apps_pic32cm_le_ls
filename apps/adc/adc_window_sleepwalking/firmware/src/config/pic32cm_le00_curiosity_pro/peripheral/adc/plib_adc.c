@@ -97,7 +97,7 @@ void ADC_Initialize( void )
     ADC_REGS->ADC_SAMPCTRL = (uint8_t)ADC_SAMPCTRL_SAMPLEN(3UL);
 
     /* Reference */
-    ADC_REGS->ADC_REFCTRL = (uint8_t)ADC_REFCTRL_REFSEL_INTVCC2;
+    ADC_REGS->ADC_REFCTRL = (uint8_t)ADC_REFCTRL_REFSEL_INTREF;
 
     /* Input pin */
     ADC_REGS->ADC_INPUTCTRL = (uint16_t) ADC_POSINPUT_AIN5;
