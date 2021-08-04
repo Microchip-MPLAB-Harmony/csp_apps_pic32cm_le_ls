@@ -60,6 +60,7 @@ The following table shows the target hardware for the application projects.
 ### Setting up [PIC32CM LS60 Curiosity Pro Evaluation Kit]()
 
 - Connect the Debug USB port on the board to the computer using a micro USB cable
+- Short PA08 pin (EXT3, PIN 3) to Vcc
 
 ## Running the Application
 
@@ -76,7 +77,7 @@ The following table shows the target hardware for the application projects.
 
 ![output](images/output_dataflash_example.png)
 
-6. Tied down the PA08 pin with a jumper
+6. Tied down the PA08 pin with a jumper (Remove short from Vcc and connect it to GND to create a falling edge)
 7. The following Secure Data Flash content should be observed on console, meaning the Secure Data Flash Tamper Erase Row 0 was performed because of RTC Tamper Detection:
 
 ![output](images/output_dataflash_erased.png)
