@@ -224,7 +224,7 @@ void TC0_CompareInterruptHandler( void )
     {
         TC_COMPARE_STATUS status;
         status = TC0_REGS->COUNT8.TC_INTFLAG;
-        /* clear period interrupt */
+        /* clear interrupt flag */
         TC0_REGS->COUNT8.TC_INTFLAG = (uint8_t)TC_INTFLAG_Msk;
         if((status != TC_COMPARE_STATUS_NONE) && TC0_CallbackObject.callback != NULL)
         {
