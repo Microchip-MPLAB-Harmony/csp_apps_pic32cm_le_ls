@@ -107,6 +107,7 @@ bool NVMCTRL_RowErase( uint32_t address )
     return true;
 }
 
+
 NVMCTRL_ERROR NVMCTRL_ErrorGet( void )
 {
     volatile uint32_t nvm_error = 0;
@@ -134,6 +135,7 @@ void NVMCTRL_RegionUnlock(NVMCTRL_MEMORY_REGION region)
 {
     NVMCTRL_SEC_REGS->NVMCTRL_NSULCK |= NVMCTRL_NSULCK_NSLKEY_KEY | region;
 }
+
 void NVMCTRL_SecureRegionLock (NVMCTRL_SECURE_MEMORY_REGION region)
 {
     NVMCTRL_SEC_REGS->NVMCTRL_SULCK = (NVMCTRL_SEC_REGS->NVMCTRL_SULCK & ~(region)) | NVMCTRL_SULCK_SLKEY_KEY;
@@ -144,12 +146,12 @@ void NVMCTRL_SecureRegionUnlock (NVMCTRL_SECURE_MEMORY_REGION region)
     NVMCTRL_SEC_REGS->NVMCTRL_SULCK |= NVMCTRL_SULCK_SLKEY_KEY | region;
 }
 
-void NVMCTRL_DataScrambleKeySet (uint32_t dsckey)
+void NVMCTRL_DataScrambleKeySet(uint32_t dsckey)
 {
-    NVMCTRL_SEC_REGS->NVMCTRL_DSCC = NVMCTRL_DSCC_DSCKEY (dsckey);
+    NVMCTRL_SEC_REGS->NVMCTRL_DSCC = NVMCTRL_DSCC_DSCKEY(dsckey);
 }
 
-void NVMCTRL_DataScrambleEnable ( bool enable )
+void NVMCTRL_DataScrambleEnable(bool enable)
 {
     if (enable == true)
     {
