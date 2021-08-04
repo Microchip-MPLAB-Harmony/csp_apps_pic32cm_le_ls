@@ -5,10 +5,10 @@ frameworkPath: ..\..\..\..\..
 processor: PIC32CM5164LS00100
 projectName: trustZone_basic_with_secureboot_pic32cm_ls00_cpro_NonSecure
 settings:
-  PackageFilter: csp;csp_apps_pic32cm_le_ls
+  PackageFilter: azure_rtos;bsp;core;csp;quick_docs
   FORCE_OPTIMIZATION: 'false'
   GENERATE_BACKUP: 'true'
   TRUSTZONE: 'true'
   CMSISPath: .\dev_packs\arm\CMSIS\5.7.0
   MERGE_STRATEGY: USER_ALL
-  DFPPath: .\dev_packs\Microchip\PIC32CM-LS_DFP\1.0.135\PIC32CM-LS00\atdf\PIC32CM5164LS00100.atdf
+  DFPPath: .\dev_packs\Microchip\PIC32CM-LS_DFP\1.0.110\PIC32CM-LS00\atdf\PIC32CM5164LS00100.atdf

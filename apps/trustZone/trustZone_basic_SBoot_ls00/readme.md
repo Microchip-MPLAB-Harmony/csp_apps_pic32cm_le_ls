@@ -75,10 +75,10 @@ The following table shows the target hardware for the application projects.
 
 ## Running the Application
 
-1. Open the BootSecure_App and App projects group in the MPLAB X IDE
-2. Set the bootsecure project as main project
+1. Open the App and BootSecure_App projects group in the MPLAB X IDE
+2. Set the nonsecure project (trustZone_basic_with_secureboot_pic32cm_ls00_cpro_NonSecure) as main project then flash the application
 3. Build and program the application
-4. Set the nonsecure project as main project then flash the application
-2. Build and program the application
-3. The two on-board LEDs should switch on with a delay due to the Secure Boot Verification and the math operations are performed in Non-Secure application
+4. Set the bootsecure project (trustZone_basic_with_secureboot_pic32cm_ls00_cpro_BootSecure) as main project. And go to Project Properties > EDBG > Program Options > Uncheck "Erase All Before Program" option. 
+5. Build and program the application
+6. The two on-board LEDs should switch on with a delay due to the Secure Boot Verification and the math operations are performed in Non-Secure application
 **Note:** The application can be launched in debug mode to do step-by-step and observe how the jumps from non-secure project to secure project only are performed
