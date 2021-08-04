@@ -66,6 +66,10 @@
 #define NVMCTRL_FLASH_PAGESIZE             (64U)
 #define NVMCTRL_FLASH_ROWSIZE              (256U)
 
+#define NVMCTRL_DATAFLASH_START_ADDRESS    (0x00400000U)
+#define NVMCTRL_DATAFLASH_PAGESIZE         (64U)
+#define NVMCTRL_DATAFLASH_ROWSIZE          (256U)
+
 
 typedef enum
 {
@@ -121,9 +125,12 @@ void NVMCTRL_SecureRegionLock (NVMCTRL_SECURE_MEMORY_REGION region);
 
 void NVMCTRL_SecureRegionUnlock (NVMCTRL_SECURE_MEMORY_REGION region);
 
-void NVMCTRL_DataScrambleKeySet (uint32_t dsckey);
+void NVMCTRL_DataScrambleKeySet(uint32_t dsckey);
 
-void NVMCTRL_DataScrambleEnable ( bool enable );
+void NVMCTRL_DataScrambleEnable(bool enable);
+
+
+
 
 // DOM-IGNORE-BEGIN
 #ifdef __cplusplus // Provide C++ Compatibility
