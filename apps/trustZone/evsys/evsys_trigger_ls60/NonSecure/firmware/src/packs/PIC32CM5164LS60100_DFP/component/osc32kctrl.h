@@ -1,5 +1,5 @@
-/**
- * \brief Component description for OSC32KCTRL
+/*
+ * Component description for OSC32KCTRL
  *
  * Copyright (c) 2021 Microchip Technology Inc. and its subsidiaries.
  *
@@ -20,7 +20,7 @@
  *
  */
 
-/* file generated from device description version 2020-11-17T07:16:44Z */
+/* file generated from device description version 2021-06-28T10:09:19Z */
 #ifndef _PIC32CMLS60_OSC32KCTRL_COMPONENT_H_
 #define _PIC32CMLS60_OSC32KCTRL_COMPONENT_H_
 
