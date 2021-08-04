@@ -89,6 +89,13 @@ children:
         attributes: {id: name}
         children:
         - {type: Value, value: core.LIST_SYSTEM_SECURE_INIT_C_SYS_INITIALIZE_PERIPHERALS}
+  - type: Hex
+    attributes: {id: RTC_TAMPCTRL_REG}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: rtc, value: '16777217'}
   - type: File
     attributes: {id: RTC_TIMER_SOURCE}
     children:

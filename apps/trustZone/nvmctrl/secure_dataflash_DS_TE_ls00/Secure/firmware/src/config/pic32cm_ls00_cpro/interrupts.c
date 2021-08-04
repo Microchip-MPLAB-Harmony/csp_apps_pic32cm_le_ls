@@ -164,6 +164,7 @@ const H3DeviceVectors exception_table=
     .pfnHardFault_Handler          = HardFault_Handler,
     .pfnSVCall_Handler             = SVCall_Handler,
     .pfnPendSV_Handler             = PendSV_Handler,
+    .pfnSysTick_Handler            = SysTick_Handler,
     .pfnSYSTEM_Handler             = SYSTEM_Handler,
     .pfnWDT_Handler                = WDT_Handler,
     .pfnRTC_Handler                = RTC_Handler,
