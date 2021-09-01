@@ -13,7 +13,7 @@ This example application displays the Data Flash content on a console which is r
 
 ## Description
 
-This application configures the RTC peripheral for tamper detection, the SERCOM 3 peripheral to display content on console through UART pins. The application enable Data Flash security features (Silent Access and Tamper Erase), erase and display Data Flash content, fill Data Flash and display its content on console. When a Tampere is detected, Non-Secure application is halted and Data Flash content is fully erased.
+This application configures the RTC peripheral for tamper detection, the SERCOM 3 peripheral to display content on console through UART pins. The application enable Data Flash security features (Silent Access and Tamper Erase), erase and display Data Flash content, fill Data Flash and display its content on console. When a Tampere is detected, application is halted and Data Flash content is fully erased.
 
 
 ## Downloading and building the application
@@ -54,7 +54,7 @@ The following table shows the target hardware for the application projects.
     - Parity : None
     - Stop : 1 Bit
     - Flow Control : None
-3. Open the project group in the MPLAB X IDE and set the non-secure project as main project
+3. Open the project in the MPLAB X IDE
 4. Build and program the application
 5. The console should display the following Secure Data Flash content:
 

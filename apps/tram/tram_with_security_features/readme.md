@@ -13,10 +13,7 @@ This example application displays the TrustRAM content on a console which is ref
 
 ## Description
 
-This demonstrates TrustZone feature and uses two projects viz., Secure and Non-Secure Project that work together on the same
-MCU and offering security isolation between the Trusted and the Non-trusted resources in the device.
-
-The application configures the TrustRAM security features (Silent Access - Data Scrambling - Tamper Erase) and configures the SERCOM3 peripheral to display content on console through UART pins. The application the fill TrustRAM with pattern and display its content every second. When a Tamper is detected, Non-Secure application is halted and TrustRAM contetn is fully erased.
+The application configures the TrustRAM security features (Silent Access - Data Scrambling - Tamper Erase) and configures the SERCOM3 peripheral to display content on console through UART pins. The application the fill TrustRAM with pattern and display its content every second. When a Tamper is detected, application is halted and TrustRAM contetn is fully erased.
 
 ## Downloading and building the application
 
@@ -56,7 +53,7 @@ The following table shows the target hardware for the application projects.
     - Parity : None
     - Stop : 1 Bit
     - Flow Control : None
-3. Open the project group in the MPLAB X IDE and set the non-secure project as main project
+3. Open the project in the MPLAB X IDE
 4. Build and program the application
 5. The console should display the following TrustRAM content:
 
