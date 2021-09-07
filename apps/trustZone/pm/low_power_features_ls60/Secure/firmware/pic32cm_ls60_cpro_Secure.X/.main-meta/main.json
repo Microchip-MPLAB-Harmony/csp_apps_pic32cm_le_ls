@@ -1,0 +1,84 @@
+{
+	"metaDataVersion": "1.0.0",
+	"category": "com.microchip.ide.project",
+	"content": {
+		"metaDataVersion": "1.1.0",
+		"name": "com.microchip.mcu32.mplabx.project.csp_apps_pic32cm_le_ls_trustZone_pm_low_power_features_ls60",
+		"version": "3.1.0",
+		"displayName": "PM low power features Example for PIC32CM LE00/LS00/LS60 Family",
+		"projectName": "pm_low_power_features_ls60_pic32cm_ls60_cpro",
+		"shortDescription": "This example highlights the power consumption for each sleep mode based on the same application integration",
+		"ide": {
+			"name": "MPLABX",
+			"semverRange": ">=5.50.0"
+		},
+		"compiler": [
+			{
+				"name": "XC32",
+				"semverRange": ">=3.01.0"
+			}
+		],
+		"dfp": {
+			"name": "PIC32CM-LS_DFP",
+			"semverRange": "^1.0.135"
+		},
+		"configurator": {
+			"name": "MHC",
+			"semverRange": ">=3.8.0"
+		},
+		"device": {
+			"metaDataVersion": "1.0.0",
+			"category": "com.microchip.portal.contentRef",
+			"content": {
+				"metaDataVersion": "1.0.0",
+				"category": "com.microchip.device",
+				"name": "PIC32CM5164LS60100",
+				"versionRange": "*"
+			}
+		},
+		"author": "Microchip",
+		"subcategories": [
+			[
+				"Development Kit",
+				"PIC32CM LS60 Curiosity Pro Evaluation Kit"
+			],
+			[
+				"Harmony",
+				"Peripherals",
+				"PM",
+				"TRUSTZONE"
+			],
+			[
+				"Peripherals",
+				"PM",
+				"TRUSTZONE"
+			]
+		],
+		"peripherals": [
+			"PM",
+			"TRUSTZONE"
+		],
+		"keywords": [
+			"MHC",
+			"Harmony",
+			"PIC32CM5164LS60100",
+			"PIC32CM LE00/LS00/LS60 Family",
+			"PM",
+			"Low Power",
+			"TRUSTZONE",
+			"TrustZone",
+			"Security"
+		],
+		"additionalData": {
+			"longDescription": {
+				"metaDataVersion": "1.0.0",
+				"category": "com.microchip.portal.fileRef",
+				"content": {
+					"metaDataVersion": "1.0.0",
+					"fileName": "./../../readme.md",
+					"mimeType": "text/markdown"
+				}
+			}
+		}
+	}
+}
