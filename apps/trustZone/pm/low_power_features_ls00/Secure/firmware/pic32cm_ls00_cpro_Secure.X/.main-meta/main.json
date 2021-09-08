@@ -4,7 +4,7 @@
 	"content": {
 		"metaDataVersion": "1.1.0",
 		"name": "com.microchip.mcu32.mplabx.project.csp_apps_pic32cm_le_ls_trustZone_pm_low_power_features_ls00",
-		"version": "3.1.0",
+		"version": "3.2.0",
 		"displayName": "PM low power features Example for PIC32CM LE00/LS00/LS60 Family",
 		"projectName": "pm_low_power_features_ls00_pic32cm_ls00_cpro",
 		"shortDescription": "This example highlights the power consumption for each sleep mode based on the same application integration",

@@ -4,7 +4,7 @@
 	"content": {
 		"metaDataVersion": "1.1.0",
 		"name": "com.microchip.mcu32.mplabx.project.csp_apps_pic32cm_le_ls_trustZone_tram_tram_ls00",
-		"version": "3.1.0",
+		"version": "3.2.0",
 		"displayName": "TRAM LS00 features Example for PIC32CM LE00/LS00/LS60 Family",
 		"projectName": "tram_tram_ls00_pic32cm_ls00_cpro",
 		"shortDescription": "This example application displays the TrustRAM content on a console which is refreshed every seconds. This example allows to experiment static and dynamic tamper detections coupled with a TrustRAM full erase",

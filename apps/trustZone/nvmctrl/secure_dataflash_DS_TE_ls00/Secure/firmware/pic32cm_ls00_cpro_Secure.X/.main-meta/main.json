@@ -4,7 +4,7 @@
 	"content": {
 		"metaDataVersion": "1.1.0",
 		"name": "com.microchip.mcu32.mplabx.project.csp_apps_pic32cm_le_ls_nvmctrl_seucre_dataflash_DS_TE_LS00",
-		"version": "3.1.0",
+		"version": "3.2.0",
 		"displayName": "NVMCTRL data flash Example for PIC32CM LE00/LS00/LS60 Family",
 		"projectName": "nvmctrl_seucre_dataflash_DS_TE_LS00_pic32cm_ls00_cpro",
 		"shortDescription": "This example application displays the Data Flash content on a console which is refreshed every seconds. The Data Flash Scrambling and Tamper Erase security features of the Data Flash are enabled",

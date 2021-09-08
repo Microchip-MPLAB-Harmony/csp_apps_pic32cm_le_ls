@@ -4,7 +4,7 @@
 	"content": {
 		"metaDataVersion": "1.1.0",
 		"name": "com.microchip.mcu32.mplabx.project.csp_apps_pic32cm_le_ls_trustZone_tc_secure_tc_ls00",
-		"version": "3.1.0",
+		"version": "3.2.0",
 		"displayName": "TC secure TC Example for PIC32CM LE00/LS00/LS60 Family",
 		"projectName": "tc_secure_tc_ls00_pic32cm_ls00_cpro",
 		"shortDescription": "This example application performs a PWM signal applied on PC19 pin (LED0) based on TC0 peripheral",
