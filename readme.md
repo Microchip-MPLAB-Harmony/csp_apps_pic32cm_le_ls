@@ -51,8 +51,8 @@ The following applications are provided to demonstrate the typical or interestin
 | [EIC Interrupt](apps/eic/eic_led_on_off/readme.md) | This example application demonstrates how to generate interrupt using the EIC on switch press and indicate it through an LED |
 | [EVSYS trigger](apps/evsys/evsys_trigger/readme.md) | This example application demonstrates how to use the EVSYS Peripheral library to setup autonomous, low-latency and configurable communication between peripherals |
 | [FREQM measurement](apps/freqm/freqm_measure_clock_freq/readme.md) | This example application demonstrates how to use the FREQM peripheral to measure the frequency of the internal RC Oscillator |
-| [NVMCTRL data flash](apps/nvmctrl/nvmctrl_data_flash/readme.md) | This example application demonstrates code execution from the main Flash memory while performing erase operation in data flash section |
 | [NVMCTRL Data Flash with Silent Access and RTC Tamper Detection](apps/nvmctrl/nvmctrl_dataflash_SA_TE/readme.md) | This example application displays the Data Flash content on a console which is refreshed every seconds. The Silent Access and Tamper Erase security features of the Data Flash are enabled |
+| [NVMCTRL data flash](apps/nvmctrl/nvmctrl_data_flash/readme.md) | This example application demonstrates code execution from the main Flash memory while performing erase operation in data flash section |
 | [NVMCTRL read write](apps/nvmctrl/nvmctrl_flash_read_write/readme.md) | This example application demonstrates how to use the NVMCTRL to erase and program the internal Flash memory |
 | [OPAMP ADC gain](apps/opamp/opamp_adc_gain/readme.md) | This application shows how OPAMP can be used as gain stage for the internal ADC peripheral |
 | [PM Low-Power Features](apps/pm/low_power_features/readme.md) | This example highlights the power consumption for each sleep mode based on the same application integration |
@@ -103,6 +103,7 @@ The following applications are provided to demonstrate the typical or interestin
 | [WDT timeout](apps/wdt/wdt_timeout/readme.md) | This example shows how to generate a Watchdog timer reset by emulating a deadlock |
 
 ____
+
 
 [![License](https://img.shields.io/badge/license-Harmony%20license-orange.svg)](https://github.com/Microchip-MPLAB-Harmony/csp_apps_pic32cm_le_ls/blob/master/mplab_harmony_license.md)
 [![Latest release](https://img.shields.io/github/release/Microchip-MPLAB-Harmony/csp_apps_pic32cm_le_ls.svg)](https://github.com/Microchip-MPLAB-Harmony/csp_apps_pic32cm_le_ls/releases/latest)
