@@ -62,7 +62,7 @@ typedef enum
 /* Non-secure callable functions */
 
 // NSC to print data to terminal through SERCOM3 peripheral
-extern bool nsc_secure_console_printf (char *buffer);
+extern bool nsc_secure_console_printf (const char *buffer);
 
 // NSC to erase Data Flash row
 extern int32_t nsc_secure_dataflash_erase_row (void);
