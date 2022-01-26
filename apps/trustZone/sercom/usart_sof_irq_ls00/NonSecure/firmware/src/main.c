@@ -71,7 +71,11 @@ int main ( void )
     uint32_t nBytes = 0;
     
     /* Initialize all modules */
-    SYS_Initialize ( NULL );  
+    SYS_Initialize ( NULL );
+    
+    /* Clear terminal screen */
+    nBytes = sprintf((char*)txBuffer, "\33[H\33[2J");
+    SERCOM3_USART_Write ((uint8_t*)txBuffer, nBytes);
     
     /* Print the size of the read buffer on the terminal */
     nBytes = sprintf((char*)txBuffer, "######################################################\n\r");
