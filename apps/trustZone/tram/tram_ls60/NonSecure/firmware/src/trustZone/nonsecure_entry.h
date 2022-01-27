@@ -51,7 +51,7 @@
 
 /* Non-secure callable functions */
 extern void nsc_TRAM_Fill ( uint16_t pattern );
-extern bool nsc_secure_console_printf (char *buffer);
+extern bool nsc_secure_console_printf (const char *buffer);
 extern void nsc_display_TRAM_content ( void );
 extern void nsc_RTC_Timer32Start ( void );
 
