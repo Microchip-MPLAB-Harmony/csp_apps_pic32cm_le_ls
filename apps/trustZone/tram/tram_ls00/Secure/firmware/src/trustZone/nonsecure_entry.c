@@ -63,7 +63,7 @@ bool __attribute__((cmse_nonsecure_entry))nsc_secure_console_printf (char *buffe
     if (!buffer)
         return false;
     
-    printf (buffer);
+    printf ("%s", buffer);
     return true;
 }
 
