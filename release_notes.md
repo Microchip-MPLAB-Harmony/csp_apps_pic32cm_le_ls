@@ -8,6 +8,26 @@ nav_order: 99
 
 # Microchip MPLAB® Harmony 3 Release Notes
 
+## Harmony 3 peripheral library application examples for PIC32CM LE/LS family  v3.2.1
+
+- Updated applications to remove unsupported fuse for PIC32CM LE devices
+
+### Development kit and demo application support
+
+- Same as v3.2.0
+
+### New Features
+
+- None
+
+### Known Issues
+
+- None
+
+### Development Tools
+
+- Same as v3.2.0
+
 ## Harmony 3 peripheral library application examples for PIC32CM LE/LS family  v3.2.0
 
 ### Development kit and demo application support
