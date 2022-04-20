@@ -16,7 +16,6 @@
             </make-dep-projects>
             <sourceRootList>
                 <sourceRootElem>../src</sourceRootElem>
-                <sourceRootElem>../../../../BootSec_App/NonSecure/firmware/src/trustZone</sourceRootElem>
                 <sourceRootElem>../../../../BS_App/NonSecure/firmware/src</sourceRootElem>
             </sourceRootList>
             <confList>

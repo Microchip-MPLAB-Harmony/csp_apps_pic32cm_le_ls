@@ -20,7 +20,7 @@
  *
  */
 
-/* file generated from device description version 2021-06-28T10:09:19Z */
+/* file generated from device description version 2021-11-12T10:11:27Z */
 #ifndef _PIC32CMLS60_USB_COMPONENT_H_
 #define _PIC32CMLS60_USB_COMPONENT_H_
 
@@ -1037,54 +1037,54 @@
 
 
 /** \brief USB register offsets definitions */
-#define USB_DEVICE_ADDR_REG_OFST       (0x00)              /**< (USB_DEVICE_ADDR) DEVICE_DESC_BANK Endpoint Bank, Adress of Data Buffer Offset */
-#define USB_DEVICE_PCKSIZE_REG_OFST    (0x04)              /**< (USB_DEVICE_PCKSIZE) DEVICE_DESC_BANK Endpoint Bank, Packet Size Offset */
-#define USB_DEVICE_EXTREG_REG_OFST     (0x08)              /**< (USB_DEVICE_EXTREG) DEVICE_DESC_BANK Endpoint Bank, Extended Offset */
-#define USB_DEVICE_STATUS_BK_REG_OFST  (0x0A)              /**< (USB_DEVICE_STATUS_BK) DEVICE_DESC_BANK Enpoint Bank, Status of Bank Offset */
-#define USB_HOST_ADDR_REG_OFST         (0x00)              /**< (USB_HOST_ADDR) HOST_DESC_BANK Host Bank, Adress of Data Buffer Offset */
-#define USB_HOST_PCKSIZE_REG_OFST      (0x04)              /**< (USB_HOST_PCKSIZE) HOST_DESC_BANK Host Bank, Packet Size Offset */
-#define USB_HOST_EXTREG_REG_OFST       (0x08)              /**< (USB_HOST_EXTREG) HOST_DESC_BANK Host Bank, Extended Offset */
-#define USB_HOST_STATUS_BK_REG_OFST    (0x0A)              /**< (USB_HOST_STATUS_BK) HOST_DESC_BANK Host Bank, Status of Bank Offset */
-#define USB_HOST_CTRL_PIPE_REG_OFST    (0x0C)              /**< (USB_HOST_CTRL_PIPE) HOST_DESC_BANK Host Bank, Host Control Pipe Offset */
-#define USB_HOST_STATUS_PIPE_REG_OFST  (0x0E)              /**< (USB_HOST_STATUS_PIPE) HOST_DESC_BANK Host Bank, Host Status Pipe Offset */
-#define USB_DEVICE_EPCFG_REG_OFST      (0x00)              /**< (USB_DEVICE_EPCFG) DEVICE_ENDPOINT End Point Configuration Offset */
-#define USB_DEVICE_EPSTATUSCLR_REG_OFST (0x04)              /**< (USB_DEVICE_EPSTATUSCLR) DEVICE_ENDPOINT End Point Pipe Status Clear Offset */
-#define USB_DEVICE_EPSTATUSSET_REG_OFST (0x05)              /**< (USB_DEVICE_EPSTATUSSET) DEVICE_ENDPOINT End Point Pipe Status Set Offset */
-#define USB_DEVICE_EPSTATUS_REG_OFST   (0x06)              /**< (USB_DEVICE_EPSTATUS) DEVICE_ENDPOINT End Point Pipe Status Offset */
-#define USB_DEVICE_EPINTFLAG_REG_OFST  (0x07)              /**< (USB_DEVICE_EPINTFLAG) DEVICE_ENDPOINT End Point Interrupt Flag Offset */
-#define USB_DEVICE_EPINTENCLR_REG_OFST (0x08)              /**< (USB_DEVICE_EPINTENCLR) DEVICE_ENDPOINT End Point Interrupt Clear Flag Offset */
-#define USB_DEVICE_EPINTENSET_REG_OFST (0x09)              /**< (USB_DEVICE_EPINTENSET) DEVICE_ENDPOINT End Point Interrupt Set Flag Offset */
-#define USB_HOST_PCFG_REG_OFST         (0x00)              /**< (USB_HOST_PCFG) HOST_PIPE End Point Configuration Offset */
-#define USB_HOST_BINTERVAL_REG_OFST    (0x03)              /**< (USB_HOST_BINTERVAL) HOST_PIPE Bus Access Period of Pipe Offset */
-#define USB_HOST_PSTATUSCLR_REG_OFST   (0x04)              /**< (USB_HOST_PSTATUSCLR) HOST_PIPE End Point Pipe Status Clear Offset */
-#define USB_HOST_PSTATUSSET_REG_OFST   (0x05)              /**< (USB_HOST_PSTATUSSET) HOST_PIPE End Point Pipe Status Set Offset */
-#define USB_HOST_PSTATUS_REG_OFST      (0x06)              /**< (USB_HOST_PSTATUS) HOST_PIPE End Point Pipe Status Offset */
-#define USB_HOST_PINTFLAG_REG_OFST     (0x07)              /**< (USB_HOST_PINTFLAG) HOST_PIPE Pipe Interrupt Flag Offset */
-#define USB_HOST_PINTENCLR_REG_OFST    (0x08)              /**< (USB_HOST_PINTENCLR) HOST_PIPE Pipe Interrupt Flag Clear Offset */
-#define USB_HOST_PINTENSET_REG_OFST    (0x09)              /**< (USB_HOST_PINTENSET) HOST_PIPE Pipe Interrupt Flag Set Offset */
-#define USB_CTRLA_REG_OFST             (0x00)              /**< (USB_CTRLA) Control A Offset */
-#define USB_SYNCBUSY_REG_OFST          (0x02)              /**< (USB_SYNCBUSY) Synchronization Busy Offset */
-#define USB_QOSCTRL_REG_OFST           (0x03)              /**< (USB_QOSCTRL) USB Quality Of Service Offset */
-#define USB_DEVICE_CTRLB_REG_OFST      (0x08)              /**< (USB_DEVICE_CTRLB) DEVICE Control B Offset */
-#define USB_HOST_CTRLB_REG_OFST        (0x08)              /**< (USB_HOST_CTRLB) HOST Control B Offset */
-#define USB_DEVICE_DADD_REG_OFST       (0x0A)              /**< (USB_DEVICE_DADD) DEVICE Device Address Offset */
-#define USB_HOST_HSOFC_REG_OFST        (0x0A)              /**< (USB_HOST_HSOFC) HOST Host Start Of Frame Control Offset */
-#define USB_DEVICE_STATUS_REG_OFST     (0x0C)              /**< (USB_DEVICE_STATUS) DEVICE Status Offset */
-#define USB_HOST_STATUS_REG_OFST       (0x0C)              /**< (USB_HOST_STATUS) HOST Status Offset */
-#define USB_FSMSTATUS_REG_OFST         (0x0D)              /**< (USB_FSMSTATUS) Finite State Machine Status Offset */
-#define USB_DEVICE_FNUM_REG_OFST       (0x10)              /**< (USB_DEVICE_FNUM) DEVICE Device Frame Number Offset */
-#define USB_HOST_FNUM_REG_OFST         (0x10)              /**< (USB_HOST_FNUM) HOST Host Frame Number Offset */
-#define USB_HOST_FLENHIGH_REG_OFST     (0x12)              /**< (USB_HOST_FLENHIGH) HOST Host Frame Length Offset */
-#define USB_DEVICE_INTENCLR_REG_OFST   (0x14)              /**< (USB_DEVICE_INTENCLR) DEVICE Device Interrupt Enable Clear Offset */
-#define USB_HOST_INTENCLR_REG_OFST     (0x14)              /**< (USB_HOST_INTENCLR) HOST Host Interrupt Enable Clear Offset */
-#define USB_DEVICE_INTENSET_REG_OFST   (0x18)              /**< (USB_DEVICE_INTENSET) DEVICE Device Interrupt Enable Set Offset */
-#define USB_HOST_INTENSET_REG_OFST     (0x18)              /**< (USB_HOST_INTENSET) HOST Host Interrupt Enable Set Offset */
-#define USB_DEVICE_INTFLAG_REG_OFST    (0x1C)              /**< (USB_DEVICE_INTFLAG) DEVICE Device Interrupt Flag Offset */
-#define USB_HOST_INTFLAG_REG_OFST      (0x1C)              /**< (USB_HOST_INTFLAG) HOST Host Interrupt Flag Offset */
-#define USB_DEVICE_EPINTSMRY_REG_OFST  (0x20)              /**< (USB_DEVICE_EPINTSMRY) DEVICE End Point Interrupt Summary Offset */
-#define USB_HOST_PINTSMRY_REG_OFST     (0x20)              /**< (USB_HOST_PINTSMRY) HOST Pipe Interrupt Summary Offset */
-#define USB_DESCADD_REG_OFST           (0x24)              /**< (USB_DESCADD) Descriptor Address Offset */
-#define USB_PADCAL_REG_OFST            (0x28)              /**< (USB_PADCAL) USB PAD Calibration Offset */
+#define USB_DEVICE_ADDR_REG_OFST       (0x00)              /* (USB_DEVICE_ADDR) DEVICE_DESC_BANK Endpoint Bank, Adress of Data Buffer Offset */
+#define USB_DEVICE_PCKSIZE_REG_OFST    (0x04)              /* (USB_DEVICE_PCKSIZE) DEVICE_DESC_BANK Endpoint Bank, Packet Size Offset */
+#define USB_DEVICE_EXTREG_REG_OFST     (0x08)              /* (USB_DEVICE_EXTREG) DEVICE_DESC_BANK Endpoint Bank, Extended Offset */
+#define USB_DEVICE_STATUS_BK_REG_OFST  (0x0A)              /* (USB_DEVICE_STATUS_BK) DEVICE_DESC_BANK Enpoint Bank, Status of Bank Offset */
+#define USB_HOST_ADDR_REG_OFST         (0x00)              /* (USB_HOST_ADDR) HOST_DESC_BANK Host Bank, Adress of Data Buffer Offset */
+#define USB_HOST_PCKSIZE_REG_OFST      (0x04)              /* (USB_HOST_PCKSIZE) HOST_DESC_BANK Host Bank, Packet Size Offset */
+#define USB_HOST_EXTREG_REG_OFST       (0x08)              /* (USB_HOST_EXTREG) HOST_DESC_BANK Host Bank, Extended Offset */
+#define USB_HOST_STATUS_BK_REG_OFST    (0x0A)              /* (USB_HOST_STATUS_BK) HOST_DESC_BANK Host Bank, Status of Bank Offset */
+#define USB_HOST_CTRL_PIPE_REG_OFST    (0x0C)              /* (USB_HOST_CTRL_PIPE) HOST_DESC_BANK Host Bank, Host Control Pipe Offset */
+#define USB_HOST_STATUS_PIPE_REG_OFST  (0x0E)              /* (USB_HOST_STATUS_PIPE) HOST_DESC_BANK Host Bank, Host Status Pipe Offset */
+#define USB_DEVICE_EPCFG_REG_OFST      (0x00)              /* (USB_DEVICE_EPCFG) DEVICE_ENDPOINT End Point Configuration Offset */
+#define USB_DEVICE_EPSTATUSCLR_REG_OFST (0x04)              /* (USB_DEVICE_EPSTATUSCLR) DEVICE_ENDPOINT End Point Pipe Status Clear Offset */
+#define USB_DEVICE_EPSTATUSSET_REG_OFST (0x05)              /* (USB_DEVICE_EPSTATUSSET) DEVICE_ENDPOINT End Point Pipe Status Set Offset */
+#define USB_DEVICE_EPSTATUS_REG_OFST   (0x06)              /* (USB_DEVICE_EPSTATUS) DEVICE_ENDPOINT End Point Pipe Status Offset */
+#define USB_DEVICE_EPINTFLAG_REG_OFST  (0x07)              /* (USB_DEVICE_EPINTFLAG) DEVICE_ENDPOINT End Point Interrupt Flag Offset */
+#define USB_DEVICE_EPINTENCLR_REG_OFST (0x08)              /* (USB_DEVICE_EPINTENCLR) DEVICE_ENDPOINT End Point Interrupt Clear Flag Offset */
+#define USB_DEVICE_EPINTENSET_REG_OFST (0x09)              /* (USB_DEVICE_EPINTENSET) DEVICE_ENDPOINT End Point Interrupt Set Flag Offset */
+#define USB_HOST_PCFG_REG_OFST         (0x00)              /* (USB_HOST_PCFG) HOST_PIPE End Point Configuration Offset */
+#define USB_HOST_BINTERVAL_REG_OFST    (0x03)              /* (USB_HOST_BINTERVAL) HOST_PIPE Bus Access Period of Pipe Offset */
+#define USB_HOST_PSTATUSCLR_REG_OFST   (0x04)              /* (USB_HOST_PSTATUSCLR) HOST_PIPE End Point Pipe Status Clear Offset */
+#define USB_HOST_PSTATUSSET_REG_OFST   (0x05)              /* (USB_HOST_PSTATUSSET) HOST_PIPE End Point Pipe Status Set Offset */
+#define USB_HOST_PSTATUS_REG_OFST      (0x06)              /* (USB_HOST_PSTATUS) HOST_PIPE End Point Pipe Status Offset */
+#define USB_HOST_PINTFLAG_REG_OFST     (0x07)              /* (USB_HOST_PINTFLAG) HOST_PIPE Pipe Interrupt Flag Offset */
+#define USB_HOST_PINTENCLR_REG_OFST    (0x08)              /* (USB_HOST_PINTENCLR) HOST_PIPE Pipe Interrupt Flag Clear Offset */
+#define USB_HOST_PINTENSET_REG_OFST    (0x09)              /* (USB_HOST_PINTENSET) HOST_PIPE Pipe Interrupt Flag Set Offset */
+#define USB_CTRLA_REG_OFST             (0x00)              /* (USB_CTRLA) Control A Offset */
+#define USB_SYNCBUSY_REG_OFST          (0x02)              /* (USB_SYNCBUSY) Synchronization Busy Offset */
+#define USB_QOSCTRL_REG_OFST           (0x03)              /* (USB_QOSCTRL) USB Quality Of Service Offset */
+#define USB_DEVICE_CTRLB_REG_OFST      (0x08)              /* (USB_DEVICE_CTRLB) DEVICE Control B Offset */
+#define USB_HOST_CTRLB_REG_OFST        (0x08)              /* (USB_HOST_CTRLB) HOST Control B Offset */
+#define USB_DEVICE_DADD_REG_OFST       (0x0A)              /* (USB_DEVICE_DADD) DEVICE Device Address Offset */
+#define USB_HOST_HSOFC_REG_OFST        (0x0A)              /* (USB_HOST_HSOFC) HOST Host Start Of Frame Control Offset */
+#define USB_DEVICE_STATUS_REG_OFST     (0x0C)              /* (USB_DEVICE_STATUS) DEVICE Status Offset */
+#define USB_HOST_STATUS_REG_OFST       (0x0C)              /* (USB_HOST_STATUS) HOST Status Offset */
+#define USB_FSMSTATUS_REG_OFST         (0x0D)              /* (USB_FSMSTATUS) Finite State Machine Status Offset */
+#define USB_DEVICE_FNUM_REG_OFST       (0x10)              /* (USB_DEVICE_FNUM) DEVICE Device Frame Number Offset */
+#define USB_HOST_FNUM_REG_OFST         (0x10)              /* (USB_HOST_FNUM) HOST Host Frame Number Offset */
+#define USB_HOST_FLENHIGH_REG_OFST     (0x12)              /* (USB_HOST_FLENHIGH) HOST Host Frame Length Offset */
+#define USB_DEVICE_INTENCLR_REG_OFST   (0x14)              /* (USB_DEVICE_INTENCLR) DEVICE Device Interrupt Enable Clear Offset */
+#define USB_HOST_INTENCLR_REG_OFST     (0x14)              /* (USB_HOST_INTENCLR) HOST Host Interrupt Enable Clear Offset */
+#define USB_DEVICE_INTENSET_REG_OFST   (0x18)              /* (USB_DEVICE_INTENSET) DEVICE Device Interrupt Enable Set Offset */
+#define USB_HOST_INTENSET_REG_OFST     (0x18)              /* (USB_HOST_INTENSET) HOST Host Interrupt Enable Set Offset */
+#define USB_DEVICE_INTFLAG_REG_OFST    (0x1C)              /* (USB_DEVICE_INTFLAG) DEVICE Device Interrupt Flag Offset */
+#define USB_HOST_INTFLAG_REG_OFST      (0x1C)              /* (USB_HOST_INTFLAG) HOST Host Interrupt Flag Offset */
+#define USB_DEVICE_EPINTSMRY_REG_OFST  (0x20)              /* (USB_DEVICE_EPINTSMRY) DEVICE End Point Interrupt Summary Offset */
+#define USB_HOST_PINTSMRY_REG_OFST     (0x20)              /* (USB_HOST_PINTSMRY) HOST Pipe Interrupt Summary Offset */
+#define USB_DESCADD_REG_OFST           (0x24)              /* (USB_DESCADD) Descriptor Address Offset */
+#define USB_PADCAL_REG_OFST            (0x28)              /* (USB_PADCAL) USB PAD Calibration Offset */
 
 #if !(defined(__ASSEMBLER__) || defined(__IAR_SYSTEMS_ASM__))
 /** \brief DEVICE_DESC_BANK register API structure */

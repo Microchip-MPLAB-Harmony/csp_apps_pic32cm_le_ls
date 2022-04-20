@@ -18,11 +18,10 @@ For this example:
 
 ## Description
  
-This example is based on trustZone_basic example and provides a BootSecure project in addition to the Secure and NonSeucre projects 
-to demonstrate Secure Boot feature capability over TrustZone feature.
+This example is based on trustZone_basic example and provides a BootSecure project in addition to the Secure and NonSeucre projects to demonstrate Secure Boot feature capability over TrustZone feature.
 
 The TrustZone basic with Secure Boot demonstration then provides two project groups:
-- BootSec_App: Contains BootSecure and Dummy projects.
+- BS_App: Contains BootSecure and Dummy projects.
 -- The Dummy project is not used but is kept for H3 project architecture considerations.
 -- BootSecure project implements math functions (add and multiply as example) and switch on the on-board LED0 (Green) on the BOOT region.
 - App: Contains Secure and NonSecure projects.
@@ -78,7 +77,7 @@ The following table shows the target hardware for the application projects.
 1. Open the App and BootSecure_App projects group in the MPLAB X IDE
 2. Set the nonsecure project (trustZone_basic_with_secureboot_pic32cm_ls00_cpro_NonSecure) as main project then flash the application
 3. Build and program the application
-4. Set the bootsecure project (trustZone_basic_with_secureboot_pic32cm_ls00_cpro_BootSecure) as main project. And go to Project Properties > EDBG > Program Options > Uncheck "Erase All Before Program" option. 
+4. Set the bootsecure project (trustZone_basic_with_secureboot_BS_pic32cm_ls00_cpro_Secure) as main project. Then go to Project Properties > EDBG > Program Options > Uncheck "Erase All Before Program" option. 
 5. Build and program the application
 6. The two on-board LEDs should switch on with a delay due to the Secure Boot Verification and the math operations are performed in Non-Secure application
 **Note:** The application can be launched in debug mode to do step-by-step and observe how the jumps from non-secure project to secure project only are performed

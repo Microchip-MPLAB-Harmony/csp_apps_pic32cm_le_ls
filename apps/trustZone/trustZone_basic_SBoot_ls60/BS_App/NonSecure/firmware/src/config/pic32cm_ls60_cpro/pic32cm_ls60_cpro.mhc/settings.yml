@@ -1,14 +1,14 @@
-configName: pic32cm_ls60_cpro
-folderName: pic32cm_ls60_cpro_NonSecure
 format_version: v1.0
-frameworkPath: ..\..\..\..\..\..
+configName: pic32cm_ls60_cpro
+folderName: trustZone_basic_with_secureboot_BS_pic32cm_ls60_cpro_NonSecure
+frameworkPath: C:\HF
 processor: PIC32CM5164LS60100
-projectName: trustZone_with_secureboot_pic32cm_ls60_cpro_NonSecure
+projectName: trustZone_basic_with_secureboot_BS_pic32cm_ls60_cpro_NonSecure
 settings:
-  PackageFilter: csp;csp_apps_pic32cm_le_ls
+  PackageFilter: ''
   FORCE_OPTIMIZATION: 'false'
   GENERATE_BACKUP: 'true'
   TRUSTZONE: 'true'
-  CMSISPath: .\dev_packs\arm\CMSIS\5.7.0
+  CMSISPath: dev_packs\arm\CMSIS\5.8.0
   MERGE_STRATEGY: USER_ALL
-  DFPPath: .\dev_packs\Microchip\PIC32CM-LS_DFP\1.0.135\PIC32CM-LS60\atdf\PIC32CM5164LS60100.atdf
+  DFPPath: dev_packs\Microchip\PIC32CM-LS_DFP\1.0.141\PIC32CM-LS60\atdf\PIC32CM5164LS60100.atdf

@@ -20,7 +20,7 @@
  *
  */
 
-/* file generated from device description version 2021-06-28T10:08:49Z */
+/* file generated from device description version 2021-11-12T10:11:10Z */
 #ifndef _PIC32CMLS00_OSC32KCTRL_COMPONENT_H_
 #define _PIC32CMLS00_OSC32KCTRL_COMPONENT_H_
 
@@ -180,15 +180,15 @@
 
 
 /** \brief OSC32KCTRL register offsets definitions */
-#define OSC32KCTRL_INTENCLR_REG_OFST   (0x00)              /**< (OSC32KCTRL_INTENCLR) Interrupt Enable Clear Offset */
-#define OSC32KCTRL_INTENSET_REG_OFST   (0x04)              /**< (OSC32KCTRL_INTENSET) Interrupt Enable Set Offset */
-#define OSC32KCTRL_INTFLAG_REG_OFST    (0x08)              /**< (OSC32KCTRL_INTFLAG) Interrupt Flag Status and Clear Offset */
-#define OSC32KCTRL_STATUS_REG_OFST     (0x0C)              /**< (OSC32KCTRL_STATUS) Power and Clocks Status Offset */
-#define OSC32KCTRL_RTCCTRL_REG_OFST    (0x10)              /**< (OSC32KCTRL_RTCCTRL) RTC Clock Selection Offset */
-#define OSC32KCTRL_XOSC32K_REG_OFST    (0x14)              /**< (OSC32KCTRL_XOSC32K) 32kHz External Crystal Oscillator (XOSC32K) Control Offset */
-#define OSC32KCTRL_CFDCTRL_REG_OFST    (0x16)              /**< (OSC32KCTRL_CFDCTRL) Clock Failure Detector Control Offset */
-#define OSC32KCTRL_EVCTRL_REG_OFST     (0x17)              /**< (OSC32KCTRL_EVCTRL) Event Control Offset */
-#define OSC32KCTRL_OSCULP32K_REG_OFST  (0x1C)              /**< (OSC32KCTRL_OSCULP32K) 32kHz Ultra Low Power Internal Oscillator (OSCULP32K) Control Offset */
+#define OSC32KCTRL_INTENCLR_REG_OFST   (0x00)              /* (OSC32KCTRL_INTENCLR) Interrupt Enable Clear Offset */
+#define OSC32KCTRL_INTENSET_REG_OFST   (0x04)              /* (OSC32KCTRL_INTENSET) Interrupt Enable Set Offset */
+#define OSC32KCTRL_INTFLAG_REG_OFST    (0x08)              /* (OSC32KCTRL_INTFLAG) Interrupt Flag Status and Clear Offset */
+#define OSC32KCTRL_STATUS_REG_OFST     (0x0C)              /* (OSC32KCTRL_STATUS) Power and Clocks Status Offset */
+#define OSC32KCTRL_RTCCTRL_REG_OFST    (0x10)              /* (OSC32KCTRL_RTCCTRL) RTC Clock Selection Offset */
+#define OSC32KCTRL_XOSC32K_REG_OFST    (0x14)              /* (OSC32KCTRL_XOSC32K) 32kHz External Crystal Oscillator (XOSC32K) Control Offset */
+#define OSC32KCTRL_CFDCTRL_REG_OFST    (0x16)              /* (OSC32KCTRL_CFDCTRL) Clock Failure Detector Control Offset */
+#define OSC32KCTRL_EVCTRL_REG_OFST     (0x17)              /* (OSC32KCTRL_EVCTRL) Event Control Offset */
+#define OSC32KCTRL_OSCULP32K_REG_OFST  (0x1C)              /* (OSC32KCTRL_OSCULP32K) 32kHz Ultra Low Power Internal Oscillator (OSCULP32K) Control Offset */
 
 #if !(defined(__ASSEMBLER__) || defined(__IAR_SYSTEMS_ASM__))
 /** \brief OSC32KCTRL register API structure */
