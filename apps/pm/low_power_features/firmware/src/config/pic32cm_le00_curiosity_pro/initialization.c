@@ -137,10 +137,10 @@ void SYS_Initialize ( void* data )
 
     SERCOM4_SPI_Initialize();
 
-
-    ADC_Initialize();
     SUPC_Initialize();
 
+
+    ADC_Initialize();
     EIC_Initialize();
 
     RTC_Initialize();

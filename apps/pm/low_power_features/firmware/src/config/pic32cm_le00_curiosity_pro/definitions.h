@@ -50,11 +50,11 @@
 #include <stdbool.h>
 #include "peripheral/nvmctrl/plib_nvmctrl.h"
 #include "peripheral/evsys/plib_evsys.h"
-#include "peripheral/pm/plib_pm.h"
 #include "peripheral/port/plib_port.h"
 #include "peripheral/clock/plib_clock.h"
 #include "peripheral/nvic/plib_nvic.h"
 #include "peripheral/dmac/plib_dmac.h"
+#include "peripheral/pm/plib_pm.h"
 #include "peripheral/sercom/spi_master/plib_sercom4_spi_master.h"
 #include "peripheral/adc/plib_adc.h"
 #include "peripheral/supc/plib_supc.h"

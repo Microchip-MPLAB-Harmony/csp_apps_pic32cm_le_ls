@@ -20,7 +20,7 @@
  *
  */
 
-/* File generated from device description version 2021-06-28T10:08:20Z */
+/* File generated from device description version 2021-11-12T10:10:54Z */
 #ifndef _PIC32CM5164LE00100_H_
 #define _PIC32CM5164LE00100_H_
 
@@ -81,11 +81,11 @@ typedef enum IRQn
   SysTick_IRQn              =  -1, /* -1  System Tick Timer                   */
 
 /******  PIC32CM5164LE00100 specific Interrupt Numbers ***********************************/
-  SUPC_IRQn                 =   0, /* 0   Shared between MCLK OSCCTRL OSC32KCTRL PM SUPC (SUPC) */
+  OSC32KCTRL_IRQn           =   0, /* 0   Shared between MCLK OSCCTRL OSC32KCTRL PM SUPC (OSC32KCTRL) */
   MCLK_IRQn                 =   0, /* 0   Shared between MCLK OSCCTRL OSC32KCTRL PM SUPC (MCLK) */
   PM_IRQn                   =   0, /* 0   Shared between MCLK OSCCTRL OSC32KCTRL PM SUPC (PM) */
+  SUPC_IRQn                 =   0, /* 0   Shared between MCLK OSCCTRL OSC32KCTRL PM SUPC (SUPC) */
   OSCCTRL_IRQn              =   0, /* 0   Shared between MCLK OSCCTRL OSC32KCTRL PM SUPC (OSCCTRL) */
-  OSC32KCTRL_IRQn           =   0, /* 0   Shared between MCLK OSCCTRL OSC32KCTRL PM SUPC (OSC32KCTRL) */
   WDT_IRQn                  =   1, /* 1   Watchdog Timer (WDT)                */
   RTC_IRQn                  =   2, /* 2   Real-Time Counter (RTC)             */
   EIC_EXTINT_0_IRQn         =   3, /* 3   External Interrupt Controller (EIC) */
@@ -644,7 +644,7 @@ void TRAM_Handler                  ( void );
 #define ROM_NB_OF_PAGES                _UL_(      1024)
 
 #define SHADOW_SIZE                    _UL_(0x00000008)    /*    0kB Memory segment type: fuses */
-#define SW_CALIB_SIZE                  _UL_(0x00000008)    /*    0kB Memory segment type: fuses */
+#define SW_CALIB_SIZE                  _UL_(0x00000004)    /*    0kB Memory segment type: fuses */
 #define TLATCH_SIZE                    _UL_(0x00010000)    /*   64kB Memory segment type: fuses */
 #define TLATCH_PAGE_SIZE               _UL_(        64)
 #define TLATCH_NB_OF_PAGES             _UL_(      1024)

@@ -20,7 +20,7 @@
  *
  */
 
-/* file generated from device description version 2021-06-28T10:08:20Z */
+/* file generated from device description version 2021-11-12T10:10:54Z */
 #ifndef _PIC32CMLE00_FUSES_COMPONENT_H_
 #define _PIC32CMLE00_FUSES_COMPONENT_H_
 
@@ -180,18 +180,18 @@
 
 
 /** \brief FUSES register offsets definitions */
-#define FUSES_SW_CALIB_WORD_0_REG_OFST (0x00)              /**< (FUSES_SW_CALIB_WORD_0) SW_CALIB Page Word 0 Offset */
-#define FUSES_BOCOR_WORD_1_REG_OFST    (0x04)              /**< (FUSES_BOCOR_WORD_1) BOCOR Page Word 1 Offset */
-#define FUSES_BOCOR_WORD_16_REG_OFST   (0x40)              /**< (FUSES_BOCOR_WORD_16) BOCOR Page Word 16 Offset */
-#define FUSES_BOCOR_WORD_17_REG_OFST   (0x44)              /**< (FUSES_BOCOR_WORD_17) BOCOR Page Word 17 Offset */
-#define FUSES_BOCOR_WORD_18_REG_OFST   (0x48)              /**< (FUSES_BOCOR_WORD_18) BOCOR Page Word 18 Offset */
-#define FUSES_BOCOR_WORD_19_REG_OFST   (0x4C)              /**< (FUSES_BOCOR_WORD_19) BOCOR Page Word 19 Offset */
-#define FUSES_OTP1_WORD_0_REG_OFST     (0x00)              /**< (FUSES_OTP1_WORD_0) OTP1 Page Word 0 Offset */
-#define FUSES_OTP1_WORD_1_REG_OFST     (0x04)              /**< (FUSES_OTP1_WORD_1) OTP1 Page Word 1 Offset */
-#define FUSES_OTP2_WORD_1_REG_OFST     (0x04)              /**< (FUSES_OTP2_WORD_1) OTP2 Page Word 1 Offset */
-#define FUSES_USER_WORD_0_REG_OFST     (0x00)              /**< (FUSES_USER_WORD_0) USER Page Word 0 Offset */
-#define FUSES_USER_WORD_1_REG_OFST     (0x04)              /**< (FUSES_USER_WORD_1) USER Page Word 1 Offset */
-#define FUSES_USER_WORD_3_REG_OFST     (0x0C)              /**< (FUSES_USER_WORD_3) USER Page Word 3 Offset */
+#define FUSES_SW_CALIB_WORD_0_REG_OFST (0x00)              /* (FUSES_SW_CALIB_WORD_0) SW_CALIB Page Word 0 Offset */
+#define FUSES_BOCOR_WORD_1_REG_OFST    (0x04)              /* (FUSES_BOCOR_WORD_1) BOCOR Page Word 1 Offset */
+#define FUSES_BOCOR_WORD_16_REG_OFST   (0x40)              /* (FUSES_BOCOR_WORD_16) BOCOR Page Word 16 Offset */
+#define FUSES_BOCOR_WORD_17_REG_OFST   (0x44)              /* (FUSES_BOCOR_WORD_17) BOCOR Page Word 17 Offset */
+#define FUSES_BOCOR_WORD_18_REG_OFST   (0x48)              /* (FUSES_BOCOR_WORD_18) BOCOR Page Word 18 Offset */
+#define FUSES_BOCOR_WORD_19_REG_OFST   (0x4C)              /* (FUSES_BOCOR_WORD_19) BOCOR Page Word 19 Offset */
+#define FUSES_OTP1_WORD_0_REG_OFST     (0x00)              /* (FUSES_OTP1_WORD_0) OTP1 Page Word 0 Offset */
+#define FUSES_OTP1_WORD_1_REG_OFST     (0x04)              /* (FUSES_OTP1_WORD_1) OTP1 Page Word 1 Offset */
+#define FUSES_OTP2_WORD_1_REG_OFST     (0x04)              /* (FUSES_OTP2_WORD_1) OTP2 Page Word 1 Offset */
+#define FUSES_USER_WORD_0_REG_OFST     (0x00)              /* (FUSES_USER_WORD_0) USER Page Word 0 Offset */
+#define FUSES_USER_WORD_1_REG_OFST     (0x04)              /* (FUSES_USER_WORD_1) USER Page Word 1 Offset */
+#define FUSES_USER_WORD_3_REG_OFST     (0x0C)              /* (FUSES_USER_WORD_3) USER Page Word 3 Offset */
 
 #if !(defined(__ASSEMBLER__) || defined(__IAR_SYSTEMS_ASM__))
 /** \brief SW_CALIB_FUSES register API structure */
