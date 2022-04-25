@@ -20,7 +20,7 @@
  *
  */
 
-/* file generated from device description version 2021-06-28T10:08:49Z */
+/* file generated from device description version 2021-11-12T10:11:10Z */
 #ifndef _PIC32CMLS00_RSTC_COMPONENT_H_
 #define _PIC32CMLS00_RSTC_COMPONENT_H_
 
@@ -57,7 +57,7 @@
 #define RSTC_RCAUSE_BOD(value)                (RSTC_RCAUSE_BOD_Msk & ((value) << RSTC_RCAUSE_BOD_Pos)) 
 
 /** \brief RSTC register offsets definitions */
-#define RSTC_RCAUSE_REG_OFST           (0x00)              /**< (RSTC_RCAUSE) Reset Cause Offset */
+#define RSTC_RCAUSE_REG_OFST           (0x00)              /* (RSTC_RCAUSE) Reset Cause Offset */
 
 #if !(defined(__ASSEMBLER__) || defined(__IAR_SYSTEMS_ASM__))
 /** \brief RSTC register API structure */

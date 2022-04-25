@@ -20,7 +20,7 @@
  *
  */
 
-/* File generated from device description version 2021-06-28T10:08:49Z */
+/* File generated from device description version 2021-11-12T10:11:10Z */
 #ifndef _PIC32CM5164LS00100_H_
 #define _PIC32CM5164LS00100_H_
 
@@ -81,11 +81,11 @@ typedef enum IRQn
   SysTick_IRQn              =  -1, /* -1  System Tick Timer                   */
 
 /******  PIC32CM5164LS00100 specific Interrupt Numbers ***********************************/
-  OSC32KCTRL_IRQn           =   0, /* 0   Shared between MCLK OSCCTRL OSC32KCTRL PM SUPC (OSC32KCTRL) */
   SUPC_IRQn                 =   0, /* 0   Shared between MCLK OSCCTRL OSC32KCTRL PM SUPC (SUPC) */
-  MCLK_IRQn                 =   0, /* 0   Shared between MCLK OSCCTRL OSC32KCTRL PM SUPC (MCLK) */
-  OSCCTRL_IRQn              =   0, /* 0   Shared between MCLK OSCCTRL OSC32KCTRL PM SUPC (OSCCTRL) */
+  OSC32KCTRL_IRQn           =   0, /* 0   Shared between MCLK OSCCTRL OSC32KCTRL PM SUPC (OSC32KCTRL) */
   PM_IRQn                   =   0, /* 0   Shared between MCLK OSCCTRL OSC32KCTRL PM SUPC (PM) */
+  OSCCTRL_IRQn              =   0, /* 0   Shared between MCLK OSCCTRL OSC32KCTRL PM SUPC (OSCCTRL) */
+  MCLK_IRQn                 =   0, /* 0   Shared between MCLK OSCCTRL OSC32KCTRL PM SUPC (MCLK) */
   WDT_IRQn                  =   1, /* 1   Watchdog Timer (WDT)                */
   RTC_IRQn                  =   2, /* 2   Real-Time Counter (RTC)             */
   EIC_EXTINT_0_IRQn         =   3, /* 3   External Interrupt Controller (EIC) */
@@ -665,7 +665,7 @@ void TRAM_Handler                  ( void );
 #define ROM_NB_OF_PAGES                _UL_(      1024)
 
 #define SHADOW_SIZE                    _UL_(0x00000008)    /*    0kB Memory segment type: fuses */
-#define SW_CALIB_SIZE                  _UL_(0x00000008)    /*    0kB Memory segment type: fuses */
+#define SW_CALIB_SIZE                  _UL_(0x00000004)    /*    0kB Memory segment type: fuses */
 #define TLATCH_SIZE                    _UL_(0x00010000)    /*   64kB Memory segment type: fuses */
 #define TLATCH_PAGE_SIZE               _UL_(        64)
 #define TLATCH_NB_OF_PAGES             _UL_(      1024)
