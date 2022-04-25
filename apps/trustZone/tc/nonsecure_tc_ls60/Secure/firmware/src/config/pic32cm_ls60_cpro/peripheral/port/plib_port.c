@@ -81,6 +81,7 @@ void PORT_Initialize(void)
    PORT_SEC_REGS->GROUP[1].PORT_NONSEC = 0x0;
    /************************** GROUP 2 Initialization *************************/
    PORT_SEC_REGS->GROUP[2].PORT_DIR = 0x80000;
+   PORT_SEC_REGS->GROUP[2].PORT_PINCFG[19] = 0x0;
 
 
    PORT_SEC_REGS->GROUP[2].PORT_NONSEC = 0x80000;
