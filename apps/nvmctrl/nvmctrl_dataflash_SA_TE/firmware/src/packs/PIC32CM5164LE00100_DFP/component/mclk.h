@@ -20,7 +20,7 @@
  *
  */
 
-/* file generated from device description version 2021-06-28T10:08:20Z */
+/* file generated from device description version 2021-11-12T10:10:54Z */
 #ifndef _PIC32CMLE00_MCLK_COMPONENT_H_
 #define _PIC32CMLE00_MCLK_COMPONENT_H_
 
@@ -270,15 +270,15 @@
 #define MCLK_APBCMASK_TCC(value)              (MCLK_APBCMASK_TCC_Msk & ((value) << MCLK_APBCMASK_TCC_Pos)) 
 
 /** \brief MCLK register offsets definitions */
-#define MCLK_CTRLA_REG_OFST            (0x00)              /**< (MCLK_CTRLA) Control Offset */
-#define MCLK_INTENCLR_REG_OFST         (0x01)              /**< (MCLK_INTENCLR) Interrupt Enable Clear Offset */
-#define MCLK_INTENSET_REG_OFST         (0x02)              /**< (MCLK_INTENSET) Interrupt Enable Set Offset */
-#define MCLK_INTFLAG_REG_OFST          (0x03)              /**< (MCLK_INTFLAG) Interrupt Flag Status and Clear Offset */
-#define MCLK_CPUDIV_REG_OFST           (0x04)              /**< (MCLK_CPUDIV) CPU Clock Division Offset */
-#define MCLK_AHBMASK_REG_OFST          (0x10)              /**< (MCLK_AHBMASK) AHB Mask Offset */
-#define MCLK_APBAMASK_REG_OFST         (0x14)              /**< (MCLK_APBAMASK) APBA Mask Offset */
-#define MCLK_APBBMASK_REG_OFST         (0x18)              /**< (MCLK_APBBMASK) APBB Mask Offset */
-#define MCLK_APBCMASK_REG_OFST         (0x1C)              /**< (MCLK_APBCMASK) APBC Mask Offset */
+#define MCLK_CTRLA_REG_OFST            (0x00)              /* (MCLK_CTRLA) Control Offset */
+#define MCLK_INTENCLR_REG_OFST         (0x01)              /* (MCLK_INTENCLR) Interrupt Enable Clear Offset */
+#define MCLK_INTENSET_REG_OFST         (0x02)              /* (MCLK_INTENSET) Interrupt Enable Set Offset */
+#define MCLK_INTFLAG_REG_OFST          (0x03)              /* (MCLK_INTFLAG) Interrupt Flag Status and Clear Offset */
+#define MCLK_CPUDIV_REG_OFST           (0x04)              /* (MCLK_CPUDIV) CPU Clock Division Offset */
+#define MCLK_AHBMASK_REG_OFST          (0x10)              /* (MCLK_AHBMASK) AHB Mask Offset */
+#define MCLK_APBAMASK_REG_OFST         (0x14)              /* (MCLK_APBAMASK) APBA Mask Offset */
+#define MCLK_APBBMASK_REG_OFST         (0x18)              /* (MCLK_APBBMASK) APBB Mask Offset */
+#define MCLK_APBCMASK_REG_OFST         (0x1C)              /* (MCLK_APBCMASK) APBC Mask Offset */
 
 #if !(defined(__ASSEMBLER__) || defined(__IAR_SYSTEMS_ASM__))
 /** \brief MCLK register API structure */

@@ -20,7 +20,7 @@
  *
  */
 
-/* file generated from device description version 2021-06-28T10:08:20Z */
+/* file generated from device description version 2021-11-12T10:10:54Z */
 #ifndef _PIC32CMLE00_I2S_COMPONENT_H_
 #define _PIC32CMLE00_I2S_COMPONENT_H_
 
@@ -542,18 +542,18 @@
 
 
 /** \brief I2S register offsets definitions */
-#define I2S_CTRLA_REG_OFST             (0x00)              /**< (I2S_CTRLA) Control A Offset */
-#define I2S_CLKCTRL_REG_OFST           (0x04)              /**< (I2S_CLKCTRL) Clock Unit n Control Offset */
-#define I2S_CLKCTRL0_REG_OFST          (0x04)              /**< (I2S_CLKCTRL0) Clock Unit n Control Offset */
-#define I2S_CLKCTRL1_REG_OFST          (0x08)              /**< (I2S_CLKCTRL1) Clock Unit n Control Offset */
-#define I2S_INTENCLR_REG_OFST          (0x0C)              /**< (I2S_INTENCLR) Interrupt Enable Clear Offset */
-#define I2S_INTENSET_REG_OFST          (0x10)              /**< (I2S_INTENSET) Interrupt Enable Set Offset */
-#define I2S_INTFLAG_REG_OFST           (0x14)              /**< (I2S_INTFLAG) Interrupt Flag Status and Clear Offset */
-#define I2S_SYNCBUSY_REG_OFST          (0x18)              /**< (I2S_SYNCBUSY) Synchronization Status Offset */
-#define I2S_TXCTRL_REG_OFST            (0x20)              /**< (I2S_TXCTRL) Tx Serializer Control Offset */
-#define I2S_RXCTRL_REG_OFST            (0x24)              /**< (I2S_RXCTRL) Rx Serializer Control Offset */
-#define I2S_TXDATA_REG_OFST            (0x30)              /**< (I2S_TXDATA) Tx Data Offset */
-#define I2S_RXDATA_REG_OFST            (0x34)              /**< (I2S_RXDATA) Rx Data Offset */
+#define I2S_CTRLA_REG_OFST             (0x00)              /* (I2S_CTRLA) Control A Offset */
+#define I2S_CLKCTRL_REG_OFST           (0x04)              /* (I2S_CLKCTRL) Clock Unit n Control Offset */
+#define I2S_CLKCTRL0_REG_OFST          (0x04)              /* (I2S_CLKCTRL0) Clock Unit n Control Offset */
+#define I2S_CLKCTRL1_REG_OFST          (0x08)              /* (I2S_CLKCTRL1) Clock Unit n Control Offset */
+#define I2S_INTENCLR_REG_OFST          (0x0C)              /* (I2S_INTENCLR) Interrupt Enable Clear Offset */
+#define I2S_INTENSET_REG_OFST          (0x10)              /* (I2S_INTENSET) Interrupt Enable Set Offset */
+#define I2S_INTFLAG_REG_OFST           (0x14)              /* (I2S_INTFLAG) Interrupt Flag Status and Clear Offset */
+#define I2S_SYNCBUSY_REG_OFST          (0x18)              /* (I2S_SYNCBUSY) Synchronization Status Offset */
+#define I2S_TXCTRL_REG_OFST            (0x20)              /* (I2S_TXCTRL) Tx Serializer Control Offset */
+#define I2S_RXCTRL_REG_OFST            (0x24)              /* (I2S_RXCTRL) Rx Serializer Control Offset */
+#define I2S_TXDATA_REG_OFST            (0x30)              /* (I2S_TXDATA) Tx Data Offset */
+#define I2S_RXDATA_REG_OFST            (0x34)              /* (I2S_RXDATA) Rx Data Offset */
 
 #if !(defined(__ASSEMBLER__) || defined(__IAR_SYSTEMS_ASM__))
 /** \brief I2S register API structure */

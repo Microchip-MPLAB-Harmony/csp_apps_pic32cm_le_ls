@@ -20,7 +20,7 @@
  *
  */
 
-/* file generated from device description version 2021-06-28T10:08:20Z */
+/* file generated from device description version 2021-11-12T10:10:54Z */
 #ifndef _PIC32CMLE00_DSU_COMPONENT_H_
 #define _PIC32CMLE00_DSU_COMPONENT_H_
 
@@ -193,15 +193,25 @@
 #define DSU_CFG_LQOS_Pos                      _U_(0)                                               /**< (DSU_CFG) Latency Quality Of Service Position */
 #define DSU_CFG_LQOS_Msk                      (_U_(0x3) << DSU_CFG_LQOS_Pos)                       /**< (DSU_CFG) Latency Quality Of Service Mask */
 #define DSU_CFG_LQOS(value)                   (DSU_CFG_LQOS_Msk & ((value) << DSU_CFG_LQOS_Pos))  
-#define DSU_CFG_DCCDMALEVEL_Pos               _U_(2)                                               /**< (DSU_CFG) DMA Trigger Level Position */
-#define DSU_CFG_DCCDMALEVEL_Msk               (_U_(0x3) << DSU_CFG_DCCDMALEVEL_Pos)                /**< (DSU_CFG) DMA Trigger Level Mask */
-#define DSU_CFG_DCCDMALEVEL(value)            (DSU_CFG_DCCDMALEVEL_Msk & ((value) << DSU_CFG_DCCDMALEVEL_Pos))
-#define   DSU_CFG_DCCDMALEVEL_EMPTY_Val       _U_(0x0)                                             /**< (DSU_CFG) Trigger rises when DCC is empty  */
-#define   DSU_CFG_DCCDMALEVEL_FULL_Val        _U_(0x1)                                             /**< (DSU_CFG) Trigger rises when DCC is full  */
-#define DSU_CFG_DCCDMALEVEL_EMPTY             (DSU_CFG_DCCDMALEVEL_EMPTY_Val << DSU_CFG_DCCDMALEVEL_Pos) /**< (DSU_CFG) Trigger rises when DCC is empty Position  */
-#define DSU_CFG_DCCDMALEVEL_FULL              (DSU_CFG_DCCDMALEVEL_FULL_Val << DSU_CFG_DCCDMALEVEL_Pos) /**< (DSU_CFG) Trigger rises when DCC is full Position  */
+#define DSU_CFG_DCCDMALEVEL0_Pos              _U_(2)                                               /**< (DSU_CFG) DMA Trigger Level 0 Position */
+#define DSU_CFG_DCCDMALEVEL0_Msk              (_U_(0x1) << DSU_CFG_DCCDMALEVEL0_Pos)               /**< (DSU_CFG) DMA Trigger Level 0 Mask */
+#define DSU_CFG_DCCDMALEVEL0(value)           (DSU_CFG_DCCDMALEVEL0_Msk & ((value) << DSU_CFG_DCCDMALEVEL0_Pos))
+#define   DSU_CFG_DCCDMALEVEL0_READ_Val       _U_(0x0)                                             /**< (DSU_CFG) Signals to the DMA that a data is available for read  */
+#define   DSU_CFG_DCCDMALEVEL0_WRITE_Val      _U_(0x1)                                             /**< (DSU_CFG) Signals to the DMA that a data is available for write  */
+#define DSU_CFG_DCCDMALEVEL0_READ             (DSU_CFG_DCCDMALEVEL0_READ_Val << DSU_CFG_DCCDMALEVEL0_Pos) /**< (DSU_CFG) Signals to the DMA that a data is available for read Position  */
+#define DSU_CFG_DCCDMALEVEL0_WRITE            (DSU_CFG_DCCDMALEVEL0_WRITE_Val << DSU_CFG_DCCDMALEVEL0_Pos) /**< (DSU_CFG) Signals to the DMA that a data is available for write Position  */
+#define DSU_CFG_DCCDMALEVEL1_Pos              _U_(3)                                               /**< (DSU_CFG) DMA Trigger Level 1 Position */
+#define DSU_CFG_DCCDMALEVEL1_Msk              (_U_(0x1) << DSU_CFG_DCCDMALEVEL1_Pos)               /**< (DSU_CFG) DMA Trigger Level 1 Mask */
+#define DSU_CFG_DCCDMALEVEL1(value)           (DSU_CFG_DCCDMALEVEL1_Msk & ((value) << DSU_CFG_DCCDMALEVEL1_Pos))
+#define   DSU_CFG_DCCDMALEVEL1_READ_Val       _U_(0x0)                                             /**< (DSU_CFG) Signals to the DMA that a data is available for read  */
+#define   DSU_CFG_DCCDMALEVEL1_WRITE_Val      _U_(0x1)                                             /**< (DSU_CFG) Signals to the DMA that a data is available for write  */
+#define DSU_CFG_DCCDMALEVEL1_READ             (DSU_CFG_DCCDMALEVEL1_READ_Val << DSU_CFG_DCCDMALEVEL1_Pos) /**< (DSU_CFG) Signals to the DMA that a data is available for read Position  */
+#define DSU_CFG_DCCDMALEVEL1_WRITE            (DSU_CFG_DCCDMALEVEL1_WRITE_Val << DSU_CFG_DCCDMALEVEL1_Pos) /**< (DSU_CFG) Signals to the DMA that a data is available for write Position  */
 #define DSU_CFG_Msk                           _U_(0x0000000F)                                      /**< (DSU_CFG) Register Mask  */
 
+#define DSU_CFG_DCCDMALEVEL_Pos               _U_(2)                                               /**< (DSU_CFG Position) DMA Trigger Level x */
+#define DSU_CFG_DCCDMALEVEL_Msk               (_U_(0x3) << DSU_CFG_DCCDMALEVEL_Pos)                /**< (DSU_CFG Mask) DCCDMALEVEL */
+#define DSU_CFG_DCCDMALEVEL(value)            (DSU_CFG_DCCDMALEVEL_Msk & ((value) << DSU_CFG_DCCDMALEVEL_Pos)) 
 
 /* -------- DSU_BCC : (DSU Offset: 0x20) (R/W 32) Boot ROM Communication Channel n -------- */
 #define DSU_BCC_RESETVALUE                    _U_(0x00)                                            /**<  (DSU_BCC) Boot ROM Communication Channel n  Reset Value */
@@ -369,36 +379,36 @@
 
 
 /** \brief DSU register offsets definitions */
-#define DSU_CTRL_REG_OFST              (0x00)              /**< (DSU_CTRL) Control Offset */
-#define DSU_STATUSA_REG_OFST           (0x01)              /**< (DSU_STATUSA) Status A Offset */
-#define DSU_STATUSB_REG_OFST           (0x02)              /**< (DSU_STATUSB) Status B Offset */
-#define DSU_ADDR_REG_OFST              (0x04)              /**< (DSU_ADDR) Address Offset */
-#define DSU_LENGTH_REG_OFST            (0x08)              /**< (DSU_LENGTH) Length Offset */
-#define DSU_DATA_REG_OFST              (0x0C)              /**< (DSU_DATA) Data Offset */
-#define DSU_DCC_REG_OFST               (0x10)              /**< (DSU_DCC) Debug Communication Channel n Offset */
-#define DSU_DCC0_REG_OFST              (0x10)              /**< (DSU_DCC0) Debug Communication Channel n Offset */
-#define DSU_DCC1_REG_OFST              (0x14)              /**< (DSU_DCC1) Debug Communication Channel n Offset */
-#define DSU_DID_REG_OFST               (0x18)              /**< (DSU_DID) Device Identification Offset */
-#define DSU_CFG_REG_OFST               (0x1C)              /**< (DSU_CFG) Configuration Offset */
-#define DSU_BCC_REG_OFST               (0x20)              /**< (DSU_BCC) Boot ROM Communication Channel n Offset */
-#define DSU_BCC0_REG_OFST              (0x20)              /**< (DSU_BCC0) Boot ROM Communication Channel n Offset */
-#define DSU_BCC1_REG_OFST              (0x24)              /**< (DSU_BCC1) Boot ROM Communication Channel n Offset */
-#define DSU_ENTRY0_REG_OFST            (0x1000)            /**< (DSU_ENTRY0) CoreSight ROM Table Entry 0 Offset */
-#define DSU_ENTRY1_REG_OFST            (0x1004)            /**< (DSU_ENTRY1) CoreSight ROM Table Entry 1 Offset */
-#define DSU_END_REG_OFST               (0x1008)            /**< (DSU_END) CoreSight ROM Table End Offset */
-#define DSU_MEMTYPE_REG_OFST           (0x1FCC)            /**< (DSU_MEMTYPE) CoreSight ROM Table Memory Type Offset */
-#define DSU_PID4_REG_OFST              (0x1FD0)            /**< (DSU_PID4) Peripheral Identification 4 Offset */
-#define DSU_PID5_REG_OFST              (0x1FD4)            /**< (DSU_PID5) Peripheral Identification 5 Offset */
-#define DSU_PID6_REG_OFST              (0x1FD8)            /**< (DSU_PID6) Peripheral Identification 6 Offset */
-#define DSU_PID7_REG_OFST              (0x1FDC)            /**< (DSU_PID7) Peripheral Identification 7 Offset */
-#define DSU_PID0_REG_OFST              (0x1FE0)            /**< (DSU_PID0) Peripheral Identification 0 Offset */
-#define DSU_PID1_REG_OFST              (0x1FE4)            /**< (DSU_PID1) Peripheral Identification 1 Offset */
-#define DSU_PID2_REG_OFST              (0x1FE8)            /**< (DSU_PID2) Peripheral Identification 2 Offset */
-#define DSU_PID3_REG_OFST              (0x1FEC)            /**< (DSU_PID3) Peripheral Identification 3 Offset */
-#define DSU_CID0_REG_OFST              (0x1FF0)            /**< (DSU_CID0) Component Identification 0 Offset */
-#define DSU_CID1_REG_OFST              (0x1FF4)            /**< (DSU_CID1) Component Identification 1 Offset */
-#define DSU_CID2_REG_OFST              (0x1FF8)            /**< (DSU_CID2) Component Identification 2 Offset */
-#define DSU_CID3_REG_OFST              (0x1FFC)            /**< (DSU_CID3) Component Identification 3 Offset */
+#define DSU_CTRL_REG_OFST              (0x00)              /* (DSU_CTRL) Control Offset */
+#define DSU_STATUSA_REG_OFST           (0x01)              /* (DSU_STATUSA) Status A Offset */
+#define DSU_STATUSB_REG_OFST           (0x02)              /* (DSU_STATUSB) Status B Offset */
+#define DSU_ADDR_REG_OFST              (0x04)              /* (DSU_ADDR) Address Offset */
+#define DSU_LENGTH_REG_OFST            (0x08)              /* (DSU_LENGTH) Length Offset */
+#define DSU_DATA_REG_OFST              (0x0C)              /* (DSU_DATA) Data Offset */
+#define DSU_DCC_REG_OFST               (0x10)              /* (DSU_DCC) Debug Communication Channel n Offset */
+#define DSU_DCC0_REG_OFST              (0x10)              /* (DSU_DCC0) Debug Communication Channel n Offset */
+#define DSU_DCC1_REG_OFST              (0x14)              /* (DSU_DCC1) Debug Communication Channel n Offset */
+#define DSU_DID_REG_OFST               (0x18)              /* (DSU_DID) Device Identification Offset */
+#define DSU_CFG_REG_OFST               (0x1C)              /* (DSU_CFG) Configuration Offset */
+#define DSU_BCC_REG_OFST               (0x20)              /* (DSU_BCC) Boot ROM Communication Channel n Offset */
+#define DSU_BCC0_REG_OFST              (0x20)              /* (DSU_BCC0) Boot ROM Communication Channel n Offset */
+#define DSU_BCC1_REG_OFST              (0x24)              /* (DSU_BCC1) Boot ROM Communication Channel n Offset */
+#define DSU_ENTRY0_REG_OFST            (0x1000)            /* (DSU_ENTRY0) CoreSight ROM Table Entry 0 Offset */
+#define DSU_ENTRY1_REG_OFST            (0x1004)            /* (DSU_ENTRY1) CoreSight ROM Table Entry 1 Offset */
+#define DSU_END_REG_OFST               (0x1008)            /* (DSU_END) CoreSight ROM Table End Offset */
+#define DSU_MEMTYPE_REG_OFST           (0x1FCC)            /* (DSU_MEMTYPE) CoreSight ROM Table Memory Type Offset */
+#define DSU_PID4_REG_OFST              (0x1FD0)            /* (DSU_PID4) Peripheral Identification 4 Offset */
+#define DSU_PID5_REG_OFST              (0x1FD4)            /* (DSU_PID5) Peripheral Identification 5 Offset */
+#define DSU_PID6_REG_OFST              (0x1FD8)            /* (DSU_PID6) Peripheral Identification 6 Offset */
+#define DSU_PID7_REG_OFST              (0x1FDC)            /* (DSU_PID7) Peripheral Identification 7 Offset */
+#define DSU_PID0_REG_OFST              (0x1FE0)            /* (DSU_PID0) Peripheral Identification 0 Offset */
+#define DSU_PID1_REG_OFST              (0x1FE4)            /* (DSU_PID1) Peripheral Identification 1 Offset */
+#define DSU_PID2_REG_OFST              (0x1FE8)            /* (DSU_PID2) Peripheral Identification 2 Offset */
+#define DSU_PID3_REG_OFST              (0x1FEC)            /* (DSU_PID3) Peripheral Identification 3 Offset */
+#define DSU_CID0_REG_OFST              (0x1FF0)            /* (DSU_CID0) Component Identification 0 Offset */
+#define DSU_CID1_REG_OFST              (0x1FF4)            /* (DSU_CID1) Component Identification 1 Offset */
+#define DSU_CID2_REG_OFST              (0x1FF8)            /* (DSU_CID2) Component Identification 2 Offset */
+#define DSU_CID3_REG_OFST              (0x1FFC)            /* (DSU_CID3) Component Identification 3 Offset */
 
 #if !(defined(__ASSEMBLER__) || defined(__IAR_SYSTEMS_ASM__))
 /** \brief DSU register API structure */

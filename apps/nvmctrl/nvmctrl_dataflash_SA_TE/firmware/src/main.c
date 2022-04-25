@@ -134,10 +134,10 @@ int main ( void )
     
     // Erase TEROW
     printf ("\n\n\r - Erase TEROW");
+    NVMCTRL_RowErase ((uint32_t)dataflash_addr_page0);
+    
     // Write pattern in TEROW
     printf ("\n\n\r - Write 0xCAFEDECA pattern in TEROW");
-    
-    NVMCTRL_RowErase ((uint32_t)dataflash_addr_page0);    
     
     // Prepare page pattern for the TEROW
     for (uint32_t i = 0; i < data_buffer_length; i++)
