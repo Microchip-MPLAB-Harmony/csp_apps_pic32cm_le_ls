@@ -82,9 +82,11 @@ int main ( void )
 	nsc_secure_console_printf ("\n\r##########################################");
     
     // Erase TEROW
-    nsc_secure_console_printf ("\n\n\r - Erase TEROW");
+    nsc_secure_console_printf ("\n\n\r - Erase TEROW");    
+    nsc_secure_dataflash_erase_row ();
+    
+    // Write pattern in TEROW
     nsc_secure_console_printf ("\n\n\r - Write 0xCAFEDECA pattern in TEROW");    
-    nsc_secure_dataflash_erase_row ();    
     
     // Prepare page pattern for the TEROW
     for (uint32_t i = 0; i < data_buffer_length; i++)
