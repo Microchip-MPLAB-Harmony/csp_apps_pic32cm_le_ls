@@ -20,7 +20,7 @@
  *
  */
 
-/* file generated from device description version 2021-06-28T10:09:19Z */
+/* file generated from device description version 2021-11-12T10:11:27Z */
 #ifndef _PIC32CMLS60_FUSES_COMPONENT_H_
 #define _PIC32CMLS60_FUSES_COMPONENT_H_
 
@@ -804,70 +804,70 @@
 
 
 /** \brief FUSES register offsets definitions */
-#define FUSES_SW_CALIB_WORD_0_REG_OFST (0x00)              /**< (FUSES_SW_CALIB_WORD_0) SW_CALIB Page Word 0 Offset */
-#define FUSES_BOCOR_WORD_0_REG_OFST    (0x00)              /**< (FUSES_BOCOR_WORD_0) BOCOR Page Word 0 Offset */
-#define FUSES_BOCOR_WORD_1_REG_OFST    (0x04)              /**< (FUSES_BOCOR_WORD_1) BOCOR Page Word 1 Offset */
-#define FUSES_BOCOR_WORD_2_REG_OFST    (0x08)              /**< (FUSES_BOCOR_WORD_2) BOCOR Page Word 2 Offset */
-#define FUSES_BOCOR_WORD_4_REG_OFST    (0x10)              /**< (FUSES_BOCOR_WORD_4) BOCOR Page Word 4 Offset */
-#define FUSES_BOCOR_WORD_5_REG_OFST    (0x14)              /**< (FUSES_BOCOR_WORD_5) BOCOR Page Word 5 Offset */
-#define FUSES_BOCOR_WORD_6_REG_OFST    (0x18)              /**< (FUSES_BOCOR_WORD_6) BOCOR Page Word 6 Offset */
-#define FUSES_BOCOR_WORD_7_REG_OFST    (0x1C)              /**< (FUSES_BOCOR_WORD_7) BOCOR Page Word 7 Offset */
-#define FUSES_BOCOR_WORD_8_REG_OFST    (0x20)              /**< (FUSES_BOCOR_WORD_8) BOCOR Page Word 8 Offset */
-#define FUSES_BOCOR_WORD_9_REG_OFST    (0x24)              /**< (FUSES_BOCOR_WORD_9) BOCOR Page Word 9 Offset */
-#define FUSES_BOCOR_WORD_10_REG_OFST   (0x28)              /**< (FUSES_BOCOR_WORD_10) BOCOR Page Word 10 Offset */
-#define FUSES_BOCOR_WORD_11_REG_OFST   (0x2C)              /**< (FUSES_BOCOR_WORD_11) BOCOR Page Word 11 Offset */
-#define FUSES_BOCOR_WORD_12_REG_OFST   (0x30)              /**< (FUSES_BOCOR_WORD_12) BOCOR Page Word 12 Offset */
-#define FUSES_BOCOR_WORD_13_REG_OFST   (0x34)              /**< (FUSES_BOCOR_WORD_13) BOCOR Page Word 13 Offset */
-#define FUSES_BOCOR_WORD_14_REG_OFST   (0x38)              /**< (FUSES_BOCOR_WORD_14) BOCOR Page Word 14 Offset */
-#define FUSES_BOCOR_WORD_15_REG_OFST   (0x3C)              /**< (FUSES_BOCOR_WORD_15) BOCOR Page Word 15 Offset */
-#define FUSES_BOCOR_WORD_16_REG_OFST   (0x40)              /**< (FUSES_BOCOR_WORD_16) BOCOR Page Word 16 Offset */
-#define FUSES_BOCOR_WORD_17_REG_OFST   (0x44)              /**< (FUSES_BOCOR_WORD_17) BOCOR Page Word 17 Offset */
-#define FUSES_BOCOR_WORD_18_REG_OFST   (0x48)              /**< (FUSES_BOCOR_WORD_18) BOCOR Page Word 18 Offset */
-#define FUSES_BOCOR_WORD_19_REG_OFST   (0x4C)              /**< (FUSES_BOCOR_WORD_19) BOCOR Page Word 19 Offset */
-#define FUSES_BOCOR_WORD_20_REG_OFST   (0x50)              /**< (FUSES_BOCOR_WORD_20) BOCOR Page Word 20 Offset */
-#define FUSES_BOCOR_WORD_21_REG_OFST   (0x54)              /**< (FUSES_BOCOR_WORD_21) BOCOR Page Word 21 Offset */
-#define FUSES_BOCOR_WORD_22_REG_OFST   (0x58)              /**< (FUSES_BOCOR_WORD_22) BOCOR Page Word 22 Offset */
-#define FUSES_BOCOR_WORD_23_REG_OFST   (0x5C)              /**< (FUSES_BOCOR_WORD_23) BOCOR Page Word 23 Offset */
-#define FUSES_BOCOR_WORD_24_REG_OFST   (0x60)              /**< (FUSES_BOCOR_WORD_24) BOCOR Page Word 24 Offset */
-#define FUSES_BOCOR_WORD_25_REG_OFST   (0x64)              /**< (FUSES_BOCOR_WORD_25) BOCOR Page Word 25 Offset */
-#define FUSES_BOCOR_WORD_26_REG_OFST   (0x68)              /**< (FUSES_BOCOR_WORD_26) BOCOR Page Word 26 Offset */
-#define FUSES_BOCOR_WORD_27_REG_OFST   (0x6C)              /**< (FUSES_BOCOR_WORD_27) BOCOR Page Word 27 Offset */
-#define FUSES_BOCOR_WORD_28_REG_OFST   (0x70)              /**< (FUSES_BOCOR_WORD_28) BOCOR Page Word 28 Offset */
-#define FUSES_BOCOR_WORD_29_REG_OFST   (0x74)              /**< (FUSES_BOCOR_WORD_29) BOCOR Page Word 29 Offset */
-#define FUSES_BOCOR_WORD_30_REG_OFST   (0x78)              /**< (FUSES_BOCOR_WORD_30) BOCOR Page Word 30 Offset */
-#define FUSES_BOCOR_WORD_31_REG_OFST   (0x7C)              /**< (FUSES_BOCOR_WORD_31) BOCOR Page Word 31 Offset */
-#define FUSES_BOCOR_WORD_32_REG_OFST   (0x80)              /**< (FUSES_BOCOR_WORD_32) BOCOR Page Word 32 Offset */
-#define FUSES_BOCOR_WORD_33_REG_OFST   (0x84)              /**< (FUSES_BOCOR_WORD_33) BOCOR Page Word 33 Offset */
-#define FUSES_BOCOR_WORD_34_REG_OFST   (0x88)              /**< (FUSES_BOCOR_WORD_34) BOCOR Page Word 34 Offset */
-#define FUSES_BOCOR_WORD_35_REG_OFST   (0x8C)              /**< (FUSES_BOCOR_WORD_35) BOCOR Page Word 35 Offset */
-#define FUSES_BOCOR_WORD_36_REG_OFST   (0x90)              /**< (FUSES_BOCOR_WORD_36) BOCOR Page Word 36 Offset */
-#define FUSES_BOCOR_WORD_37_REG_OFST   (0x94)              /**< (FUSES_BOCOR_WORD_37) BOCOR Page Word 37 Offset */
-#define FUSES_BOCOR_WORD_38_REG_OFST   (0x98)              /**< (FUSES_BOCOR_WORD_38) BOCOR Page Word 38 Offset */
-#define FUSES_BOCOR_WORD_39_REG_OFST   (0x9C)              /**< (FUSES_BOCOR_WORD_39) BOCOR Page Word 39 Offset */
-#define FUSES_BOCOR_WORD_40_REG_OFST   (0xA0)              /**< (FUSES_BOCOR_WORD_40) BOCOR Page Word 40 Offset */
-#define FUSES_BOCOR_WORD_41_REG_OFST   (0xA4)              /**< (FUSES_BOCOR_WORD_41) BOCOR Page Word 41 Offset */
-#define FUSES_BOCOR_WORD_42_REG_OFST   (0xA8)              /**< (FUSES_BOCOR_WORD_42) BOCOR Page Word 42 Offset */
-#define FUSES_BOCOR_WORD_43_REG_OFST   (0xAC)              /**< (FUSES_BOCOR_WORD_43) BOCOR Page Word 43 Offset */
-#define FUSES_BOCOR_WORD_56_REG_OFST   (0xE0)              /**< (FUSES_BOCOR_WORD_56) BOCOR Page Word 56 Offset */
-#define FUSES_BOCOR_WORD_57_REG_OFST   (0xE4)              /**< (FUSES_BOCOR_WORD_57) BOCOR Page Word 57 Offset */
-#define FUSES_BOCOR_WORD_58_REG_OFST   (0xE8)              /**< (FUSES_BOCOR_WORD_58) BOCOR Page Word 58 Offset */
-#define FUSES_BOCOR_WORD_59_REG_OFST   (0xEC)              /**< (FUSES_BOCOR_WORD_59) BOCOR Page Word 59 Offset */
-#define FUSES_BOCOR_WORD_60_REG_OFST   (0xF0)              /**< (FUSES_BOCOR_WORD_60) BOCOR Page Word 60 Offset */
-#define FUSES_BOCOR_WORD_61_REG_OFST   (0xF4)              /**< (FUSES_BOCOR_WORD_61) BOCOR Page Word 61 Offset */
-#define FUSES_BOCOR_WORD_62_REG_OFST   (0xF8)              /**< (FUSES_BOCOR_WORD_62) BOCOR Page Word 62 Offset */
-#define FUSES_BOCOR_WORD_63_REG_OFST   (0xFC)              /**< (FUSES_BOCOR_WORD_63) BOCOR Page Word 63 Offset */
-#define FUSES_OTP1_WORD_0_REG_OFST     (0x00)              /**< (FUSES_OTP1_WORD_0) OTP1 Page Word 0 Offset */
-#define FUSES_OTP1_WORD_1_REG_OFST     (0x04)              /**< (FUSES_OTP1_WORD_1) OTP1 Page Word 1 Offset */
-#define FUSES_OTP2_WORD_1_REG_OFST     (0x04)              /**< (FUSES_OTP2_WORD_1) OTP2 Page Word 1 Offset */
-#define FUSES_USER_WORD_0_REG_OFST     (0x00)              /**< (FUSES_USER_WORD_0) USER Page Word 0 Offset */
-#define FUSES_USER_WORD_1_REG_OFST     (0x04)              /**< (FUSES_USER_WORD_1) USER Page Word 1 Offset */
-#define FUSES_USER_WORD_2_REG_OFST     (0x08)              /**< (FUSES_USER_WORD_2) USER Page Word 2 Offset */
-#define FUSES_USER_WORD_3_REG_OFST     (0x0C)              /**< (FUSES_USER_WORD_3) USER Page Word 3 Offset */
-#define FUSES_USER_WORD_4_REG_OFST     (0x10)              /**< (FUSES_USER_WORD_4) USER Page Word 4 Offset */
-#define FUSES_USER_WORD_5_REG_OFST     (0x14)              /**< (FUSES_USER_WORD_5) USER Page Word 5 Offset */
-#define FUSES_USER_WORD_6_REG_OFST     (0x18)              /**< (FUSES_USER_WORD_6) USER Page Word 6 Offset */
-#define FUSES_USER_WORD_7_REG_OFST     (0x1C)              /**< (FUSES_USER_WORD_7) USER Page Word 7 Offset */
-#define FUSES_USER_WORD_8_REG_OFST     (0x20)              /**< (FUSES_USER_WORD_8) USER Page Word 8 Offset */
+#define FUSES_SW_CALIB_WORD_0_REG_OFST (0x00)              /* (FUSES_SW_CALIB_WORD_0) SW_CALIB Page Word 0 Offset */
+#define FUSES_BOCOR_WORD_0_REG_OFST    (0x00)              /* (FUSES_BOCOR_WORD_0) BOCOR Page Word 0 Offset */
+#define FUSES_BOCOR_WORD_1_REG_OFST    (0x04)              /* (FUSES_BOCOR_WORD_1) BOCOR Page Word 1 Offset */
+#define FUSES_BOCOR_WORD_2_REG_OFST    (0x08)              /* (FUSES_BOCOR_WORD_2) BOCOR Page Word 2 Offset */
+#define FUSES_BOCOR_WORD_4_REG_OFST    (0x10)              /* (FUSES_BOCOR_WORD_4) BOCOR Page Word 4 Offset */
+#define FUSES_BOCOR_WORD_5_REG_OFST    (0x14)              /* (FUSES_BOCOR_WORD_5) BOCOR Page Word 5 Offset */
+#define FUSES_BOCOR_WORD_6_REG_OFST    (0x18)              /* (FUSES_BOCOR_WORD_6) BOCOR Page Word 6 Offset */
+#define FUSES_BOCOR_WORD_7_REG_OFST    (0x1C)              /* (FUSES_BOCOR_WORD_7) BOCOR Page Word 7 Offset */
+#define FUSES_BOCOR_WORD_8_REG_OFST    (0x20)              /* (FUSES_BOCOR_WORD_8) BOCOR Page Word 8 Offset */
+#define FUSES_BOCOR_WORD_9_REG_OFST    (0x24)              /* (FUSES_BOCOR_WORD_9) BOCOR Page Word 9 Offset */
+#define FUSES_BOCOR_WORD_10_REG_OFST   (0x28)              /* (FUSES_BOCOR_WORD_10) BOCOR Page Word 10 Offset */
+#define FUSES_BOCOR_WORD_11_REG_OFST   (0x2C)              /* (FUSES_BOCOR_WORD_11) BOCOR Page Word 11 Offset */
+#define FUSES_BOCOR_WORD_12_REG_OFST   (0x30)              /* (FUSES_BOCOR_WORD_12) BOCOR Page Word 12 Offset */
+#define FUSES_BOCOR_WORD_13_REG_OFST   (0x34)              /* (FUSES_BOCOR_WORD_13) BOCOR Page Word 13 Offset */
+#define FUSES_BOCOR_WORD_14_REG_OFST   (0x38)              /* (FUSES_BOCOR_WORD_14) BOCOR Page Word 14 Offset */
+#define FUSES_BOCOR_WORD_15_REG_OFST   (0x3C)              /* (FUSES_BOCOR_WORD_15) BOCOR Page Word 15 Offset */
+#define FUSES_BOCOR_WORD_16_REG_OFST   (0x40)              /* (FUSES_BOCOR_WORD_16) BOCOR Page Word 16 Offset */
+#define FUSES_BOCOR_WORD_17_REG_OFST   (0x44)              /* (FUSES_BOCOR_WORD_17) BOCOR Page Word 17 Offset */
+#define FUSES_BOCOR_WORD_18_REG_OFST   (0x48)              /* (FUSES_BOCOR_WORD_18) BOCOR Page Word 18 Offset */
+#define FUSES_BOCOR_WORD_19_REG_OFST   (0x4C)              /* (FUSES_BOCOR_WORD_19) BOCOR Page Word 19 Offset */
+#define FUSES_BOCOR_WORD_20_REG_OFST   (0x50)              /* (FUSES_BOCOR_WORD_20) BOCOR Page Word 20 Offset */
+#define FUSES_BOCOR_WORD_21_REG_OFST   (0x54)              /* (FUSES_BOCOR_WORD_21) BOCOR Page Word 21 Offset */
+#define FUSES_BOCOR_WORD_22_REG_OFST   (0x58)              /* (FUSES_BOCOR_WORD_22) BOCOR Page Word 22 Offset */
+#define FUSES_BOCOR_WORD_23_REG_OFST   (0x5C)              /* (FUSES_BOCOR_WORD_23) BOCOR Page Word 23 Offset */
+#define FUSES_BOCOR_WORD_24_REG_OFST   (0x60)              /* (FUSES_BOCOR_WORD_24) BOCOR Page Word 24 Offset */
+#define FUSES_BOCOR_WORD_25_REG_OFST   (0x64)              /* (FUSES_BOCOR_WORD_25) BOCOR Page Word 25 Offset */
+#define FUSES_BOCOR_WORD_26_REG_OFST   (0x68)              /* (FUSES_BOCOR_WORD_26) BOCOR Page Word 26 Offset */
+#define FUSES_BOCOR_WORD_27_REG_OFST   (0x6C)              /* (FUSES_BOCOR_WORD_27) BOCOR Page Word 27 Offset */
+#define FUSES_BOCOR_WORD_28_REG_OFST   (0x70)              /* (FUSES_BOCOR_WORD_28) BOCOR Page Word 28 Offset */
+#define FUSES_BOCOR_WORD_29_REG_OFST   (0x74)              /* (FUSES_BOCOR_WORD_29) BOCOR Page Word 29 Offset */
+#define FUSES_BOCOR_WORD_30_REG_OFST   (0x78)              /* (FUSES_BOCOR_WORD_30) BOCOR Page Word 30 Offset */
+#define FUSES_BOCOR_WORD_31_REG_OFST   (0x7C)              /* (FUSES_BOCOR_WORD_31) BOCOR Page Word 31 Offset */
+#define FUSES_BOCOR_WORD_32_REG_OFST   (0x80)              /* (FUSES_BOCOR_WORD_32) BOCOR Page Word 32 Offset */
+#define FUSES_BOCOR_WORD_33_REG_OFST   (0x84)              /* (FUSES_BOCOR_WORD_33) BOCOR Page Word 33 Offset */
+#define FUSES_BOCOR_WORD_34_REG_OFST   (0x88)              /* (FUSES_BOCOR_WORD_34) BOCOR Page Word 34 Offset */
+#define FUSES_BOCOR_WORD_35_REG_OFST   (0x8C)              /* (FUSES_BOCOR_WORD_35) BOCOR Page Word 35 Offset */
+#define FUSES_BOCOR_WORD_36_REG_OFST   (0x90)              /* (FUSES_BOCOR_WORD_36) BOCOR Page Word 36 Offset */
+#define FUSES_BOCOR_WORD_37_REG_OFST   (0x94)              /* (FUSES_BOCOR_WORD_37) BOCOR Page Word 37 Offset */
+#define FUSES_BOCOR_WORD_38_REG_OFST   (0x98)              /* (FUSES_BOCOR_WORD_38) BOCOR Page Word 38 Offset */
+#define FUSES_BOCOR_WORD_39_REG_OFST   (0x9C)              /* (FUSES_BOCOR_WORD_39) BOCOR Page Word 39 Offset */
+#define FUSES_BOCOR_WORD_40_REG_OFST   (0xA0)              /* (FUSES_BOCOR_WORD_40) BOCOR Page Word 40 Offset */
+#define FUSES_BOCOR_WORD_41_REG_OFST   (0xA4)              /* (FUSES_BOCOR_WORD_41) BOCOR Page Word 41 Offset */
+#define FUSES_BOCOR_WORD_42_REG_OFST   (0xA8)              /* (FUSES_BOCOR_WORD_42) BOCOR Page Word 42 Offset */
+#define FUSES_BOCOR_WORD_43_REG_OFST   (0xAC)              /* (FUSES_BOCOR_WORD_43) BOCOR Page Word 43 Offset */
+#define FUSES_BOCOR_WORD_56_REG_OFST   (0xE0)              /* (FUSES_BOCOR_WORD_56) BOCOR Page Word 56 Offset */
+#define FUSES_BOCOR_WORD_57_REG_OFST   (0xE4)              /* (FUSES_BOCOR_WORD_57) BOCOR Page Word 57 Offset */
+#define FUSES_BOCOR_WORD_58_REG_OFST   (0xE8)              /* (FUSES_BOCOR_WORD_58) BOCOR Page Word 58 Offset */
+#define FUSES_BOCOR_WORD_59_REG_OFST   (0xEC)              /* (FUSES_BOCOR_WORD_59) BOCOR Page Word 59 Offset */
+#define FUSES_BOCOR_WORD_60_REG_OFST   (0xF0)              /* (FUSES_BOCOR_WORD_60) BOCOR Page Word 60 Offset */
+#define FUSES_BOCOR_WORD_61_REG_OFST   (0xF4)              /* (FUSES_BOCOR_WORD_61) BOCOR Page Word 61 Offset */
+#define FUSES_BOCOR_WORD_62_REG_OFST   (0xF8)              /* (FUSES_BOCOR_WORD_62) BOCOR Page Word 62 Offset */
+#define FUSES_BOCOR_WORD_63_REG_OFST   (0xFC)              /* (FUSES_BOCOR_WORD_63) BOCOR Page Word 63 Offset */
+#define FUSES_OTP1_WORD_0_REG_OFST     (0x00)              /* (FUSES_OTP1_WORD_0) OTP1 Page Word 0 Offset */
+#define FUSES_OTP1_WORD_1_REG_OFST     (0x04)              /* (FUSES_OTP1_WORD_1) OTP1 Page Word 1 Offset */
+#define FUSES_OTP2_WORD_1_REG_OFST     (0x04)              /* (FUSES_OTP2_WORD_1) OTP2 Page Word 1 Offset */
+#define FUSES_USER_WORD_0_REG_OFST     (0x00)              /* (FUSES_USER_WORD_0) USER Page Word 0 Offset */
+#define FUSES_USER_WORD_1_REG_OFST     (0x04)              /* (FUSES_USER_WORD_1) USER Page Word 1 Offset */
+#define FUSES_USER_WORD_2_REG_OFST     (0x08)              /* (FUSES_USER_WORD_2) USER Page Word 2 Offset */
+#define FUSES_USER_WORD_3_REG_OFST     (0x0C)              /* (FUSES_USER_WORD_3) USER Page Word 3 Offset */
+#define FUSES_USER_WORD_4_REG_OFST     (0x10)              /* (FUSES_USER_WORD_4) USER Page Word 4 Offset */
+#define FUSES_USER_WORD_5_REG_OFST     (0x14)              /* (FUSES_USER_WORD_5) USER Page Word 5 Offset */
+#define FUSES_USER_WORD_6_REG_OFST     (0x18)              /* (FUSES_USER_WORD_6) USER Page Word 6 Offset */
+#define FUSES_USER_WORD_7_REG_OFST     (0x1C)              /* (FUSES_USER_WORD_7) USER Page Word 7 Offset */
+#define FUSES_USER_WORD_8_REG_OFST     (0x20)              /* (FUSES_USER_WORD_8) USER Page Word 8 Offset */
 
 #if !(defined(__ASSEMBLER__) || defined(__IAR_SYSTEMS_ASM__))
 /** \brief SW_CALIB_FUSES register API structure */

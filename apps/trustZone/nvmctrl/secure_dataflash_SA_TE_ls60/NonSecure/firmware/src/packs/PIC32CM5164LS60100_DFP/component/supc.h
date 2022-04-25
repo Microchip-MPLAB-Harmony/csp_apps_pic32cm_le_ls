@@ -20,7 +20,7 @@
  *
  */
 
-/* file generated from device description version 2021-06-28T10:09:19Z */
+/* file generated from device description version 2021-11-12T10:11:27Z */
 #ifndef _PIC32CMLS60_SUPC_COMPONENT_H_
 #define _PIC32CMLS60_SUPC_COMPONENT_H_
 
@@ -299,15 +299,15 @@
 
 
 /** \brief SUPC register offsets definitions */
-#define SUPC_INTENCLR_REG_OFST         (0x00)              /**< (SUPC_INTENCLR) Interrupt Enable Clear Offset */
-#define SUPC_INTENSET_REG_OFST         (0x04)              /**< (SUPC_INTENSET) Interrupt Enable Set Offset */
-#define SUPC_INTFLAG_REG_OFST          (0x08)              /**< (SUPC_INTFLAG) Interrupt Flag Status and Clear Offset */
-#define SUPC_STATUS_REG_OFST           (0x0C)              /**< (SUPC_STATUS) Power and Clocks Status Offset */
-#define SUPC_BOD33_REG_OFST            (0x10)              /**< (SUPC_BOD33) BOD33 Control Offset */
-#define SUPC_VREG_REG_OFST             (0x18)              /**< (SUPC_VREG) VREG Control Offset */
-#define SUPC_VREF_REG_OFST             (0x1C)              /**< (SUPC_VREF) VREF Control Offset */
-#define SUPC_VREGPLL_REG_OFST          (0x20)              /**< (SUPC_VREGPLL) VREGPLL Control Offset */
-#define SUPC_EVCTRL_REG_OFST           (0x2C)              /**< (SUPC_EVCTRL) Event Control Offset */
+#define SUPC_INTENCLR_REG_OFST         (0x00)              /* (SUPC_INTENCLR) Interrupt Enable Clear Offset */
+#define SUPC_INTENSET_REG_OFST         (0x04)              /* (SUPC_INTENSET) Interrupt Enable Set Offset */
+#define SUPC_INTFLAG_REG_OFST          (0x08)              /* (SUPC_INTFLAG) Interrupt Flag Status and Clear Offset */
+#define SUPC_STATUS_REG_OFST           (0x0C)              /* (SUPC_STATUS) Power and Clocks Status Offset */
+#define SUPC_BOD33_REG_OFST            (0x10)              /* (SUPC_BOD33) BOD33 Control Offset */
+#define SUPC_VREG_REG_OFST             (0x18)              /* (SUPC_VREG) VREG Control Offset */
+#define SUPC_VREF_REG_OFST             (0x1C)              /* (SUPC_VREF) VREF Control Offset */
+#define SUPC_VREGPLL_REG_OFST          (0x20)              /* (SUPC_VREGPLL) VREGPLL Control Offset */
+#define SUPC_EVCTRL_REG_OFST           (0x2C)              /* (SUPC_EVCTRL) Event Control Offset */
 
 #if !(defined(__ASSEMBLER__) || defined(__IAR_SYSTEMS_ASM__))
 /** \brief SUPC register API structure */
