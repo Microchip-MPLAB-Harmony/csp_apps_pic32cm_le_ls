@@ -55,7 +55,6 @@
 #include "trustZone/nonsecure_entry.h"
 #include "../../../../BS_App/NonSecure/firmware/src/trustZone/nonsecure_entry_boot.h"
 
-
 // *****************************************************************************
 // *****************************************************************************
 // Section: Main Entry Point

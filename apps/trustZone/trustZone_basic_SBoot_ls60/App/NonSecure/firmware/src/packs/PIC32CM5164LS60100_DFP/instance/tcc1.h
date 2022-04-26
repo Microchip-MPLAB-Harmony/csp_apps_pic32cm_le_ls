@@ -20,7 +20,7 @@
  *
  */
 
-/* file generated from device description version 2021-06-28T10:09:19Z */
+/* file generated from device description version 2021-11-12T10:11:27Z */
 #ifndef _PIC32CMLS60_TCC1_INSTANCE_
 #define _PIC32CMLS60_TCC1_INSTANCE_
 

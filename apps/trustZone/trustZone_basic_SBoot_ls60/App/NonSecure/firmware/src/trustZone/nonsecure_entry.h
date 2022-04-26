@@ -5,7 +5,7 @@
     Microchip Technology Inc.
 
   File Name:
-    nonsecure_entry_ansc.h
+    nonsecure_entry.h
 
   Summary:
     Function prototype declarations for Non-secure callable functions
