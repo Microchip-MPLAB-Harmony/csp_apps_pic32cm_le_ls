@@ -20,7 +20,7 @@
  *
  */
 
-/* file generated from device description version 2021-06-28T10:09:19Z */
+/* file generated from device description version 2021-11-12T10:11:27Z */
 #ifndef _PIC32CMLS60_OSCCTRL_COMPONENT_H_
 #define _PIC32CMLS60_OSCCTRL_COMPONENT_H_
 
@@ -623,12 +623,12 @@
 #define OSCCTRL_DPLLCTRLB_LTIME_Pos           _U_(8)                                               /**< (OSCCTRL_DPLLCTRLB) Lock Time Position */
 #define OSCCTRL_DPLLCTRLB_LTIME_Msk           (_U_(0x7) << OSCCTRL_DPLLCTRLB_LTIME_Pos)            /**< (OSCCTRL_DPLLCTRLB) Lock Time Mask */
 #define OSCCTRL_DPLLCTRLB_LTIME(value)        (OSCCTRL_DPLLCTRLB_LTIME_Msk & ((value) << OSCCTRL_DPLLCTRLB_LTIME_Pos))
-#define   OSCCTRL_DPLLCTRLB_LTIME_Default_Val _U_(0x0)                                             /**< (OSCCTRL_DPLLCTRLB) No time-out. Automatic lock  */
+#define   OSCCTRL_DPLLCTRLB_LTIME_DEFAULT_Val _U_(0x0)                                             /**< (OSCCTRL_DPLLCTRLB) No time-out. Automatic lock  */
 #define   OSCCTRL_DPLLCTRLB_LTIME_8MS_Val     _U_(0x4)                                             /**< (OSCCTRL_DPLLCTRLB) Time-out if no lock within 8 ms  */
 #define   OSCCTRL_DPLLCTRLB_LTIME_9MS_Val     _U_(0x5)                                             /**< (OSCCTRL_DPLLCTRLB) Time-out if no lock within 9 ms  */
 #define   OSCCTRL_DPLLCTRLB_LTIME_10MS_Val    _U_(0x6)                                             /**< (OSCCTRL_DPLLCTRLB) Time-out if no lock within 10 ms  */
 #define   OSCCTRL_DPLLCTRLB_LTIME_11MS_Val    _U_(0x7)                                             /**< (OSCCTRL_DPLLCTRLB) Time-out if no lock within 11 ms  */
-#define OSCCTRL_DPLLCTRLB_LTIME_Default       (OSCCTRL_DPLLCTRLB_LTIME_Default_Val << OSCCTRL_DPLLCTRLB_LTIME_Pos) /**< (OSCCTRL_DPLLCTRLB) No time-out. Automatic lock Position  */
+#define OSCCTRL_DPLLCTRLB_LTIME_DEFAULT       (OSCCTRL_DPLLCTRLB_LTIME_DEFAULT_Val << OSCCTRL_DPLLCTRLB_LTIME_Pos) /**< (OSCCTRL_DPLLCTRLB) No time-out. Automatic lock Position  */
 #define OSCCTRL_DPLLCTRLB_LTIME_8MS           (OSCCTRL_DPLLCTRLB_LTIME_8MS_Val << OSCCTRL_DPLLCTRLB_LTIME_Pos) /**< (OSCCTRL_DPLLCTRLB) Time-out if no lock within 8 ms Position  */
 #define OSCCTRL_DPLLCTRLB_LTIME_9MS           (OSCCTRL_DPLLCTRLB_LTIME_9MS_Val << OSCCTRL_DPLLCTRLB_LTIME_Pos) /**< (OSCCTRL_DPLLCTRLB) Time-out if no lock within 9 ms Position  */
 #define OSCCTRL_DPLLCTRLB_LTIME_10MS          (OSCCTRL_DPLLCTRLB_LTIME_10MS_Val << OSCCTRL_DPLLCTRLB_LTIME_Pos) /**< (OSCCTRL_DPLLCTRLB) Time-out if no lock within 10 ms Position  */
@@ -685,30 +685,30 @@
 
 
 /** \brief OSCCTRL register offsets definitions */
-#define OSCCTRL_EVCTRL_REG_OFST        (0x00)              /**< (OSCCTRL_EVCTRL) Event Control Offset */
-#define OSCCTRL_INTENCLR_REG_OFST      (0x04)              /**< (OSCCTRL_INTENCLR) Interrupt Enable Clear Offset */
-#define OSCCTRL_INTENSET_REG_OFST      (0x08)              /**< (OSCCTRL_INTENSET) Interrupt Enable Set Offset */
-#define OSCCTRL_INTFLAG_REG_OFST       (0x0C)              /**< (OSCCTRL_INTFLAG) Interrupt Flag Status and Clear Offset */
-#define OSCCTRL_STATUS_REG_OFST        (0x10)              /**< (OSCCTRL_STATUS) Status Offset */
-#define OSCCTRL_XOSCCTRL_REG_OFST      (0x14)              /**< (OSCCTRL_XOSCCTRL) External Multipurpose Crystal Oscillator (XOSC) Control Offset */
-#define OSCCTRL_CFDPRESC_REG_OFST      (0x16)              /**< (OSCCTRL_CFDPRESC) Clock Failure Detector Prescaler Offset */
-#define OSCCTRL_OSC16MCTRL_REG_OFST    (0x18)              /**< (OSCCTRL_OSC16MCTRL) 16MHz Internal Oscillator (OSC16M) Control Offset */
-#define OSCCTRL_DFLLULPCTRL_REG_OFST   (0x1C)              /**< (OSCCTRL_DFLLULPCTRL) DFLLULP Control Offset */
-#define OSCCTRL_DFLLULPDITHER_REG_OFST (0x1E)              /**< (OSCCTRL_DFLLULPDITHER) DFLLULP Dither Control Offset */
-#define OSCCTRL_DFLLULPRREQ_REG_OFST   (0x1F)              /**< (OSCCTRL_DFLLULPRREQ) DFLLULP Read Request Offset */
-#define OSCCTRL_DFLLULPDLY_REG_OFST    (0x20)              /**< (OSCCTRL_DFLLULPDLY) DFLLULP Delay Value Offset */
-#define OSCCTRL_DFLLULPRATIO_REG_OFST  (0x24)              /**< (OSCCTRL_DFLLULPRATIO) DFLLULP Target Ratio Offset */
-#define OSCCTRL_DFLLULPSYNCBUSY_REG_OFST (0x28)              /**< (OSCCTRL_DFLLULPSYNCBUSY) DFLLULP Synchronization Busy Offset */
-#define OSCCTRL_DFLLCTRL_REG_OFST      (0x30)              /**< (OSCCTRL_DFLLCTRL) DFLL48M Control Offset */
-#define OSCCTRL_DFLLVAL_REG_OFST       (0x34)              /**< (OSCCTRL_DFLLVAL) DFLL48M Value Offset */
-#define OSCCTRL_DFLLMUL_REG_OFST       (0x38)              /**< (OSCCTRL_DFLLMUL) DFLL48M Multiplier Offset */
-#define OSCCTRL_DFLLSYNC_REG_OFST      (0x3C)              /**< (OSCCTRL_DFLLSYNC) DFLL48M Synchronization Offset */
-#define OSCCTRL_DPLLCTRLA_REG_OFST     (0x40)              /**< (OSCCTRL_DPLLCTRLA) DPLL Control A Offset */
-#define OSCCTRL_DPLLRATIO_REG_OFST     (0x44)              /**< (OSCCTRL_DPLLRATIO) DPLL Ratio Control Offset */
-#define OSCCTRL_DPLLCTRLB_REG_OFST     (0x48)              /**< (OSCCTRL_DPLLCTRLB) DPLL Control B Offset */
-#define OSCCTRL_DPLLPRESC_REG_OFST     (0x4C)              /**< (OSCCTRL_DPLLPRESC) DPLL Prescaler Offset */
-#define OSCCTRL_DPLLSYNCBUSY_REG_OFST  (0x50)              /**< (OSCCTRL_DPLLSYNCBUSY) DPLL Synchronization Busy Offset */
-#define OSCCTRL_DPLLSTATUS_REG_OFST    (0x54)              /**< (OSCCTRL_DPLLSTATUS) DPLL Status Offset */
+#define OSCCTRL_EVCTRL_REG_OFST        (0x00)              /* (OSCCTRL_EVCTRL) Event Control Offset */
+#define OSCCTRL_INTENCLR_REG_OFST      (0x04)              /* (OSCCTRL_INTENCLR) Interrupt Enable Clear Offset */
+#define OSCCTRL_INTENSET_REG_OFST      (0x08)              /* (OSCCTRL_INTENSET) Interrupt Enable Set Offset */
+#define OSCCTRL_INTFLAG_REG_OFST       (0x0C)              /* (OSCCTRL_INTFLAG) Interrupt Flag Status and Clear Offset */
+#define OSCCTRL_STATUS_REG_OFST        (0x10)              /* (OSCCTRL_STATUS) Status Offset */
+#define OSCCTRL_XOSCCTRL_REG_OFST      (0x14)              /* (OSCCTRL_XOSCCTRL) External Multipurpose Crystal Oscillator (XOSC) Control Offset */
+#define OSCCTRL_CFDPRESC_REG_OFST      (0x16)              /* (OSCCTRL_CFDPRESC) Clock Failure Detector Prescaler Offset */
+#define OSCCTRL_OSC16MCTRL_REG_OFST    (0x18)              /* (OSCCTRL_OSC16MCTRL) 16MHz Internal Oscillator (OSC16M) Control Offset */
+#define OSCCTRL_DFLLULPCTRL_REG_OFST   (0x1C)              /* (OSCCTRL_DFLLULPCTRL) DFLLULP Control Offset */
+#define OSCCTRL_DFLLULPDITHER_REG_OFST (0x1E)              /* (OSCCTRL_DFLLULPDITHER) DFLLULP Dither Control Offset */
+#define OSCCTRL_DFLLULPRREQ_REG_OFST   (0x1F)              /* (OSCCTRL_DFLLULPRREQ) DFLLULP Read Request Offset */
+#define OSCCTRL_DFLLULPDLY_REG_OFST    (0x20)              /* (OSCCTRL_DFLLULPDLY) DFLLULP Delay Value Offset */
+#define OSCCTRL_DFLLULPRATIO_REG_OFST  (0x24)              /* (OSCCTRL_DFLLULPRATIO) DFLLULP Target Ratio Offset */
+#define OSCCTRL_DFLLULPSYNCBUSY_REG_OFST (0x28)              /* (OSCCTRL_DFLLULPSYNCBUSY) DFLLULP Synchronization Busy Offset */
+#define OSCCTRL_DFLLCTRL_REG_OFST      (0x30)              /* (OSCCTRL_DFLLCTRL) DFLL48M Control Offset */
+#define OSCCTRL_DFLLVAL_REG_OFST       (0x34)              /* (OSCCTRL_DFLLVAL) DFLL48M Value Offset */
+#define OSCCTRL_DFLLMUL_REG_OFST       (0x38)              /* (OSCCTRL_DFLLMUL) DFLL48M Multiplier Offset */
+#define OSCCTRL_DFLLSYNC_REG_OFST      (0x3C)              /* (OSCCTRL_DFLLSYNC) DFLL48M Synchronization Offset */
+#define OSCCTRL_DPLLCTRLA_REG_OFST     (0x40)              /* (OSCCTRL_DPLLCTRLA) DPLL Control A Offset */
+#define OSCCTRL_DPLLRATIO_REG_OFST     (0x44)              /* (OSCCTRL_DPLLRATIO) DPLL Ratio Control Offset */
+#define OSCCTRL_DPLLCTRLB_REG_OFST     (0x48)              /* (OSCCTRL_DPLLCTRLB) DPLL Control B Offset */
+#define OSCCTRL_DPLLPRESC_REG_OFST     (0x4C)              /* (OSCCTRL_DPLLPRESC) DPLL Prescaler Offset */
+#define OSCCTRL_DPLLSYNCBUSY_REG_OFST  (0x50)              /* (OSCCTRL_DPLLSYNCBUSY) DPLL Synchronization Busy Offset */
+#define OSCCTRL_DPLLSTATUS_REG_OFST    (0x54)              /* (OSCCTRL_DPLLSTATUS) DPLL Status Offset */
 
 #if !(defined(__ASSEMBLER__) || defined(__IAR_SYSTEMS_ASM__))
 /** \brief OSCCTRL register API structure */
