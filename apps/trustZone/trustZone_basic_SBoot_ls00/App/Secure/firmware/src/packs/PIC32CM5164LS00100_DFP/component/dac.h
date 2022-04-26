@@ -20,7 +20,7 @@
  *
  */
 
-/* file generated from device description version 2021-06-28T10:08:49Z */
+/* file generated from device description version 2021-11-12T10:11:10Z */
 #ifndef _PIC32CMLS00_DAC_COMPONENT_H_
 #define _PIC32CMLS00_DAC_COMPONENT_H_
 
@@ -307,24 +307,24 @@
 
 
 /** \brief DAC register offsets definitions */
-#define DAC_CTRLA_REG_OFST             (0x00)              /**< (DAC_CTRLA) Control A Offset */
-#define DAC_CTRLB_REG_OFST             (0x01)              /**< (DAC_CTRLB) Control B Offset */
-#define DAC_EVCTRL_REG_OFST            (0x02)              /**< (DAC_EVCTRL) Event Control Offset */
-#define DAC_INTENCLR_REG_OFST          (0x04)              /**< (DAC_INTENCLR) Interrupt Enable Clear Offset */
-#define DAC_INTENSET_REG_OFST          (0x05)              /**< (DAC_INTENSET) Interrupt Enable Set Offset */
-#define DAC_INTFLAG_REG_OFST           (0x06)              /**< (DAC_INTFLAG) Interrupt Flag Status and Clear Offset */
-#define DAC_STATUS_REG_OFST            (0x07)              /**< (DAC_STATUS) Status Offset */
-#define DAC_SYNCBUSY_REG_OFST          (0x08)              /**< (DAC_SYNCBUSY) Synchronization Busy Offset */
-#define DAC_DACCTRL_REG_OFST           (0x0C)              /**< (DAC_DACCTRL) DAC n Control Offset */
-#define DAC_DACCTRL0_REG_OFST          (0x0C)              /**< (DAC_DACCTRL0) DAC n Control Offset */
-#define DAC_DACCTRL1_REG_OFST          (0x0E)              /**< (DAC_DACCTRL1) DAC n Control Offset */
-#define DAC_DATA_REG_OFST              (0x10)              /**< (DAC_DATA) DAC n Data Offset */
-#define DAC_DATA0_REG_OFST             (0x10)              /**< (DAC_DATA0) DAC n Data Offset */
-#define DAC_DATA1_REG_OFST             (0x12)              /**< (DAC_DATA1) DAC n Data Offset */
-#define DAC_DATABUF_REG_OFST           (0x14)              /**< (DAC_DATABUF) DAC n Data Buffer Offset */
-#define DAC_DATABUF0_REG_OFST          (0x14)              /**< (DAC_DATABUF0) DAC n Data Buffer Offset */
-#define DAC_DATABUF1_REG_OFST          (0x16)              /**< (DAC_DATABUF1) DAC n Data Buffer Offset */
-#define DAC_DBGCTRL_REG_OFST           (0x18)              /**< (DAC_DBGCTRL) Debug Control Offset */
+#define DAC_CTRLA_REG_OFST             (0x00)              /* (DAC_CTRLA) Control A Offset */
+#define DAC_CTRLB_REG_OFST             (0x01)              /* (DAC_CTRLB) Control B Offset */
+#define DAC_EVCTRL_REG_OFST            (0x02)              /* (DAC_EVCTRL) Event Control Offset */
+#define DAC_INTENCLR_REG_OFST          (0x04)              /* (DAC_INTENCLR) Interrupt Enable Clear Offset */
+#define DAC_INTENSET_REG_OFST          (0x05)              /* (DAC_INTENSET) Interrupt Enable Set Offset */
+#define DAC_INTFLAG_REG_OFST           (0x06)              /* (DAC_INTFLAG) Interrupt Flag Status and Clear Offset */
+#define DAC_STATUS_REG_OFST            (0x07)              /* (DAC_STATUS) Status Offset */
+#define DAC_SYNCBUSY_REG_OFST          (0x08)              /* (DAC_SYNCBUSY) Synchronization Busy Offset */
+#define DAC_DACCTRL_REG_OFST           (0x0C)              /* (DAC_DACCTRL) DAC n Control Offset */
+#define DAC_DACCTRL0_REG_OFST          (0x0C)              /* (DAC_DACCTRL0) DAC n Control Offset */
+#define DAC_DACCTRL1_REG_OFST          (0x0E)              /* (DAC_DACCTRL1) DAC n Control Offset */
+#define DAC_DATA_REG_OFST              (0x10)              /* (DAC_DATA) DAC n Data Offset */
+#define DAC_DATA0_REG_OFST             (0x10)              /* (DAC_DATA0) DAC n Data Offset */
+#define DAC_DATA1_REG_OFST             (0x12)              /* (DAC_DATA1) DAC n Data Offset */
+#define DAC_DATABUF_REG_OFST           (0x14)              /* (DAC_DATABUF) DAC n Data Buffer Offset */
+#define DAC_DATABUF0_REG_OFST          (0x14)              /* (DAC_DATABUF0) DAC n Data Buffer Offset */
+#define DAC_DATABUF1_REG_OFST          (0x16)              /* (DAC_DATABUF1) DAC n Data Buffer Offset */
+#define DAC_DBGCTRL_REG_OFST           (0x18)              /* (DAC_DBGCTRL) Debug Control Offset */
 
 #if !(defined(__ASSEMBLER__) || defined(__IAR_SYSTEMS_ASM__))
 /** \brief DAC register API structure */

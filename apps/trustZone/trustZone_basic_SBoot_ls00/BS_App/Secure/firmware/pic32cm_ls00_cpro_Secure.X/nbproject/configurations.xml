@@ -218,8 +218,8 @@
         <platform>3</platform>
       </toolsSet>
       <packs>
-        <pack name="PIC32CM-LS_DFP" vendor="Microchip" version="1.0.154"/>
         <pack name="CMSIS" vendor="ARM" version="5.4.0"/>
+        <pack name="PIC32CM-LS_DFP" vendor="Microchip" version="1.0.154"/>
       </packs>
       <ScriptingSettings>
       </ScriptingSettings>
@@ -335,7 +335,7 @@
         <property key="oXC32ld-extra-opts" value=""/>
         <property key="optimization-level" value=""/>
         <property key="preprocessor-macros"
-                  value="ANSC_SIZE=0x800;AS_SIZE=0x2a200;BNSC_SIZE=0x800;BOOTPROT_SIZE=0x2a200;RS_SIZE=0x8000;SECURE_BOOTLOADER"/>
+                  value="ANSC_SIZE=0x800;AS_SIZE=0x2aa00;BNSC_SIZE=0x800;BOOTPROT_SIZE=0x2aa00;RS_SIZE=0x8000;SECURE_BOOTLOADER"/>
         <property key="remove-unused-sections" value="true"/>
         <property key="report-memory-usage" value="false"/>
         <property key="serial-length" value=""/>
