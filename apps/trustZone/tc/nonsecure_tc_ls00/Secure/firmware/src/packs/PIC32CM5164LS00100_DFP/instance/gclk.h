@@ -20,7 +20,7 @@
  *
  */
 
-/* file generated from device description version 2021-06-28T10:08:49Z */
+/* file generated from device description version 2021-11-12T10:11:10Z */
 #ifndef _PIC32CMLS00_GCLK_INSTANCE_
 #define _PIC32CMLS00_GCLK_INSTANCE_
 

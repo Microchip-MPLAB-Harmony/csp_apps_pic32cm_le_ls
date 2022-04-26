@@ -20,7 +20,7 @@
  *
  */
 
-/* file generated from device description version 2021-06-28T10:08:49Z */
+/* file generated from device description version 2021-11-12T10:11:10Z */
 #ifndef _PIC32CMLS00_IDAU_COMPONENT_H_
 #define _PIC32CMLS00_IDAU_COMPONENT_H_
 
@@ -86,11 +86,11 @@
 
 
 /** \brief IDAU register offsets definitions */
-#define IDAU_CTRL_REG_OFST             (0x00)              /**< (IDAU_CTRL) Control Offset */
-#define IDAU_SECCTRL_REG_OFST          (0x01)              /**< (IDAU_SECCTRL) SECCTRL Offset */
-#define IDAU_SCFGB_REG_OFST            (0x04)              /**< (IDAU_SCFGB) SCFGB Offset */
-#define IDAU_SCFGA_REG_OFST            (0x08)              /**< (IDAU_SCFGA) SCFGA Offset */
-#define IDAU_SCFGR_REG_OFST            (0x0C)              /**< (IDAU_SCFGR) SCFGR Offset */
+#define IDAU_CTRL_REG_OFST             (0x00)              /* (IDAU_CTRL) Control Offset */
+#define IDAU_SECCTRL_REG_OFST          (0x01)              /* (IDAU_SECCTRL) SECCTRL Offset */
+#define IDAU_SCFGB_REG_OFST            (0x04)              /* (IDAU_SCFGB) SCFGB Offset */
+#define IDAU_SCFGA_REG_OFST            (0x08)              /* (IDAU_SCFGA) SCFGA Offset */
+#define IDAU_SCFGR_REG_OFST            (0x0C)              /* (IDAU_SCFGR) SCFGR Offset */
 
 #if !(defined(__ASSEMBLER__) || defined(__IAR_SYSTEMS_ASM__))
 /** \brief IDAU register API structure */

@@ -20,7 +20,7 @@
  *
  */
 
-/* file generated from device description version 2021-06-28T10:08:49Z */
+/* file generated from device description version 2021-11-12T10:11:10Z */
 #ifndef _PIC32CMLS00_OPAMP_COMPONENT_H_
 #define _PIC32CMLS00_OPAMP_COMPONENT_H_
 
@@ -165,6 +165,14 @@
 #define OPAMP_OPAMPCTRL1_BIAS_Pos             _U_(3)                                               /**< (OPAMP_OPAMPCTRL1) Bias Selection Position */
 #define OPAMP_OPAMPCTRL1_BIAS_Msk             (_U_(0x3) << OPAMP_OPAMPCTRL1_BIAS_Pos)              /**< (OPAMP_OPAMPCTRL1) Bias Selection Mask */
 #define OPAMP_OPAMPCTRL1_BIAS(value)          (OPAMP_OPAMPCTRL1_BIAS_Msk & ((value) << OPAMP_OPAMPCTRL1_BIAS_Pos))
+#define   OPAMP_OPAMPCTRL1_BIAS_MODE0_Val     _U_(0x0)                                             /**< (OPAMP_OPAMPCTRL1) Minimum current consumption, but the slowest mode  */
+#define   OPAMP_OPAMPCTRL1_BIAS_MODE1_Val     _U_(0x1)                                             /**< (OPAMP_OPAMPCTRL1) Low current consumption, slow speed  */
+#define   OPAMP_OPAMPCTRL1_BIAS_MODE2_Val     _U_(0x2)                                             /**< (OPAMP_OPAMPCTRL1) High current consumption, fast speed  */
+#define   OPAMP_OPAMPCTRL1_BIAS_MODE3_Val     _U_(0x3)                                             /**< (OPAMP_OPAMPCTRL1) Maximum current consumption, but the fastest mode  */
+#define OPAMP_OPAMPCTRL1_BIAS_MODE0           (OPAMP_OPAMPCTRL1_BIAS_MODE0_Val << OPAMP_OPAMPCTRL1_BIAS_Pos) /**< (OPAMP_OPAMPCTRL1) Minimum current consumption, but the slowest mode Position  */
+#define OPAMP_OPAMPCTRL1_BIAS_MODE1           (OPAMP_OPAMPCTRL1_BIAS_MODE1_Val << OPAMP_OPAMPCTRL1_BIAS_Pos) /**< (OPAMP_OPAMPCTRL1) Low current consumption, slow speed Position  */
+#define OPAMP_OPAMPCTRL1_BIAS_MODE2           (OPAMP_OPAMPCTRL1_BIAS_MODE2_Val << OPAMP_OPAMPCTRL1_BIAS_Pos) /**< (OPAMP_OPAMPCTRL1) High current consumption, fast speed Position  */
+#define OPAMP_OPAMPCTRL1_BIAS_MODE3           (OPAMP_OPAMPCTRL1_BIAS_MODE3_Val << OPAMP_OPAMPCTRL1_BIAS_Pos) /**< (OPAMP_OPAMPCTRL1) Maximum current consumption, but the fastest mode Position  */
 #define OPAMP_OPAMPCTRL1_RES2VCC_Pos          _U_(5)                                               /**< (OPAMP_OPAMPCTRL1) Resistor ladder To VCC Position */
 #define OPAMP_OPAMPCTRL1_RES2VCC_Msk          (_U_(0x1) << OPAMP_OPAMPCTRL1_RES2VCC_Pos)           /**< (OPAMP_OPAMPCTRL1) Resistor ladder To VCC Mask */
 #define OPAMP_OPAMPCTRL1_RES2VCC(value)       (OPAMP_OPAMPCTRL1_RES2VCC_Msk & ((value) << OPAMP_OPAMPCTRL1_RES2VCC_Pos))
@@ -251,6 +259,14 @@
 #define OPAMP_OPAMPCTRL2_BIAS_Pos             _U_(3)                                               /**< (OPAMP_OPAMPCTRL2) Bias Selection Position */
 #define OPAMP_OPAMPCTRL2_BIAS_Msk             (_U_(0x3) << OPAMP_OPAMPCTRL2_BIAS_Pos)              /**< (OPAMP_OPAMPCTRL2) Bias Selection Mask */
 #define OPAMP_OPAMPCTRL2_BIAS(value)          (OPAMP_OPAMPCTRL2_BIAS_Msk & ((value) << OPAMP_OPAMPCTRL2_BIAS_Pos))
+#define   OPAMP_OPAMPCTRL2_BIAS_MODE0_Val     _U_(0x0)                                             /**< (OPAMP_OPAMPCTRL2) Minimum current consumption, but the slowest mode  */
+#define   OPAMP_OPAMPCTRL2_BIAS_MODE1_Val     _U_(0x1)                                             /**< (OPAMP_OPAMPCTRL2) Low current consumption, slow speed  */
+#define   OPAMP_OPAMPCTRL2_BIAS_MODE2_Val     _U_(0x2)                                             /**< (OPAMP_OPAMPCTRL2) High current consumption, fast speed  */
+#define   OPAMP_OPAMPCTRL2_BIAS_MODE3_Val     _U_(0x3)                                             /**< (OPAMP_OPAMPCTRL2) Maximum current consumption, but the fastest mode  */
+#define OPAMP_OPAMPCTRL2_BIAS_MODE0           (OPAMP_OPAMPCTRL2_BIAS_MODE0_Val << OPAMP_OPAMPCTRL2_BIAS_Pos) /**< (OPAMP_OPAMPCTRL2) Minimum current consumption, but the slowest mode Position  */
+#define OPAMP_OPAMPCTRL2_BIAS_MODE1           (OPAMP_OPAMPCTRL2_BIAS_MODE1_Val << OPAMP_OPAMPCTRL2_BIAS_Pos) /**< (OPAMP_OPAMPCTRL2) Low current consumption, slow speed Position  */
+#define OPAMP_OPAMPCTRL2_BIAS_MODE2           (OPAMP_OPAMPCTRL2_BIAS_MODE2_Val << OPAMP_OPAMPCTRL2_BIAS_Pos) /**< (OPAMP_OPAMPCTRL2) High current consumption, fast speed Position  */
+#define OPAMP_OPAMPCTRL2_BIAS_MODE3           (OPAMP_OPAMPCTRL2_BIAS_MODE3_Val << OPAMP_OPAMPCTRL2_BIAS_Pos) /**< (OPAMP_OPAMPCTRL2) Maximum current consumption, but the fastest mode Position  */
 #define OPAMP_OPAMPCTRL2_RES2VCC_Pos          _U_(5)                                               /**< (OPAMP_OPAMPCTRL2) Resistor ladder To VCC Position */
 #define OPAMP_OPAMPCTRL2_RES2VCC_Msk          (_U_(0x1) << OPAMP_OPAMPCTRL2_RES2VCC_Pos)           /**< (OPAMP_OPAMPCTRL2) Resistor ladder To VCC Mask */
 #define OPAMP_OPAMPCTRL2_RES2VCC(value)       (OPAMP_OPAMPCTRL2_RES2VCC_Msk & ((value) << OPAMP_OPAMPCTRL2_RES2VCC_Pos))
@@ -379,12 +395,12 @@
 
 
 /** \brief OPAMP register offsets definitions */
-#define OPAMP_CTRLA_REG_OFST           (0x00)              /**< (OPAMP_CTRLA) Control A Offset */
-#define OPAMP_STATUS_REG_OFST          (0x02)              /**< (OPAMP_STATUS) Status Offset */
-#define OPAMP_OPAMPCTRL0_REG_OFST      (0x04)              /**< (OPAMP_OPAMPCTRL0) OPAMP0 Control Offset */
-#define OPAMP_OPAMPCTRL1_REG_OFST      (0x08)              /**< (OPAMP_OPAMPCTRL1) OPAMP1 Control Offset */
-#define OPAMP_OPAMPCTRL2_REG_OFST      (0x0C)              /**< (OPAMP_OPAMPCTRL2) OPAMP2 Control Offset */
-#define OPAMP_RESCTRL_REG_OFST         (0x10)              /**< (OPAMP_RESCTRL) Resister Control Offset */
+#define OPAMP_CTRLA_REG_OFST           (0x00)              /* (OPAMP_CTRLA) Control A Offset */
+#define OPAMP_STATUS_REG_OFST          (0x02)              /* (OPAMP_STATUS) Status Offset */
+#define OPAMP_OPAMPCTRL0_REG_OFST      (0x04)              /* (OPAMP_OPAMPCTRL0) OPAMP0 Control Offset */
+#define OPAMP_OPAMPCTRL1_REG_OFST      (0x08)              /* (OPAMP_OPAMPCTRL1) OPAMP1 Control Offset */
+#define OPAMP_OPAMPCTRL2_REG_OFST      (0x0C)              /* (OPAMP_OPAMPCTRL2) OPAMP2 Control Offset */
+#define OPAMP_RESCTRL_REG_OFST         (0x10)              /* (OPAMP_RESCTRL) Resister Control Offset */
 
 #if !(defined(__ASSEMBLER__) || defined(__IAR_SYSTEMS_ASM__))
 /** \brief OPAMP register API structure */

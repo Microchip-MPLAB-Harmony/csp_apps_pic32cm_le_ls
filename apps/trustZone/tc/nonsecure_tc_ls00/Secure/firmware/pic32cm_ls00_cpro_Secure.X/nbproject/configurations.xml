@@ -232,7 +232,7 @@
         <platform>3</platform>
       </toolsSet>
       <packs>
-        <pack name="PIC32CM-LS_DFP" vendor="Microchip" version="1.0.135"/>
+        <pack name="PIC32CM-LS_DFP" vendor="Microchip" version="1.0.154"/>
         <pack name="CMSIS" vendor="ARM" version="5.4.0"/>
       </packs>
       <ScriptingSettings>
@@ -295,7 +295,7 @@
         <property key="enable-unroll-loops" value="false"/>
         <property key="exclude-floating-point" value="false"/>
         <property key="extra-include-directories"
-                  value="../src;../src/config/pic32cm_ls00_cpro;../src/packs/PIC32CM5164LS00100_DFP;../src/packs/CMSIS/CMSIS/Core/Include;../src/packs/CMSIS/"/>
+                  value="../src;../src/config/pic32cm_ls00_cpro;../src/packs/CMSIS/;../src/packs/CMSIS/CMSIS/Core/Include;../src/packs/PIC32CM5164LS00100_DFP"/>
         <property key="generate-16-bit-code" value="false"/>
         <property key="generate-micro-compressed-code" value="false"/>
         <property key="isolate-each-function" value="true"/>
@@ -373,7 +373,7 @@
         <property key="oXC32ld-extra-opts" value=""/>
         <property key="optimization-level" value=""/>
         <property key="preprocessor-macros"
-                  value="SECURE;AS_SIZE=0x40000;ANSC_SIZE=0x800;RS_SIZE=0x8000;BOOTPROT_SIZE=0x0;BNSC_SIZE=0x0"/>
+                  value="ANSC_SIZE=0x800;AS_SIZE=0x40000;BNSC_SIZE=0x0;BOOTPROT_SIZE=0x0;RS_SIZE=0x8000;SECURE"/>
         <property key="remove-unused-sections" value="true"/>
         <property key="report-memory-usage" value="false"/>
         <property key="serial-length" value=""/>
@@ -382,7 +382,7 @@
         <property key="symbol-stripping" value=""/>
         <property key="trace-symbols" value=""/>
         <property key="warn-section-align" value="false"/>
-        <appendMe value="--out-implib=../../../NonSecure/firmware/pic32cm_ls00_cpro_NonSecure.X/pic32cm_ls00_cpro_Secure_sg_veneer.lib ,--cmse-implib"/>
+        <appendMe value=",--cmse-implib --out-implib=../../../NonSecure/firmware/pic32cm_ls00_cpro_NonSecure.X/pic32cm_ls00_cpro_Secure_sg_veneer.lib"/>
       </C32-LD>
       <C32CPP>
         <property key="additional-warnings" value="false"/>
@@ -396,7 +396,7 @@
         <property key="exceptions" value="true"/>
         <property key="exclude-floating-point" value="false"/>
         <property key="extra-include-directories"
-                  value="../src;../src/config/pic32cm_ls00_cpro;../src/packs/PIC32CM5164LS00100_DFP;../src/packs/CMSIS/CMSIS/Core/Include;../src/packs/CMSIS/"/>
+                  value="../src;../src/config/pic32cm_ls00_cpro;../src/packs/CMSIS/;../src/packs/CMSIS/CMSIS/Core/Include;../src/packs/PIC32CM5164LS00100_DFP"/>
         <property key="generate-16-bit-code" value="false"/>
         <property key="generate-micro-compressed-code" value="false"/>
         <property key="isolate-each-function" value="true"/>
