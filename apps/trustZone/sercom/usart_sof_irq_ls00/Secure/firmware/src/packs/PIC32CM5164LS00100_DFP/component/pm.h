@@ -20,7 +20,7 @@
  *
  */
 
-/* file generated from device description version 2021-06-28T10:08:49Z */
+/* file generated from device description version 2021-11-12T10:11:10Z */
 #ifndef _PIC32CMLS00_PM_COMPONENT_H_
 #define _PIC32CMLS00_PM_COMPONENT_H_
 
@@ -139,13 +139,13 @@
 
 
 /** \brief PM register offsets definitions */
-#define PM_SLEEPCFG_REG_OFST           (0x01)              /**< (PM_SLEEPCFG) Sleep Configuration Offset */
-#define PM_PLCFG_REG_OFST              (0x02)              /**< (PM_PLCFG) Performance Level Configuration Offset */
-#define PM_PWCFG_REG_OFST              (0x03)              /**< (PM_PWCFG) Power Configuration Offset */
-#define PM_INTENCLR_REG_OFST           (0x04)              /**< (PM_INTENCLR) Interrupt Enable Clear Offset */
-#define PM_INTENSET_REG_OFST           (0x05)              /**< (PM_INTENSET) Interrupt Enable Set Offset */
-#define PM_INTFLAG_REG_OFST            (0x06)              /**< (PM_INTFLAG) Interrupt Flag Status and Clear Offset */
-#define PM_STDBYCFG_REG_OFST           (0x08)              /**< (PM_STDBYCFG) Standby Configuration Offset */
+#define PM_SLEEPCFG_REG_OFST           (0x01)              /* (PM_SLEEPCFG) Sleep Configuration Offset */
+#define PM_PLCFG_REG_OFST              (0x02)              /* (PM_PLCFG) Performance Level Configuration Offset */
+#define PM_PWCFG_REG_OFST              (0x03)              /* (PM_PWCFG) Power Configuration Offset */
+#define PM_INTENCLR_REG_OFST           (0x04)              /* (PM_INTENCLR) Interrupt Enable Clear Offset */
+#define PM_INTENSET_REG_OFST           (0x05)              /* (PM_INTENSET) Interrupt Enable Set Offset */
+#define PM_INTFLAG_REG_OFST            (0x06)              /* (PM_INTFLAG) Interrupt Flag Status and Clear Offset */
+#define PM_STDBYCFG_REG_OFST           (0x08)              /* (PM_STDBYCFG) Standby Configuration Offset */
 
 #if !(defined(__ASSEMBLER__) || defined(__IAR_SYSTEMS_ASM__))
 /** \brief PM register API structure */

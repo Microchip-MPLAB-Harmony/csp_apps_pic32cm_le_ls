@@ -20,7 +20,7 @@
  *
  */
 
-/* file generated from device description version 2021-06-28T10:08:49Z */
+/* file generated from device description version 2021-11-12T10:11:10Z */
 #ifndef _PIC32CMLS00_TRNG_COMPONENT_H_
 #define _PIC32CMLS00_TRNG_COMPONENT_H_
 
@@ -84,12 +84,12 @@
 
 
 /** \brief TRNG register offsets definitions */
-#define TRNG_CTRLA_REG_OFST            (0x00)              /**< (TRNG_CTRLA) Control A Offset */
-#define TRNG_EVCTRL_REG_OFST           (0x04)              /**< (TRNG_EVCTRL) Event Control Offset */
-#define TRNG_INTENCLR_REG_OFST         (0x08)              /**< (TRNG_INTENCLR) Interrupt Enable Clear Offset */
-#define TRNG_INTENSET_REG_OFST         (0x09)              /**< (TRNG_INTENSET) Interrupt Enable Set Offset */
-#define TRNG_INTFLAG_REG_OFST          (0x0A)              /**< (TRNG_INTFLAG) Interrupt Flag Status and Clear Offset */
-#define TRNG_DATA_REG_OFST             (0x20)              /**< (TRNG_DATA) Output Data Offset */
+#define TRNG_CTRLA_REG_OFST            (0x00)              /* (TRNG_CTRLA) Control A Offset */
+#define TRNG_EVCTRL_REG_OFST           (0x04)              /* (TRNG_EVCTRL) Event Control Offset */
+#define TRNG_INTENCLR_REG_OFST         (0x08)              /* (TRNG_INTENCLR) Interrupt Enable Clear Offset */
+#define TRNG_INTENSET_REG_OFST         (0x09)              /* (TRNG_INTENSET) Interrupt Enable Set Offset */
+#define TRNG_INTFLAG_REG_OFST          (0x0A)              /* (TRNG_INTFLAG) Interrupt Flag Status and Clear Offset */
+#define TRNG_DATA_REG_OFST             (0x20)              /* (TRNG_DATA) Output Data Offset */
 
 #if !(defined(__ASSEMBLER__) || defined(__IAR_SYSTEMS_ASM__))
 /** \brief TRNG register API structure */
