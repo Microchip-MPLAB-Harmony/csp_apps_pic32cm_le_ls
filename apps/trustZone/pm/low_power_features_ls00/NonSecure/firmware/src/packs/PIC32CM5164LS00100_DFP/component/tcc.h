@@ -20,7 +20,7 @@
  *
  */
 
-/* file generated from device description version 2021-06-28T10:08:49Z */
+/* file generated from device description version 2021-11-12T10:11:10Z */
 #ifndef _PIC32CMLS00_TCC_COMPONENT_H_
 #define _PIC32CMLS00_TCC_COMPONENT_H_
 
@@ -1039,15 +1039,63 @@
 #define TCC_WAVE_POL0_Pos                     _U_(16)                                              /**< (TCC_WAVE) Channel 0 Polarity Position */
 #define TCC_WAVE_POL0_Msk                     (_U_(0x1) << TCC_WAVE_POL0_Pos)                      /**< (TCC_WAVE) Channel 0 Polarity Mask */
 #define TCC_WAVE_POL0(value)                  (TCC_WAVE_POL0_Msk & ((value) << TCC_WAVE_POL0_Pos))
+#define   TCC_WAVE_POL0_SINGLESLOPEPOL0_Val   _U_(0x0)                                             /**< (TCC_WAVE) Single-slope PWM waveform generation Channel Polarity 0  */
+#define   TCC_WAVE_POL0_SINGLESLOPEPOL1_Val   _U_(0x1)                                             /**< (TCC_WAVE) Single-slope PWM waveform generation Channel Polarity 1  */
+#define   TCC_WAVE_POL0_DUALSLOPEPOL0_Val     _U_(0x0)                                             /**< (TCC_WAVE) Dual-slope PWM waveform generation Channel Polarity 0  */
+#define   TCC_WAVE_POL0_DUALSLOPEPOL1_Val     _U_(0x1)                                             /**< (TCC_WAVE) Dual-slope PWM waveform generation Channel Polarity 1  */
+#define   TCC_WAVE_POL0_DUALCOMPAREPOL0_Val   _U_(0x0)                                             /**< (TCC_WAVE) Dual Compare PWM waveform generation Channel Polarity 0  */
+#define   TCC_WAVE_POL0_DUALCOMPAREPOL1_Val   _U_(0x1)                                             /**< (TCC_WAVE) Dual Compare PWM waveform generation Channel Polarity 1  */
+#define TCC_WAVE_POL0_SINGLESLOPEPOL0         (TCC_WAVE_POL0_SINGLESLOPEPOL0_Val << TCC_WAVE_POL0_Pos) /**< (TCC_WAVE) Single-slope PWM waveform generation Channel Polarity 0 Position  */
+#define TCC_WAVE_POL0_SINGLESLOPEPOL1         (TCC_WAVE_POL0_SINGLESLOPEPOL1_Val << TCC_WAVE_POL0_Pos) /**< (TCC_WAVE) Single-slope PWM waveform generation Channel Polarity 1 Position  */
+#define TCC_WAVE_POL0_DUALSLOPEPOL0           (TCC_WAVE_POL0_DUALSLOPEPOL0_Val << TCC_WAVE_POL0_Pos) /**< (TCC_WAVE) Dual-slope PWM waveform generation Channel Polarity 0 Position  */
+#define TCC_WAVE_POL0_DUALSLOPEPOL1           (TCC_WAVE_POL0_DUALSLOPEPOL1_Val << TCC_WAVE_POL0_Pos) /**< (TCC_WAVE) Dual-slope PWM waveform generation Channel Polarity 1 Position  */
+#define TCC_WAVE_POL0_DUALCOMPAREPOL0         (TCC_WAVE_POL0_DUALCOMPAREPOL0_Val << TCC_WAVE_POL0_Pos) /**< (TCC_WAVE) Dual Compare PWM waveform generation Channel Polarity 0 Position  */
+#define TCC_WAVE_POL0_DUALCOMPAREPOL1         (TCC_WAVE_POL0_DUALCOMPAREPOL1_Val << TCC_WAVE_POL0_Pos) /**< (TCC_WAVE) Dual Compare PWM waveform generation Channel Polarity 1 Position  */
 #define TCC_WAVE_POL1_Pos                     _U_(17)                                              /**< (TCC_WAVE) Channel 1 Polarity Position */
 #define TCC_WAVE_POL1_Msk                     (_U_(0x1) << TCC_WAVE_POL1_Pos)                      /**< (TCC_WAVE) Channel 1 Polarity Mask */
 #define TCC_WAVE_POL1(value)                  (TCC_WAVE_POL1_Msk & ((value) << TCC_WAVE_POL1_Pos))
+#define   TCC_WAVE_POL1_SINGLESLOPEPOL0_Val   _U_(0x0)                                             /**< (TCC_WAVE) Single-slope PWM waveform generation Channel Polarity 0  */
+#define   TCC_WAVE_POL1_SINGLESLOPEPOL1_Val   _U_(0x1)                                             /**< (TCC_WAVE) Single-slope PWM waveform generation Channel Polarity 1  */
+#define   TCC_WAVE_POL1_DUALSLOPEPOL0_Val     _U_(0x0)                                             /**< (TCC_WAVE) Dual-slope PWM waveform generation Channel Polarity 0  */
+#define   TCC_WAVE_POL1_DUALSLOPEPOL1_Val     _U_(0x1)                                             /**< (TCC_WAVE) Dual-slope PWM waveform generation Channel Polarity 1  */
+#define   TCC_WAVE_POL1_DUALCOMPAREPOL0_Val   _U_(0x0)                                             /**< (TCC_WAVE) Dual Compare PWM waveform generation Channel Polarity 0  */
+#define   TCC_WAVE_POL1_DUALCOMPAREPOL1_Val   _U_(0x1)                                             /**< (TCC_WAVE) Dual Compare PWM waveform generation Channel Polarity 1  */
+#define TCC_WAVE_POL1_SINGLESLOPEPOL0         (TCC_WAVE_POL1_SINGLESLOPEPOL0_Val << TCC_WAVE_POL1_Pos) /**< (TCC_WAVE) Single-slope PWM waveform generation Channel Polarity 0 Position  */
+#define TCC_WAVE_POL1_SINGLESLOPEPOL1         (TCC_WAVE_POL1_SINGLESLOPEPOL1_Val << TCC_WAVE_POL1_Pos) /**< (TCC_WAVE) Single-slope PWM waveform generation Channel Polarity 1 Position  */
+#define TCC_WAVE_POL1_DUALSLOPEPOL0           (TCC_WAVE_POL1_DUALSLOPEPOL0_Val << TCC_WAVE_POL1_Pos) /**< (TCC_WAVE) Dual-slope PWM waveform generation Channel Polarity 0 Position  */
+#define TCC_WAVE_POL1_DUALSLOPEPOL1           (TCC_WAVE_POL1_DUALSLOPEPOL1_Val << TCC_WAVE_POL1_Pos) /**< (TCC_WAVE) Dual-slope PWM waveform generation Channel Polarity 1 Position  */
+#define TCC_WAVE_POL1_DUALCOMPAREPOL0         (TCC_WAVE_POL1_DUALCOMPAREPOL0_Val << TCC_WAVE_POL1_Pos) /**< (TCC_WAVE) Dual Compare PWM waveform generation Channel Polarity 0 Position  */
+#define TCC_WAVE_POL1_DUALCOMPAREPOL1         (TCC_WAVE_POL1_DUALCOMPAREPOL1_Val << TCC_WAVE_POL1_Pos) /**< (TCC_WAVE) Dual Compare PWM waveform generation Channel Polarity 1 Position  */
 #define TCC_WAVE_POL2_Pos                     _U_(18)                                              /**< (TCC_WAVE) Channel 2 Polarity Position */
 #define TCC_WAVE_POL2_Msk                     (_U_(0x1) << TCC_WAVE_POL2_Pos)                      /**< (TCC_WAVE) Channel 2 Polarity Mask */
 #define TCC_WAVE_POL2(value)                  (TCC_WAVE_POL2_Msk & ((value) << TCC_WAVE_POL2_Pos))
+#define   TCC_WAVE_POL2_SINGLESLOPEPOL0_Val   _U_(0x0)                                             /**< (TCC_WAVE) Single-slope PWM waveform generation Channel Polarity 0  */
+#define   TCC_WAVE_POL2_SINGLESLOPEPOL1_Val   _U_(0x1)                                             /**< (TCC_WAVE) Single-slope PWM waveform generation Channel Polarity 1  */
+#define   TCC_WAVE_POL2_DUALSLOPEPOL0_Val     _U_(0x0)                                             /**< (TCC_WAVE) Dual-slope PWM waveform generation Channel Polarity 0  */
+#define   TCC_WAVE_POL2_DUALSLOPEPOL1_Val     _U_(0x1)                                             /**< (TCC_WAVE) Dual-slope PWM waveform generation Channel Polarity 1  */
+#define   TCC_WAVE_POL2_DUALCOMPAREPOL0_Val   _U_(0x0)                                             /**< (TCC_WAVE) Dual Compare PWM waveform generation Channel Polarity 0  */
+#define   TCC_WAVE_POL2_DUALCOMPAREPOL1_Val   _U_(0x1)                                             /**< (TCC_WAVE) Dual Compare PWM waveform generation Channel Polarity 1  */
+#define TCC_WAVE_POL2_SINGLESLOPEPOL0         (TCC_WAVE_POL2_SINGLESLOPEPOL0_Val << TCC_WAVE_POL2_Pos) /**< (TCC_WAVE) Single-slope PWM waveform generation Channel Polarity 0 Position  */
+#define TCC_WAVE_POL2_SINGLESLOPEPOL1         (TCC_WAVE_POL2_SINGLESLOPEPOL1_Val << TCC_WAVE_POL2_Pos) /**< (TCC_WAVE) Single-slope PWM waveform generation Channel Polarity 1 Position  */
+#define TCC_WAVE_POL2_DUALSLOPEPOL0           (TCC_WAVE_POL2_DUALSLOPEPOL0_Val << TCC_WAVE_POL2_Pos) /**< (TCC_WAVE) Dual-slope PWM waveform generation Channel Polarity 0 Position  */
+#define TCC_WAVE_POL2_DUALSLOPEPOL1           (TCC_WAVE_POL2_DUALSLOPEPOL1_Val << TCC_WAVE_POL2_Pos) /**< (TCC_WAVE) Dual-slope PWM waveform generation Channel Polarity 1 Position  */
+#define TCC_WAVE_POL2_DUALCOMPAREPOL0         (TCC_WAVE_POL2_DUALCOMPAREPOL0_Val << TCC_WAVE_POL2_Pos) /**< (TCC_WAVE) Dual Compare PWM waveform generation Channel Polarity 0 Position  */
+#define TCC_WAVE_POL2_DUALCOMPAREPOL1         (TCC_WAVE_POL2_DUALCOMPAREPOL1_Val << TCC_WAVE_POL2_Pos) /**< (TCC_WAVE) Dual Compare PWM waveform generation Channel Polarity 1 Position  */
 #define TCC_WAVE_POL3_Pos                     _U_(19)                                              /**< (TCC_WAVE) Channel 3 Polarity Position */
 #define TCC_WAVE_POL3_Msk                     (_U_(0x1) << TCC_WAVE_POL3_Pos)                      /**< (TCC_WAVE) Channel 3 Polarity Mask */
 #define TCC_WAVE_POL3(value)                  (TCC_WAVE_POL3_Msk & ((value) << TCC_WAVE_POL3_Pos))
+#define   TCC_WAVE_POL3_SINGLESLOPEPOL0_Val   _U_(0x0)                                             /**< (TCC_WAVE) Single-slope PWM waveform generation Channel Polarity 0  */
+#define   TCC_WAVE_POL3_SINGLESLOPEPOL1_Val   _U_(0x1)                                             /**< (TCC_WAVE) Single-slope PWM waveform generation Channel Polarity 1  */
+#define   TCC_WAVE_POL3_DUALSLOPEPOL0_Val     _U_(0x0)                                             /**< (TCC_WAVE) Dual-slope PWM waveform generation Channel Polarity 0  */
+#define   TCC_WAVE_POL3_DUALSLOPEPOL1_Val     _U_(0x1)                                             /**< (TCC_WAVE) Dual-slope PWM waveform generation Channel Polarity 1  */
+#define   TCC_WAVE_POL3_DUALCOMPAREPOL0_Val   _U_(0x0)                                             /**< (TCC_WAVE) Dual Compare PWM waveform generation Channel Polarity 0  */
+#define   TCC_WAVE_POL3_DUALCOMPAREPOL1_Val   _U_(0x1)                                             /**< (TCC_WAVE) Dual Compare PWM waveform generation Channel Polarity 1  */
+#define TCC_WAVE_POL3_SINGLESLOPEPOL0         (TCC_WAVE_POL3_SINGLESLOPEPOL0_Val << TCC_WAVE_POL3_Pos) /**< (TCC_WAVE) Single-slope PWM waveform generation Channel Polarity 0 Position  */
+#define TCC_WAVE_POL3_SINGLESLOPEPOL1         (TCC_WAVE_POL3_SINGLESLOPEPOL1_Val << TCC_WAVE_POL3_Pos) /**< (TCC_WAVE) Single-slope PWM waveform generation Channel Polarity 1 Position  */
+#define TCC_WAVE_POL3_DUALSLOPEPOL0           (TCC_WAVE_POL3_DUALSLOPEPOL0_Val << TCC_WAVE_POL3_Pos) /**< (TCC_WAVE) Dual-slope PWM waveform generation Channel Polarity 0 Position  */
+#define TCC_WAVE_POL3_DUALSLOPEPOL1           (TCC_WAVE_POL3_DUALSLOPEPOL1_Val << TCC_WAVE_POL3_Pos) /**< (TCC_WAVE) Dual-slope PWM waveform generation Channel Polarity 1 Position  */
+#define TCC_WAVE_POL3_DUALCOMPAREPOL0         (TCC_WAVE_POL3_DUALCOMPAREPOL0_Val << TCC_WAVE_POL3_Pos) /**< (TCC_WAVE) Dual Compare PWM waveform generation Channel Polarity 0 Position  */
+#define TCC_WAVE_POL3_DUALCOMPAREPOL1         (TCC_WAVE_POL3_DUALCOMPAREPOL1_Val << TCC_WAVE_POL3_Pos) /**< (TCC_WAVE) Dual Compare PWM waveform generation Channel Polarity 1 Position  */
 #define TCC_WAVE_SWAP0_Pos                    _U_(24)                                              /**< (TCC_WAVE) Swap DTI Output Pair 0 Position */
 #define TCC_WAVE_SWAP0_Msk                    (_U_(0x1) << TCC_WAVE_SWAP0_Pos)                     /**< (TCC_WAVE) Swap DTI Output Pair 0 Mask */
 #define TCC_WAVE_SWAP0(value)                 (TCC_WAVE_SWAP0_Msk & ((value) << TCC_WAVE_SWAP0_Pos))
@@ -1277,36 +1325,36 @@
 
 
 /** \brief TCC register offsets definitions */
-#define TCC_CTRLA_REG_OFST             (0x00)              /**< (TCC_CTRLA) Control A Offset */
-#define TCC_CTRLBCLR_REG_OFST          (0x04)              /**< (TCC_CTRLBCLR) Control B Clear Offset */
-#define TCC_CTRLBSET_REG_OFST          (0x05)              /**< (TCC_CTRLBSET) Control B Set Offset */
-#define TCC_SYNCBUSY_REG_OFST          (0x08)              /**< (TCC_SYNCBUSY) Synchronization Busy Offset */
-#define TCC_FCTRLA_REG_OFST            (0x0C)              /**< (TCC_FCTRLA) Recoverable Fault A Configuration Offset */
-#define TCC_FCTRLB_REG_OFST            (0x10)              /**< (TCC_FCTRLB) Recoverable Fault B Configuration Offset */
-#define TCC_WEXCTRL_REG_OFST           (0x14)              /**< (TCC_WEXCTRL) Waveform Extension Configuration Offset */
-#define TCC_DRVCTRL_REG_OFST           (0x18)              /**< (TCC_DRVCTRL) Driver Control Offset */
-#define TCC_DBGCTRL_REG_OFST           (0x1E)              /**< (TCC_DBGCTRL) Debug Control Offset */
-#define TCC_EVCTRL_REG_OFST            (0x20)              /**< (TCC_EVCTRL) Event Control Offset */
-#define TCC_INTENCLR_REG_OFST          (0x24)              /**< (TCC_INTENCLR) Interrupt Enable Clear Offset */
-#define TCC_INTENSET_REG_OFST          (0x28)              /**< (TCC_INTENSET) Interrupt Enable Set Offset */
-#define TCC_INTFLAG_REG_OFST           (0x2C)              /**< (TCC_INTFLAG) Interrupt Flag Status and Clear Offset */
-#define TCC_STATUS_REG_OFST            (0x30)              /**< (TCC_STATUS) Status Offset */
-#define TCC_COUNT_REG_OFST             (0x34)              /**< (TCC_COUNT) Count Offset */
-#define TCC_PATT_REG_OFST              (0x38)              /**< (TCC_PATT) Pattern Offset */
-#define TCC_WAVE_REG_OFST              (0x3C)              /**< (TCC_WAVE) Waveform Control Offset */
-#define TCC_PER_REG_OFST               (0x40)              /**< (TCC_PER) Period Offset */
-#define TCC_CC_REG_OFST                (0x44)              /**< (TCC_CC) Compare and Capture Offset */
-#define TCC_CC0_REG_OFST               (0x44)              /**< (TCC_CC0) Compare and Capture Offset */
-#define TCC_CC1_REG_OFST               (0x48)              /**< (TCC_CC1) Compare and Capture Offset */
-#define TCC_CC2_REG_OFST               (0x4C)              /**< (TCC_CC2) Compare and Capture Offset */
-#define TCC_CC3_REG_OFST               (0x50)              /**< (TCC_CC3) Compare and Capture Offset */
-#define TCC_PATTBUF_REG_OFST           (0x64)              /**< (TCC_PATTBUF) Pattern Buffer Offset */
-#define TCC_PERBUF_REG_OFST            (0x6C)              /**< (TCC_PERBUF) Period Buffer Offset */
-#define TCC_CCBUF_REG_OFST             (0x70)              /**< (TCC_CCBUF) Compare and Capture Buffer Offset */
-#define TCC_CCBUF0_REG_OFST            (0x70)              /**< (TCC_CCBUF0) Compare and Capture Buffer Offset */
-#define TCC_CCBUF1_REG_OFST            (0x74)              /**< (TCC_CCBUF1) Compare and Capture Buffer Offset */
-#define TCC_CCBUF2_REG_OFST            (0x78)              /**< (TCC_CCBUF2) Compare and Capture Buffer Offset */
-#define TCC_CCBUF3_REG_OFST            (0x7C)              /**< (TCC_CCBUF3) Compare and Capture Buffer Offset */
+#define TCC_CTRLA_REG_OFST             (0x00)              /* (TCC_CTRLA) Control A Offset */
+#define TCC_CTRLBCLR_REG_OFST          (0x04)              /* (TCC_CTRLBCLR) Control B Clear Offset */
+#define TCC_CTRLBSET_REG_OFST          (0x05)              /* (TCC_CTRLBSET) Control B Set Offset */
+#define TCC_SYNCBUSY_REG_OFST          (0x08)              /* (TCC_SYNCBUSY) Synchronization Busy Offset */
+#define TCC_FCTRLA_REG_OFST            (0x0C)              /* (TCC_FCTRLA) Recoverable Fault A Configuration Offset */
+#define TCC_FCTRLB_REG_OFST            (0x10)              /* (TCC_FCTRLB) Recoverable Fault B Configuration Offset */
+#define TCC_WEXCTRL_REG_OFST           (0x14)              /* (TCC_WEXCTRL) Waveform Extension Configuration Offset */
+#define TCC_DRVCTRL_REG_OFST           (0x18)              /* (TCC_DRVCTRL) Driver Control Offset */
+#define TCC_DBGCTRL_REG_OFST           (0x1E)              /* (TCC_DBGCTRL) Debug Control Offset */
+#define TCC_EVCTRL_REG_OFST            (0x20)              /* (TCC_EVCTRL) Event Control Offset */
+#define TCC_INTENCLR_REG_OFST          (0x24)              /* (TCC_INTENCLR) Interrupt Enable Clear Offset */
+#define TCC_INTENSET_REG_OFST          (0x28)              /* (TCC_INTENSET) Interrupt Enable Set Offset */
+#define TCC_INTFLAG_REG_OFST           (0x2C)              /* (TCC_INTFLAG) Interrupt Flag Status and Clear Offset */
+#define TCC_STATUS_REG_OFST            (0x30)              /* (TCC_STATUS) Status Offset */
+#define TCC_COUNT_REG_OFST             (0x34)              /* (TCC_COUNT) Count Offset */
+#define TCC_PATT_REG_OFST              (0x38)              /* (TCC_PATT) Pattern Offset */
+#define TCC_WAVE_REG_OFST              (0x3C)              /* (TCC_WAVE) Waveform Control Offset */
+#define TCC_PER_REG_OFST               (0x40)              /* (TCC_PER) Period Offset */
+#define TCC_CC_REG_OFST                (0x44)              /* (TCC_CC) Compare and Capture Offset */
+#define TCC_CC0_REG_OFST               (0x44)              /* (TCC_CC0) Compare and Capture Offset */
+#define TCC_CC1_REG_OFST               (0x48)              /* (TCC_CC1) Compare and Capture Offset */
+#define TCC_CC2_REG_OFST               (0x4C)              /* (TCC_CC2) Compare and Capture Offset */
+#define TCC_CC3_REG_OFST               (0x50)              /* (TCC_CC3) Compare and Capture Offset */
+#define TCC_PATTBUF_REG_OFST           (0x64)              /* (TCC_PATTBUF) Pattern Buffer Offset */
+#define TCC_PERBUF_REG_OFST            (0x6C)              /* (TCC_PERBUF) Period Buffer Offset */
+#define TCC_CCBUF_REG_OFST             (0x70)              /* (TCC_CCBUF) Compare and Capture Buffer Offset */
+#define TCC_CCBUF0_REG_OFST            (0x70)              /* (TCC_CCBUF0) Compare and Capture Buffer Offset */
+#define TCC_CCBUF1_REG_OFST            (0x74)              /* (TCC_CCBUF1) Compare and Capture Buffer Offset */
+#define TCC_CCBUF2_REG_OFST            (0x78)              /* (TCC_CCBUF2) Compare and Capture Buffer Offset */
+#define TCC_CCBUF3_REG_OFST            (0x7C)              /* (TCC_CCBUF3) Compare and Capture Buffer Offset */
 
 #if !(defined(__ASSEMBLER__) || defined(__IAR_SYSTEMS_ASM__))
 /** \brief TCC register API structure */

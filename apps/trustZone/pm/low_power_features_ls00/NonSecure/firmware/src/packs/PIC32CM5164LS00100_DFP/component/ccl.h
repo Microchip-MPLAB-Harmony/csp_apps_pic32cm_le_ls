@@ -20,7 +20,7 @@
  *
  */
 
-/* file generated from device description version 2021-06-28T10:08:49Z */
+/* file generated from device description version 2021-11-12T10:11:10Z */
 #ifndef _PIC32CMLS00_CCL_COMPONENT_H_
 #define _PIC32CMLS00_CCL_COMPONENT_H_
 
@@ -203,15 +203,15 @@
 
 
 /** \brief CCL register offsets definitions */
-#define CCL_CTRL_REG_OFST              (0x00)              /**< (CCL_CTRL) Control Offset */
-#define CCL_SEQCTRL_REG_OFST           (0x04)              /**< (CCL_SEQCTRL) SEQ Control x Offset */
-#define CCL_SEQCTRL0_REG_OFST          (0x04)              /**< (CCL_SEQCTRL0) SEQ Control x Offset */
-#define CCL_SEQCTRL1_REG_OFST          (0x05)              /**< (CCL_SEQCTRL1) SEQ Control x Offset */
-#define CCL_LUTCTRL_REG_OFST           (0x08)              /**< (CCL_LUTCTRL) LUT Control x Offset */
-#define CCL_LUTCTRL0_REG_OFST          (0x08)              /**< (CCL_LUTCTRL0) LUT Control x Offset */
-#define CCL_LUTCTRL1_REG_OFST          (0x0C)              /**< (CCL_LUTCTRL1) LUT Control x Offset */
-#define CCL_LUTCTRL2_REG_OFST          (0x10)              /**< (CCL_LUTCTRL2) LUT Control x Offset */
-#define CCL_LUTCTRL3_REG_OFST          (0x14)              /**< (CCL_LUTCTRL3) LUT Control x Offset */
+#define CCL_CTRL_REG_OFST              (0x00)              /* (CCL_CTRL) Control Offset */
+#define CCL_SEQCTRL_REG_OFST           (0x04)              /* (CCL_SEQCTRL) SEQ Control x Offset */
+#define CCL_SEQCTRL0_REG_OFST          (0x04)              /* (CCL_SEQCTRL0) SEQ Control x Offset */
+#define CCL_SEQCTRL1_REG_OFST          (0x05)              /* (CCL_SEQCTRL1) SEQ Control x Offset */
+#define CCL_LUTCTRL_REG_OFST           (0x08)              /* (CCL_LUTCTRL) LUT Control x Offset */
+#define CCL_LUTCTRL0_REG_OFST          (0x08)              /* (CCL_LUTCTRL0) LUT Control x Offset */
+#define CCL_LUTCTRL1_REG_OFST          (0x0C)              /* (CCL_LUTCTRL1) LUT Control x Offset */
+#define CCL_LUTCTRL2_REG_OFST          (0x10)              /* (CCL_LUTCTRL2) LUT Control x Offset */
+#define CCL_LUTCTRL3_REG_OFST          (0x14)              /* (CCL_LUTCTRL3) LUT Control x Offset */
 
 #if !(defined(__ASSEMBLER__) || defined(__IAR_SYSTEMS_ASM__))
 /** \brief CCL register API structure */
