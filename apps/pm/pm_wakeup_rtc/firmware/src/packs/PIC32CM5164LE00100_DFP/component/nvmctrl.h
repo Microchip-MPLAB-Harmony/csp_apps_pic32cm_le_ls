@@ -20,7 +20,7 @@
  *
  */
 
-/* file generated from device description version 2021-06-28T10:08:20Z */
+/* file generated from device description version 2021-11-12T10:10:54Z */
 #ifndef _PIC32CMLE00_NVMCTRL_COMPONENT_H_
 #define _PIC32CMLE00_NVMCTRL_COMPONENT_H_
 
@@ -301,20 +301,20 @@
 
 
 /** \brief NVMCTRL register offsets definitions */
-#define NVMCTRL_CTRLA_REG_OFST         (0x00)              /**< (NVMCTRL_CTRLA) Control A Offset */
-#define NVMCTRL_CTRLB_REG_OFST         (0x04)              /**< (NVMCTRL_CTRLB) Control B Offset */
-#define NVMCTRL_CTRLC_REG_OFST         (0x08)              /**< (NVMCTRL_CTRLC) Control C Offset */
-#define NVMCTRL_EVCTRL_REG_OFST        (0x0A)              /**< (NVMCTRL_EVCTRL) Event Control Offset */
-#define NVMCTRL_INTENCLR_REG_OFST      (0x0C)              /**< (NVMCTRL_INTENCLR) Interrupt Enable Clear Offset */
-#define NVMCTRL_INTENSET_REG_OFST      (0x10)              /**< (NVMCTRL_INTENSET) Interrupt Enable Set Offset */
-#define NVMCTRL_INTFLAG_REG_OFST       (0x14)              /**< (NVMCTRL_INTFLAG) Interrupt Flag Status and Clear Offset */
-#define NVMCTRL_STATUS_REG_OFST        (0x18)              /**< (NVMCTRL_STATUS) Status Offset */
-#define NVMCTRL_ADDR_REG_OFST          (0x1C)              /**< (NVMCTRL_ADDR) Address Offset */
-#define NVMCTRL_NSULCK_REG_OFST        (0x22)              /**< (NVMCTRL_NSULCK) Non-Secure Unlock Register Offset */
-#define NVMCTRL_PARAM_REG_OFST         (0x24)              /**< (NVMCTRL_PARAM) NVM Parameter Offset */
-#define NVMCTRL_SECCTRL_REG_OFST       (0x34)              /**< (NVMCTRL_SECCTRL) Security Control Offset */
-#define NVMCTRL_SCFGB_REG_OFST         (0x38)              /**< (NVMCTRL_SCFGB) Secure Boot Configuration Offset */
-#define NVMCTRL_SCFGAD_REG_OFST        (0x3C)              /**< (NVMCTRL_SCFGAD) Secure Application and Data Configuration Offset */
+#define NVMCTRL_CTRLA_REG_OFST         (0x00)              /* (NVMCTRL_CTRLA) Control A Offset */
+#define NVMCTRL_CTRLB_REG_OFST         (0x04)              /* (NVMCTRL_CTRLB) Control B Offset */
+#define NVMCTRL_CTRLC_REG_OFST         (0x08)              /* (NVMCTRL_CTRLC) Control C Offset */
+#define NVMCTRL_EVCTRL_REG_OFST        (0x0A)              /* (NVMCTRL_EVCTRL) Event Control Offset */
+#define NVMCTRL_INTENCLR_REG_OFST      (0x0C)              /* (NVMCTRL_INTENCLR) Interrupt Enable Clear Offset */
+#define NVMCTRL_INTENSET_REG_OFST      (0x10)              /* (NVMCTRL_INTENSET) Interrupt Enable Set Offset */
+#define NVMCTRL_INTFLAG_REG_OFST       (0x14)              /* (NVMCTRL_INTFLAG) Interrupt Flag Status and Clear Offset */
+#define NVMCTRL_STATUS_REG_OFST        (0x18)              /* (NVMCTRL_STATUS) Status Offset */
+#define NVMCTRL_ADDR_REG_OFST          (0x1C)              /* (NVMCTRL_ADDR) Address Offset */
+#define NVMCTRL_NSULCK_REG_OFST        (0x22)              /* (NVMCTRL_NSULCK) Non-Secure Unlock Register Offset */
+#define NVMCTRL_PARAM_REG_OFST         (0x24)              /* (NVMCTRL_PARAM) NVM Parameter Offset */
+#define NVMCTRL_SECCTRL_REG_OFST       (0x34)              /* (NVMCTRL_SECCTRL) Security Control Offset */
+#define NVMCTRL_SCFGB_REG_OFST         (0x38)              /* (NVMCTRL_SCFGB) Secure Boot Configuration Offset */
+#define NVMCTRL_SCFGAD_REG_OFST        (0x3C)              /* (NVMCTRL_SCFGAD) Secure Application and Data Configuration Offset */
 
 #if !(defined(__ASSEMBLER__) || defined(__IAR_SYSTEMS_ASM__))
 /** \brief NVMCTRL register API structure */

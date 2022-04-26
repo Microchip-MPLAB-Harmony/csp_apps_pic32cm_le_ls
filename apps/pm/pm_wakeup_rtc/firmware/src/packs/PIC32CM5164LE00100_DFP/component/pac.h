@@ -20,7 +20,7 @@
  *
  */
 
-/* file generated from device description version 2021-06-28T10:08:20Z */
+/* file generated from device description version 2021-11-12T10:10:54Z */
 #ifndef _PIC32CMLE00_PAC_COMPONENT_H_
 #define _PIC32CMLE00_PAC_COMPONENT_H_
 
@@ -406,17 +406,17 @@
 #define PAC_STATUSC_TCC(value)                (PAC_STATUSC_TCC_Msk & ((value) << PAC_STATUSC_TCC_Pos)) 
 
 /** \brief PAC register offsets definitions */
-#define PAC_WRCTRL_REG_OFST            (0x00)              /**< (PAC_WRCTRL) Write control Offset */
-#define PAC_EVCTRL_REG_OFST            (0x04)              /**< (PAC_EVCTRL) Event control Offset */
-#define PAC_INTENCLR_REG_OFST          (0x08)              /**< (PAC_INTENCLR) Interrupt enable clear Offset */
-#define PAC_INTENSET_REG_OFST          (0x09)              /**< (PAC_INTENSET) Interrupt enable set Offset */
-#define PAC_INTFLAGAHB_REG_OFST        (0x10)              /**< (PAC_INTFLAGAHB) Bridge interrupt flag status Offset */
-#define PAC_INTFLAGA_REG_OFST          (0x14)              /**< (PAC_INTFLAGA) Peripheral interrupt flag status - Bridge A Offset */
-#define PAC_INTFLAGB_REG_OFST          (0x18)              /**< (PAC_INTFLAGB) Peripheral interrupt flag status - Bridge B Offset */
-#define PAC_INTFLAGC_REG_OFST          (0x1C)              /**< (PAC_INTFLAGC) Peripheral interrupt flag status - Bridge C Offset */
-#define PAC_STATUSA_REG_OFST           (0x34)              /**< (PAC_STATUSA) Peripheral write protection status - Bridge A Offset */
-#define PAC_STATUSB_REG_OFST           (0x38)              /**< (PAC_STATUSB) Peripheral write protection status - Bridge B Offset */
-#define PAC_STATUSC_REG_OFST           (0x3C)              /**< (PAC_STATUSC) Peripheral write protection status - Bridge C Offset */
+#define PAC_WRCTRL_REG_OFST            (0x00)              /* (PAC_WRCTRL) Write control Offset */
+#define PAC_EVCTRL_REG_OFST            (0x04)              /* (PAC_EVCTRL) Event control Offset */
+#define PAC_INTENCLR_REG_OFST          (0x08)              /* (PAC_INTENCLR) Interrupt enable clear Offset */
+#define PAC_INTENSET_REG_OFST          (0x09)              /* (PAC_INTENSET) Interrupt enable set Offset */
+#define PAC_INTFLAGAHB_REG_OFST        (0x10)              /* (PAC_INTFLAGAHB) Bridge interrupt flag status Offset */
+#define PAC_INTFLAGA_REG_OFST          (0x14)              /* (PAC_INTFLAGA) Peripheral interrupt flag status - Bridge A Offset */
+#define PAC_INTFLAGB_REG_OFST          (0x18)              /* (PAC_INTFLAGB) Peripheral interrupt flag status - Bridge B Offset */
+#define PAC_INTFLAGC_REG_OFST          (0x1C)              /* (PAC_INTFLAGC) Peripheral interrupt flag status - Bridge C Offset */
+#define PAC_STATUSA_REG_OFST           (0x34)              /* (PAC_STATUSA) Peripheral write protection status - Bridge A Offset */
+#define PAC_STATUSB_REG_OFST           (0x38)              /* (PAC_STATUSB) Peripheral write protection status - Bridge B Offset */
+#define PAC_STATUSC_REG_OFST           (0x3C)              /* (PAC_STATUSC) Peripheral write protection status - Bridge C Offset */
 
 #if !(defined(__ASSEMBLER__) || defined(__IAR_SYSTEMS_ASM__))
 /** \brief PAC register API structure */

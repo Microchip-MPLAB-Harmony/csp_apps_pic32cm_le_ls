@@ -58,9 +58,21 @@
 void PM_Initialize( void )
 {
     /* Configure PM */
-    PM_REGS->PM_STDBYCFG = (uint16_t)(PM_STDBYCFG_BBIASHS_Msk| PM_STDBYCFG_VREGSMOD(0UL)| PM_STDBYCFG_DPGPDSW_Msk| PM_STDBYCFG_BBIASTR_Msk| PM_STDBYCFG_PDCFG_Msk);
+    PM_REGS->PM_STDBYCFG = (uint16_t)(PM_STDBYCFG_BBIASHS_Msk| PM_STDBYCFG_VREGSMOD(0UL)| PM_STDBYCFG_BBIASTR_Msk| PM_STDBYCFG_PDCFG_Msk);
 
-    PM_REGS->PM_PLCFG = (uint8_t)PM_PLCFG_PLDIS_Msk;
+    /* Clear INTFLAG.PLRDY */
+    PM_REGS->PM_INTFLAG |= (uint8_t)PM_INTENCLR_PLRDY_Msk;
+
+    if ((PM_REGS->PM_PLCFG & PM_PLCFG_PLSEL_Msk) != PM_PLCFG_PLSEL_PL2)
+    {
+        /* Configure performance level */
+        PM_REGS->PM_PLCFG = (uint8_t)PM_PLCFG_PLSEL_PL2;
+
+        while((PM_REGS->PM_INTFLAG & PM_INTFLAG_PLRDY_Msk) == 0U)
+        {
+            /* Wait for performance level transition to complete */
+        }
+    }
 }
 
 void PM_IdleModeEnter( void )

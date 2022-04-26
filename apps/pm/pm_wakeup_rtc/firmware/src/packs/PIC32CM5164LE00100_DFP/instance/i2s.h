@@ -20,7 +20,7 @@
  *
  */
 
-/* file generated from device description version 2021-06-28T10:08:20Z */
+/* file generated from device description version 2021-11-12T10:10:54Z */
 #ifndef _PIC32CMLE00_I2S_INSTANCE_
 #define _PIC32CMLE00_I2S_INSTANCE_
 
@@ -29,6 +29,10 @@
 #define I2S_CLK_NUM                              _UL_(2)    /* Number of clock units */
 #define I2S_GCLK_ID_0                            _UL_(33)   /* Index of Generic Clock 0 */
 #define I2S_GCLK_ID_1                            _UL_(34)   /* Index of Generic Clock 1 */
+#define I2S_DMAC_ID_RX_0                         _UL_(47)   /* Index of DMA RX Trigger 0 */
+#define I2S_DMAC_ID_RX_1                         _UL_(48)   /* Index of DMA RX Trigger 1 */
+#define I2S_DMAC_ID_TX_0                         _UL_(49)   /* Index of DMA TX Trigger 0 */
+#define I2S_DMAC_ID_TX_1                         _UL_(50)   /* Index of DMA TX Trigger 1 */
 #define I2S_MAX_SLOTS                            _UL_(8)    /* Max number of data slots in frame */
 #define I2S_MAX_WL_BITS                          _UL_(32)   /* Max number of bits in data samples */
 #define I2S_SER_NUM                              _UL_(2)    /* Number of serializers */
