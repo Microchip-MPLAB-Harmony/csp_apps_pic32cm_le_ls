@@ -226,7 +226,7 @@ void TC0_CompareInterruptHandler( void )
         status = TC0_REGS->COUNT8.TC_INTFLAG;
         /* clear interrupt flag */
         TC0_REGS->COUNT8.TC_INTFLAG = (uint8_t)TC_INTFLAG_Msk;
-        if((status != TC_COMPARE_STATUS_NONE) && TC0_CallbackObject.callback != NULL)
+        if((status != TC_COMPARE_STATUS_NONE) && (TC0_CallbackObject.callback != NULL))
         {
             TC0_CallbackObject.callback(status, TC0_CallbackObject.context);
         }
