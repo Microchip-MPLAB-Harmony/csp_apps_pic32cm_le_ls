@@ -1,5 +1,5 @@
 /*******************************************************************************
- Debug Console Source file 
+ Debug Console Source file
 
   Company:
     Microchip Technology Inc.
@@ -37,21 +37,41 @@
 * ANY WAY RELATED TO THIS SOFTWARE WILL NOT EXCEED THE AMOUNT OF FEES, IF ANY,
 * THAT YOU HAVE PAID DIRECTLY TO MICROCHIP FOR THIS SOFTWARE.
 *******************************************************************************/
-
+#include <stddef.h>
 #include "definitions.h"
 
-int _mon_getc(int canblock)
+/* Declaration of these functions are missing in stdio_s.h for ARM parts*/
+/* MISRAC 2012 deviation block start */
+/* MISRA C-2012 Rule 21.2 deviated four times.  Deviation record ID -  H3_MISRAC_2012_R_21_2_DR_1 */
+
+
+int read(int handle, void *buffer, unsigned int len)
 {
-   volatile int c = 0;
-   while(SERCOM3_USART_Read((void*)&c, 1) != true);
-   return c;
+    int nChars = 0;
+    bool success = false;
+    (void)len;
+    if ((handle == 0)  && (len > 0))
+    {
+        do
+        {
+            success = SERCOM3_USART_Read(buffer, 1);
+        }while( !success);
+        nChars = 1;
+    }
+    return nChars;
 }
 
-void _mon_putc(char c)
+int write(int handle, void * buffer, size_t count)
 {
-   uint8_t size = 0;
-   do
+   bool success = false;
+   if (handle == 1)
    {
-       size = SERCOM3_USART_Write((void*)&c, 1);
-   }while (size != 1);
+       do
+       {
+           success = SERCOM3_USART_Write(buffer, count);
+       }while( !success);
+   }
+   return count;
 }
+
+/* MISRAC 2012 deviation block end */
