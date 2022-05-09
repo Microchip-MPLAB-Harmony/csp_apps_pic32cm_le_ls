@@ -1,18 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <configurationDescriptor version="65">
-  <logicalFolder name="root" displayName="root" projectFiles="true">
-    <logicalFolder name="HeaderFiles"
-                   displayName="Header Files"
-                   projectFiles="true">
-      <logicalFolder name="config" displayName="config" projectFiles="true">
-        <logicalFolder name="pic32cm_ls60_cpro"
-                       displayName="pic32cm_ls60_cpro"
-                       projectFiles="true">
-          <logicalFolder name="peripheral" displayName="peripheral" projectFiles="true">
-            <logicalFolder name="nvic" displayName="nvic" projectFiles="true">
+  <logicalFolder displayName="root" name="root" projectFiles="true">
+    <logicalFolder displayName="Header Files" name="HeaderFiles" projectFiles="true">
+      <logicalFolder displayName="config" name="f1" projectFiles="true">
+        <logicalFolder displayName="pic32cm_ls60_cpro" name="f1" projectFiles="true">
+          <logicalFolder displayName="peripheral" name="f1" projectFiles="true">
+            <logicalFolder displayName="nvic" name="f1" projectFiles="true">
               <itemPath>../src/config/pic32cm_ls60_cpro/peripheral/nvic/plib_nvic.h</itemPath>
             </logicalFolder>
-            <logicalFolder name="port" displayName="port" projectFiles="true">
+            <logicalFolder displayName="port" name="f2" projectFiles="true">
               <itemPath>../src/config/pic32cm_ls60_cpro/peripheral/port/plib_port.h</itemPath>
             </logicalFolder>
           </logicalFolder>
@@ -24,11 +20,11 @@
           <itemPath>../src/config/pic32cm_ls60_cpro/device.h</itemPath>
         </logicalFolder>
       </logicalFolder>
-      <logicalFolder name="packs" displayName="packs" projectFiles="true">
-        <logicalFolder name="CMSIS" displayName="CMSIS" projectFiles="true">
-          <logicalFolder name="CMSIS" displayName="CMSIS" projectFiles="true">
-            <logicalFolder name="Core" displayName="Core" projectFiles="true">
-              <logicalFolder name="Include" displayName="Include" projectFiles="true">
+      <logicalFolder displayName="packs" name="f2" projectFiles="true">
+        <logicalFolder displayName="CMSIS" name="f1" projectFiles="true">
+          <logicalFolder displayName="CMSIS" name="f1" projectFiles="true">
+            <logicalFolder displayName="Core" name="f1" projectFiles="true">
+              <logicalFolder displayName="Include" name="f1" projectFiles="true">
                 <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/cmsis_iccarm.h</itemPath>
                 <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/core_cm23.h</itemPath>
                 <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/cmsis_gcc.h</itemPath>
@@ -44,10 +40,8 @@
             </logicalFolder>
           </logicalFolder>
         </logicalFolder>
-        <logicalFolder name="PIC32CM5164LS60100_DFP"
-                       displayName="PIC32CM5164LS60100_DFP"
-                       projectFiles="true">
-          <logicalFolder name="component" displayName="component" projectFiles="true">
+        <logicalFolder displayName="PIC32CM5164LS60100_DFP" name="f2" projectFiles="true">
+          <logicalFolder displayName="component" name="f1" projectFiles="true">
             <itemPath>../src/packs/PIC32CM5164LS60100_DFP/component/opamp.h</itemPath>
             <itemPath>../src/packs/PIC32CM5164LS60100_DFP/component/tram.h</itemPath>
             <itemPath>../src/packs/PIC32CM5164LS60100_DFP/component/tcc.h</itemPath>
@@ -81,7 +75,7 @@
             <itemPath>../src/packs/PIC32CM5164LS60100_DFP/component/sercom.h</itemPath>
             <itemPath>../src/packs/PIC32CM5164LS60100_DFP/component/trng.h</itemPath>
           </logicalFolder>
-          <logicalFolder name="instance" displayName="instance" projectFiles="true">
+          <logicalFolder displayName="instance" name="f2" projectFiles="true">
             <itemPath>../src/packs/PIC32CM5164LS60100_DFP/instance/sercom2.h</itemPath>
             <itemPath>../src/packs/PIC32CM5164LS60100_DFP/instance/port.h</itemPath>
             <itemPath>../src/packs/PIC32CM5164LS60100_DFP/instance/tcc2.h</itemPath>
@@ -125,43 +119,35 @@
             <itemPath>../src/packs/PIC32CM5164LS60100_DFP/instance/opamp.h</itemPath>
             <itemPath>../src/packs/PIC32CM5164LS60100_DFP/instance/adc.h</itemPath>
           </logicalFolder>
-          <logicalFolder name="pio" displayName="pio" projectFiles="true">
+          <logicalFolder displayName="pio" name="f3" projectFiles="true">
             <itemPath>../src/packs/PIC32CM5164LS60100_DFP/pio/pic32cm5164ls60100.h</itemPath>
           </logicalFolder>
           <itemPath>../src/packs/PIC32CM5164LS60100_DFP/pic32cm5164ls60100.h</itemPath>
         </logicalFolder>
       </logicalFolder>
-      <logicalFolder name="trustZone" displayName="trustZone" projectFiles="true">
+      <logicalFolder displayName="trustZone" name="f3" projectFiles="true">
         <itemPath>../src/trustZone/nonsecure_entry_boot.h</itemPath>
       </logicalFolder>
     </logicalFolder>
-    <logicalFolder name="LinkerScript"
-                   displayName="Linker Files"
-                   projectFiles="true">
-      <logicalFolder name="config" displayName="config" projectFiles="true">
-        <logicalFolder name="pic32cm_ls60_cpro"
-                       displayName="pic32cm_ls60_cpro"
-                       projectFiles="true">
+    <logicalFolder displayName="Linker Files" name="LinkerScript" projectFiles="true">
+      <logicalFolder displayName="config" name="f1" projectFiles="true">
+        <logicalFolder displayName="pic32cm_ls60_cpro" name="f1" projectFiles="true">
           <itemPath>../src/config/pic32cm_ls60_cpro/PIC32CM5164LS60100.ld</itemPath>
         </logicalFolder>
       </logicalFolder>
     </logicalFolder>
-    <logicalFolder name="SourceFiles"
-                   displayName="Source Files"
-                   projectFiles="true">
-      <logicalFolder name="config" displayName="config" projectFiles="true">
-        <logicalFolder name="pic32cm_ls60_cpro"
-                       displayName="pic32cm_ls60_cpro"
-                       projectFiles="true">
-          <logicalFolder name="peripheral" displayName="peripheral" projectFiles="true">
-            <logicalFolder name="nvic" displayName="nvic" projectFiles="true">
+    <logicalFolder displayName="Source Files" name="SourceFiles" projectFiles="true">
+      <logicalFolder displayName="config" name="f1" projectFiles="true">
+        <logicalFolder displayName="pic32cm_ls60_cpro" name="f1" projectFiles="true">
+          <logicalFolder displayName="peripheral" name="f1" projectFiles="true">
+            <logicalFolder displayName="nvic" name="f1" projectFiles="true">
               <itemPath>../src/config/pic32cm_ls60_cpro/peripheral/nvic/plib_nvic.c</itemPath>
             </logicalFolder>
-            <logicalFolder name="port" displayName="port" projectFiles="true">
+            <logicalFolder displayName="port" name="f2" projectFiles="true">
               <itemPath>../src/config/pic32cm_ls60_cpro/peripheral/port/plib_port.c</itemPath>
             </logicalFolder>
           </logicalFolder>
-          <logicalFolder name="stdio" displayName="stdio" projectFiles="true">
+          <logicalFolder displayName="stdio" name="f2" projectFiles="true">
             <itemPath>../src/config/pic32cm_ls60_cpro/stdio/xc32_monitor.c</itemPath>
           </logicalFolder>
           <itemPath>../src/config/pic32cm_ls60_cpro/interrupts.c</itemPath>
@@ -173,11 +159,10 @@
       </logicalFolder>
       <itemPath>../src/main.c</itemPath>
     </logicalFolder>
-    <logicalFolder name="ExternalFiles"
-                   displayName="Important Files"
-                   projectFiles="false">
+    <logicalFolder displayName="Important Files" name="ExternalFiles" projectFiles="true">
       <itemPath>Makefile</itemPath>
       <itemPath>trustZone_basic_with_secureboot_BS_pic32cm_ls60_cpro_NonSecure.mc3</itemPath>
+      <itemPath>../src/config/pic32cm_ls60_cpro/harmony-manifest-success.yml</itemPath>
     </logicalFolder>
   </logicalFolder>
   <projectmakefile>Makefile</projectmakefile>
@@ -186,8 +171,8 @@
       <toolsSet>
         <developmentServer>localhost</developmentServer>
         <targetDevice>PIC32CM5164LS60100</targetDevice>
-        <targetHeader></targetHeader>
-        <targetPluginBoard></targetPluginBoard>
+        <targetHeader/>
+        <targetPluginBoard/>
         <platformTool>noID</platformTool>
         <languageToolchain>XC32</languageToolchain>
         <languageToolchainVersion>4.00</languageToolchainVersion>
@@ -207,24 +192,11 @@
         <archiverTool>
         </archiverTool>
         <loading>
-          <makeArtifact PL="../../../Secure/firmware/pic32cm_ls60_cpro_Secure.X"
-                        CT="1"
-                        CN="pic32cm_ls60_cpro"
-                        AC="true"
-                        BL="true"
-                        WD="../../../Secure/firmware/pic32cm_ls60_cpro_Secure.X"
-                        BC="${MAKE}  -f Makefile CONF=pic32cm_ls60_cpro"
-                        DBC="${MAKE}  -f Makefile CONF=pic32cm_ls60_cpro TYPE_IMAGE=DEBUG_RUN"
-                        CC="rm -rf &quot;build/pic32cm_ls60_cpro&quot; &quot;dist/pic32cm_ls60_cpro&quot;"
-                        OP="dist/pic32cm_ls60_cpro/production/pic32cm_ls60_cpro_Secure.X.production.hex"
-                        DOP="dist/pic32cm_ls60_cpro/debug/pic32cm_ls60_cpro_Secure.X.debug.elf"
-                        FL="dist/pic32cm_ls60_cpro/production/pic32cm_ls60_cpro_Secure.X.production.hex"
-                        PD="dist/pic32cm_ls60_cpro/production/pic32cm_ls60_cpro_Secure.X.production.elf"
-                        DD="dist/pic32cm_ls60_cpro/debug/pic32cm_ls60_cpro_Secure.X.debug.elf">
+          <makeArtifact AC="true" BC="${MAKE}  -f Makefile CONF=pic32cm_ls60_cpro" BL="true" CC="rm -rf &quot;build/pic32cm_ls60_cpro&quot; &quot;dist/pic32cm_ls60_cpro&quot;" CN="pic32cm_ls60_cpro" CT="1" DBC="${MAKE}  -f Makefile CONF=pic32cm_ls60_cpro TYPE_IMAGE=DEBUG_RUN" DD="dist/pic32cm_ls60_cpro/debug/pic32cm_ls60_cpro_Secure.X.debug.elf" DOP="dist/pic32cm_ls60_cpro/debug/pic32cm_ls60_cpro_Secure.X.debug.elf" FL="dist/pic32cm_ls60_cpro/production/pic32cm_ls60_cpro_Secure.X.production.hex" OP="dist/pic32cm_ls60_cpro/production/pic32cm_ls60_cpro_Secure.X.production.hex" PD="dist/pic32cm_ls60_cpro/production/pic32cm_ls60_cpro_Secure.X.production.elf" PL="../../../Secure/firmware/pic32cm_ls60_cpro_Secure.X" WD="../../../Secure/firmware/pic32cm_ls60_cpro_Secure.X">
           </makeArtifact>
           <useAlternateLoadableFile>false</useAlternateLoadableFile>
           <parseOnProdLoad>false</parseOnProdLoad>
-          <alternateLoadableFile></alternateLoadableFile>
+          <alternateLoadableFile/>
         </loading>
         <subordinates>
         </subordinates>
@@ -232,9 +204,9 @@
       <makeCustomizationType>
         <makeCustomizationPreStepEnabled>false</makeCustomizationPreStepEnabled>
         <makeUseCleanTarget>false</makeUseCleanTarget>
-        <makeCustomizationPreStep></makeCustomizationPreStep>
+        <makeCustomizationPreStep/>
         <makeCustomizationPostStepEnabled>false</makeCustomizationPostStepEnabled>
-        <makeCustomizationPostStep></makeCustomizationPostStep>
+        <makeCustomizationPostStep/>
         <makeCustomizationPutChecksumInUserID>false</makeCustomizationPutChecksumInUserID>
         <makeCustomizationEnableLongLines>false</makeCustomizationEnableLongLines>
         <makeCustomizationNormalizeHexFile>false</makeCustomizationNormalizeHexFile>
@@ -248,8 +220,7 @@
         <property key="enable-symbols" value="true"/>
         <property key="enable-unroll-loops" value="false"/>
         <property key="exclude-floating-point" value="false"/>
-        <property key="extra-include-directories"
-                  value="../src;../src/config/pic32cm_ls60_cpro;../src/packs/CMSIS/;../src/packs/CMSIS/CMSIS/Core/Include;../src/packs/PIC32CM5164LS60100_DFP"/>
+        <property key="extra-include-directories" value="../src;../src/config/pic32cm_ls60_cpro;../src/packs/CMSIS/;../src/packs/CMSIS/CMSIS/Core/Include;../src/packs/PIC32CM5164LS60100_DFP"/>
         <property key="generate-16-bit-code" value="false"/>
         <property key="generate-micro-compressed-code" value="false"/>
         <property key="isolate-each-function" value="true"/>
@@ -326,8 +297,7 @@
         <property key="no-startup-files" value="false"/>
         <property key="oXC32ld-extra-opts" value=""/>
         <property key="optimization-level" value=""/>
-        <property key="preprocessor-macros"
-                  value="AS_SIZE=0x2aa00;BOOTPROT_SIZE=0x2aa00;NONSECURE;RS_SIZE=0x8000"/>
+        <property key="preprocessor-macros" value="AS_SIZE=0x2aa00;BOOTPROT_SIZE=0x2aa00;NONSECURE;RS_SIZE=0x8000"/>
         <property key="remove-unused-sections" value="true"/>
         <property key="report-memory-usage" value="false"/>
         <property key="serial-length" value=""/>
@@ -350,8 +320,7 @@
         <property key="enable-unroll-loops" value="false"/>
         <property key="exceptions" value="true"/>
         <property key="exclude-floating-point" value="false"/>
-        <property key="extra-include-directories"
-                  value="../src;../src/config/pic32cm_ls60_cpro;../src/packs/CMSIS/;../src/packs/CMSIS/CMSIS/Core/Include;../src/packs/PIC32CM5164LS60100_DFP"/>
+        <property key="extra-include-directories" value="../src;../src/config/pic32cm_ls60_cpro;../src/packs/CMSIS/;../src/packs/CMSIS/CMSIS/Core/Include;../src/packs/PIC32CM5164LS60100_DFP"/>
         <property key="generate-16-bit-code" value="false"/>
         <property key="generate-micro-compressed-code" value="false"/>
         <property key="isolate-each-function" value="true"/>

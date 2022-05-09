@@ -1,6 +1,6 @@
-format_version: v1.0
 configName: pic32cm_ls60_cpro
 folderName: trustZone_basic_with_secureboot_BS_pic32cm_ls60_cpro_NonSecure
+format_version: v1.0
 frameworkPath: C:\HF
 processor: PIC32CM5164LS60100
 projectName: trustZone_basic_with_secureboot_BS_pic32cm_ls60_cpro_NonSecure
