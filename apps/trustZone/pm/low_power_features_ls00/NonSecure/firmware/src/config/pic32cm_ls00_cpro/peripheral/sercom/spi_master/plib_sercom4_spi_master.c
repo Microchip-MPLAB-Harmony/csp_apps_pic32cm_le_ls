@@ -165,10 +165,16 @@ bool SERCOM4_SPI_TransferSetup(SPI_TRANSFER_SETUP *setup, uint32_t spiSourceCloc
 
     if(setup != NULL)
     {
-        baudValue = (spiSourceClock/(2U*(setup->clockFrequency))) - 1U;
-
-        if((baudValue > 0U) && (baudValue <= 255U))
+        if (setup->clockFrequency <= spiSourceClock/2U)
         {
+            baudValue = (spiSourceClock/(2U*(setup->clockFrequency))) - 1U;
+
+            /* Set the lowest possible baud */
+            if (baudValue >= 255U)
+            {
+                baudValue = 255U;
+            }
+
             /* Selection of the Clock Polarity and Clock Phase */
             SERCOM4_REGS->SPIM.SERCOM_CTRLA &= ~(SERCOM_SPIM_CTRLA_CPOL_Msk | SERCOM_SPIM_CTRLA_CPHA_Msk);
             SERCOM4_REGS->SPIM.SERCOM_CTRLA |= (uint32_t)setup->clockPolarity | (uint32_t)setup->clockPhase;
@@ -206,7 +212,7 @@ bool SERCOM4_SPI_TransferSetup(SPI_TRANSFER_SETUP *setup, uint32_t spiSourceCloc
 
 bool SERCOM4_SPI_IsTransmitterBusy(void)
 {
-    return ((SERCOM4_REGS->SPIM.SERCOM_INTFLAG & SERCOM_SPIM_INTFLAG_TXC_Msk) == 0)? true : false;
+    return ((SERCOM4_REGS->SPIM.SERCOM_INTFLAG & SERCOM_SPIM_INTFLAG_TXC_Msk) == 0U)? true : false;
 }
 
 // *****************************************************************************
@@ -312,11 +318,13 @@ bool SERCOM4_SPI_WriteRead (void* pTransmitData, size_t txSize, void* pReceiveDa
             {
                 if(dataBits == (uint32_t)SPI_DATA_BITS_8)
                 {
-                    SERCOM4_REGS->SPIM.SERCOM_DATA = ((uint8_t*)pTransmitData)[txCount++];
+                    SERCOM4_REGS->SPIM.SERCOM_DATA = ((uint8_t*)pTransmitData)[txCount];
+                    txCount++;
                 }
                 else
                 {
-                    SERCOM4_REGS->SPIM.SERCOM_DATA = ((uint16_t*)pTransmitData)[txCount++] & SERCOM_SPIM_DATA_Msk;
+                    SERCOM4_REGS->SPIM.SERCOM_DATA = ((uint16_t*)pTransmitData)[txCount] & SERCOM_SPIM_DATA_Msk;
+                    txCount++;
                 }
             }
             else if(dummySize > 0U)
