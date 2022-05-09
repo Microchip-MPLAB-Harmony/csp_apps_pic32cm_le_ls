@@ -56,8 +56,8 @@
 #include "peripheral/dmac/plib_dmac.h"
 #include "peripheral/pm/plib_pm.h"
 #include "peripheral/sercom/spi_master/plib_sercom4_spi_master.h"
-#include "peripheral/adc/plib_adc.h"
 #include "peripheral/supc/plib_supc.h"
+#include "peripheral/adc/plib_adc.h"
 #include "peripheral/eic/plib_eic.h"
 #include "peripheral/rtc/plib_rtc.h"
 
