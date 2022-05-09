@@ -1,6 +1,6 @@
-format_version: v1.0
 configName: pic32cm_ls00_cpro
 folderName: trustZone_with_SBoot_BS_pic32cm_ls00_cpro_NonSecure
+format_version: v1.0
 frameworkPath: C:\HF
 processor: PIC32CM5164LS00100
 projectName: trustZone_with_SBoot_BS_pic32cm_ls00_cpro_NonSecure
