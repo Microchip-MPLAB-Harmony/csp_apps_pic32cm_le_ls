@@ -94,17 +94,15 @@ typedef enum
 
 typedef uint32_t RTC_CLOCK_INT_MASK;
 
-typedef enum
-{
-    TAMPER_CHANNEL_0 = 0U,
-    TAMPER_CHANNEL_1 = 1U,
-    TAMPER_CHANNEL_2 = 2U,
-    TAMPER_CHANNEL_3 = 3U,
-    TAMPER_CHANNEL_4 = 4U,
-    TAMPER_CHANNEL_5 = 5U,
-    TAMPER_CHANNEL_6 = 6U,
-    TAMPER_CHANNEL_7 = 7U,
-} TAMPER_CHANNEL;
+ #define   TAMPER_CHANNEL_0  (0U)
+ #define   TAMPER_CHANNEL_1  (1U)
+ #define   TAMPER_CHANNEL_2  (2U)
+ #define   TAMPER_CHANNEL_3  (3U)
+ #define   TAMPER_CHANNEL_4  (4U)
+ #define   TAMPER_CHANNEL_5  (5U)
+ #define   TAMPER_CHANNEL_6  (6U)
+ #define   TAMPER_CHANNEL_7  (7U)
+typedef uint32_t TAMPER_CHANNEL;
 typedef void (*RTC_CALLBACK)( RTC_CLOCK_INT_MASK intCause, uintptr_t context );
 
 typedef struct
@@ -116,6 +114,8 @@ typedef struct
 } RTC_OBJECT;
 
 void RTC_Initialize(void);
+void RTC_RTCCClockSyncEnable ( void );
+void RTC_RTCCClockSyncDisable ( void );
 bool RTC_RTCCTimeSet (struct tm * initialTime );
 void RTC_RTCCTimeGet ( struct tm * currentTime );
 bool RTC_RTCCAlarmSet ( struct tm * alarmTime, RTC_ALARM_MASK mask );
