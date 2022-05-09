@@ -100,14 +100,14 @@ children:
       - type: Dynamic
         attributes: {id: eic, value: 'true'}
   - type: KeyValueSet
-    attributes: {id: FUSE_SYMBOL_VALUE5}
+    attributes: {id: FUSE_SYMBOL_VALUE6}
     children:
     - type: Values
       children:
       - type: User
         attributes: {value: '1'}
   - type: Hex
-    attributes: {id: FUSE_SYMBOL_VALUE7}
+    attributes: {id: FUSE_SYMBOL_VALUE8}
     children:
     - type: Values
       children:
