@@ -1,26 +1,28 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <configurationDescriptor version="65">
-  <logicalFolder displayName="root" name="root" projectFiles="true">
-    <logicalFolder displayName="Header Files" name="HeaderFiles" projectFiles="true">
-      <logicalFolder displayName="config" name="f1" projectFiles="true">
-        <logicalFolder displayName="pic32cm_ls60_cpro" name="f1" projectFiles="true">
-          <logicalFolder displayName="peripheral" name="f1" projectFiles="true">
-            <logicalFolder displayName="clock" name="f1" projectFiles="true">
+  <logicalFolder name="root" displayName="root" projectFiles="true">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <logicalFolder name="f1" displayName="config" projectFiles="true">
+        <logicalFolder name="f1" displayName="pic32cm_ls60_cpro" projectFiles="true">
+          <logicalFolder name="f1" displayName="peripheral" projectFiles="true">
+            <logicalFolder name="f1" displayName="clock" projectFiles="true">
               <itemPath>../src/config/pic32cm_ls60_cpro/peripheral/clock/plib_clock.h</itemPath>
             </logicalFolder>
-            <logicalFolder displayName="evsys" name="f2" projectFiles="true">
+            <logicalFolder name="f2" displayName="evsys" projectFiles="true">
               <itemPath>../src/config/pic32cm_ls60_cpro/peripheral/evsys/plib_evsys.h</itemPath>
             </logicalFolder>
-            <logicalFolder displayName="nvic" name="f3" projectFiles="true">
+            <logicalFolder name="f3" displayName="nvic" projectFiles="true">
               <itemPath>../src/config/pic32cm_ls60_cpro/peripheral/nvic/plib_nvic.h</itemPath>
             </logicalFolder>
-            <logicalFolder displayName="nvmctrl" name="f4" projectFiles="true">
+            <logicalFolder name="f4" displayName="nvmctrl" projectFiles="true">
               <itemPath>../src/config/pic32cm_ls60_cpro/peripheral/nvmctrl/plib_nvmctrl.h</itemPath>
             </logicalFolder>
-            <logicalFolder displayName="pm" name="f5" projectFiles="true">
+            <logicalFolder name="f5" displayName="pm" projectFiles="true">
               <itemPath>../src/config/pic32cm_ls60_cpro/peripheral/pm/plib_pm.h</itemPath>
             </logicalFolder>
-            <logicalFolder displayName="port" name="f6" projectFiles="true">
+            <logicalFolder name="f6" displayName="port" projectFiles="true">
               <itemPath>../src/config/pic32cm_ls60_cpro/peripheral/port/plib_port.h</itemPath>
             </logicalFolder>
           </logicalFolder>
@@ -31,11 +33,11 @@
           <itemPath>../src/config/pic32cm_ls60_cpro/device_vectors.h</itemPath>
         </logicalFolder>
       </logicalFolder>
-      <logicalFolder displayName="packs" name="f2" projectFiles="true">
-        <logicalFolder displayName="CMSIS" name="f1" projectFiles="true">
-          <logicalFolder displayName="CMSIS" name="f1" projectFiles="true">
-            <logicalFolder displayName="Core" name="f1" projectFiles="true">
-              <logicalFolder displayName="Include" name="f1" projectFiles="true">
+      <logicalFolder name="f2" displayName="packs" projectFiles="true">
+        <logicalFolder name="f1" displayName="CMSIS" projectFiles="true">
+          <logicalFolder name="f1" displayName="CMSIS" projectFiles="true">
+            <logicalFolder name="f1" displayName="Core" projectFiles="true">
+              <logicalFolder name="f1" displayName="Include" projectFiles="true">
                 <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/tz_context.h</itemPath>
                 <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/cachel1_armv7.h</itemPath>
                 <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/mpu_armv8.h</itemPath>
@@ -51,8 +53,10 @@
             </logicalFolder>
           </logicalFolder>
         </logicalFolder>
-        <logicalFolder displayName="PIC32CM5164LS60100_DFP" name="f2" projectFiles="true">
-          <logicalFolder displayName="component" name="f1" projectFiles="true">
+        <logicalFolder name="f2"
+                       displayName="PIC32CM5164LS60100_DFP"
+                       projectFiles="true">
+          <logicalFolder name="f1" displayName="component" projectFiles="true">
             <itemPath>../src/packs/PIC32CM5164LS60100_DFP/component/tram.h</itemPath>
             <itemPath>../src/packs/PIC32CM5164LS60100_DFP/component/wdt.h</itemPath>
             <itemPath>../src/packs/PIC32CM5164LS60100_DFP/component/usb.h</itemPath>
@@ -86,7 +90,7 @@
             <itemPath>../src/packs/PIC32CM5164LS60100_DFP/component/port.h</itemPath>
             <itemPath>../src/packs/PIC32CM5164LS60100_DFP/component/opamp.h</itemPath>
           </logicalFolder>
-          <logicalFolder displayName="instance" name="f2" projectFiles="true">
+          <logicalFolder name="f2" displayName="instance" projectFiles="true">
             <itemPath>../src/packs/PIC32CM5164LS60100_DFP/instance/usb.h</itemPath>
             <itemPath>../src/packs/PIC32CM5164LS60100_DFP/instance/rstc.h</itemPath>
             <itemPath>../src/packs/PIC32CM5164LS60100_DFP/instance/tcc0.h</itemPath>
@@ -130,7 +134,7 @@
             <itemPath>../src/packs/PIC32CM5164LS60100_DFP/instance/dac.h</itemPath>
             <itemPath>../src/packs/PIC32CM5164LS60100_DFP/instance/ccl.h</itemPath>
           </logicalFolder>
-          <logicalFolder displayName="pio" name="f3" projectFiles="true">
+          <logicalFolder name="f3" displayName="pio" projectFiles="true">
             <itemPath>../src/packs/PIC32CM5164LS60100_DFP/pio/pic32cm5164ls60100.h</itemPath>
           </logicalFolder>
           <itemPath>../src/packs/PIC32CM5164LS60100_DFP/pic32cm5164ls60100.h</itemPath>
@@ -138,37 +142,49 @@
       </logicalFolder>
       <itemPath>../src/config/pic32cm_ls60_cpro/device.h</itemPath>
     </logicalFolder>
-    <logicalFolder displayName="Linker Files" name="LinkerScript" projectFiles="true">
-      <logicalFolder displayName="config" name="f1" projectFiles="true">
-        <logicalFolder displayName="pic32cm_ls60_cpro" name="f1" projectFiles="true">
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="true">
+      <itemPath>Makefile</itemPath>
+      <itemPath>../../../NonSecure/firmware/trustZone_basic_with_secureboot_BS_pic32cm_ls60_cpro_NonSecure.X/trustZone_basic_with_secureboot_BS_pic32cm_ls60_cpro_NonSecure.mc3</itemPath>
+      <itemPath>../../../Secure/firmware/src/config/pic32cm_ls60_cpro/harmony-manifest-success.yml</itemPath>
+      <itemPath>../src/config/pic32cm_ls60_cpro/harmony-manifest-success.yml</itemPath>
+    </logicalFolder>
+    <logicalFolder name="LinkerScript"
+                   displayName="Linker Files"
+                   projectFiles="true">
+      <logicalFolder name="f1" displayName="config" projectFiles="true">
+        <logicalFolder name="f1" displayName="pic32cm_ls60_cpro" projectFiles="true">
           <itemPath>../src/config/pic32cm_ls60_cpro/PIC32CM5164LS60100.ld</itemPath>
         </logicalFolder>
       </logicalFolder>
     </logicalFolder>
-    <logicalFolder displayName="Source Files" name="SourceFiles" projectFiles="true">
-      <logicalFolder displayName="config" name="f1" projectFiles="true">
-        <logicalFolder displayName="pic32cm_ls60_cpro" name="f1" projectFiles="true">
-          <logicalFolder displayName="peripheral" name="f1" projectFiles="true">
-            <logicalFolder displayName="clock" name="f1" projectFiles="true">
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <logicalFolder name="f1" displayName="config" projectFiles="true">
+        <logicalFolder name="f1" displayName="pic32cm_ls60_cpro" projectFiles="true">
+          <logicalFolder name="f1" displayName="peripheral" projectFiles="true">
+            <logicalFolder name="f1" displayName="clock" projectFiles="true">
               <itemPath>../src/config/pic32cm_ls60_cpro/peripheral/clock/plib_clock.c</itemPath>
             </logicalFolder>
-            <logicalFolder displayName="evsys" name="f2" projectFiles="true">
+            <logicalFolder name="f2" displayName="evsys" projectFiles="true">
               <itemPath>../src/config/pic32cm_ls60_cpro/peripheral/evsys/plib_evsys.c</itemPath>
             </logicalFolder>
-            <logicalFolder displayName="nvic" name="f3" projectFiles="true">
+            <logicalFolder name="f3" displayName="nvic" projectFiles="true">
               <itemPath>../src/config/pic32cm_ls60_cpro/peripheral/nvic/plib_nvic.c</itemPath>
             </logicalFolder>
-            <logicalFolder displayName="nvmctrl" name="f4" projectFiles="true">
+            <logicalFolder name="f4" displayName="nvmctrl" projectFiles="true">
               <itemPath>../src/config/pic32cm_ls60_cpro/peripheral/nvmctrl/plib_nvmctrl.c</itemPath>
             </logicalFolder>
-            <logicalFolder displayName="pm" name="f5" projectFiles="true">
+            <logicalFolder name="f5" displayName="pm" projectFiles="true">
               <itemPath>../src/config/pic32cm_ls60_cpro/peripheral/pm/plib_pm.c</itemPath>
             </logicalFolder>
-            <logicalFolder displayName="port" name="f6" projectFiles="true">
+            <logicalFolder name="f6" displayName="port" projectFiles="true">
               <itemPath>../src/config/pic32cm_ls60_cpro/peripheral/port/plib_port.c</itemPath>
             </logicalFolder>
           </logicalFolder>
-          <logicalFolder displayName="stdio" name="f2" projectFiles="true">
+          <logicalFolder name="f2" displayName="stdio" projectFiles="true">
             <itemPath>../src/config/pic32cm_ls60_cpro/stdio/xc32_monitor.c</itemPath>
           </logicalFolder>
           <itemPath>../src/config/pic32cm_ls60_cpro/startup_xc32.c</itemPath>
@@ -178,15 +194,10 @@
           <itemPath>../src/config/pic32cm_ls60_cpro/exceptions.c</itemPath>
         </logicalFolder>
       </logicalFolder>
-      <logicalFolder displayName="trustZone" name="f2" projectFiles="true">
+      <logicalFolder name="f2" displayName="trustZone" projectFiles="true">
         <itemPath>../src/trustZone/nonsecure_entry_boot.c</itemPath>
       </logicalFolder>
       <itemPath>../src/main.c</itemPath>
-    </logicalFolder>
-    <logicalFolder displayName="Important Files" name="ExternalFiles" projectFiles="true">
-      <itemPath>Makefile</itemPath>
-      <itemPath>../../../NonSecure/firmware/trustZone_basic_with_secureboot_BS_pic32cm_ls60_cpro_NonSecure.X/trustZone_basic_with_secureboot_BS_pic32cm_ls60_cpro_NonSecure.mc3</itemPath>
-      <itemPath>../../../Secure/firmware/src/config/pic32cm_ls60_cpro/harmony-manifest-success.yml</itemPath>
     </logicalFolder>
   </logicalFolder>
   <projectmakefile>Makefile</projectmakefile>
@@ -195,16 +206,16 @@
       <toolsSet>
         <developmentServer>localhost</developmentServer>
         <targetDevice>PIC32CM5164LS60100</targetDevice>
-        <targetHeader/>
-        <targetPluginBoard/>
+        <targetHeader></targetHeader>
+        <targetPluginBoard></targetPluginBoard>
         <platformTool>EdbgTool</platformTool>
         <languageToolchain>XC32</languageToolchain>
-        <languageToolchainVersion>4.00</languageToolchainVersion>
+        <languageToolchainVersion>4.10</languageToolchainVersion>
         <platform>3</platform>
       </toolsSet>
       <packs>
+        <pack name="PIC32CM-LS_DFP" vendor="Microchip" version="1.0.155"/>
         <pack name="CMSIS" vendor="ARM" version="5.4.0"/>
-        <pack name="PIC32CM-LS_DFP" vendor="Microchip" version="1.0.154"/>
       </packs>
       <ScriptingSettings>
       </ScriptingSettings>
@@ -218,7 +229,7 @@
         <loading>
           <useAlternateLoadableFile>false</useAlternateLoadableFile>
           <parseOnProdLoad>false</parseOnProdLoad>
-          <alternateLoadableFile/>
+          <alternateLoadableFile></alternateLoadableFile>
         </loading>
         <subordinates>
         </subordinates>
@@ -226,9 +237,9 @@
       <makeCustomizationType>
         <makeCustomizationPreStepEnabled>false</makeCustomizationPreStepEnabled>
         <makeUseCleanTarget>false</makeUseCleanTarget>
-        <makeCustomizationPreStep/>
+        <makeCustomizationPreStep></makeCustomizationPreStep>
         <makeCustomizationPostStepEnabled>false</makeCustomizationPostStepEnabled>
-        <makeCustomizationPostStep/>
+        <makeCustomizationPostStep></makeCustomizationPostStep>
         <makeCustomizationPutChecksumInUserID>false</makeCustomizationPutChecksumInUserID>
         <makeCustomizationEnableLongLines>false</makeCustomizationEnableLongLines>
         <makeCustomizationNormalizeHexFile>false</makeCustomizationNormalizeHexFile>
@@ -241,7 +252,8 @@
         <property key="enable-symbols" value="true"/>
         <property key="enable-unroll-loops" value="false"/>
         <property key="exclude-floating-point" value="false"/>
-        <property key="extra-include-directories" value="../src;../src/config/pic32cm_ls60_cpro;../src/packs/CMSIS/;../src/packs/CMSIS/CMSIS/Core/Include;../src/packs/PIC32CM5164LS60100_DFP"/>
+        <property key="extra-include-directories"
+                  value="../src;../src/config/pic32cm_ls60_cpro;../src/packs/CMSIS/;../src/packs/CMSIS/CMSIS/Core/Include;../src/packs/PIC32CM5164LS60100_DFP"/>
         <property key="generate-16-bit-code" value="false"/>
         <property key="generate-micro-compressed-code" value="false"/>
         <property key="isolate-each-function" value="true"/>
@@ -314,11 +326,12 @@
         <property key="kseg-origin" value=""/>
         <property key="linker-symbols" value=""/>
         <property key="map-file" value="${DISTDIR}/${PROJECTNAME}.${IMAGE_TYPE}.map"/>
-        <property key="no-device-startup-code" value="false;true"/>
+        <property key="no-device-startup-code" value="false"/>
         <property key="no-startup-files" value="false"/>
         <property key="oXC32ld-extra-opts" value=""/>
         <property key="optimization-level" value=""/>
-        <property key="preprocessor-macros" value="ANSC_SIZE=0x800;AS_SIZE=0x2aa00;BNSC_SIZE=0x800;BOOTPROT_SIZE=0x2aa00;RS_SIZE=0x8000;SECURE_BOOTLOADER"/>
+        <property key="preprocessor-macros"
+                  value="ANSC_SIZE=0x800;AS_SIZE=0x2aa00;BNSC_SIZE=0x800;BOOTPROT_SIZE=0x2aa00;RS_SIZE=0x8000;SECURE_BOOTLOADER"/>
         <property key="remove-unused-sections" value="true"/>
         <property key="report-memory-usage" value="false"/>
         <property key="serial-length" value=""/>
@@ -340,7 +353,8 @@
         <property key="enable-unroll-loops" value="false"/>
         <property key="exceptions" value="true"/>
         <property key="exclude-floating-point" value="false"/>
-        <property key="extra-include-directories" value="../src;../src/config/pic32cm_ls60_cpro;../src/packs/CMSIS/;../src/packs/CMSIS/CMSIS/Core/Include;../src/packs/PIC32CM5164LS60100_DFP"/>
+        <property key="extra-include-directories"
+                  value="../src;../src/config/pic32cm_ls60_cpro;../src/packs/CMSIS/;../src/packs/CMSIS/CMSIS/Core/Include;../src/packs/PIC32CM5164LS60100_DFP"/>
         <property key="generate-16-bit-code" value="false"/>
         <property key="generate-micro-compressed-code" value="false"/>
         <property key="isolate-each-function" value="true"/>
@@ -382,8 +396,10 @@
         <property key="debugoptions.debug-startup" value="Use system settings"/>
         <property key="debugoptions.reset-behaviour" value="Use system settings"/>
         <property key="debugoptions.useswbreakpoints" value="false"/>
-        <property key="firmware.path" value="Press to browse for a specific firmware version"/>
-        <property key="firmware.toolpack" value="Press to select which tool pack to use"/>
+        <property key="firmware.path"
+                  value="Press to browse for a specific firmware version"/>
+        <property key="firmware.toolpack"
+                  value="Press to select which tool pack to use"/>
         <property key="firmware.update.action" value="firmware.update.use.latest"/>
         <property key="freeze.timers" value="false"/>
         <property key="lastid" value=""/>
@@ -397,13 +413,15 @@
         <property key="memories.exclude.configurationmemory" value="true"/>
         <property key="memories.flashdata" value="true"/>
         <property key="memories.id" value="true"/>
-        <property key="memories.instruction.ram.ranges" value="${memories.instruction.ram.ranges}"/>
+        <property key="memories.instruction.ram.ranges"
+                  value="${memories.instruction.ram.ranges}"/>
         <property key="memories.programmemory" value="true"/>
         <property key="memories.programmemory.ranges" value="0-7ffff"/>
         <property key="poweroptions.powerenable" value="false"/>
         <property key="programoptions.eraseb4program" value="false"/>
         <property key="programoptions.preservedataflash" value="false"/>
-        <property key="programoptions.preservedataflash.ranges" value="${memories.dataflash.default}"/>
+        <property key="programoptions.preservedataflash.ranges"
+                  value="${memories.dataflash.default}"/>
         <property key="programoptions.preserveeeprom" value="false"/>
         <property key="programoptions.preserveeeprom.ranges" value=""/>
         <property key="programoptions.preserveprogram.ranges" value=""/>
@@ -414,8 +432,10 @@
         <property key="script.log_level" value="1"/>
         <property key="script.reset_delay" value="0"/>
         <property key="script.show_output" value="false"/>
-        <property key="toolpack.updateoptions" value="toolpack.updateoptions.uselatestoolpack"/>
-        <property key="toolpack.updateoptions.packversion" value="Press to select which tool pack to use"/>
+        <property key="toolpack.updateoptions"
+                  value="toolpack.updateoptions.uselatestoolpack"/>
+        <property key="toolpack.updateoptions.packversion"
+                  value="Press to select which tool pack to use"/>
         <property key="voltagevalue" value=""/>
         <property key="x.erase.key" value="0xFFFFFFFF,0xFFFFFFFF,0xFFFFFFFF,0xFFFFFFFF"/>
         <property key="x.erase.type" value="ChipEraseAll"/>
@@ -434,8 +454,10 @@
         <property key="debugoptions.debug-startup" value="Use system settings"/>
         <property key="debugoptions.reset-behaviour" value="Use system settings"/>
         <property key="debugoptions.useswbreakpoints" value="false"/>
-        <property key="firmware.path" value="Press to browse for a specific firmware version"/>
-        <property key="firmware.toolpack" value="Press to select which tool pack to use"/>
+        <property key="firmware.path"
+                  value="Press to browse for a specific firmware version"/>
+        <property key="firmware.toolpack"
+                  value="Press to select which tool pack to use"/>
         <property key="firmware.update.action" value="firmware.update.use.latest"/>
         <property key="freeze.timers" value="false"/>
         <property key="lastid" value=""/>
@@ -449,14 +471,17 @@
         <property key="memories.exclude.configurationmemory" value="true"/>
         <property key="memories.flashdata" value="true"/>
         <property key="memories.id" value="true"/>
-        <property key="memories.instruction.ram.ranges" value="${memories.instruction.ram.ranges}"/>
+        <property key="memories.instruction.ram.ranges"
+                  value="${memories.instruction.ram.ranges}"/>
         <property key="memories.programmemory" value="true"/>
         <property key="memories.programmemory.ranges" value="0-7ffff"/>
         <property key="poweroptions.powerenable" value="false"/>
-        <property key="programmerToGoFilePath" value="C:/HF/csp_apps_pic32cm_le_ls/apps/trustZone/trustZone_basic_SBoot_ls60/BS_App/Secure/firmware/pic32cm_ls60_cpro_Secure.X/debug/pic32cm_ls60_cpro/pic32cm_ls60_cpro_Secure_ptg"/>
+        <property key="programmerToGoFilePath"
+                  value="C:/HF/csp_apps_pic32cm_le_ls/apps/trustZone/trustZone_basic_SBoot_ls60/BS_App/Secure/firmware/pic32cm_ls60_cpro_Secure.X/debug/pic32cm_ls60_cpro/pic32cm_ls60_cpro_Secure_ptg"/>
         <property key="programoptions.eraseb4program" value="false"/>
         <property key="programoptions.preservedataflash" value="false"/>
-        <property key="programoptions.preservedataflash.ranges" value="${memories.dataflash.default}"/>
+        <property key="programoptions.preservedataflash.ranges"
+                  value="${memories.dataflash.default}"/>
         <property key="programoptions.preserveeeprom" value="false"/>
         <property key="programoptions.preserveeeprom.ranges" value=""/>
         <property key="programoptions.preserveprogram.ranges" value=""/>
@@ -467,8 +492,10 @@
         <property key="script.log_level" value="1"/>
         <property key="script.reset_delay" value="0"/>
         <property key="script.show_output" value="false"/>
-        <property key="toolpack.updateoptions" value="toolpack.updateoptions.uselatestoolpack"/>
-        <property key="toolpack.updateoptions.packversion" value="Press to select which tool pack to use"/>
+        <property key="toolpack.updateoptions"
+                  value="toolpack.updateoptions.uselatestoolpack"/>
+        <property key="toolpack.updateoptions.packversion"
+                  value="Press to select which tool pack to use"/>
         <property key="voltagevalue" value=""/>
         <property key="x.erase.key" value="0xFFFFFFFF,0xFFFFFFFF,0xFFFFFFFF,0xFFFFFFFF"/>
         <property key="x.erase.type" value="ChipEraseAll"/>
