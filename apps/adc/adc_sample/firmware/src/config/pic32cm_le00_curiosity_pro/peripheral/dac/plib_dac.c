@@ -61,27 +61,37 @@ void DAC_Initialize (void)
 {
 	/* Reset DAC Peripheral */
     DAC_REGS->DAC_CTRLA = DAC_CTRLA_SWRST_Msk;
-	while (((DAC_REGS->DAC_CTRLA & DAC_CTRLA_SWRST_Msk) == DAC_CTRLA_SWRST_Msk) && ((DAC_REGS->DAC_SYNCBUSY & DAC_SYNCBUSY_SWRST_Msk) == DAC_SYNCBUSY_SWRST_Msk));
+	while (((DAC_REGS->DAC_CTRLA & DAC_CTRLA_SWRST_Msk) == DAC_CTRLA_SWRST_Msk) && ((DAC_REGS->DAC_SYNCBUSY & DAC_SYNCBUSY_SWRST_Msk) == DAC_SYNCBUSY_SWRST_Msk))
+    {
+        /* Do nothing */
+    }
 	
-    DAC_REGS->DAC_CTRLB = DAC_CTRLB_REFSEL (1);
+    DAC_REGS->DAC_CTRLB = DAC_CTRLB_REFSEL (1U);
 
 	
-	DAC_REGS->DAC_DACCTRL[0] = DAC_DACCTRL_ENABLE_Msk | DAC_DACCTRL_CCTRL (0x0) | DAC_DACCTRL_REFRESH (3) ;
+	DAC_REGS->DAC_DACCTRL[0] = DAC_DACCTRL_ENABLE_Msk | DAC_DACCTRL_CCTRL (0x0U) | DAC_DACCTRL_REFRESH (3U) ;
 	
 	
 	/* Enable DAC */
     DAC_REGS->DAC_CTRLA |= DAC_CTRLA_ENABLE_Msk;
-	while ((DAC_REGS->DAC_SYNCBUSY & DAC_SYNCBUSY_ENABLE_Msk) == DAC_SYNCBUSY_ENABLE_Msk);
+	while ((DAC_REGS->DAC_SYNCBUSY & DAC_SYNCBUSY_ENABLE_Msk) == DAC_SYNCBUSY_ENABLE_Msk)
+    {
+        /* Do nothing */
+    }
 }
 
 void DAC_DataWrite (DAC_CHANNEL_NUM channel, uint16_t data)
 {
+    (void)channel;
 	/* Write Data to DATA0 Register for conversion(DATA[11:0]) */
 	DAC_REGS->DAC_DATA[0] = DAC_DATA_MSB_MASK & DAC_DATA_DATA(data);
-	while ((DAC_REGS->DAC_SYNCBUSY & DAC_SYNCBUSY_DATA0_Msk) == DAC_SYNCBUSY_DATA0_Msk);
+	while ((DAC_REGS->DAC_SYNCBUSY & DAC_SYNCBUSY_DATA0_Msk) == DAC_SYNCBUSY_DATA0_Msk)
+    {
+        /* Do nothing */
+    }
 }
 
 bool DAC_IsReady (DAC_CHANNEL_NUM channel)
 {
-    return (bool)(((DAC_REGS->DAC_STATUS >> channel) & DAC_STATUS_READY0_Msk) == DAC_STATUS_READY0_Msk);
+    return (bool)(((DAC_REGS->DAC_STATUS >> (uint32_t)channel) & DAC_STATUS_READY0_Msk) == DAC_STATUS_READY0_Msk);
 }
