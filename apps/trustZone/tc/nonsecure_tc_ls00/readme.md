@@ -44,7 +44,7 @@ To build the application, refer to the following table and open the project usin
 
 | Project Name      | Description                                    |
 | :-----------------: | :----------------------------------------------: |
-| pic32cm_ls00_cpro_Secure.X <br> pic32cm_ls00_cpro_NonSecure.X | Secure and Non-secure MPLABX project for [PIC32CM LS00 Curiosity Pro Evaluation Kit]() |
+| pic32cm_ls00_cpro_Secure.X <br> pic32cm_ls00_cpro_NonSecure.X | Secure and Non-secure MPLABX project for [PIC32CM LS00 Curiosity Pro Evaluation Kit](https://www.microchip.com/en-us/development-tool/EV12U44A) |
 |||
 
 ## Setting up the hardware
@@ -53,10 +53,10 @@ The following table shows the target hardware for the application projects.
 
 | Project Name| Board|
 |:---------|:---------:|
-| pic32cm_ls00_cpro_Secure.X <br> pic32cm_ls00_cpro_NonSecure.X | [PIC32CM LS00 Curiosity Pro Evaluation Kit]() |
+| pic32cm_ls00_cpro_Secure.X <br> pic32cm_ls00_cpro_NonSecure.X | [PIC32CM LS00 Curiosity Pro Evaluation Kit](https://www.microchip.com/en-us/development-tool/EV12U44A) |
 |||
 
-### Setting up [PIC32CM LS00 Curiosity Pro Evaluation Kit]()
+### Setting up [PIC32CM LS00 Curiosity Pro Evaluation Kit](https://www.microchip.com/en-us/development-tool/EV12U44A)
 
 - Connect the Debug USB port on the board to the computer using a micro USB cable
 
@@ -64,5 +64,5 @@ The following table shows the target hardware for the application projects.
 
 1. Open the project group in the MPLAB X IDE and set the non-secure project as main project
 2. Build and program the application
-3. Observe the output for [PIC32CM LS00 Curiosity Pro Evaluation Kit]() as follows:
+3. Observe the output for [PIC32CM LS00 Curiosity Pro Evaluation Kit](https://www.microchip.com/en-us/development-tool/EV12U44A) as follows:
     - LED0(Green) luminosity is decreasing from maximum to minimum based on PWM signal applied by TC0 peripheral in Non-secure project

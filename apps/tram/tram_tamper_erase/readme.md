@@ -26,7 +26,7 @@ To build the application, refer to the following table and open the project usin
 
 | Project Name      | Description                                    |
 | ----------------- | ---------------------------------------------- |
-| pic32cm_le00_curiosity_pro.X | MPLABX project for [PIC32CM LE00 Curiosity Pro Evaluation Kit]() |
+| pic32cm_le00_curiosity_pro.X | MPLABX project for [PIC32CM LE00 Curiosity Pro Evaluation Kit](https://www.microchip.com/en-us/development-tool/EV80P12A) |
 |||
 
 ## Setting up the hardware
@@ -35,10 +35,10 @@ The following table shows the target hardware for the application projects.
 
 | Project Name| Board|
 |:---------|:---------:|
-| pic32cm_le00_curiosity_pro.X | [PIC32CM LE00 Curiosity Pro Evaluation Kit]()
+| pic32cm_le00_curiosity_pro.X | [PIC32CM LE00 Curiosity Pro Evaluation Kit](https://www.microchip.com/en-us/development-tool/EV80P12A)
 |||
 
-### Setting up [PIC32CM LE00 Curiosity Pro Evaluation Kit]()
+### Setting up [PIC32CM LE00 Curiosity Pro Evaluation Kit](https://www.microchip.com/en-us/development-tool/EV80P12A)
 
 - Connect the Debug USB port on the board to the computer using a micro USB cable
 - Short RTC Input pin (EXT3, PIN 3) to Vcc
@@ -62,7 +62,7 @@ The following table shows the target hardware for the application projects.
 
     | Board| RTC input| Vcc|
     |:---------|:---------:|:---------:|
-    | [PIC32CM LE00 Curiosity Pro Evaluation Kit]() | RTC Input 0 (EXT3, PIN 3) | EXT3, pin 20|
+    | [PIC32CM LE00 Curiosity Pro Evaluation Kit](https://www.microchip.com/en-us/development-tool/EV80P12A) | RTC Input 0 (EXT3, PIN 3) | EXT3, pin 20|
     ||||
 
 6. Console will output the current value of TRAM (Observe that the TRAM values now read zero indicating a erasure of the TRAM content)

@@ -26,7 +26,7 @@ To build the application, refer to the following table and open the project usin
 
 | Project Name      | Description                                    |
 | ----------------- | ---------------------------------------------- |
-| pic32cm_le00_curiosity_pro.X | MPLABX project for [PIC32CM LE00 Curiosity Pro Evaluation Kit]() |
+| pic32cm_le00_curiosity_pro.X | MPLABX project for [PIC32CM LE00 Curiosity Pro Evaluation Kit](https://www.microchip.com/en-us/development-tool/EV80P12A) |
 |||
 
 ## Setting up the hardware
@@ -35,10 +35,10 @@ The following table shows the target hardware for the application projects.
 
 | Project Name| Board|
 |:---------|:---------:|
-| pic32cm_le00_curiosity_pro.X | [PIC32CM LE00 Curiosity Pro Evaluation Kit]()
+| pic32cm_le00_curiosity_pro.X | [PIC32CM LE00 Curiosity Pro Evaluation Kit](https://www.microchip.com/en-us/development-tool/EV80P12A)
 |||
 
-### Setting up [PIC32CM LE00 Curiosity Pro Evaluation Kit]()
+### Setting up [PIC32CM LE00 Curiosity Pro Evaluation Kit](https://www.microchip.com/en-us/development-tool/EV80P12A)
 
 - Use jumper from PB03 (EXT1 pin 18) to PA18 (EXT3 pin 15). This routes SCK to CCL_IN[2]
 - Use jumper from PB02 (EXT1 pin 16) to PB00 (EXT1 pin 15). This routes MOSI to CCL_IN[1]
@@ -54,7 +54,7 @@ The following table shows the target hardware for the application projects.
 
     |Board| MOSI pin | SCK pin  | CCL_OUT pin |
     |-----|----------|----------|-------------|
-    |[PIC32CM LE00 Curiosity Pro Evaluation Kit]()| PB02 (EXT1 pin 16) | PB03 (EXT1 pin 18) | PA19 (EXT3 pin 17) |
+    |[PIC32CM LE00 Curiosity Pro Evaluation Kit](https://www.microchip.com/en-us/development-tool/EV80P12A)| PB02 (EXT1 pin 16) | PB03 (EXT1 pin 18) | PA19 (EXT3 pin 17) |
     ||||
 
 5. Build and Program the application using its IDE

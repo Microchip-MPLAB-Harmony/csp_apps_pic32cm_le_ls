@@ -46,7 +46,7 @@ To build the application, refer to the following table and open the project usin
 
 | Project Name      | Description                                    |
 | :-----------------: | :----------------------------------------------: |
-| pic32cm_ls00_cpro_Secure.X <br> pic32cm_ls00_cpro_NonSecure.X | Secure and Non-secure MPLABX project for [PIC32CM LS00 Curiosity Pro Evaluation Kit]() |
+| pic32cm_ls00_cpro_Secure.X <br> pic32cm_ls00_cpro_NonSecure.X | Secure and Non-secure MPLABX project for [PIC32CM LS00 Curiosity Pro Evaluation Kit](https://www.microchip.com/en-us/development-tool/EV12U44A) |
 |||
 
 ## Setting up the hardware
@@ -55,10 +55,10 @@ The following table shows the target hardware for the application projects.
 
 | Project Name| Board|
 |:---------|:---------:|
-| pic32cm_ls00_cpro_Secure.X <br> pic32cm_ls00_cpro_NonSecure.X | [PIC32CM LS00 Curiosity Pro Evaluation Kit]() |
+| pic32cm_ls00_cpro_Secure.X <br> pic32cm_ls00_cpro_NonSecure.X | [PIC32CM LS00 Curiosity Pro Evaluation Kit](https://www.microchip.com/en-us/development-tool/EV12U44A) |
 |||
 
-### Setting up [PIC32CM LS00 Curiosity Pro Evaluation Kit]()
+### Setting up [PIC32CM LS00 Curiosity Pro Evaluation Kit](https://www.microchip.com/en-us/development-tool/EV12U44A)
 
 - Connect the Debug USB port on the board to the computer using a micro USB cable
 - Connect an oscilloscope/Logic analyzer to monitor the PORT pin PA22 (Pin #14 on EXT1)
@@ -68,7 +68,7 @@ The following table shows the target hardware for the application projects.
 
 1. Open the project group in the MPLAB X IDE and set the non-secure project as main project
 2. Build and program the application
-3. Observe the output for [PIC32CM LS00 Curiosity Pro Evaluation Kit]() as follows:
+3. Observe the output for [PIC32CM LS00 Curiosity Pro Evaluation Kit](https://www.microchip.com/en-us/development-tool/EV12U44A) as follows:
     - Periodic RTC event (every ~250ms) toggles PA22 (secure pin) and PA23 (non-secure pin) in secure and non-secure project respectively
     - LED0(Green) is toggled on Switch (SW0) press in secure project
     - LED1(Red) is toggled on Switch (SW1) press in non-secure project

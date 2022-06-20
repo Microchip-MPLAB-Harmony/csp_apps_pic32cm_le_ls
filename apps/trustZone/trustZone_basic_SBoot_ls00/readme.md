@@ -54,8 +54,8 @@ To build the application, refer to the following table and open the project usin
 
 | Project Name      | Description                                    |
 | :-----------------: | :----------------------------------------------: |
-| pic32cm_ls00_Secure.X <br> pic32cm_ls00_cpro_NonSecure.X <br> | Secure and NonSecure MPLABX projects from BS_App folder for [PIC32CM LS00 Curiosity Pro Evaluation Kit]() |
-| pic32cm_ls00_Secure.X <br> pic32cm_ls00_cpro_NonSecure.X <br> | Secure and NonSecure MPLABX projects from App folder for [PIC32CM LS00 Curiosity Pro Evaluation Kit]() |
+| pic32cm_ls00_Secure.X <br> pic32cm_ls00_cpro_NonSecure.X <br> | Secure and NonSecure MPLABX projects from BS_App folder for [PIC32CM LS00 Curiosity Pro Evaluation Kit](https://www.microchip.com/en-us/development-tool/EV12U44A) |
+| pic32cm_ls00_Secure.X <br> pic32cm_ls00_cpro_NonSecure.X <br> | Secure and NonSecure MPLABX projects from App folder for [PIC32CM LS00 Curiosity Pro Evaluation Kit](https://www.microchip.com/en-us/development-tool/EV12U44A) |
 |||
 
 ## Setting up the hardware
@@ -64,11 +64,11 @@ The following table shows the target hardware for the application projects.
 
 | Project Name| Board|
 |:---------|:---------:|
-| pic32cm_ls00_Secure.X <br> pic32cm_ls00_cpro_NonSecure.X <br> | [PIC32CM LS00 Curiosity Pro Evaluation Kit]() |
-| pic32cm_ls00_cpro_Secure.X <br> pic32cm_ls00_cpro_NonSecure.X | [PIC32CM LS00 Curiosity Pro Evaluation Kit]() |
+| pic32cm_ls00_Secure.X <br> pic32cm_ls00_cpro_NonSecure.X <br> | [PIC32CM LS00 Curiosity Pro Evaluation Kit](https://www.microchip.com/en-us/development-tool/EV12U44A) |
+| pic32cm_ls00_cpro_Secure.X <br> pic32cm_ls00_cpro_NonSecure.X | [PIC32CM LS00 Curiosity Pro Evaluation Kit](https://www.microchip.com/en-us/development-tool/EV12U44A) |
 |||
 
-### Setting up [PIC32CM LS00 Curiosity Pro Evaluation Kit]()
+### Setting up [PIC32CM LS00 Curiosity Pro Evaluation Kit](https://www.microchip.com/en-us/development-tool/EV12U44A)
 
 - Connect the Debug USB port on the board to the computer using a micro USB cable
 
