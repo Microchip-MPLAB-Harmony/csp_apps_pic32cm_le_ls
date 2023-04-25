@@ -56,8 +56,8 @@
 #include "peripheral/dmac/plib_dmac.h"
 #include "peripheral/pm/plib_pm.h"
 #include "peripheral/sercom/spi_master/plib_sercom4_spi_master.h"
-#include "peripheral/supc/plib_supc.h"
 #include "peripheral/adc/plib_adc.h"
+#include "peripheral/supc/plib_supc.h"
 #include "peripheral/eic/plib_eic.h"
 #include "peripheral/rtc/plib_rtc.h"
 
@@ -68,6 +68,12 @@ extern "C" {
 
 #endif
 // DOM-IGNORE-END
+
+/* Device Information */
+#define DEVICE_NAME			 "PIC32CM5164LE00100"
+#define DEVICE_ARCH			 "CORTEX-M23"
+#define DEVICE_FAMILY		 "PIC32CM"
+#define DEVICE_SERIES		 "PIC32CMLE00"
 
 /* CPU clock frequency */
 #define CPU_CLOCK_FREQUENCY 4000000

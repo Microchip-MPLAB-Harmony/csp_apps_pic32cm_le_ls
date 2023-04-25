@@ -71,25 +71,25 @@
 void PORT_Initialize(void)
 {
    /************************** GROUP 0 Initialization *************************/
-   PORT_REGS->GROUP[0].PORT_PINCFG[2] = 0x1;
+   PORT_REGS->GROUP[0].PORT_PINCFG[2] = 0x1U;
 
-   PORT_REGS->GROUP[0].PORT_PMUX[1] = 0x1;
+   PORT_REGS->GROUP[0].PORT_PMUX[1] = 0x1U;
 
    /************************** GROUP 1 Initialization *************************/
-   PORT_REGS->GROUP[1].PORT_PINCFG[24] = 0x1;
-   PORT_REGS->GROUP[1].PORT_PINCFG[25] = 0x1;
+   PORT_REGS->GROUP[1].PORT_PINCFG[24] = 0x1U;
+   PORT_REGS->GROUP[1].PORT_PINCFG[25] = 0x1U;
 
-   PORT_REGS->GROUP[1].PORT_PMUX[12] = 0x33;
+   PORT_REGS->GROUP[1].PORT_PMUX[12] = 0x33U;
 
    /************************** GROUP 2 Initialization *************************/
-   PORT_REGS->GROUP[2].PORT_DIR = 0x1000000;
-   PORT_REGS->GROUP[2].PORT_OUT = 0x100000;
-   PORT_REGS->GROUP[2].PORT_PINCFG[20] = 0x5;
-   PORT_REGS->GROUP[2].PORT_PINCFG[24] = 0x0;
-   PORT_REGS->GROUP[2].PORT_PINCFG[25] = 0x1;
+   PORT_REGS->GROUP[2].PORT_DIR = 0x1000000U;
+   PORT_REGS->GROUP[2].PORT_OUT = 0x100000U;
+   PORT_REGS->GROUP[2].PORT_PINCFG[20] = 0x5U;
+   PORT_REGS->GROUP[2].PORT_PINCFG[24] = 0x0U;
+   PORT_REGS->GROUP[2].PORT_PINCFG[25] = 0x1U;
 
-   PORT_REGS->GROUP[2].PORT_PMUX[10] = 0x0;
-   PORT_REGS->GROUP[2].PORT_PMUX[12] = 0x30;
+   PORT_REGS->GROUP[2].PORT_PMUX[10] = 0x0U;
+   PORT_REGS->GROUP[2].PORT_PMUX[12] = 0x30U;
 
 
 }
