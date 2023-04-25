@@ -90,7 +90,7 @@ bool display_dataflash_page_content (PAGE_NUMBERS page_number)
             for (uint32_t i = 0 ; i < 16 ; i++)
             {
                 if (i%2 == 0)
-                    printf ("\n\r Page 0 : 0x%X : ", (uint)(dataflash_addr_page1+i));
+                    printf ("\n\r Page 1 : 0x%X : ", (uint)(dataflash_addr_page1+i));
                 
                 printf ("%08X ", (uint)data_buffer[i]);
             }
