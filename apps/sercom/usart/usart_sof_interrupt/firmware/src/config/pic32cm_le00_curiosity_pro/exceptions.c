@@ -1,20 +1,20 @@
 /*******************************************************************************
-  NVIC PLIB Implementation
-
-  Company:
-    Microchip Technology Inc.
+  System Exceptions File
 
   File Name:
-    plib_nvic.c
+    exceptions.c
 
   Summary:
-    NVIC PLIB Source File
+    This file contains a function which overrides the default _weak_ exception
+    handlers provided by the interrupt.c file.
 
   Description:
-    None
+    This file redefines the default _weak_  exception handler with a more debug
+    friendly one. If an unexpected exception occurs the code will stop in a
+    while(1) loop.
+ *******************************************************************************/
 
-*******************************************************************************/
-
+// DOM-IGNORE-BEGIN
 /*******************************************************************************
 * Copyright (C) 2018 Microchip Technology Inc. and its subsidiaries.
 *
@@ -37,65 +37,46 @@
 * ANY WAY RELATED TO THIS SOFTWARE WILL NOT EXCEED THE AMOUNT OF FEES, IF ANY,
 * THAT YOU HAVE PAID DIRECTLY TO MICROCHIP FOR THIS SOFTWARE.
 *******************************************************************************/
-
-#include "device.h"
-#include "plib_nvic.h"
-
+// DOM-IGNORE-END
 
 // *****************************************************************************
 // *****************************************************************************
-// Section: NVIC Implementation
+// Section: Included Files
+// *****************************************************************************
+// *****************************************************************************
+#include "interrupts.h"
+#include "definitions.h"
+
+ 
+
+// *****************************************************************************
+// *****************************************************************************
+// Section: Exception Handling Routine
 // *****************************************************************************
 // *****************************************************************************
 
-void NVIC_Initialize( void )
+/* Brief default interrupt handlers for core IRQs.*/
+void __attribute__((noreturn, weak)) NonMaskableInt_Handler(void)
 {
-
-    /* Enable NVIC Controller */
-    __DMB();
-    __enable_irq();
-
-    /* Enable the interrupt sources and configure the priorities as configured
-     * from within the "Interrupt Manager" of MHC. */
-    NVIC_SetPriority(SERCOM3_0_IRQn, 3);
-    NVIC_EnableIRQ(SERCOM3_0_IRQn);
-    NVIC_SetPriority(SERCOM3_1_IRQn, 3);
-    NVIC_EnableIRQ(SERCOM3_1_IRQn);
-    NVIC_SetPriority(SERCOM3_2_IRQn, 3);
-    NVIC_EnableIRQ(SERCOM3_2_IRQn);
-    NVIC_SetPriority(SERCOM3_OTHER_IRQn, 3);
-    NVIC_EnableIRQ(SERCOM3_OTHER_IRQn);
-
-
-
-}
-
-void NVIC_INT_Enable( void )
-{
-    __DMB();
-    __enable_irq();
-}
-
-bool NVIC_INT_Disable( void )
-{
-    bool processorStatus = (__get_PRIMASK() == 0U);
-
-    __disable_irq();
-    __DMB();
-
-    return processorStatus;
-}
-
-void NVIC_INT_Restore( bool state )
-{
-    if( state == true )
+#if defined(__DEBUG) || defined(__DEBUG_D) && defined(__XC32)
+    __builtin_software_breakpoint();
+#endif
+    while (true)
     {
-        __DMB();
-        __enable_irq();
-    }
-    else
-    {
-        __disable_irq();
-        __DMB();
     }
 }
+ 
+void __attribute__((noreturn, weak)) HardFault_Handler(void)
+{
+#if defined(__DEBUG) || defined(__DEBUG_D) && defined(__XC32)
+   __builtin_software_breakpoint();
+#endif
+   while (true)
+   {
+   }
+}
+
+ 
+/*******************************************************************************
+ End of File
+ */
