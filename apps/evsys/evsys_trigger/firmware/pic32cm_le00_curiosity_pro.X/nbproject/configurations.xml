@@ -204,6 +204,7 @@
         </logicalFolder>
       </logicalFolder>
       <itemPath>../src/main.c</itemPath>
+      <itemPath>../src/config/pic32cm_le00_curiosity_pro/pin_configurations.csv</itemPath>
     </logicalFolder>
   </logicalFolder>
   <sourceRootList>
@@ -223,7 +224,7 @@
         <platform>3</platform>
       </toolsSet>
       <packs>
-        <pack name="PIC32CM-LE_DFP" vendor="Microchip" version="1.0.155"/>
+        <pack name="PIC32CM-LE_DFP" vendor="Microchip" version="1.1.162"/>
         <pack name="CMSIS" vendor="ARM" version="5.4.0"/>
       </packs>
       <ScriptingSettings>
