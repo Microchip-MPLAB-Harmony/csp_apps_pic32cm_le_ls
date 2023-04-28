@@ -110,7 +110,7 @@ void EIC_CallbackRegister(EIC_PIN pin, EIC_CALLBACK callback, uintptr_t context)
     }
 }
 
-void EIC_EXTINT_2_InterruptHandler(void)
+void __attribute__((used)) EIC_EXTINT_2_InterruptHandler(void)
 {
     /* Clear interrupt flag */
     EIC_REGS->EIC_INTFLAG = (1UL << 2);
@@ -121,7 +121,7 @@ void EIC_EXTINT_2_InterruptHandler(void)
     }
 
 }
-void EIC_EXTINT_4_InterruptHandler(void)
+void __attribute__((used)) EIC_EXTINT_4_InterruptHandler(void)
 {
     /* Clear interrupt flag */
     EIC_REGS->EIC_INTFLAG = (1UL << 4);
