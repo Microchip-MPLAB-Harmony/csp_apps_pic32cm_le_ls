@@ -130,28 +130,20 @@ typedef enum
 {
     /* PA02 pin */
     PORT_PIN_PA02 = 2,
-
     /* PC20 pin */
-    PORT_PIN_PC20 = 20,
-
+    PORT_PIN_PC20 = 84,
     /* PB20 pin */
-    PORT_PIN_PB20 = 20,
-
+    PORT_PIN_PB20 = 52,
     /* PB21 pin */
-    PORT_PIN_PB21 = 21,
-
+    PORT_PIN_PB21 = 53,
     /* PB24 pin */
-    PORT_PIN_PB24 = 24,
-
+    PORT_PIN_PB24 = 56,
     /* PB25 pin */
-    PORT_PIN_PB25 = 25,
-
+    PORT_PIN_PB25 = 57,
     /* PC24 pin */
-    PORT_PIN_PC24 = 24,
-
+    PORT_PIN_PC24 = 88,
     /* PC25 pin */
-    PORT_PIN_PC25 = 25,
-
+    PORT_PIN_PC25 = 89,
     /* This element should not be used in any of the PORT APIs.
      * It will be used by other modules or application to denote that none of
      * the PORT Pin is used */
