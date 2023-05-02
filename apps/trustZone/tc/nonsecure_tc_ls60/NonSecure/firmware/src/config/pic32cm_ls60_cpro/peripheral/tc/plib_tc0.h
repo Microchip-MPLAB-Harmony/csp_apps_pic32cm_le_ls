@@ -94,6 +94,7 @@ void TC0_CompareStop( void );
 
 uint32_t TC0_CompareFrequencyGet( void );
 
+bool TC0_Compare8bitPeriodSet( uint8_t period );
 
 uint8_t TC0_Compare8bitPeriodGet( void );
 
