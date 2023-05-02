@@ -62,7 +62,7 @@
 // *****************************************************************************
 // *****************************************************************************
 
-static TC_COMPARE_CALLBACK_OBJ TC0_CallbackObject;
+volatile static TC_COMPARE_CALLBACK_OBJ TC0_CallbackObject;
 
 // *****************************************************************************
 // *****************************************************************************
@@ -138,7 +138,7 @@ void TC0_CompareCommandSet(TC_COMMAND command)
     while((TC0_REGS->COUNT8.TC_SYNCBUSY) != 0U)
     {
         /* Wait for Write Synchronization */
-    }    
+    }
 }
 
 /* Get the current counter value */
@@ -172,10 +172,24 @@ void TC0_Compare8bitCounterSet( uint8_t count )
     }
 }
 
+/* Configure period value */
+bool TC0_Compare8bitPeriodSet( uint8_t period )
+{
+    bool status = false;
+    /* Configure period value */
+    TC0_REGS->COUNT8.TC_PER = period;
+    while((TC0_REGS->COUNT8.TC_SYNCBUSY) != 0U)
+    {
+        /* Wait for Write Synchronization */
+    }
+    status = true;
+    return status;
+}
+
 /* Read period value */
 uint8_t TC0_Compare8bitPeriodGet( void )
 {
-    return 0xFFU;
+    return (uint8_t)TC0_REGS->COUNT8.TC_PER;
 }
 
 /* Configure duty cycle value */
@@ -187,7 +201,7 @@ bool TC0_Compare8bitMatch0Set( uint8_t compareValue )
     while((TC0_REGS->COUNT8.TC_SYNCBUSY & TC_SYNCBUSY_CC0_Msk) == TC_SYNCBUSY_CC0_Msk)
     {
         /* Wait for Write Synchronization */
-    }    
+    }
     status = true;
     return status;
 }
@@ -200,7 +214,7 @@ bool TC0_Compare8bitMatch1Set( uint8_t compareValue )
     while((TC0_REGS->COUNT8.TC_SYNCBUSY & TC_SYNCBUSY_CC1_Msk) == TC_SYNCBUSY_CC1_Msk)
     {
         /* Wait for Write Synchronization */
-    }    
+    }
     status = true;
     return status;
 }
@@ -218,7 +232,7 @@ void TC0_CompareCallbackRegister( TC_COMPARE_CALLBACK callback, uintptr_t contex
 }
 
 /* Compare match interrupt handler */
-void TC0_CompareInterruptHandler( void )
+void __attribute__((used)) TC0_CompareInterruptHandler( void )
 {
     if (TC0_REGS->COUNT8.TC_INTENSET != 0U)
     {
@@ -226,9 +240,10 @@ void TC0_CompareInterruptHandler( void )
         status = TC0_REGS->COUNT8.TC_INTFLAG;
         /* clear interrupt flag */
         TC0_REGS->COUNT8.TC_INTFLAG = (uint8_t)TC_INTFLAG_Msk;
-        if((status != TC_COMPARE_STATUS_NONE) && (TC0_CallbackObject.callback != NULL))
+        if((TC0_CallbackObject.callback != NULL) && (status != TC_COMPARE_STATUS_NONE))
         {
-            TC0_CallbackObject.callback(status, TC0_CallbackObject.context);
+            uintptr_t context = TC0_CallbackObject.context;
+            TC0_CallbackObject.callback(status, context);
         }
     }
 }
