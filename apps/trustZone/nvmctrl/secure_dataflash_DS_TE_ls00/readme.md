@@ -1,13 +1,13 @@
 ---
 parent: Harmony 3 peripheral library application examples for PIC32CM LE00/LS00/LS60 family
-title: Secure Data Flash with Data Flash Scrambling and RTC Tamper Detection
+title: Data Flash Scrambling and RTC Tamper Detection
 has_children: false
 has_toc: false
 ---
 
 [![MCHP](https://www.microchip.com/ResourcePackages/Microchip/assets/dist/images/logo.png)](https://www.microchip.com)
 
-# Secure Data Flash with Data Flash Scrambling and RTC Tamper Detection
+# Data Flash Scrambling and RTC Tamper Detection
 
 This example application displays the Data Flash content on a console which is refreshed every seconds. The Data Flash Scrambling and Tamper Erase security features of the Data Flash are enabled. 
 

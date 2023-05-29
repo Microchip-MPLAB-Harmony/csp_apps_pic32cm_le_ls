@@ -2,7 +2,7 @@ var myVariable = `
 {"0": {
     "doc": "License",
     "title": "License",
-    "content": "MICROCHIP SOFTWARE IS PROVIDED SOLELY TO ASSIST YOU IN DEVELOPING PRODUCTS AND SYSTEMS THAT USE MICROCHIP PRODUCTS. DOWNLOAD AND/OR USE OF THE SOFTWARE REQUIRES THAT YOU ACCEPT THIS SOFTWARE LICENSE AGREEMENT. IF YOU DO NOT WISH TO ACCEPT THESE TERMS, DO NOT DOWNLOAD OR USE ANY OF THE SOFTWARE. DOWNLOADING OR USING THE SOFTWARE CONTITUTES YOUR ACCEPTANCE OF THIS SOFTWARE LICENSE AGREEMENT. SOFTWARE LICENSE AGREEMENT . This Software License Agreement (\\\"Agreement\\\") is an agreement between you (if licensing as an individual) or the entity you represent (if licensing as a business) (\\\"you\\\" or \\\"Licensee\\\") and Microchip Technology Incorporated, a Delaware corporation, with a place of business at 2355 W. Chandler Blvd., Chandler, AZ 85224-6199, and its affiliates including Microchip Technology Ireland Limited, a company organized under the laws of Ireland, with a principal address at Ground Floor, Block W., East Point Business Park, Dublin, Ireland 3 (collectively, \\\"Microchip\\\") for the Microchip MPLAB Harmony Integrated Software Framework and documentation included in the download or otherwise provided by Microchip to Licensee (collectively, the \\\"Software\\\"). 1. Use. Subject to the terms of this Agreement, Microchip hereby grants Licensee a limited, revocable, non-exclusive, non-transferable, worldwide license to (a) use the Software, and (b) modify the Software provided in source code form, if any (and use and copy modifications of such Software made by Licensee), provided that in each case (with respect to clauses (a) and (b)) Licensee solely uses the Software with Microchip Products, Licensee Products, or other products agreed to by Microchip in writing. Licensee has no right to (i) substitute third party products for Microchip Products, or (ii) except as expressly provided in Section 2 below, sublicense its rights under this Agreement or otherwise disclose or distribute the Software to any third party. Licensee may make a reasonable number of copies of the Software solely as necessary to exercise its license rights in this Section 1. Licensee will not remove or alter any copyright, trademark, or other proprietary notices contained on or in the Software or any copies. “Microchip Products” means those Microchip devices purchased from Microchip or one of its authorized distributors that are identified in the Software, or if not identified in the Software, then such Microchip devices that are consistent with the purpose of the Software, including but not limited to Microchip 32-bit microcontroller and microprocessor devices and the like. “Licensee Products” means products manufactured by or for Licensee that use or incorporate Microchip Products. 2. Subcontractors. If Licensee wishes for its subcontractor to obtain and use the Software in order to provide design, manufacturing, or other services to Licensee: (a) such subcontractor may (i) download and agree to the terms of this Agreement or (ii) contact Microchip directly for a copy of this Agreement and agree to its terms; or (b) Licensee may sublicense the rights described in Section 1 directly to its subcontractor, provided that (i) such subcontractor agrees in writing to the terms of this Agreement � a copy of which will be provided to Microchip upon request, and (ii) Licensee is liable for such subcontractor's acts and omissions. 3. Third Party Software. (a) Third Party Materials. Licensee agrees to comply with third party license terms applicable to Third Party Materials, if any. Microchip will not be held responsible for Licensee's failure to comply with such terms. Microchip has no obligation to provide support or maintenance for Third Party Materials. \\\"Third Party Materials\\\" means the third party software, systems, tools, or specifications (including those of a standards setting organization) referenced in, bundled with, or included in the Software. (b) Open Source Components. Notwithstanding the license grant in Section 1 above, Licensee acknowledges that the Software may include Open Source Components. To the extent required by the licenses covering Open Source Components, the terms of such license apply in lieu of the terms of this Agreement. To the extent the terms of the licenses applicable to Open Source Components prohibit any of the restrictions in this Agreement with respect to such Open Source Components, those restrictions will not apply to the Open Source Component. \\\"Open Source Components\\\" means components of the Software that are subject to the terms of an Open Source License. \\\"Open Source License\\\" means any software license approved as an open source license by the Open Source Initiative or any substantially similar license, including without limitation any license that, as a condition of distribution of the software licensed under such license, requires that the distributor make the software available in source code format. 4. Licensee Obligations. (a) Restrictions. Except as expressly permitted by this Agreement, Licensee agrees that it will not (i) modify or alter the Software or a Microchip Product; (ii) adapt, translate, decompile, reverse engineer, disassemble the Software provided in object code form, any Microchip Product, or any samples or prototypes provided by Microchip, or create derivative works thereof; or (iii) use the Software with any software or other materials that are subject to licenses or restrictions (e.g., Open Source Licenses) that, when combined with the Software, would require Microchip to disclose, license, distribute, or otherwise make all or any part of such Software available to anyone. (b) Indemnity. Licensee will indemnify (and, at Microchip's election, defend) Microchip from and against any and all claims, costs, damages, expenses (including reasonable attorneys' fees), liabilities, and losses, arising out of or related to: (i) Licensee's modification, disclosure, or distribution of the Software or Third Party Materials; (ii) the use, sale, or distribution of Licensee Products; and (iii) an allegation that Licensee Products or Licensee's modification of the Software infringe third party intellectual property rights. (c) Licensee Products. Licensee understands and agrees that Licensee remains responsible for using its independent analysis, evaluation, and judgment in designing Licensee Products and systems and has full and exclusive responsibility to assure the safety of its products and compliance of its products (and of all Microchip Products used in or for such Licensee Products) with applicable laws and requirements. 5. Confidentiality. (a) Licensee agrees that the Software, underlying inventions, algorithms, know-how, and ideas relating to the Software, and any other non-public business or technical information disclosed by Microchip to Licensee are confidential and proprietary information, including information derived therefrom, belonging to Microchip and its licensors (collectively, \\\"Confidential Information\\\"). Licensee will use Confidential Information only to exercise its rights and perform its obligations under this Agreement and will take all reasonable measures to protect the secrecy of and avoid unauthorized access, disclosure, and use of Confidential Information. Such measures include, but are not limited to, the highest degree of care that it uses to protect its own information of a similar nature, but not less than reasonable care. Licensee will only disclose Confidential Information to its employees, subcontractors, consultants, auditors and representatives (collectively \\\"Representatives\\\") who have a need to know such information and who have use and confidentiality obligations to Licensee at least as restrictive as those set forth in this Agreement. Licensee is responsible for disclosure or misuse of Confidential Information by its Representatives. Use of Confidential Information for personal gain, for the benefit of a third party or to compete with Microchip, whether directly or indirectly, is a breach of this Agreement. Licensee will notify Microchip in writing of any actual or suspected misuse, misappropriation, or unauthorized disclosure of Confidential Information that comes to Licensee's attention. Confidential Information will not include information that: (i) is or becomes publicly available without breach of this Agreement; (ii) is known or becomes known to Licensee from a source other than Microchip without restriction and without breach of this Agreement or violation of Microchip's rights, as demonstrated by credible evidence in existence at the time of disclosure; (iii) is independently developed by Licensee without use of or reference to the Confidential Information, as demonstrated by credible evidence in existence at the time of independent development; or (iv) is disclosed generally to third parties by Microchip without restrictions similar to those contained in this Agreement. Licensee may disclose Confidential Information to the extent required under law, rule, or regulation (including those of any national securities exchange), by subpoena, civil investigative demand, or similar process, or by a court or administrative agency (each a \\\"Requirement\\\"'), provided, that to the extent permitted by applicable law, Licensee will provide prompt notice of such Requirement to Microchip to enable Microchip to seek a protective order or otherwise prevent or restrict such disclosure. (b) Return of Materials. Upon Microchip's request and direction, Licensee will promptly return or destroy the Confidential Information, including any physical information or materials provided to Licensee (together with any copies, excerpts, syntheses, CD ROMS, diskettes, etc.), and, in the case of information derived therefrom, provide written certification that all the Confidential Information has been expunged from any such materials or that all such materials have been destroyed. Further, if Licensee or its affiliates become competitors of Microchip, and Microchip notifies Licensee in writing of its status as a competitor in a given market, then Licensee will promptly engage in the return and certification process described above in this Section 5(b). 6. Ownership and Retention of Rights. All rights, title, and interest (including all intellectual property rights) in and to the Software, including any derivative works of the Software and any incremental modifications to the Software whether made by or for Licensee or Microchip (collectively, \\\"Microchip Property\\\"), are and will remain the sole and exclusive property of Microchip, whether such Microchip Property is separate or combined with any other products. Licensee, on behalf of itself and its affiliates, agrees to, and does hereby, assign to Microchip or its designee all right, title and interest (including all intellectual property rights) in and to derivative works of and any incremental modifications to the Software. Licensee will take (and will cause its affiliates, their subcontractors, and all related individuals to take) all action as may be reasonably necessary, proper or advisable to perfect and secure the ownership, licenses, intellectual property and other rights of or to Microchip as set forth in this Agreement. All rights not expressly granted under this Agreement are reserved to Microchip and its licensors and suppliers, and there are no implied rights. Licensee retains all right, title, and interest in and to any technology independently developed by Licensee not derived, directly or indirectly, from the Microchip Property or any other item of tangible property provided to Licensee by Microchip hereunder. 7. Termination. This Agreement will start once accepted by Licensee and continue unless and until terminated as provided in this Agreement. This Agreement automatically terminates immediately if Licensee violates the restrictions set forth in Sections 1, 2 or 4(a). Microchip may terminate this Agreement immediately upon notice if (a) Licensee or its affiliates become competitors of Microchip, or (b) Licensee breaches any other term of this Agreement and does not cure such breach within 30 days after receipt of written notice of such breach from Microchip. Upon termination of this Agreement, (i) the license grants in Sections 1 and 2(b) terminate, and (ii) Licensee will return to Microchip or destroy (and certify the destruction of) all Microchip Property and Confidential Information in its possession or under its control, and all copies thereof. The following sections survive termination of this Agreement: 3, 4, 5, 6, 7, 8, 9, 10, 11 and 12. 8. Dangerous Applications. The Software is not fault-tolerant and is not designed, manufactured, or intended for use in hazardous environments requiring failsafe performance (\\\"Dangerous Applications\\\"). Dangerous Applications include the operation of nuclear facilities, aircraft navigation, aircraft communication systems, air traffic control, direct life support machines, weapons systems, or any environment or system in which the failure of the Software could lead directly or indirectly to death, personal injury, or severe physical or environmental damage. Microchip specifically disclaims (a) any express or implied warranty of fitness for use of the Software in Dangerous Applications; and (b) any and all liability for loss, damages and claims resulting from the use of the Software in Dangerous Applications. 9. EU Consumers � Applicable Terms. WHERE LICENSEE IS A CONSUMER LOCATED IN EUROPE, THE FOLLOWING PROVISIONS APPLY INSTEAD OF SECTIONS 9 AND 10 BELOW: Microchip and its licensors will not be liable (a) for any loss suffered by Licensee in connection with the Software where such loss was not reasonably foreseeable when the Software was first downloaded by Licensee, even if such loss was the result of negligence or the failure of Microchip and its licensors to comply with this Agreement; or (b) irrespective of the basis of claim, for any loss of revenue, profit or other business or economic loss suffered. Some Software is made available to Licensee free of charge, and Licensee may at any time download further copies without charge to replace the Software initially downloaded and others may require a fee to be downloaded, or to download any further copies. In all circumstances, to the extent liability may lawfully be limited or excluded, the cumulative liability of Microchip and its licensors will not exceed USD$1,000 (or equivalent sum in the currency of the country in which Licensee resides). However, none of the foregoing limits or excludes any liability for death or personal injury arising from negligence, or for fraud, fraudulent misrepresentation or any other cause that by law cannot be excluded and limited. 10. Warranty Disclaimers. EXCEPT FOR CONSUMERS TO WHOM SECTION 8 APPLIES, THE SOFTWARE IS LICENSED ON AN \\\"AS-IS\\\" BASIS. MICROCHIP MAKES NO WARRANTIES OF ANY KIND WITH RESPECT TO THE SOFTWARE, WHETHER EXPRESS, IMPLIED, STAUTORY OR OTHERWISE, AND EXPRESSLY DISCLAIMS ANY IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE OR NON-INFRINGEMENT AND ANY WARRANTIES THAT MAY ARISE FROM USAGE OF TRADE OR COURSE OF DEALING. MICROCHIP AND ITS LICENSORS HAVE NO OBLIGATION TO CORRECT ANY DEFECTS IN THE SOFTWARE. TECHNICAL ASSISTANCE, IF PROVIDED, WILL NOT EXPAND THESE WARRANTIES. IF CUSTOMER IS A CONSUMER, THE ABOVE WILL NOT ACT TO EXCLUDE YOUR STATUTORY RIGHTS. 11. Limited Liability. EXCEPT FOR CONSUMERS TO WHOM SECTION 8 APPLIES, IN NO EVENT WILL MICROCHIP BE LIABLE, WHETHER IN CONTRACT, WARRANTY, REPRESENTATION, TORT, STRICT LIABILITY, INDEMNITY, CONTRIBUTION OR OTHERWISE, FOR ANY INDIRECT, SPECIAL, PUNITIVE, EXEMPLARY, INCIDENTAL OR CONSEQUENTIAL LOSS, DAMAGE, COST OR EXPENSE OF ANY KIND WHATSOEVER, HOWEVER CAUSED, OR ANY LOSS OF PRODUCTION, COST OF PROCUREMENT OF SUBSTITUTE PRODUCTS OR SERVICES, ANY LOSS OF PROFITS, LOSS OF BUSINESS, LOSS OF USE OR LOSS OF DATA, OR INTERRUPTION OF BUSINESS ARISING OUT OF THIS AGREEMENT, HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, EVEN IF MICROCHIP HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH LOSS, AND NOTWITHSTANDING ANY FAILURE OF ESSENTIAL PURPOSE OF ANY LIMITED REMEDY. MICROCHIP'S TOTAL AGGREGATE LIABILITY UNDER THIS AGREEMENT WILL NOT EXCEED USD$1,000. 12. General. (a) This Agreement will be governed by and construed in accordance with the laws of the State of Arizona and the United States, without regard to conflicts of law provisions. The parties hereby irrevocably consent to the exclusive personal jurisdiction and venue of the state and federal courts in Maricopa County, Arizona for any dispute relating to this Agreement. WHERE LICENSEE IS A CONSUMER LOCATED IN EUROPE, this Agreement is subject to the laws of the country in which the Software is downloaded, and, to the extent so mandated by such laws, subject to the jurisdiction of the courts of that country. The parties expressly disclaim the applicability of the United Nations Convention on Contracts for the International Sale of Goods in connection with this Agreement. (b) Unless the parties have a mutually executed agreement relating to the licensing of this Software by Microchip to Licensee (\\\"Signed Agreement\\\"), this Agreement constitutes the entire agreement between the parties with respect to the Software, and supersedes and replaces prior or contemporaneous written or verbal agreements or communications between the parties regarding the Software, including any purchase orders. If the parties have a Signed Agreement, this Agreement does not supersede or replace that Signed Agreement. This Agreement will not be modified except by a written agreement signed by an authorized representative of Microchip. If any provision of this Agreement is held by a court of competent jurisdiction to be illegal, invalid, or unenforceable, that provision will be limited or eliminated to the minimum extent necessary so that this Agreement will otherwise remain in full force and effect and enforceable. No waiver of any breach of any provision of this Agreement constitutes a waiver of any prior, concurrent, or subsequent breach of the same or any other provisions of this Agreement, and no waiver will be effective unless made in writing and signed by an authorized representative of the waiving party. (c) Licensee agrees to comply with all import and export laws and restrictions and regulations of the Department of Commerce or other United States or foreign agency or authority. (d) This Agreement will bind and inure to the benefit of each party's permitted successors and assigns. Licensee may not assign this Agreement in whole or in part, whether by law or otherwise, without Microchip's prior written consent. Any merger, consolidation, amalgamation, reorganization, transfer of all or substantially all assets or other change in control or majority ownership (\\\"Change of Control\\\") is considered an assignment for the purpose of this Section. Any attempt to assign this Agreement without such consent will be null and void. However, Microchip may assign this Agreement to an affiliate, or to another entity in the event of a Change of Control. (e) Licensee acknowledges its breach of any confidentiality or proprietary rights provision of this Agreement would cause Microchip irreparable damage, for which the award of damages would not be an adequate remedy. Licensee, therefore, agrees if Microchip alleges that Licensee has breached or violated any such provisions then Microchip may seek equitable relief, in addition to all other remedies at law or in equity. (f) Authorized representatives of Microchip shall have the right to reasonably inspect Licensee's premises and to audit Licensee's records and inventory of Licensee Products, whether located on Licensee's premises or elsewhere at any time, announced or unannounced, and in its sole and absolute discretion, in order to ensure Licensee's adherence to the terms of this Agreement. (g) Consistent with 48 C.F.R. �12.212 or 48 C.F.R. �227.7202-1 through 227.7202-4, as applicable, the Software is being licensed to U.S. Government end users (i) only as Commercial Items, and (ii) with only those rights as are granted to all other end users pursuant to the terms and conditions of the applicable Microchip licenses. To the extent the Software (or a portion thereof) qualifies as �technical data' as such term is defined in 48 C.F.R. �252.227-7015(a)(5), then its use, duplication, or disclosure by the U.S. Government is subject to the restrictions set forth in subparagraphs (a) through (e) of the Rights in Technical Data clause at 48 C.F.R. �252.227-7015. Contractor/manufacturer is Microchip Technology Inc., 2355 W. Chandler Blvd., Chandler, AZ 85224-6199. Questions about this Agreement should be sent to: Microchip Technology Inc., 2355 W. Chandler Blvd., Chandler, AZ 85224-6199 USA. ATTN: Marketing. v.3.3.2021 . ",
+    "content": "MICROCHIP SOFTWARE IS PROVIDED SOLELY TO ASSIST YOU IN DEVELOPING PRODUCTS AND SYSTEMS THAT USE MICROCHIP PRODUCTS. DOWNLOAD AND/OR USE OF THE SOFTWARE REQUIRES THAT YOU ACCEPT THIS SOFTWARE LICENSE AGREEMENT. IF YOU DO NOT WISH TO ACCEPT THESE TERMS, DO NOT DOWNLOAD OR USE ANY OF THE SOFTWARE. DOWNLOADING OR USING THE SOFTWARE CONTITUTES YOUR ACCEPTANCE OF THIS SOFTWARE LICENSE AGREEMENT. SOFTWARE LICENSE AGREEMENT . This Software License Agreement (“Agreement”) is an agreement between you (if licensing as an individual) or the entity you represent (if licensing as a business) (“you” or “Licensee”) and Microchip Technology Incorporated, a Delaware corporation, with a place of business at 2355 W. Chandler Blvd., Chandler, AZ 85224-6199, and its affiliates including Microchip Technology Ireland Limited, a company organized under the laws of Ireland, with a principal address at Ground Floor, Block W., East Point Business Park, Dublin, Ireland 3 (collectively, “Microchip”) for the Microchip MPLAB Harmony Integrated Software Framework and documentation included in the download or otherwise provided by Microchip to Licensee (collectively, the “Software”). 1. Use. Subject to the terms of this Agreement, Microchip hereby grants Licensee a limited, revocable, non-exclusive, non-transferable, worldwide license to (a) use the Software, and (b) modify the Software provided in source code form, if any (and use and copy modifications of such Software made by Licensee), provided that in each case (with respect to clauses (a) and (b)) Licensee solely uses the Software with Microchip Products, Licensee Products, or other products agreed to by Microchip in writing. Licensee has no right to (i) substitute third party products for Microchip Products, or (ii) except as expressly provided in Section 2 below, sublicense its rights under this Agreement or otherwise disclose or distribute the Software to any third party. Licensee may make a reasonable number of copies of the Software solely as necessary to exercise its license rights in this Section 1. Licensee will not remove or alter any copyright, trademark, or other proprietary notices contained on or in the Software or any copies. “Microchip Products” means those Microchip devices purchased from Microchip or one of its authorized distributors that are identified in the Software, or if not identified in the Software, then such Microchip devices that are consistent with the purpose of the Software, including but not limited to Microchip 32-bit microcontroller and microprocessor devices and the like. “Licensee Products” means products manufactured by or for Licensee that use or incorporate Microchip Products. 2. Subcontractors. If Licensee wishes for its subcontractor to obtain and use the Software in order to provide design, manufacturing, or other services to Licensee: (a) such subcontractor may (i) download and agree to the terms of this Agreement or (ii) contact Microchip directly for a copy of this Agreement and agree to its terms; or (b) Licensee may sublicense the rights described in Section 1 directly to its subcontractor, provided that (i) such subcontractor agrees in writing to the terms of this Agreement - a copy of which will be provided to Microchip upon request, and (ii) Licensee is liable for such subcontractor's acts and omissions. 3. Third Party Software. (a) Third Party Materials. Licensee agrees to comply with third party license terms applicable to Third Party Materials, if any. Microchip will not be held responsible for Licensee's failure to comply with such terms. Microchip has no obligation to provide support or maintenance for Third Party Materials. \\\"Third Party Materials\\\" means the third party software, systems, tools, or specifications (including those of a standards setting organization) referenced in, bundled with, or included in the Software. (b) Open Source Components. Notwithstanding the license grant in Section 1 above, Licensee acknowledges that the Software may include Open Source Components. To the extent required by the licenses covering Open Source Components, the terms of such license apply in lieu of the terms of this Agreement. To the extent the terms of the licenses applicable to Open Source Components prohibit any of the restrictions in this Agreement with respect to such Open Source Components, those restrictions will not apply to the Open Source Component. \\\"Open Source Components\\\" means components of the Software that are subject to the terms of an Open Source License. \\\"Open Source License\\\" means any software license approved as an open source license by the Open Source Initiative or any substantially similar license, including without limitation any license that, as a condition of distribution of the software licensed under such license, requires that the distributor make the software available in source code format. 4. Licensee Obligations. (a) Restrictions. Except as expressly permitted by this Agreement, Licensee agrees that it will not (i) modify or alter the Software or a Microchip Product; (ii) adapt, translate, decompile, reverse engineer, disassemble the Software provided in object code form, any Microchip Product, or any samples or prototypes provided by Microchip, or create derivative works thereof; or (iii) use the Software with any software or other materials that are subject to licenses or restrictions (e.g., Open Source Licenses) that, when combined with the Software, would require Microchip to disclose, license, distribute, or otherwise make all or any part of such Software available to anyone. (b) Indemnity. Licensee will indemnify (and, at Microchip's election, defend) Microchip from and against any and all claims, costs, damages, expenses (including reasonable attorneys' fees), liabilities, and losses, arising out of or related to: (i) Licensee's modification, disclosure, or distribution of the Software or Third Party Materials; (ii) the use, sale, or distribution of Licensee Products; and (iii) an allegation that Licensee Products or Licensee's modification of the Software infringe third party intellectual property rights. (c) Licensee Products. Licensee understands and agrees that Licensee remains responsible for using its independent analysis, evaluation, and judgment in designing Licensee Products and systems and has full and exclusive responsibility to assure the safety of its products and compliance of its products (and of all Microchip Products used in or for such Licensee Products) with applicable laws and requirements. 5. Confidentiality. (a) Licensee agrees that the Software, underlying inventions, algorithms, know-how, and ideas relating to the Software, and any other non-public business or technical information disclosed by Microchip to Licensee are confidential and proprietary information, including information derived therefrom, belonging to Microchip and its licensors (collectively, \\\"Confidential Information\\\"). Licensee will use Confidential Information only to exercise its rights and perform its obligations under this Agreement and will take all reasonable measures to protect the secrecy of and avoid unauthorized access, disclosure, and use of Confidential Information. Such measures include, but are not limited to, the highest degree of care that it uses to protect its own information of a similar nature, but not less than reasonable care. Licensee will only disclose Confidential Information to its employees, subcontractors, consultants, auditors and representatives (collectively \\\"Representatives\\\") who have a need to know such information and who have use and confidentiality obligations to Licensee at least as restrictive as those set forth in this Agreement. Licensee is responsible for disclosure or misuse of Confidential Information by its Representatives. Use of Confidential Information for personal gain, for the benefit of a third party or to compete with Microchip, whether directly or indirectly, is a breach of this Agreement. Licensee will notify Microchip in writing of any actual or suspected misuse, misappropriation, or unauthorized disclosure of Confidential Information that comes to Licensee's attention. Confidential Information will not include information that: (i) is or becomes publicly available without breach of this Agreement; (ii) is known or becomes known to Licensee from a source other than Microchip without restriction and without breach of this Agreement or violation of Microchip's rights, as demonstrated by credible evidence in existence at the time of disclosure; (iii) is independently developed by Licensee without use of or reference to the Confidential Information, as demonstrated by credible evidence in existence at the time of independent development; or (iv) is disclosed generally to third parties by Microchip without restrictions similar to those contained in this Agreement. Licensee may disclose Confidential Information to the extent required under law, rule, or regulation (including those of any national securities exchange), by subpoena, civil investigative demand, or similar process, or by a court or administrative agency (each a \\\"Requirement\\\"'), provided, that to the extent permitted by applicable law, Licensee will provide prompt notice of such Requirement to Microchip to enable Microchip to seek a protective order or otherwise prevent or restrict such disclosure. (b) Return of Materials. Upon Microchip's request and direction, Licensee will promptly return or destroy the Confidential Information, including any physical information or materials provided to Licensee (together with any copies, excerpts, syntheses, CD ROMS, diskettes, etc.), and, in the case of information derived therefrom, provide written certification that all the Confidential Information has been expunged from any such materials or that all such materials have been destroyed. Further, if Licensee or its affiliates become competitors of Microchip, and Microchip notifies Licensee in writing of its status as a competitor in a given market, then Licensee will promptly engage in the return and certification process described above in this Section 5(b). 6. Ownership and Retention of Rights. All rights, title, and interest (including all intellectual property rights) in and to the Software, including any derivative works of the Software and any incremental modifications to the Software whether made by or for Licensee or Microchip (collectively, \\\"Microchip Property\\\"), are and will remain the sole and exclusive property of Microchip, whether such Microchip Property is separate or combined with any other products. Licensee, on behalf of itself and its affiliates, agrees to, and does hereby, assign to Microchip or its designee all right, title and interest (including all intellectual property rights) in and to derivative works of and any incremental modifications to the Software. Licensee will take (and will cause its affiliates, their subcontractors, and all related individuals to take) all action as may be reasonably necessary, proper or advisable to perfect and secure the ownership, licenses, intellectual property and other rights of or to Microchip as set forth in this Agreement. All rights not expressly granted under this Agreement are reserved to Microchip and its licensors and suppliers, and there are no implied rights. Licensee retains all right, title, and interest in and to any technology independently developed by Licensee not derived, directly or indirectly, from the Microchip Property or any other item of tangible property provided to Licensee by Microchip hereunder. 7. Termination. This Agreement will start once accepted by Licensee and continue unless and until terminated as provided in this Agreement. This Agreement automatically terminates immediately if Licensee violates the restrictions set forth in Sections 1, 2 or 4(a). Microchip may terminate this Agreement immediately upon notice if (a) Licensee or its affiliates become competitors of Microchip, or (b) Licensee breaches any other term of this Agreement and does not cure such breach within 30 days after receipt of written notice of such breach from Microchip. Upon termination of this Agreement, (i) the license grants in Sections 1 and 2(b) terminate, and (ii) Licensee will return to Microchip or destroy (and certify the destruction of) all Microchip Property and Confidential Information in its possession or under its control, and all copies thereof. The following sections survive termination of this Agreement: 3, 4, 5, 6, 7, 8, 9, 10, 11 and 12. 8. Dangerous Applications. The Software is not fault-tolerant and is not designed, manufactured, or intended for use in hazardous environments requiring failsafe performance (\\\"Dangerous Applications\\\"). Dangerous Applications include the operation of nuclear facilities, aircraft navigation, aircraft communication systems, air traffic control, direct life support machines, weapons systems, or any environment or system in which the failure of the Software could lead directly or indirectly to death, personal injury, or severe physical or environmental damage. Microchip specifically disclaims (a) any express or implied warranty of fitness for use of the Software in Dangerous Applications; and (b) any and all liability for loss, damages and claims resulting from the use of the Software in Dangerous Applications. 9. EU Consumers - Applicable Terms. WHERE LICENSEE IS A CONSUMER LOCATED IN EUROPE, THE FOLLOWING PROVISIONS APPLY INSTEAD OF SECTIONS 9 AND 10 BELOW: Microchip and its licensors will not be liable (a) for any loss suffered by Licensee in connection with the Software where such loss was not reasonably foreseeable when the Software was first downloaded by Licensee, even if such loss was the result of negligence or the failure of Microchip and its licensors to comply with this Agreement; or (b) irrespective of the basis of claim, for any loss of revenue, profit or other business or economic loss suffered. Some Software is made available to Licensee free of charge, and Licensee may at any time download further copies without charge to replace the Software initially downloaded and others may require a fee to be downloaded, or to download any further copies. In all circumstances, to the extent liability may lawfully be limited or excluded, the cumulative liability of Microchip and its licensors will not exceed USD$1,000 (or equivalent sum in the currency of the country in which Licensee resides). However, none of the foregoing limits or excludes any liability for death or personal injury arising from negligence, or for fraud, fraudulent misrepresentation or any other cause that by law cannot be excluded and limited. 10. Warranty Disclaimers. EXCEPT FOR CONSUMERS TO WHOM SECTION 8 APPLIES, THE SOFTWARE IS LICENSED ON AN \\\"AS-IS\\\" BASIS. MICROCHIP MAKES NO WARRANTIES OF ANY KIND WITH RESPECT TO THE SOFTWARE, WHETHER EXPRESS, IMPLIED, STAUTORY OR OTHERWISE, AND EXPRESSLY DISCLAIMS ANY IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE OR NON-INFRINGEMENT AND ANY WARRANTIES THAT MAY ARISE FROM USAGE OF TRADE OR COURSE OF DEALING. MICROCHIP AND ITS LICENSORS HAVE NO OBLIGATION TO CORRECT ANY DEFECTS IN THE SOFTWARE. TECHNICAL ASSISTANCE, IF PROVIDED, WILL NOT EXPAND THESE WARRANTIES. IF CUSTOMER IS A CONSUMER, THE ABOVE WILL NOT ACT TO EXCLUDE YOUR STATUTORY RIGHTS. 11. Limited Liability. EXCEPT FOR CONSUMERS TO WHOM SECTION 8 APPLIES, IN NO EVENT WILL MICROCHIP BE LIABLE, WHETHER IN CONTRACT, WARRANTY, REPRESENTATION, TORT, STRICT LIABILITY, INDEMNITY, CONTRIBUTION OR OTHERWISE, FOR ANY INDIRECT, SPECIAL, PUNITIVE, EXEMPLARY, INCIDENTAL OR CONSEQUENTIAL LOSS, DAMAGE, COST OR EXPENSE OF ANY KIND WHATSOEVER, HOWEVER CAUSED, OR ANY LOSS OF PRODUCTION, COST OF PROCUREMENT OF SUBSTITUTE PRODUCTS OR SERVICES, ANY LOSS OF PROFITS, LOSS OF BUSINESS, LOSS OF USE OR LOSS OF DATA, OR INTERRUPTION OF BUSINESS ARISING OUT OF THIS AGREEMENT, HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, EVEN IF MICROCHIP HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH LOSS, AND NOTWITHSTANDING ANY FAILURE OF ESSENTIAL PURPOSE OF ANY LIMITED REMEDY. MICROCHIP'S TOTAL AGGREGATE LIABILITY UNDER THIS AGREEMENT WILL NOT EXCEED USD$1,000. 12. General. (a) This Agreement will be governed by and construed in accordance with the laws of the State of Arizona and the United States, without regard to conflicts of law provisions. The parties hereby irrevocably consent to the exclusive personal jurisdiction and venue of the state and federal courts in Maricopa County, Arizona for any dispute relating to this Agreement. WHERE LICENSEE IS A CONSUMER LOCATED IN EUROPE, this Agreement is subject to the laws of the country in which the Software is downloaded, and, to the extent so mandated by such laws, subject to the jurisdiction of the courts of that country. The parties expressly disclaim the applicability of the United Nations Convention on Contracts for the International Sale of Goods in connection with this Agreement. (b) Unless the parties have a mutually executed agreement relating to the licensing of this Software by Microchip to Licensee (\\\"Signed Agreement\\\"), this Agreement constitutes the entire agreement between the parties with respect to the Software, and supersedes and replaces prior or contemporaneous written or verbal agreements or communications between the parties regarding the Software, including any purchase orders. If the parties have a Signed Agreement, this Agreement does not supersede or replace that Signed Agreement. This Agreement will not be modified except by a written agreement signed by an authorized representative of Microchip. If any provision of this Agreement is held by a court of competent jurisdiction to be illegal, invalid, or unenforceable, that provision will be limited or eliminated to the minimum extent necessary so that this Agreement will otherwise remain in full force and effect and enforceable. No waiver of any breach of any provision of this Agreement constitutes a waiver of any prior, concurrent, or subsequent breach of the same or any other provisions of this Agreement, and no waiver will be effective unless made in writing and signed by an authorized representative of the waiving party. (c) Licensee agrees to comply with all import and export laws and restrictions and regulations of the Department of Commerce or other United States or foreign agency or authority. (d) This Agreement will bind and inure to the benefit of each party's permitted successors and assigns. Licensee may not assign this Agreement in whole or in part, whether by law or otherwise, without Microchip's prior written consent. Any merger, consolidation, amalgamation, reorganization, transfer of all or substantially all assets or other change in control or majority ownership (\\\"Change of Control\\\") is considered an assignment for the purpose of this Section. Any attempt to assign this Agreement without such consent will be null and void. However, Microchip may assign this Agreement to an affiliate, or to another entity in the event of a Change of Control. (e) Licensee acknowledges its breach of any confidentiality or proprietary rights provision of this Agreement would cause Microchip irreparable damage, for which the award of damages would not be an adequate remedy. Licensee, therefore, agrees if Microchip alleges that Licensee has breached or violated any such provisions then Microchip may seek equitable relief, in addition to all other remedies at law or in equity. (f) Authorized representatives of Microchip shall have the right to reasonably inspect Licensee's premises and to audit Licensee's records and inventory of Licensee Products, whether located on Licensee's premises or elsewhere at any time, announced or unannounced, and in its sole and absolute discretion, in order to ensure Licensee's adherence to the terms of this Agreement. (g) Consistent with 48 C.F.R. §12.212 or 48 C.F.R. §227.7202-1 through 227.7202-4, as applicable, the Software is being licensed to U.S. Government end users (i) only as Commercial Items, and (ii) with only those rights as are granted to all other end users pursuant to the terms and conditions of the applicable Microchip licenses. To the extent the Software (or a portion thereof) qualifies as 'technical data' as such term is defined in 48 C.F.R. §252.227-7015(a)(5), then its use, duplication, or disclosure by the U.S. Government is subject to the restrictions set forth in subparagraphs (a) through (e) of the Rights in Technical Data clause at 48 C.F.R. §252.227-7015. Contractor/manufacturer is Microchip Technology Inc., 2355 W. Chandler Blvd., Chandler, AZ 85224-6199. Questions about this Agreement should be sent to: Microchip Technology Inc., 2355 W. Chandler Blvd., Chandler, AZ 85224-6199 USA. ATTN: Marketing. v.3.3.2021 . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/mplab_harmony_license.html",
     "relUrl": "/mplab_harmony_license.html"
   },"1": {
@@ -1158,1317 +1158,1443 @@ var myVariable = `
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/sercom/usart/usart_ring_buffer_interrupt/readme.html",
     "relUrl": "/apps/sercom/usart/usart_ring_buffer_interrupt/readme.html"
   },"193": {
+    "doc": "SERCOM USART Start of Frame (SOF) interrupt",
+    "title": "SERCOM USART Start of Frame (SOF) interrupt",
+    "content": "This example application demonstrates how to use the SERCOM peripheral in USART ring buffer mode with SoF to wake-up device from sleep mode. For this example: . | Performance Level 2 (PL2) is selected | . ",
+    "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/sercom/usart/usart_sof_interrupt/readme.html#sercom-usart-start-of-frame-sof-interrupt",
+    "relUrl": "/apps/sercom/usart/usart_sof_interrupt/readme.html#sercom-usart-start-of-frame-sof-interrupt"
+  },"194": {
+    "doc": "SERCOM USART Start of Frame (SOF) interrupt",
+    "title": "Description",
+    "content": "This example demonstrates how to wake-up from sleep mode using USART + Start of Frame feature. The USART is configured in ring-buffer mode (interrupts enabled). The example asks the user to enter 1 character. Once received, the device wake-up from sleep, displays a message then go back to sleep. For this example the Standby mode is default sleep mode used. ",
+    "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/sercom/usart/usart_sof_interrupt/readme.html#description",
+    "relUrl": "/apps/sercom/usart/usart_sof_interrupt/readme.html#description"
+  },"195": {
+    "doc": "SERCOM USART Start of Frame (SOF) interrupt",
+    "title": "Downloading and building the application",
+    "content": "To clone or download this application from Github, go to the main page of this repository and then click Clone button to clone this repository or download as zip file. This content can also be downloaded using content manager by following these instructions. Path of the application within the repository is apps/sercom/usart/usart_sof_interrupt. To build the application, refer to the following table and open the project using its IDE. | Project Name | Description | . | pic32cm_le00_curiosity_pro.X | MPLABX project for PIC32CM LE00 Curiosity Pro Evaluation Kit | . |   |   | . ",
+    "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/sercom/usart/usart_sof_interrupt/readme.html#downloading-and-building-the-application",
+    "relUrl": "/apps/sercom/usart/usart_sof_interrupt/readme.html#downloading-and-building-the-application"
+  },"196": {
+    "doc": "SERCOM USART Start of Frame (SOF) interrupt",
+    "title": "Setting up the hardware",
+    "content": "The following table shows the target hardware for the application projects. | Project Name | Board | . | pic32cm_le00_curiosity_pro.X | PIC32CM LE00 Curiosity Pro Evaluation Kit | . |   |   | . Setting up PIC32CM LE00 Curiosity Pro Evaluation Kit . | Connect the Debug USB port on the board to the computer using a micro USB cable | . ",
+    "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/sercom/usart/usart_sof_interrupt/readme.html#setting-up-the-hardware",
+    "relUrl": "/apps/sercom/usart/usart_sof_interrupt/readme.html#setting-up-the-hardware"
+  },"197": {
+    "doc": "SERCOM USART Start of Frame (SOF) interrupt",
+    "title": "Running the Application",
+    "content": ". | Open the Terminal application (Ex.:Tera term) on the computer | Connect to the EDBG Virtual COM port and configure the serial settings as follows: . | Baud : 115200 | Data : 8 Bits | Parity : None | Stop : 1 Bit | Flow Control : None | . | Build and Program the application using its IDE | The console displays the following message . | Console displays the application header followed by message | The message asks user to “Enter character to wake-up from sleep mode” | NOTE: For this example, the sleep mode used is Standby mode | . | Enter 1 character on terminal | The device will wake-up and display message below: . | Then device will go back to sleep until new character is entered | . ",
+    "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/sercom/usart/usart_sof_interrupt/readme.html#running-the-application",
+    "relUrl": "/apps/sercom/usart/usart_sof_interrupt/readme.html#running-the-application"
+  },"198": {
+    "doc": "SERCOM USART Start of Frame (SOF) interrupt",
+    "title": "SERCOM USART Start of Frame (SOF) interrupt",
+    "content": ". ",
+    "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/sercom/usart/usart_sof_interrupt/readme.html",
+    "relUrl": "/apps/sercom/usart/usart_sof_interrupt/readme.html"
+  },"199": {
     "doc": "Systick periodic interrupt",
     "title": "Systick periodic interrupt",
     "content": "This example shows how to use the SysTick to generate periodic interrupts. ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/systick/systick_periodic_timeout/readme.html#systick-periodic-interrupt",
     "relUrl": "/apps/systick/systick_periodic_timeout/readme.html#systick-periodic-interrupt"
-  },"194": {
+  },"200": {
     "doc": "Systick periodic interrupt",
     "title": "Description",
     "content": "This example application configures the SysTick Peripheral Library to generate periodic ticks. The application registers a periodic timeout callback. It toggles an LED every time the callback is triggered. ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/systick/systick_periodic_timeout/readme.html#description",
     "relUrl": "/apps/systick/systick_periodic_timeout/readme.html#description"
-  },"195": {
+  },"201": {
     "doc": "Systick periodic interrupt",
     "title": "Downloading and building the application",
     "content": "To clone or download this application from Github, go to the main page of this repository and then click Clone button to clone this repository or download as zip file. This content can also be downloaded using content manager by following these instructions. Path of the application within the repository is apps/systick/systick_periodic_timeout/firmware . To build the application, refer to the following table and open the project using its IDE. | Project Name | Description | . | pic32cm_le00_curiosity_pro.X | MPLABX project for PIC32CM LE00 Curiosity Pro Evaluation Kit | . |   |   | . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/systick/systick_periodic_timeout/readme.html#downloading-and-building-the-application",
     "relUrl": "/apps/systick/systick_periodic_timeout/readme.html#downloading-and-building-the-application"
-  },"196": {
+  },"202": {
     "doc": "Systick periodic interrupt",
     "title": "Setting up the hardware",
     "content": "The following table shows the target hardware for the application projects. | Project Name | Board | . | pic32cm_le00_curiosity_pro.X | PIC32CM LE00 Curiosity Pro Evaluation Kit | . |   |   | . Setting up PIC32CM LE00 Curiosity Pro Evaluation Kit . | Connect the Debug USB port on the board to the computer using a micro USB cable | . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/systick/systick_periodic_timeout/readme.html#setting-up-the-hardware",
     "relUrl": "/apps/systick/systick_periodic_timeout/readme.html#setting-up-the-hardware"
-  },"197": {
+  },"203": {
     "doc": "Systick periodic interrupt",
     "title": "Running the Application",
     "content": ". | Build and Program the application using its IDE | The LED blinks continuously | . Following table provides the LED name: . | Board | LED Name | . | PIC32CM LE00 Curiosity Pro Evaluation Kit | LED0 | . |   |   | . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/systick/systick_periodic_timeout/readme.html#running-the-application",
     "relUrl": "/apps/systick/systick_periodic_timeout/readme.html#running-the-application"
-  },"198": {
+  },"204": {
     "doc": "Systick periodic interrupt",
     "title": "Systick periodic interrupt",
     "content": ". ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/systick/systick_periodic_timeout/readme.html",
     "relUrl": "/apps/systick/systick_periodic_timeout/readme.html"
-  },"199": {
+  },"205": {
     "doc": "TC capture mode",
     "title": "TC capture mode",
     "content": "This example shows how to use the TC module in capture mode to measure duty cycle and frequency of an external input. ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/tc/tc_capture_mode/readme.html#tc-capture-mode",
     "relUrl": "/apps/tc/tc_capture_mode/readme.html#tc-capture-mode"
-  },"200": {
+  },"206": {
     "doc": "TC capture mode",
     "title": "Description",
     "content": "The TC channel is configured in capture mode to measure duty cycle and frequency of the PWM signal. The PWM signal is generated using another TC channel which is configured in compare mode. Output of the compare TC channel is connected to input of the capture TC channel. ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/tc/tc_capture_mode/readme.html#description",
     "relUrl": "/apps/tc/tc_capture_mode/readme.html#description"
-  },"201": {
+  },"207": {
     "doc": "TC capture mode",
     "title": "Downloading and building the application",
     "content": "To clone or download this application from Github, go to the main page of this repository and then click Clone button to clone this repository or download as zip file. This content can also be downloaded using content manager by following these instructions. Path of the application within the repository is apps/tc/tc_capture_mode/firmware . To build the application, refer to the following table and open the project using its IDE. | Project Name | Description | . | pic32cm_le00_curiosity_pro.X | MPLABX project for PIC32CM LE00 Curiosity Pro Evaluation Kit | . |   |   | . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/tc/tc_capture_mode/readme.html#downloading-and-building-the-application",
     "relUrl": "/apps/tc/tc_capture_mode/readme.html#downloading-and-building-the-application"
-  },"202": {
+  },"208": {
     "doc": "TC capture mode",
     "title": "Setting up the hardware",
     "content": "The following table shows the target hardware for the application projects. | Project Name | Board | . | pic32cm_le00_curiosity_pro.X | PIC32CM LE00 Curiosity Pro Evaluation Kit | . |   |   | . Setting up PIC32CM LE00 Curiosity Pro Evaluation Kit . | TC0 generates the PWM waveform on pin PB09 . | TC0 output is routed using EIC and EVSYS to TC1 input event line | . | TC1 is configured in capture mode . | Capture trigger is provided by input event line | . | Use a jumper wire to connect “Pin 8 of EXT1 (TC0_W01)” to “Pin 7 of EXT1 (EIC_EXTINT8)” | Connect the Debug USB port on the board to the computer using a micro USB cable | . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/tc/tc_capture_mode/readme.html#setting-up-the-hardware",
     "relUrl": "/apps/tc/tc_capture_mode/readme.html#setting-up-the-hardware"
-  },"203": {
+  },"209": {
     "doc": "TC capture mode",
     "title": "Running the Application",
     "content": ". | Open the Terminal application (Ex.:Tera term) on the computer | Connect to the EDBG Virtual COM port and configure the serial settings as follows: . | Baud : 115200 | Data : 8 Bits | Parity : None | Stop : 1 Bit | Flow Control : None | . | Build and Program the application using its IDE | Console displays the frequency and duty cycle of the input signal | Frequency is constant (800 Hz) and duty cycle changes by 1% | . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/tc/tc_capture_mode/readme.html#running-the-application",
     "relUrl": "/apps/tc/tc_capture_mode/readme.html#running-the-application"
-  },"204": {
+  },"210": {
     "doc": "TC capture mode",
     "title": "TC capture mode",
     "content": ". ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/tc/tc_capture_mode/readme.html",
     "relUrl": "/apps/tc/tc_capture_mode/readme.html"
-  },"205": {
+  },"211": {
     "doc": "TC compare mode",
     "title": "TC compare mode",
     "content": "This example shows how to use the TC module in compare mode to generate an active low, active high, and toggle output on compare match. ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/tc/tc_compare_mode/readme.html#tc-compare-mode",
     "relUrl": "/apps/tc/tc_compare_mode/readme.html#tc-compare-mode"
-  },"206": {
+  },"212": {
     "doc": "TC compare mode",
     "title": "Description",
     "content": "Three TC channels are configured in compare mode. Each channel generates different output waveform depending upon configured action on compare match and period match. Active low output: Output is set high on compare 1 match and is set low on compare 0 match. Active high output: Output is set low on compare 1 match and is set high on compare 0 match. Toggle output: Output toggles on compare 0 match. ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/tc/tc_compare_mode/readme.html#description",
     "relUrl": "/apps/tc/tc_compare_mode/readme.html#description"
-  },"207": {
+  },"213": {
     "doc": "TC compare mode",
     "title": "Downloading and building the application",
     "content": "To clone or download this application from Github, go to the main page of this repository and then click Clone button to clone this repository or download as zip file. This content can also be downloaded using content manager by following these instructions. Path of the application within the repository is apps/tc/tc_compare_mode/firmware . To build the application, refer to the following table and open the project using its IDE. | Project Name | Description | . | pic32cm_le00_curiosity_pro.X | MPLABX project for PIC32CM LE00 Curiosity Pro Evaluation Kit | . |   |   | . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/tc/tc_compare_mode/readme.html#downloading-and-building-the-application",
     "relUrl": "/apps/tc/tc_compare_mode/readme.html#downloading-and-building-the-application"
-  },"208": {
+  },"214": {
     "doc": "TC compare mode",
     "title": "Setting up the hardware",
     "content": "The following table shows the target hardware for the application projects. | Project Name | Board | . | pic32cm_le00_curiosity_pro.X | PIC32CM LE00 Curiosity Pro Evaluation Kit | . |   |   | . Setting up PIC32CM LE00 Curiosity Pro Evaluation Kit . | Connect the Debug USB port on the board to the computer using a micro USB cable | . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/tc/tc_compare_mode/readme.html#setting-up-the-hardware",
     "relUrl": "/apps/tc/tc_compare_mode/readme.html#setting-up-the-hardware"
-  },"209": {
+  },"215": {
     "doc": "TC compare mode",
     "title": "Running the Application",
     "content": ". | Build and Program the application using its IDE | Observe generated waveforms on the oscilloscope | . | Timer Channel | Pin | Observable characteristic of the waveform | . | TC0_WO1 | PB09 (Pin 8 of EXT1) | Active low ouptut with 75 Hz frequency | . | TC1_WO1 | PB15 (Pin 9 of EXT2) | Active high output with 75 Hz frequency | . | TC2_WO0 | PB16 (Pin 7 of EXT2) | Toggle output with 37.5 Hz frequency | . |   |   |   | . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/tc/tc_compare_mode/readme.html#running-the-application",
     "relUrl": "/apps/tc/tc_compare_mode/readme.html#running-the-application"
-  },"210": {
+  },"216": {
     "doc": "TC compare mode",
     "title": "TC compare mode",
     "content": ". ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/tc/tc_compare_mode/readme.html",
     "relUrl": "/apps/tc/tc_compare_mode/readme.html"
-  },"211": {
+  },"217": {
     "doc": "TC timer mode",
     "title": "TC timer mode",
     "content": "This example shows how to use the TC module in timer mode to generate periodic interrupt. ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/tc/tc_timer_mode/readme.html#tc-timer-mode",
     "relUrl": "/apps/tc/tc_timer_mode/readme.html#tc-timer-mode"
-  },"212": {
+  },"218": {
     "doc": "TC timer mode",
     "title": "Description",
     "content": "TC channel is configured in timer mode and generates periodic interrupt. LED is toggled in the interrupt handler to indicate periodic callback. ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/tc/tc_timer_mode/readme.html#description",
     "relUrl": "/apps/tc/tc_timer_mode/readme.html#description"
-  },"213": {
+  },"219": {
     "doc": "TC timer mode",
     "title": "Downloading and building the application",
     "content": "To clone or download this application from Github, go to the main page of this repository and then click Clone button to clone this repository or download as zip file. This content can also be downloaded using content manager by following these instructions. Path of the application within the repository is apps/tc/tc_timer_mode/firmware . To build the application, refer to the following table and open the project using its IDE. | Project Name | Description | . | pic32cm_le00_curiosity_pro | MPLABX project for PIC32CM LE00 Curiosity Pro Evaluation Kit | . |   |   | . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/tc/tc_timer_mode/readme.html#downloading-and-building-the-application",
     "relUrl": "/apps/tc/tc_timer_mode/readme.html#downloading-and-building-the-application"
-  },"214": {
+  },"220": {
     "doc": "TC timer mode",
     "title": "Setting up the hardware",
     "content": "The following table shows the target hardware for the application projects. | Project Name | Board | . | pic32cm_le00_curiosity_pro | PIC32CM LE00 Curiosity Pro Evaluation Kit | . |   |   | . Setting up PIC32CM LE00 Curiosity Pro Evaluation Kit . | Connect the Debug USB port on the board to the computer using a micro USB cable | . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/tc/tc_timer_mode/readme.html#setting-up-the-hardware",
     "relUrl": "/apps/tc/tc_timer_mode/readme.html#setting-up-the-hardware"
-  },"215": {
+  },"221": {
     "doc": "TC timer mode",
     "title": "Running the Application",
     "content": ". | Build and Program the application using its IDE | Observe that the LED blinks once every second | . Following table provides the LED name: . | Board | LED Name | . | PIC32CM LE00 Curiosity Pro Evaluation Kit | LED0 | . |   |   | . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/tc/tc_timer_mode/readme.html#running-the-application",
     "relUrl": "/apps/tc/tc_timer_mode/readme.html#running-the-application"
-  },"216": {
+  },"222": {
     "doc": "TC timer mode",
     "title": "TC timer mode",
     "content": ". ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/tc/tc_timer_mode/readme.html",
     "relUrl": "/apps/tc/tc_timer_mode/readme.html"
-  },"217": {
+  },"223": {
     "doc": "TCC PWM generation",
     "title": "TCC PWM generation",
     "content": "This example application shows how to use the TCC to generate a 2 or 3 phase PWM signals for motor control with dead time. ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/tcc/tcc_synchronous_pwm_channels/readme.html#tcc-pwm-generation",
     "relUrl": "/apps/tcc/tcc_synchronous_pwm_channels/readme.html#tcc-pwm-generation"
-  },"218": {
+  },"224": {
     "doc": "TCC PWM generation",
     "title": "Description",
     "content": "TCC module is configured to generate synchronous 2 or 3 phase PWM signals with dead time. The duty cycle of the PWM signals is updated in the period interrupt handler. ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/tcc/tcc_synchronous_pwm_channels/readme.html#description",
     "relUrl": "/apps/tcc/tcc_synchronous_pwm_channels/readme.html#description"
-  },"219": {
+  },"225": {
     "doc": "TCC PWM generation",
     "title": "Downloading and building the application",
     "content": "To clone or download this application from Github, go to the main page of this repository and then click Clone button to clone this repository or download as zip file. This content can also be downloaded using content manager by following these instructions. Path of the application within the repository is apps/tcc/tcc_synchronous_pwm_channels/firmware . To build the application, refer to the following table and open the project using its IDE. | Project Name | Description | . | pic32cm_le00_curiosity_pro.X | MPLABX project for PIC32CM LE00 Curiosity Pro Evaluation Kit | . |   |   | . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/tcc/tcc_synchronous_pwm_channels/readme.html#downloading-and-building-the-application",
     "relUrl": "/apps/tcc/tcc_synchronous_pwm_channels/readme.html#downloading-and-building-the-application"
-  },"220": {
+  },"226": {
     "doc": "TCC PWM generation",
     "title": "Setting up the hardware",
     "content": "The following table shows the target hardware for the application projects. | Project Name | Board | . | pic32cm_le00_curiosity_pro.X | PIC32CM LE00 Curiosity Pro Evaluation Kit | . |   |   | . Setting up PIC32CM LE00 Curiosity Pro Evaluation Kit . | Connect the Debug USB port on the board to the computer using a micro USB cable | . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/tcc/tcc_synchronous_pwm_channels/readme.html#setting-up-the-hardware",
     "relUrl": "/apps/tcc/tcc_synchronous_pwm_channels/readme.html#setting-up-the-hardware"
-  },"221": {
+  },"227": {
     "doc": "TCC PWM generation",
     "title": "Running the Application",
     "content": ". | Build and Program the application using its IDE | Observe the high-side and low-side PWM waveforms on oscilloscope | Observe the dead time between the high side and the low side | Observe the pwm frequency to be 10 KHz | . PIC32CM LE00 Curiosity Pro Evaluation Kit pin details: . | Signal Name | Pad | Pin | . | ch0-PWMH | PA08 | Pin 3 of EXT3 connector | . | ch0-PWML | PB16 | Pin 7 of EXT2 connector | . | ch1-PWMH | PA09 | Pin 4 of EXT3 connector | . | ch1-PWML | PB17 | Pin 8 of EXT2 connector | . | ch2-PWMH | PA10 | Pin 5 of EXT1 connector | . | ch2-PWML | PA12 | Pin 14 of EXT3 connector | . |   |   |   | . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/tcc/tcc_synchronous_pwm_channels/readme.html#running-the-application",
     "relUrl": "/apps/tcc/tcc_synchronous_pwm_channels/readme.html#running-the-application"
-  },"222": {
+  },"228": {
     "doc": "TCC PWM generation",
     "title": "TCC PWM generation",
     "content": ". ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/tcc/tcc_synchronous_pwm_channels/readme.html",
     "relUrl": "/apps/tcc/tcc_synchronous_pwm_channels/readme.html"
-  },"223": {
+  },"229": {
     "doc": "TRAM erase on tamper detect",
     "title": "TRAM erase on tamper detect",
     "content": "This example application shows how to configure and use tamper detect feature of RTC and TrustRam. ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/tram/tram_tamper_erase/readme.html#tram-erase-on-tamper-detect",
     "relUrl": "/apps/tram/tram_tamper_erase/readme.html#tram-erase-on-tamper-detect"
-  },"224": {
+  },"230": {
     "doc": "TRAM erase on tamper detect",
     "title": "Description",
     "content": "This example application shows how to setup and configure tamper detection using the RTC Peripheral Library. The application populates TrustRam with random data and then waits for tamper detection to happen. On Tamper detection, application displays the tamper detected and read the content of the TrustRam. The example demonstrates auto erase feature of the TrustRam when tamper is detected. ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/tram/tram_tamper_erase/readme.html#description",
     "relUrl": "/apps/tram/tram_tamper_erase/readme.html#description"
-  },"225": {
+  },"231": {
     "doc": "TRAM erase on tamper detect",
     "title": "Downloading and building the application",
     "content": "To clone or download this application from Github, go to the main page of this repository and then click Clone button to clone this repository or download as zip file. This content can also be downloaded using content manager by following these instructions. Path of the application within the repository is apps/tram/tram_tamper_erase/firmware . To build the application, refer to the following table and open the project using its IDE. | Project Name | Description | . | pic32cm_le00_curiosity_pro.X | MPLABX project for PIC32CM LE00 Curiosity Pro Evaluation Kit | . |   |   | . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/tram/tram_tamper_erase/readme.html#downloading-and-building-the-application",
     "relUrl": "/apps/tram/tram_tamper_erase/readme.html#downloading-and-building-the-application"
-  },"226": {
+  },"232": {
     "doc": "TRAM erase on tamper detect",
     "title": "Setting up the hardware",
     "content": "The following table shows the target hardware for the application projects. | Project Name | Board | . | pic32cm_le00_curiosity_pro.X | PIC32CM LE00 Curiosity Pro Evaluation Kit | . |   |   | . Setting up PIC32CM LE00 Curiosity Pro Evaluation Kit . | Connect the Debug USB port on the board to the computer using a micro USB cable | Short RTC Input pin (EXT3, PIN 3) to Vcc | . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/tram/tram_tamper_erase/readme.html#setting-up-the-hardware",
     "relUrl": "/apps/tram/tram_tamper_erase/readme.html#setting-up-the-hardware"
-  },"227": {
+  },"233": {
     "doc": "TRAM erase on tamper detect",
     "title": "Running the Application",
     "content": ". | Open the Terminal application (Ex.:Tera term) on the computer | Connect to the EDBG Virtual COM port and configure the serial settings as follows: . | Baud : 115200 | Data : 8 Bits | Parity : None | Stop : 1 Bit | Flow Control : None | . | Build and Program the application using its IDE | Console will print the value contained in the TRAM (Observe that the TRAM contains non zero values) . | To emulate tampering, create a falling edge on the RTC input pin . | Short RTC Input pin to Vcc and then remove the short, and connect RTC Input pin to GND to create a falling edge | . | Board | RTC input | Vcc | . | PIC32CM LE00 Curiosity Pro Evaluation Kit | RTC Input 0 (EXT3, PIN 3) | EXT3, pin 20 | . |   |   |   | . | Console will output the current value of TRAM (Observe that the TRAM values now read zero indicating a erasure of the TRAM content) . | . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/tram/tram_tamper_erase/readme.html#running-the-application",
     "relUrl": "/apps/tram/tram_tamper_erase/readme.html#running-the-application"
-  },"228": {
+  },"234": {
     "doc": "TRAM erase on tamper detect",
     "title": "TRAM erase on tamper detect",
     "content": ". ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/tram/tram_tamper_erase/readme.html",
     "relUrl": "/apps/tram/tram_tamper_erase/readme.html"
-  },"229": {
+  },"235": {
     "doc": "TrustRAM with Security Features",
     "title": "TRAM with Security Features demonstration",
     "content": "This example application displays the TrustRAM content on a console which is refreshed every seconds. This example allows to experiment static and dynamic tamper detections coupled with a TrustRAM full erase. ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/tram/tram_with_security_features/readme.html#tram-with-security-features-demonstration",
     "relUrl": "/apps/tram/tram_with_security_features/readme.html#tram-with-security-features-demonstration"
-  },"230": {
+  },"236": {
     "doc": "TrustRAM with Security Features",
     "title": "Description",
     "content": "The application configures the TrustRAM security features (Silent Access - Data Scrambling - Tamper Erase) and configures the SERCOM3 peripheral to display content on console through UART pins. The application the fill TrustRAM with pattern and display its content every second. When a Tamper is detected, application is halted and TrustRAM contetn is fully erased. ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/tram/tram_with_security_features/readme.html#description",
     "relUrl": "/apps/tram/tram_with_security_features/readme.html#description"
-  },"231": {
+  },"237": {
     "doc": "TrustRAM with Security Features",
     "title": "Downloading and building the application",
     "content": "To clone or download this application from Github, go to the main page of this repository and then click Clone button to clone this repository or download as zip file. This content can also be downloaded using content manager by following these instructions. Path of the application within the repository is apps/tram/tram_with_security_features/firmware. |||| . To build the application, refer to the following table and open the project using its IDE. | Project Name | Description | . | pic32cm_le00_curiosity_pro.X | MPLABX project for PIC32CM LE00 Curiosity Pro Evaluation Kit | . |   |   | . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/tram/tram_with_security_features/readme.html#downloading-and-building-the-application",
     "relUrl": "/apps/tram/tram_with_security_features/readme.html#downloading-and-building-the-application"
-  },"232": {
+  },"238": {
     "doc": "TrustRAM with Security Features",
     "title": "Setting up the hardware",
     "content": "The following table shows the target hardware for the application projects. | Project Name | Board | . | pic32cm_le00_curiosity_pro.X | PIC32CM LE00 Curiosity Pro Evaluation Kit | . |   |   | . Setting up PIC32CM LE00 Curiosity Pro Evaluation Kit . | Connect the Debug USB port on the board to the computer using a micro USB cable | Short PA08 pin (EXT3, PIN 3) to Vcc | . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/tram/tram_with_security_features/readme.html#setting-up-the-hardware",
     "relUrl": "/apps/tram/tram_with_security_features/readme.html#setting-up-the-hardware"
-  },"233": {
+  },"239": {
     "doc": "TrustRAM with Security Features",
     "title": "Running the Application",
     "content": ". | Open the Terminal application (Ex.:Tera term) on the computer | Connect to the EDBG Virtual COM port and configure the serial settings as follows: . | Baud : 115200 | Data : 8 Bits | Parity : None | Stop : 1 Bit | Flow Control : None | . | Open the project in the MPLAB X IDE | Build and program the application | The console should display the following TrustRAM content: | . | Tied down the PA08 pin with a jumper (Remove short from Vcc and connect it to GND to create a falling edge) | The following TrustRAM content should be observed on console, meaning the TrustRAM Full Erase was performed because of Tamper Erase Detection: | . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/tram/tram_with_security_features/readme.html#running-the-application",
     "relUrl": "/apps/tram/tram_with_security_features/readme.html#running-the-application"
-  },"234": {
+  },"240": {
     "doc": "TrustRAM with Security Features",
     "title": "TrustRAM with Security Features",
     "content": ". ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/tram/tram_with_security_features/readme.html",
     "relUrl": "/apps/tram/tram_with_security_features/readme.html"
-  },"235": {
+  },"241": {
     "doc": "TRNG random number",
     "title": "TRNG random number",
     "content": "This example shows how to use the TRNG Peripheral library to generate and read a random number. ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trng/random_number/readme.html#trng-random-number",
     "relUrl": "/apps/trng/random_number/readme.html#trng-random-number"
-  },"236": {
+  },"242": {
     "doc": "TRNG random number",
     "title": "Description",
     "content": "This example application shows how to use the TRNG peripheral library to produce a 32-bit true random number. Generated random number can be used as an entropy source for seeding a Deterministic Random Number Generator (DRNG), creating cryptographic keys for ciphers etc. ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trng/random_number/readme.html#description",
     "relUrl": "/apps/trng/random_number/readme.html#description"
-  },"237": {
+  },"243": {
     "doc": "TRNG random number",
     "title": "Downloading and building the application",
     "content": "To clone or download this application from Github, go to the main page of this repository and then click Clone button to clone this repository or download as zip file. This content can also be downloaded using content manager by following these instructions. Path of the application within the repository is apps/trng/random_number/firmware . To build the application, refer to the following table and open the project using its IDE. | Project Name | Description | . | pic32cm_le00_curiosity_pro.X | MPLABX project for PIC32CM LE00 Curiosity Pro Evaluation Kit | . |   |   | . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trng/random_number/readme.html#downloading-and-building-the-application",
     "relUrl": "/apps/trng/random_number/readme.html#downloading-and-building-the-application"
-  },"238": {
+  },"244": {
     "doc": "TRNG random number",
     "title": "Setting up the hardware",
     "content": "The following table shows the target hardware for the application projects. | Project Name | Board | . | pic32cm_le00_curiosity_pro.X | PIC32CM LE00 Curiosity Pro Evaluation Kit | . |   |   | . Setting up PIC32CM LE00 Curiosity Pro Evaluation Kit . | Connect the Debug USB port on the board to the computer using a micro USB cable | . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trng/random_number/readme.html#setting-up-the-hardware",
     "relUrl": "/apps/trng/random_number/readme.html#setting-up-the-hardware"
-  },"239": {
+  },"245": {
     "doc": "TRNG random number",
     "title": "Running the Application",
     "content": ". | Open the Terminal application (Ex.:Tera term) on the computer | Connect to the EDBG Virtual COM port and configure the serial settings as follows: . | Baud : 115200 | Data : 8 Bits | Parity : None | Stop : 1 Bit | Flow Control : None | . | Build and program the application using its IDE | The console displays the following message . | Every time the switch is pressed, a new random number is generated and displayed on the console . | . Following table provides the switch names: . | Board | Switch Name |   | . | PIC32CM LE00 Curiosity Pro Evaluation Kit | SW0 |   | . |   |   |   | . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trng/random_number/readme.html#running-the-application",
     "relUrl": "/apps/trng/random_number/readme.html#running-the-application"
-  },"240": {
+  },"246": {
     "doc": "TRNG random number",
     "title": "TRNG random number",
     "content": ". ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trng/random_number/readme.html",
     "relUrl": "/apps/trng/random_number/readme.html"
-  },"241": {
+  },"247": {
     "doc": "TrustZone EIC pin toggle",
     "title": "TrustZone EIC pin toggle",
     "content": "This example application demonstrates handling of external pin interrupt in secure and non-secure project. ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/eic/eic_pin_toggle_ls00/readme.html#trustzone-eic-pin-toggle",
     "relUrl": "/apps/trustZone/eic/eic_pin_toggle_ls00/readme.html#trustzone-eic-pin-toggle"
-  },"242": {
+  },"248": {
     "doc": "TrustZone EIC pin toggle",
     "title": "Description",
     "content": "This demonstrates TrustZone feature and uses two projects viz., Secure and Non-Secure Project that work together on the same MCU and offering security isolation between the Trusted and the Non-trusted resources in the device. | Secure project uses an EIC pin to generate interrupt on rising edge and toggles the LED0 | Non-secure project uses an EIC pin to generate interrupt on rising edge and toggle an GPIO pin and LED1 | Non-secure project also uses RTC to generate periodic event to toggle a GPIO pin | . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/eic/eic_pin_toggle_ls00/readme.html#description",
     "relUrl": "/apps/trustZone/eic/eic_pin_toggle_ls00/readme.html#description"
-  },"243": {
+  },"249": {
     "doc": "TrustZone EIC pin toggle",
     "title": "Components Used",
     "content": ". | EIC - Configured as Mix-Secure Peripheral for Secure EIC and Non-secure EIC interrupts | Event System - Configured as Mix-Secure Peripheral for the Secure and Non-secure events | RTC - Configured as Non-secure mode | LED0 - Configured as Secure mode | LED1 - Configured as Non-secure mode | Two NON_SECURE_PIN - Configured as Non-secure mode | . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/eic/eic_pin_toggle_ls00/readme.html#components-used",
     "relUrl": "/apps/trustZone/eic/eic_pin_toggle_ls00/readme.html#components-used"
-  },"244": {
+  },"250": {
     "doc": "TrustZone EIC pin toggle",
     "title": "Downloading and building the application",
     "content": "To clone or download this application from Github, go to the main page of this repository and then click Clone button to clone this repository or download as zip file. This content can also be downloaded using content manager by following these instructions. Path of the application within the repository is as shown below: . | Type | Path |   | . | Project group | apps/trustZone/eic/eic_pin_toggle_ls00 |   | . | Secure Project | apps/trustZone/eic/eic_pin_toggle_ls00/Secure/firmware |   | . | Non-Secure Project | apps/trustZone/eic/eic_pin_toggle_ls00/NonSecure/firmware |   | . |   |   |   | . To build the application, refer to the following table and open the project using its IDE. | Project Name | Description | . | pic32cm_ls00_cpro_Secure.X pic32cm_ls00_cpro_NonSecure.X | Secure and Non-secure MPLABX project for PIC32CM LS00 Curiosity Pro Evaluation Kit | . |   |   | . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/eic/eic_pin_toggle_ls00/readme.html#downloading-and-building-the-application",
     "relUrl": "/apps/trustZone/eic/eic_pin_toggle_ls00/readme.html#downloading-and-building-the-application"
-  },"245": {
+  },"251": {
     "doc": "TrustZone EIC pin toggle",
     "title": "Setting up the hardware",
     "content": "The following table shows the target hardware for the application projects. | Project Name | Board | . | pic32cm_ls00_cpro_Secure.X pic32cm_ls00_cpro_NonSecure.X | PIC32CM LS00 Curiosity Pro Evaluation Kit | . |   |   | . Setting up PIC32CM LS00 Curiosity Pro Evaluation Kit . | Connect the Debug USB port on the board to the computer using a micro USB cable | Connect an oscilloscope/Logic analyzer to monitor the PORT pin PA22 (Pin #14 on EXT1) | Connect an oscilloscope/Logic analyzer to monitor the PORT pin PB31 (Pin #12 on EXT1) | Tie a pushbutton switch to PA23 (Pin #13 on EXT1) to drive the line LOW on switch press and also connect the same to the oscilloscope/logic analyzer . | . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/eic/eic_pin_toggle_ls00/readme.html#setting-up-the-hardware",
     "relUrl": "/apps/trustZone/eic/eic_pin_toggle_ls00/readme.html#setting-up-the-hardware"
-  },"246": {
+  },"252": {
     "doc": "TrustZone EIC pin toggle",
     "title": "Running the Application",
     "content": ". | Open the project group in the MPLAB X IDE and set the non-secure project as main project | Build and program the application | Observe the output for PIC32CM LS00 Curiosity Pro Evaluation Kit as follows: . | LED0(Green) is toggled on Switch (SW0) press using EIC interrupt in secure project | LED1(Red) is toggled on Switch (SW1) press using EIC interrupt in non-secure project | Pin PA22 is toggled on Switch (connected to PA23) press using EIC interrupt in non-secure project | Periodic RTC event (every ~32ms) toggles PB31 pin in non-secure project | . | . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/eic/eic_pin_toggle_ls00/readme.html#running-the-application",
     "relUrl": "/apps/trustZone/eic/eic_pin_toggle_ls00/readme.html#running-the-application"
-  },"247": {
+  },"253": {
     "doc": "TrustZone EIC pin toggle",
     "title": "TrustZone EIC pin toggle",
     "content": ". ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/eic/eic_pin_toggle_ls00/readme.html",
     "relUrl": "/apps/trustZone/eic/eic_pin_toggle_ls00/readme.html"
-  },"248": {
+  },"254": {
     "doc": "TrustZone EIC pin toggle",
     "title": "TrustZone EIC pin toggle",
     "content": "This example application demonstrates handling of external pin interrupt in secure and non-secure project. ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/eic/eic_pin_toggle_ls60/readme.html#trustzone-eic-pin-toggle",
     "relUrl": "/apps/trustZone/eic/eic_pin_toggle_ls60/readme.html#trustzone-eic-pin-toggle"
-  },"249": {
+  },"255": {
     "doc": "TrustZone EIC pin toggle",
     "title": "Description",
     "content": "This demonstrates TrustZone feature and uses two projects viz., Secure and Non-Secure Project that work together on the same MCU and offering security isolation between the Trusted and the Non-trusted resources in the device. | Secure project uses an EIC pin to generate interrupt on rising edge and toggles the LED0 | Non-secure project uses an EIC pin to generate interrupt on rising edge and toggle an GPIO pin and LED1 | Non-secure project also uses RTC to generate periodic event to toggle a GPIO pin | . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/eic/eic_pin_toggle_ls60/readme.html#description",
     "relUrl": "/apps/trustZone/eic/eic_pin_toggle_ls60/readme.html#description"
-  },"250": {
+  },"256": {
     "doc": "TrustZone EIC pin toggle",
     "title": "Components Used",
     "content": ". | EIC - Configured as Mix-Secure Peripheral for Secure EIC and Non-secure EIC interrupts | Event System - Configured as Mix-Secure Peripheral for the Secure and Non-secure events | RTC - Configured as Non-secure mode | LED0 - Configured as Secure mode | LED1 - Configured as Non-secure mode | Two NON_SECURE_PIN - Configured as Non-secure mode | . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/eic/eic_pin_toggle_ls60/readme.html#components-used",
     "relUrl": "/apps/trustZone/eic/eic_pin_toggle_ls60/readme.html#components-used"
-  },"251": {
+  },"257": {
     "doc": "TrustZone EIC pin toggle",
     "title": "Downloading and building the application",
     "content": "To clone or download this application from Github, go to the main page of this repository and then click Clone button to clone this repository or download as zip file. This content can also be downloaded using content manager by following these instructions. Path of the application within the repository is as shown below: . | Type | Path |   | . | Project group | apps/trustZone/eic/eic_pin_toggle_ls60 |   | . | Secure Project | apps/trustZone/eic/eic_pin_toggle_ls60/Secure/firmware |   | . | Non-Secure Project | apps/trustZone/eic/eic_pin_toggle_ls60/NonSecure/firmware |   | . |   |   |   | . To build the application, refer to the following table and open the project using its IDE. | Project Name | Description | . | pic32cm_ls60_cpro_Secure.X pic32cm_ls60_cpro_NonSecure.X | Secure and Non-secure MPLABX project for PIC32CM LS60 Curiosity Pro Evaluation Kit | . |   |   | . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/eic/eic_pin_toggle_ls60/readme.html#downloading-and-building-the-application",
     "relUrl": "/apps/trustZone/eic/eic_pin_toggle_ls60/readme.html#downloading-and-building-the-application"
-  },"252": {
+  },"258": {
     "doc": "TrustZone EIC pin toggle",
     "title": "Setting up the hardware",
     "content": "The following table shows the target hardware for the application projects. | Project Name | Board | . | pic32cm_ls60_cpro_Secure.X pic32cm_ls60_cpro_NonSecure.X | PIC32CM LS60 Curiosity Pro Evaluation Kit | . |   |   | . Setting up PIC32CM LS60 Curiosity Pro Evaluation Kit . | Connect the Debug USB port on the board to the computer using a micro USB cable | Connect an oscilloscope/Logic analyzer to monitor the PORT pin PA22 (Pin #14 on EXT1) | Connect an oscilloscope/Logic analyzer to monitor the PORT pin PB31 (Pin #12 on EXT1) | Tie a pushbutton switch to PA23 (Pin #13 on EXT1) to drive the line LOW on switch press and also connect the same to the oscilloscope/logic analyzer . | . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/eic/eic_pin_toggle_ls60/readme.html#setting-up-the-hardware",
     "relUrl": "/apps/trustZone/eic/eic_pin_toggle_ls60/readme.html#setting-up-the-hardware"
-  },"253": {
+  },"259": {
     "doc": "TrustZone EIC pin toggle",
     "title": "Running the Application",
     "content": ". | Open the project group in the MPLAB X IDE and set the non-secure project as main project | Build and program the application | Observe the output for PIC32CM LS60 Curiosity Pro Evaluation Kit as follows: . | LED0(Green) is toggled on Switch (SW0) press using EIC interrupt in secure project | LED1(Red) is toggled on Switch (SW1) press using EIC interrupt in non-secure project | Pin PA22 is toggled on Switch (connected to PA23) press using EIC interrupt in non-secure project | Periodic RTC event (every ~32ms) toggles PB31 pin in non-secure project | . | . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/eic/eic_pin_toggle_ls60/readme.html#running-the-application",
     "relUrl": "/apps/trustZone/eic/eic_pin_toggle_ls60/readme.html#running-the-application"
-  },"254": {
+  },"260": {
     "doc": "TrustZone EIC pin toggle",
     "title": "TrustZone EIC pin toggle",
     "content": ". ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/eic/eic_pin_toggle_ls60/readme.html",
     "relUrl": "/apps/trustZone/eic/eic_pin_toggle_ls60/readme.html"
-  },"255": {
+  },"261": {
     "doc": "TrustZone EVSYS trigger",
     "title": "TrustZone EVSYS trigger",
     "content": "This example application demonstrates peripheral event handling with event system in secure and non-secure project . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/evsys/evsys_trigger_ls00/readme.html#trustzone-evsys-trigger",
     "relUrl": "/apps/trustZone/evsys/evsys_trigger_ls00/readme.html#trustzone-evsys-trigger"
-  },"256": {
+  },"262": {
     "doc": "TrustZone EVSYS trigger",
     "title": "Description",
     "content": "This demonstrates TrustZone feature and uses two projects viz., Secure and Non-Secure Project that work together on the same MCU and offering security isolation between the Trusted and the Non-trusted resources in the device. | Secure project route the events generated by RTC periodic event to toggle a GPIO pin assigned to secure side and a GPIO pin assigned to non-secure side without CPU intervention | Secure project route the EIC event to toggle an LED0 without CPU intervention | Non secure project route the EIC event to toggle an LED1 without CPU intervention | . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/evsys/evsys_trigger_ls00/readme.html#description",
     "relUrl": "/apps/trustZone/evsys/evsys_trigger_ls00/readme.html#description"
-  },"257": {
+  },"263": {
     "doc": "TrustZone EVSYS trigger",
     "title": "Components Used",
     "content": ". | EIC - Configured as mix-secure peripheral to route Secure EIC event on SW0 press and Non-secure EIC event on SW1 press | Event System - Configured as mix-secure Peripheral for the Secure and Non-secure events | RTC - Configured as secure mode | LED0 - Configured as secure mode | LED1 - Configured as non-secure mode | SECURE_PIN and NON_SECURE_PIN - Configured as secure and non-secure mode respectively | . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/evsys/evsys_trigger_ls00/readme.html#components-used",
     "relUrl": "/apps/trustZone/evsys/evsys_trigger_ls00/readme.html#components-used"
-  },"258": {
+  },"264": {
     "doc": "TrustZone EVSYS trigger",
     "title": "Downloading and building the application",
     "content": "To clone or download this application from Github, go to the main page of this repository and then click Clone button to clone this repository or download as zip file. This content can also be downloaded using content manager by following these instructions. Path of the application within the repository is as shown below: . | Type | Path |   | . | Project group | apps/trustZone/evsys/evsys_trigger_ls00 |   | . | Secure Project | apps/trustZone/evsys/evsys_trigger_ls00/Secure/firmware |   | . | Non-Secure Project | apps/trustZone/evsys/evsys_trigger_ls00/NonSecure/firmware |   | . |   |   |   | . To build the application, refer to the following table and open the project using its IDE. | Project Name | Description | . | pic32cm_ls00_cpro_Secure.X pic32cm_ls00_cpro_NonSecure.X | Secure and Non-secure MPLABX project for PIC32CM LS00 Curiosity Pro Evaluation Kit | . |   |   | . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/evsys/evsys_trigger_ls00/readme.html#downloading-and-building-the-application",
     "relUrl": "/apps/trustZone/evsys/evsys_trigger_ls00/readme.html#downloading-and-building-the-application"
-  },"259": {
+  },"265": {
     "doc": "TrustZone EVSYS trigger",
     "title": "Setting up the hardware",
     "content": "The following table shows the target hardware for the application projects. | Project Name | Board | . | pic32cm_ls00_cpro_Secure.X pic32cm_ls00_cpro_NonSecure.X | PIC32CM LS00 Curiosity Pro Evaluation Kit | . |   |   | . Setting up PIC32CM LS00 Curiosity Pro Evaluation Kit . | Connect the Debug USB port on the board to the computer using a micro USB cable | Connect an oscilloscope/Logic analyzer to monitor the PORT pin PA22 (Pin #14 on EXT1) | Connect an oscilloscope/Logic analyzer to monitor the PORT pin PA23 (Pin #13 on EXT1) | . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/evsys/evsys_trigger_ls00/readme.html#setting-up-the-hardware",
     "relUrl": "/apps/trustZone/evsys/evsys_trigger_ls00/readme.html#setting-up-the-hardware"
-  },"260": {
+  },"266": {
     "doc": "TrustZone EVSYS trigger",
     "title": "Running the Application",
     "content": ". | Open the project group in the MPLAB X IDE and set the non-secure project as main project | Build and program the application | Observe the output for PIC32CM LS00 Curiosity Pro Evaluation Kit as follows: . | Periodic RTC event (every ~250ms) toggles PA22 (secure pin) and PA23 (non-secure pin) in secure and non-secure project respectively | LED0(Green) is toggled on Switch (SW0) press in secure project | LED1(Red) is toggled on Switch (SW1) press in non-secure project | . | . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/evsys/evsys_trigger_ls00/readme.html#running-the-application",
     "relUrl": "/apps/trustZone/evsys/evsys_trigger_ls00/readme.html#running-the-application"
-  },"261": {
+  },"267": {
     "doc": "TrustZone EVSYS trigger",
     "title": "TrustZone EVSYS trigger",
     "content": ". ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/evsys/evsys_trigger_ls00/readme.html",
     "relUrl": "/apps/trustZone/evsys/evsys_trigger_ls00/readme.html"
-  },"262": {
+  },"268": {
     "doc": "TrustZone EVSYS trigger",
     "title": "TrustZone EVSYS trigger",
     "content": "This example application demonstrates peripheral event handling with event system in secure and non-secure project . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/evsys/evsys_trigger_ls60/readme.html#trustzone-evsys-trigger",
     "relUrl": "/apps/trustZone/evsys/evsys_trigger_ls60/readme.html#trustzone-evsys-trigger"
-  },"263": {
+  },"269": {
     "doc": "TrustZone EVSYS trigger",
     "title": "Description",
     "content": "This demonstrates TrustZone feature and uses two projects viz., Secure and Non-Secure Project that work together on the same MCU and offering security isolation between the Trusted and the Non-trusted resources in the device. | Secure project route the events generated by RTC periodic event to toggle a GPIO pin assigned to secure side and a GPIO pin assigned to non-secure side without CPU intervention | Secure project route the EIC event to toggle an LED0 without CPU intervention | Non secure project route the EIC event to toggle an LED1 without CPU intervention | . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/evsys/evsys_trigger_ls60/readme.html#description",
     "relUrl": "/apps/trustZone/evsys/evsys_trigger_ls60/readme.html#description"
-  },"264": {
+  },"270": {
     "doc": "TrustZone EVSYS trigger",
     "title": "Components Used",
     "content": ". | EIC - Configured as mix-secure peripheral to route Secure EIC event on SW0 press and Non-secure EIC event on SW1 press | Event System - Configured as mix-secure Peripheral for the Secure and Non-secure events | RTC - Configured as secure mode | LED0 - Configured as secure mode | LED1 - Configured as non-secure mode | SECURE_PIN and NON_SECURE_PIN - Configured as secure and non-secure mode respectively | . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/evsys/evsys_trigger_ls60/readme.html#components-used",
     "relUrl": "/apps/trustZone/evsys/evsys_trigger_ls60/readme.html#components-used"
-  },"265": {
+  },"271": {
     "doc": "TrustZone EVSYS trigger",
     "title": "Downloading and building the application",
     "content": "To clone or download this application from Github, go to the main page of this repository and then click Clone button to clone this repository or download as zip file. This content can also be downloaded using content manager by following these instructions. Path of the application within the repository is as shown below: . | Type | Path |   | . | Project group | apps/trustZone/evsys/evsys_trigger_ls60 |   | . | Secure Project | apps/trustZone/evsys/evsys_trigger_ls60/Secure/firmware |   | . | Non-Secure Project | apps/trustZone/evsys/evsys_trigger_ls60/NonSecure/firmware |   | . |   |   |   | . To build the application, refer to the following table and open the project using its IDE. | Project Name | Description | . | pic32cm_ls60_cpro_Secure.X pic32cm_ls60_cpro_NonSecure.X | Secure and Non-secure MPLABX project for PIC32CM LS60 Curiosity Pro Evaluation Kit | . |   |   | . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/evsys/evsys_trigger_ls60/readme.html#downloading-and-building-the-application",
     "relUrl": "/apps/trustZone/evsys/evsys_trigger_ls60/readme.html#downloading-and-building-the-application"
-  },"266": {
+  },"272": {
     "doc": "TrustZone EVSYS trigger",
     "title": "Setting up the hardware",
     "content": "The following table shows the target hardware for the application projects. | Project Name | Board | . | pic32cm_ls60_cpro_Secure.X pic32cm_ls60_cpro_NonSecure.X | PIC32CM LS60 Curiosity Pro Evaluation Kit | . |   |   | . Setting up PIC32CM LS60 Curiosity Pro Evaluation Kit . | Connect the Debug USB port on the board to the computer using a micro USB cable | Connect an oscilloscope/Logic analyzer to monitor the PORT pin PA22 (Pin #14 on EXT1) | Connect an oscilloscope/Logic analyzer to monitor the PORT pin PA23 (Pin #13 on EXT1) | . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/evsys/evsys_trigger_ls60/readme.html#setting-up-the-hardware",
     "relUrl": "/apps/trustZone/evsys/evsys_trigger_ls60/readme.html#setting-up-the-hardware"
-  },"267": {
+  },"273": {
     "doc": "TrustZone EVSYS trigger",
     "title": "Running the Application",
     "content": ". | Open the project group in the MPLAB X IDE and set the non-secure project as main project | Build and program the application | Observe the output for PIC32CM LS60 Curiosity Pro Evaluation Kit as follows: . | Periodic RTC event (every ~250ms) toggles PA22 (secure pin) and PA23 (non-secure pin) in secure and non-secure project respectively | LED0(Green) is toggled on Switch (SW0) press in secure project | LED1(Red) is toggled on Switch (SW1) press in non-secure project | . | . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/evsys/evsys_trigger_ls60/readme.html#running-the-application",
     "relUrl": "/apps/trustZone/evsys/evsys_trigger_ls60/readme.html#running-the-application"
-  },"268": {
+  },"274": {
     "doc": "TrustZone EVSYS trigger",
     "title": "TrustZone EVSYS trigger",
     "content": ". ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/evsys/evsys_trigger_ls60/readme.html",
     "relUrl": "/apps/trustZone/evsys/evsys_trigger_ls60/readme.html"
-  },"269": {
-    "doc": "Secure Data Flash with Data Flash Scrambling and RTC Tamper Detection",
-    "title": "Secure Data Flash with Data Flash Scrambling and RTC Tamper Detection",
+  },"275": {
+    "doc": "Data Flash Scrambling and RTC Tamper Detection",
+    "title": "Data Flash Scrambling and RTC Tamper Detection",
     "content": "This example application displays the Data Flash content on a console which is refreshed every seconds. The Data Flash Scrambling and Tamper Erase security features of the Data Flash are enabled. ",
-    "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/nvmctrl/secure_dataflash_DS_TE_ls00/readme.html#secure-data-flash-with-data-flash-scrambling-and-rtc-tamper-detection",
-    "relUrl": "/apps/trustZone/nvmctrl/secure_dataflash_DS_TE_ls00/readme.html#secure-data-flash-with-data-flash-scrambling-and-rtc-tamper-detection"
-  },"270": {
-    "doc": "Secure Data Flash with Data Flash Scrambling and RTC Tamper Detection",
+    "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/nvmctrl/secure_dataflash_DS_TE_ls00/readme.html#data-flash-scrambling-and-rtc-tamper-detection",
+    "relUrl": "/apps/trustZone/nvmctrl/secure_dataflash_DS_TE_ls00/readme.html#data-flash-scrambling-and-rtc-tamper-detection"
+  },"276": {
+    "doc": "Data Flash Scrambling and RTC Tamper Detection",
     "title": "Description",
     "content": "This demonstrates TrustZone feature and uses two projects viz., Secure and Non-Secure Project that work together on the same MCU and offering security isolation between the Trusted and the Non-trusted resources in the device. | Secure project configures the RTC peripheral for tamper detection and SERCOM3 peripheral to display content on console through UART pins. | Secure project configures the Secure Data Flash security features (Data Flash Scrambling - Tamper Erase). | Non-secure project uses veneers to request from Secure project, to erase Secure Data Flash, fill it with 0xCAFEDECA pattern and display its content on console every seconds. When a Tamper is detected, Non-Secure application is halted and Secure Data Flash content is fully erased. | . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/nvmctrl/secure_dataflash_DS_TE_ls00/readme.html#description",
     "relUrl": "/apps/trustZone/nvmctrl/secure_dataflash_DS_TE_ls00/readme.html#description"
-  },"271": {
-    "doc": "Secure Data Flash with Data Flash Scrambling and RTC Tamper Detection",
+  },"277": {
+    "doc": "Data Flash Scrambling and RTC Tamper Detection",
     "title": "Components Used",
     "content": ". | Data Flash - Configured in Secure APPLICATION region | RTC - Configured as Secure mode | PA08 - Configured as Secure pin (RTC Tamper Pin) | SERCOM3 - Configured as Secure mode (USART mode) | . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/nvmctrl/secure_dataflash_DS_TE_ls00/readme.html#components-used",
     "relUrl": "/apps/trustZone/nvmctrl/secure_dataflash_DS_TE_ls00/readme.html#components-used"
-  },"272": {
-    "doc": "Secure Data Flash with Data Flash Scrambling and RTC Tamper Detection",
+  },"278": {
+    "doc": "Data Flash Scrambling and RTC Tamper Detection",
     "title": "Downloading and building the application",
     "content": "To clone or download this application from Github, go to the main page of this repository and then click Clone button to clone this repository or download as zip file. This content can also be downloaded using content manager by following these instructions. Path of the application within the repository is as shown below: . | Type | Path |   | . | Project group | apps/trustZone/nvmctrl/secure_dataflash_DS_TE_ls00 |   | . | Secure Project | apps/trustZone/nvmctrl/secure_dataflash_DS_TE_ls00/Secure/firmware |   | . | Non-Secure Project | apps/trustZone/nvmctrl/secure_dataflash_DS_TE_ls00/NonSecure/firmware |   | . |   |   |   | . To build the application, refer to the following table and open the project using its IDE. | Project Name | Description | . | pic32cm_ls00_cpro_Secure.X pic32cm_ls00_cpro_NonSecure.X | Secure and Non-secure MPLABX project for PIC32CM LS00 Curiosity Pro Evaluation Kit | . |   |   | . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/nvmctrl/secure_dataflash_DS_TE_ls00/readme.html#downloading-and-building-the-application",
     "relUrl": "/apps/trustZone/nvmctrl/secure_dataflash_DS_TE_ls00/readme.html#downloading-and-building-the-application"
-  },"273": {
-    "doc": "Secure Data Flash with Data Flash Scrambling and RTC Tamper Detection",
+  },"279": {
+    "doc": "Data Flash Scrambling and RTC Tamper Detection",
     "title": "Setting up the hardware",
     "content": "The following table shows the target hardware for the application projects. | Project Name | Board | . | pic32cm_ls00_cpro_Secure.X pic32cm_ls00_cpro_NonSecure.X | PIC32CM LS00 Curiosity Pro Evaluation Kit | . |   |   | . Setting up PIC32CM LS00 Curiosity Pro Evaluation Kit . | Connect the Debug USB port on the board to the computer using a micro USB cable | Short PA08 pin (EXT3, PIN 3) to Vcc | . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/nvmctrl/secure_dataflash_DS_TE_ls00/readme.html#setting-up-the-hardware",
     "relUrl": "/apps/trustZone/nvmctrl/secure_dataflash_DS_TE_ls00/readme.html#setting-up-the-hardware"
-  },"274": {
-    "doc": "Secure Data Flash with Data Flash Scrambling and RTC Tamper Detection",
+  },"280": {
+    "doc": "Data Flash Scrambling and RTC Tamper Detection",
     "title": "Running the Application",
     "content": ". | Open the Terminal application (Ex.:Tera term) on the computer | Connect to the EDBG Virtual COM port and configure the serial settings as follows: . | Baud : 115200 | Data : 8 Bits | Parity : None | Stop : 1 Bit | Flow Control : None | . | Open the project group in the MPLAB X IDE and set the non-secure project as main project | Build and program the application | The console should display the following Secure Data Flash content: | . | Tied down the PA08 pin with a jumper (Remove short from Vcc and connect it to GND to create a falling edge) | The following Secure Data Flash content should be observed on console, meaning the Secure Data Flash Tamper Erase Row 0 was performed because of RTC Tamper Detection: | . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/nvmctrl/secure_dataflash_DS_TE_ls00/readme.html#running-the-application",
     "relUrl": "/apps/trustZone/nvmctrl/secure_dataflash_DS_TE_ls00/readme.html#running-the-application"
-  },"275": {
-    "doc": "Secure Data Flash with Data Flash Scrambling and RTC Tamper Detection",
-    "title": "Secure Data Flash with Data Flash Scrambling and RTC Tamper Detection",
+  },"281": {
+    "doc": "Data Flash Scrambling and RTC Tamper Detection",
+    "title": "Data Flash Scrambling and RTC Tamper Detection",
     "content": ". ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/nvmctrl/secure_dataflash_DS_TE_ls00/readme.html",
     "relUrl": "/apps/trustZone/nvmctrl/secure_dataflash_DS_TE_ls00/readme.html"
-  },"276": {
+  },"282": {
     "doc": "Secure Data Flash with Data Flash Scrambling and RTC Tamper Detection",
     "title": "Secure Data Flash with Data Flash Scrambling and RTC Tamper Detection",
     "content": "This example application displays the Data Flash content on a console which is refreshed every seconds. The Data Flash Scrambling and Tamper Erase security features of the Secure Data Flash are enabled. ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/nvmctrl/secure_dataflash_DS_TE_ls60/readme.html#secure-data-flash-with-data-flash-scrambling-and-rtc-tamper-detection",
     "relUrl": "/apps/trustZone/nvmctrl/secure_dataflash_DS_TE_ls60/readme.html#secure-data-flash-with-data-flash-scrambling-and-rtc-tamper-detection"
-  },"277": {
+  },"283": {
     "doc": "Secure Data Flash with Data Flash Scrambling and RTC Tamper Detection",
     "title": "Description",
     "content": "This demonstrates TrustZone feature and uses two projects viz., Secure and Non-Secure Project that work together on the same MCU and offering security isolation between the Trusted and the Non-trusted resources in the device. | Secure project configures the RTC peripheral for tamper detection and SERCOM3 peripheral to display content on console through UART pins. | Secure project configures the Secure Data Flash security features (Data Flash Scrambling - Tamper Erase). | Non-secure project uses veneers to request from Secure project, to erase Secure Data Flash, fill it with 0xCAFEDECA pattern and display its content on console every seconds. When a Tamper is detected, Non-Secure application is halted and Secure Data Flash content is fully erased. | . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/nvmctrl/secure_dataflash_DS_TE_ls60/readme.html#description",
     "relUrl": "/apps/trustZone/nvmctrl/secure_dataflash_DS_TE_ls60/readme.html#description"
-  },"278": {
+  },"284": {
     "doc": "Secure Data Flash with Data Flash Scrambling and RTC Tamper Detection",
     "title": "Components Used",
     "content": ". | Data Flash - Configured in Secure APPLICATION region | RTC - Configured as Secure mode | PA08 - Configured as Secure pin (RTC Tamper Pin) | SERCOM3 - Configured as Secure mode (USART mode) | . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/nvmctrl/secure_dataflash_DS_TE_ls60/readme.html#components-used",
     "relUrl": "/apps/trustZone/nvmctrl/secure_dataflash_DS_TE_ls60/readme.html#components-used"
-  },"279": {
+  },"285": {
     "doc": "Secure Data Flash with Data Flash Scrambling and RTC Tamper Detection",
     "title": "Downloading and building the application",
     "content": "To clone or download this application from Github, go to the main page of this repository and then click Clone button to clone this repository or download as zip file. This content can also be downloaded using content manager by following these instructions. Path of the application within the repository is as shown below: . | Type | Path |   | . | Project group | apps/trustZone/nvmctrl/secure_dataflash_DS_TE_ls60 |   | . | Secure Project | apps/trustZone/nvmctrl/secure_dataflash_DS_TE_ls60/Secure/firmware |   | . | Non-Secure Project | apps/trustZone/nvmctrl/secure_dataflash_DS_TE_ls60/NonSecure/firmware |   | . |   |   |   | . To build the application, refer to the following table and open the project using its IDE. | Project Name | Description | . | pic32cm_ls60_cpro_Secure.X pic32cm_ls60_cpro_NonSecure.X | Secure and Non-secure MPLABX project for PIC32CM LS60 Curiosity Pro Evaluation Kit | . |   |   | . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/nvmctrl/secure_dataflash_DS_TE_ls60/readme.html#downloading-and-building-the-application",
     "relUrl": "/apps/trustZone/nvmctrl/secure_dataflash_DS_TE_ls60/readme.html#downloading-and-building-the-application"
-  },"280": {
+  },"286": {
     "doc": "Secure Data Flash with Data Flash Scrambling and RTC Tamper Detection",
     "title": "Setting up the hardware",
     "content": "The following table shows the target hardware for the application projects. | Project Name | Board | . | pic32cm_ls60_cpro_Secure.X pic32cm_ls60_cpro_NonSecure.X | PIC32CM LS60 Curiosity Pro Evaluation Kit | . |   |   | . Setting up PIC32CM LS60 Curiosity Pro Evaluation Kit . | Connect the Debug USB port on the board to the computer using a micro USB cable | Short PA08 pin (EXT3, PIN 3) to Vcc | . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/nvmctrl/secure_dataflash_DS_TE_ls60/readme.html#setting-up-the-hardware",
     "relUrl": "/apps/trustZone/nvmctrl/secure_dataflash_DS_TE_ls60/readme.html#setting-up-the-hardware"
-  },"281": {
+  },"287": {
     "doc": "Secure Data Flash with Data Flash Scrambling and RTC Tamper Detection",
     "title": "Running the Application",
     "content": ". | Open the Terminal application (Ex.:Tera term) on the computer | Connect to the EDBG Virtual COM port and configure the serial settings as follows: . | Baud : 115200 | Data : 8 Bits | Parity : None | Stop : 1 Bit | Flow Control : None | . | Open the project group in the MPLAB X IDE and set the non-secure project as main project | Build and program the application | The console should display the following Secure Data Flash content: | . | Tied down the PA08 pin with a jumper (Remove short from Vcc and connect it to GND to create a falling edge) | The following Secure Data Flash content should be observed on console, meaning the Secure Data Flash Tamper Erase Row 0 was performed because of RTC Tamper Detection: | . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/nvmctrl/secure_dataflash_DS_TE_ls60/readme.html#running-the-application",
     "relUrl": "/apps/trustZone/nvmctrl/secure_dataflash_DS_TE_ls60/readme.html#running-the-application"
-  },"282": {
+  },"288": {
     "doc": "Secure Data Flash with Data Flash Scrambling and RTC Tamper Detection",
     "title": "Secure Data Flash with Data Flash Scrambling and RTC Tamper Detection",
     "content": ". ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/nvmctrl/secure_dataflash_DS_TE_ls60/readme.html",
     "relUrl": "/apps/trustZone/nvmctrl/secure_dataflash_DS_TE_ls60/readme.html"
-  },"283": {
+  },"289": {
     "doc": "Secure Data Flash with Silent Access and RTC Tamper Detection",
     "title": "Secure Data Flash with Silent Access and RTC Tamper Detection",
     "content": "This example application displays the Data Flash content on a console which is refreshed every seconds. The Silent Access and Tamper Erase security features of the Secure Data Flash are enabled. ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/nvmctrl/secure_dataflash_SA_TE_ls00/readme.html#secure-data-flash-with-silent-access-and-rtc-tamper-detection",
     "relUrl": "/apps/trustZone/nvmctrl/secure_dataflash_SA_TE_ls00/readme.html#secure-data-flash-with-silent-access-and-rtc-tamper-detection"
-  },"284": {
+  },"290": {
     "doc": "Secure Data Flash with Silent Access and RTC Tamper Detection",
     "title": "Description",
     "content": "This demonstrates TrustZone feature and uses two projects viz., Secure and Non-Secure Project that work together on the same MCU and offering security isolation between the Trusted and the Non-trusted resources in the device. | Secure project configures the RTC peripheral for tamper detection and SERCOM3 peripheral to display content on console through UART pins. | Secure project configures the Secure Data Flash security features (Silent Access - Tamper Erase). | Non-secure project uses veneers to request from Secure project, to erase Secure Data Flash, fill it with 0xCAFEDECA pattern and display its content on console every seconds. When a Tamper is detected, Non-Secure application is halted and Secure Data Flash content is fully erased. | . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/nvmctrl/secure_dataflash_SA_TE_ls00/readme.html#description",
     "relUrl": "/apps/trustZone/nvmctrl/secure_dataflash_SA_TE_ls00/readme.html#description"
-  },"285": {
+  },"291": {
     "doc": "Secure Data Flash with Silent Access and RTC Tamper Detection",
     "title": "Components Used",
     "content": ". | Data Flash - Configured in Secure APPLICATION region | RTC - Configured as Secure mode | PA08 - Configured as Secure pin (RTC Tamper Pin) | SERCOM3 - Configured as Secure mode (USART mode) | . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/nvmctrl/secure_dataflash_SA_TE_ls00/readme.html#components-used",
     "relUrl": "/apps/trustZone/nvmctrl/secure_dataflash_SA_TE_ls00/readme.html#components-used"
-  },"286": {
+  },"292": {
     "doc": "Secure Data Flash with Silent Access and RTC Tamper Detection",
     "title": "Downloading and building the application",
     "content": "To clone or download this application from Github, go to the main page of this repository and then click Clone button to clone this repository or download as zip file. This content can also be downloaded using content manager by following these instructions. Path of the application within the repository is as shown below: . | Type | Path |   | . | Project group | apps/trustZone/nvmctrl/secure_dataflash_SA_TE_ls00 |   | . | Secure Project | apps/trustZone/nvmctrl/secure_dataflash_SA_TE_ls00/Secure/firmware |   | . | Non-Secure Project | apps/trustZone/nvmctrl/secure_dataflash_SA_TE_ls00/NonSecure/firmware |   | . |   |   |   | . To build the application, refer to the following table and open the project using its IDE. | Project Name | Description | . | pic32cm_ls00_cpro_Secure.X pic32cm_ls00_cpro_NonSecure.X | Secure and Non-secure MPLABX project for PIC32CM LS00 Curiosity Pro Evaluation Kit | . |   |   | . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/nvmctrl/secure_dataflash_SA_TE_ls00/readme.html#downloading-and-building-the-application",
     "relUrl": "/apps/trustZone/nvmctrl/secure_dataflash_SA_TE_ls00/readme.html#downloading-and-building-the-application"
-  },"287": {
+  },"293": {
     "doc": "Secure Data Flash with Silent Access and RTC Tamper Detection",
     "title": "Setting up the hardware",
     "content": "The following table shows the target hardware for the application projects. | Project Name | Board | . | pic32cm_ls00_cpro_Secure.X pic32cm_ls00_cpro_NonSecure.X | PIC32CM LS00 Curiosity Pro Evaluation Kit | . |   |   | . Setting up PIC32CM LS00 Curiosity Pro Evaluation Kit . | Connect the Debug USB port on the board to the computer using a micro USB cable | Short PA08 pin (EXT3, PIN 3) to Vcc | . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/nvmctrl/secure_dataflash_SA_TE_ls00/readme.html#setting-up-the-hardware",
     "relUrl": "/apps/trustZone/nvmctrl/secure_dataflash_SA_TE_ls00/readme.html#setting-up-the-hardware"
-  },"288": {
+  },"294": {
     "doc": "Secure Data Flash with Silent Access and RTC Tamper Detection",
     "title": "Running the Application",
     "content": ". | Open the Terminal application (Ex.:Tera term) on the computer | Connect to the EDBG Virtual COM port and configure the serial settings as follows: . | Baud : 115200 | Data : 8 Bits | Parity : None | Stop : 1 Bit | Flow Control : None | . | Open the project group in the MPLAB X IDE and set the non-secure project as main project | Build and program the application | The console should display the following Secure Data Flash content: | . | Tied down the PA08 pin with a jumper (Remove short from Vcc and connect it to GND to create a falling edge) | The following Secure Data Flash content should be observed on console, meaning the Secure Data Flash Tamper Erase Row 0 was performed because of RTC Tamper Detection: | . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/nvmctrl/secure_dataflash_SA_TE_ls00/readme.html#running-the-application",
     "relUrl": "/apps/trustZone/nvmctrl/secure_dataflash_SA_TE_ls00/readme.html#running-the-application"
-  },"289": {
+  },"295": {
     "doc": "Secure Data Flash with Silent Access and RTC Tamper Detection",
     "title": "Secure Data Flash with Silent Access and RTC Tamper Detection",
     "content": ". ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/nvmctrl/secure_dataflash_SA_TE_ls00/readme.html",
     "relUrl": "/apps/trustZone/nvmctrl/secure_dataflash_SA_TE_ls00/readme.html"
-  },"290": {
+  },"296": {
     "doc": "Secure Data Flash with Silent Access and RTC Tamper Detection",
     "title": "Secure Data Flash with Silent Access and RTC Tamper Detection",
     "content": "This example application displays the Data Flash content on a console which is refreshed every seconds. The Silent Access and Tamper Erase security features of the Data Flash are enabled. ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/nvmctrl/secure_dataflash_SA_TE_ls60/readme.html#secure-data-flash-with-silent-access-and-rtc-tamper-detection",
     "relUrl": "/apps/trustZone/nvmctrl/secure_dataflash_SA_TE_ls60/readme.html#secure-data-flash-with-silent-access-and-rtc-tamper-detection"
-  },"291": {
+  },"297": {
     "doc": "Secure Data Flash with Silent Access and RTC Tamper Detection",
     "title": "Description",
     "content": "This demonstrates TrustZone feature and uses two projects viz., Secure and Non-Secure Project that work together on the same MCU and offering security isolation between the Trusted and the Non-trusted resources in the device. | Secure project configures the RTC peripheral for tamper detection and SERCOM3 peripheral to display content on console through UART pins. | Secure project configures the Secure Data Flash security features (Silent Access - Tamper Erase). | Non-secure project uses veneers to request from Secure project, to erase Secure Data Flash, fill it with 0xCAFEDECA pattern and display its content on console every seconds. When a Tamper is detected, Non-Secure application is halted and Secure Data Flash content is fully erased. | . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/nvmctrl/secure_dataflash_SA_TE_ls60/readme.html#description",
     "relUrl": "/apps/trustZone/nvmctrl/secure_dataflash_SA_TE_ls60/readme.html#description"
-  },"292": {
+  },"298": {
     "doc": "Secure Data Flash with Silent Access and RTC Tamper Detection",
     "title": "Components Used",
     "content": ". | Data Flash - Configured in Secure APPLICATION region | RTC - Configured as Secure mode | PA08 - Configured as Secure pin (RTC Tamper Pin) | SERCOM3 - Configured as Secure mode (USART mode) | . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/nvmctrl/secure_dataflash_SA_TE_ls60/readme.html#components-used",
     "relUrl": "/apps/trustZone/nvmctrl/secure_dataflash_SA_TE_ls60/readme.html#components-used"
-  },"293": {
+  },"299": {
     "doc": "Secure Data Flash with Silent Access and RTC Tamper Detection",
     "title": "Downloading and building the application",
     "content": "To clone or download this application from Github, go to the main page of this repository and then click Clone button to clone this repository or download as zip file. This content can also be downloaded using content manager by following these instructions. Path of the application within the repository is as shown below: . | Type | Path |   | . | Project group | apps/trustZone/nvmctrl/secure_dataflash_SA_TE_ls60 |   | . | Secure Project | apps/trustZone/nvmctrl/secure_dataflash_SA_TE_ls60/Secure/firmware |   | . | Non-Secure Project | apps/trustZone/nvmctrl/secure_dataflash_SA_TE_ls60/NonSecure/firmware |   | . |   |   |   | . To build the application, refer to the following table and open the project using its IDE. | Project Name | Description | . | pic32cm_ls60_cpro_Secure.X pic32cm_ls60_cpro_NonSecure.X | Secure and Non-secure MPLABX project for PIC32CM LS60 Curiosity Pro Evaluation Kit | . |   |   | . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/nvmctrl/secure_dataflash_SA_TE_ls60/readme.html#downloading-and-building-the-application",
     "relUrl": "/apps/trustZone/nvmctrl/secure_dataflash_SA_TE_ls60/readme.html#downloading-and-building-the-application"
-  },"294": {
+  },"300": {
     "doc": "Secure Data Flash with Silent Access and RTC Tamper Detection",
     "title": "Setting up the hardware",
     "content": "The following table shows the target hardware for the application projects. | Project Name | Board | . | pic32cm_ls60_cpro_Secure.X pic32cm_ls60_cpro_NonSecure.X | PIC32CM LS60 Curiosity Pro Evaluation Kit | . |   |   | . Setting up PIC32CM LS60 Curiosity Pro Evaluation Kit . | Connect the Debug USB port on the board to the computer using a micro USB cable | Short PA08 pin (EXT3, PIN 3) to Vcc | . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/nvmctrl/secure_dataflash_SA_TE_ls60/readme.html#setting-up-the-hardware",
     "relUrl": "/apps/trustZone/nvmctrl/secure_dataflash_SA_TE_ls60/readme.html#setting-up-the-hardware"
-  },"295": {
+  },"301": {
     "doc": "Secure Data Flash with Silent Access and RTC Tamper Detection",
     "title": "Running the Application",
     "content": ". | Open the Terminal application (Ex.:Tera term) on the computer | Connect to the EDBG Virtual COM port and configure the serial settings as follows: . | Baud : 115200 | Data : 8 Bits | Parity : None | Stop : 1 Bit | Flow Control : None | . | Open the project group in the MPLAB X IDE and set the non-secure project as main project | Build and program the application | The console should display the following Secure Data Flash content: | . | Tied down the PA08 pin with a jumper (Remove short from Vcc and connect it to GND to create a falling edge) | The following Secure Data Flash content should be observed on console, meaning the Secure Data Flash Tamper Erase Row 0 was performed because of RTC Tamper Detection: | . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/nvmctrl/secure_dataflash_SA_TE_ls60/readme.html#running-the-application",
     "relUrl": "/apps/trustZone/nvmctrl/secure_dataflash_SA_TE_ls60/readme.html#running-the-application"
-  },"296": {
+  },"302": {
     "doc": "Secure Data Flash with Silent Access and RTC Tamper Detection",
     "title": "Secure Data Flash with Silent Access and RTC Tamper Detection",
     "content": ". ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/nvmctrl/secure_dataflash_SA_TE_ls60/readme.html",
     "relUrl": "/apps/trustZone/nvmctrl/secure_dataflash_SA_TE_ls60/readme.html"
-  },"297": {
+  },"303": {
     "doc": "Low-Power Features",
     "title": "Low-Power Features",
     "content": "This example highlights the power consumption for each sleep mode based on the same application integration. ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/pm/low_power_features_ls00/readme.html#low-power-features",
     "relUrl": "/apps/trustZone/pm/low_power_features_ls00/readme.html#low-power-features"
-  },"298": {
+  },"304": {
     "doc": "Low-Power Features",
     "title": "Description",
     "content": "This example application configures RTC to generate an interrupt or event (regarding sleep mode and configuration) to start an ADC conversion from light sensor value every 1 ms. The DMAC move the converted value from ADC Result to internal SRAM and after 10 transfers, DMA generates an interrupt to wake-up core and process data through DGI SPI pins. Application initial sleep mode state is IDLE mode. Pressing the SW0 button allows to go from one sleep mode to another. Below is the low-power configuration for this application: . | Voltage Regulator is a Buck Converter | Low Power Efficiency Mode is enabled | Performance Level 2 (PL2) Mode is selected | Power Domain Switchable (PDSW) is always ACTIVE | . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/pm/low_power_features_ls00/readme.html#description",
     "relUrl": "/apps/trustZone/pm/low_power_features_ls00/readme.html#description"
-  },"299": {
+  },"305": {
     "doc": "Low-Power Features",
     "title": "Downloading and building the application",
     "content": "To clone or download this application from Github, go to the main page of this repository and then click Clone button to clone this repository or download as zip file. This content can also be downloaded using content manager by following these instructions. Path of the application within the repository is as shown below: . | Type | Path |   | . | Project group | apps/trustZone/low_power_features_ls00 |   | . | Secure Project | apps/trustZone/low_power_features_ls00/Secure/firmware |   | . | Non-Secure Project | apps/trustZone/low_power_features_ls00/NonSecure/firmware |   | . |   |   |   | . To build the application, refer to the following table and open the project using its IDE. | Project Name | Description | . | pic32cm_ls00_cpro.X pic32cm_ls00_cpro_NonSecure.X | Secure and Non-Secure MPLABX projects for MPLABX project for PIC32CM LS00 Curiosity Pro Evaluation Kit | . |   |   | . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/pm/low_power_features_ls00/readme.html#downloading-and-building-the-application",
     "relUrl": "/apps/trustZone/pm/low_power_features_ls00/readme.html#downloading-and-building-the-application"
-  },"300": {
+  },"306": {
     "doc": "Low-Power Features",
     "title": "Setting up the hardware",
     "content": "The following table shows the target hardware for the application projects. | Project Name | Board | . | pic32cm_ls00_cpro_Secure.X pic32cm_ls00_cpro_NonSecure.X | PIC32CM LS00 Curiosity Pro Evaluation Kit | . | I/O1 Xplained Pro Extension Kit | I/O1 Xplained Pro Extension Kit | . |   |   | . Setting up PIC32CM LS00 Curiosity Pro Evaluation Kit . | Plug the I/O1 Xplained Pro Extension Kit to the EXT1 header on the board | Short pin 2 and pin 3 of J205 jumper (XAM is measuring the MCU current consumption) | Connect the Debug USB port on the board to the computer using a micro USB cable | . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/pm/low_power_features_ls00/readme.html#setting-up-the-hardware",
     "relUrl": "/apps/trustZone/pm/low_power_features_ls00/readme.html#setting-up-the-hardware"
-  },"301": {
+  },"307": {
     "doc": "Low-Power Features",
     "title": "Running the Application",
     "content": ". | Build and Program the application using its IDE | Open and Configure the Microchip’s Atmel Data Visualizer . | Open a Data Streamer in Configuration &gt; Protocols | . | Configure and Load the Data Streamer with the DataStream_Configuration text file available in apps/trustZone/low_power_features_ls00/NonSecure/firmware/src/ | . | Open a Graph in Configuration &gt; Visualization | . | Drag &amp; Drop the LightLevel icon to Graph window as a New plot | . | Connect the board with DGI Control Panel | . | Select SPI &amp; Power intefaces | . | Drag &amp; Drop the SPI icon to Data Stream Control Panel | . | Start the communication with the board | . | Cover the light sensor (for example, by placing a hand over it) of I/O1 Xplained Pro Extension Kit and then uncover the light sensor. Observe the SPI Output as below . | Observe the power consumption in IDLE mode as below . | Press SW0 button to enter STANDBY with IRQ mode and observe the power consumption as below . | Press SW0 button to enter STANDBY with SleepWalking mode and observe the power consumption as below . | Press SW0 button to enter OFF mode and observe the power consumption as below . Press RESET button when the device is in OFF mode to restart code example at initial sleep state (IDLE) . | . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/pm/low_power_features_ls00/readme.html#running-the-application",
     "relUrl": "/apps/trustZone/pm/low_power_features_ls00/readme.html#running-the-application"
-  },"302": {
+  },"308": {
     "doc": "Low-Power Features",
     "title": "Low-Power Features",
     "content": ". ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/pm/low_power_features_ls00/readme.html",
     "relUrl": "/apps/trustZone/pm/low_power_features_ls00/readme.html"
-  },"303": {
+  },"309": {
     "doc": "Low-Power Features",
     "title": "Low-Power Features",
     "content": "This example highlights the power consumption for each sleep mode based on the same application integration. ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/pm/low_power_features_ls60/readme.html#low-power-features",
     "relUrl": "/apps/trustZone/pm/low_power_features_ls60/readme.html#low-power-features"
-  },"304": {
+  },"310": {
     "doc": "Low-Power Features",
     "title": "Description",
     "content": "This example application configures RTC to generate an interrupt or event (regarding sleep mode and configuration) to start an ADC conversion from light sensor value every 1 ms. The DMAC move the converted value from ADC Result to internal SRAM and after 10 transfers, DMA generates an interrupt to wake-up core and process data through DGI SPI pins. Application initial sleep mode state is IDLE mode. Pressing the SW0 button allows to go from one sleep mode to another. Below is the low-power configuration for this application: . | Voltage Regulator is a Buck Converter | Low Power Efficiency Mode is enabled | Performance Level 2 (PL2) Mode is selected | Power Domain Switchable (PDSW) is always ACTIVE | . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/pm/low_power_features_ls60/readme.html#description",
     "relUrl": "/apps/trustZone/pm/low_power_features_ls60/readme.html#description"
-  },"305": {
+  },"311": {
     "doc": "Low-Power Features",
     "title": "Downloading and building the application",
     "content": "To clone or download this application from Github, go to the main page of this repository and then click Clone button to clone this repository or download as zip file. This content can also be downloaded using content manager by following these instructions. Path of the application within the repository is as shown below: . | Type | Path |   | . | Project group | apps/trustZone/low_power_features_ls60 |   | . | Secure Project | apps/trustZone/low_power_features_ls60/Secure/firmware |   | . | Non-Secure Project | apps/trustZone/low_power_features_ls60/NonSecure/firmware |   | . |   |   |   | . To build the application, refer to the following table and open the project using its IDE. | Project Name | Description | . | pic32cm_ls60_cpro.X pic32cm_ls60_cpro_NonSecure.X | Secure and Non-Secure MPLABX projects for MPLABX project for PIC32CM LS60 Curiosity Pro Evaluation Kit | . |   |   | . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/pm/low_power_features_ls60/readme.html#downloading-and-building-the-application",
     "relUrl": "/apps/trustZone/pm/low_power_features_ls60/readme.html#downloading-and-building-the-application"
-  },"306": {
+  },"312": {
     "doc": "Low-Power Features",
     "title": "Setting up the hardware",
     "content": "The following table shows the target hardware for the application projects. | Project Name | Board | . | pic32cm_ls60_cpro.X pic32cm_ls60_cpro_NonSecure.X | PIC32CM LS60 Curiosity Pro Evaluation Kit | . | I/O1 Xplained Pro Extension Kit | I/O1 Xplained Pro Extension Kit | . |   |   | . Setting up PIC32CM LS60 Curiosity Pro Evaluation Kit . | Plug the I/O1 Xplained Pro Extension Kit to the EXT1 header on the board | Short pin 2 and pin 3 of J205 jumper (XAM is measuring the MCU current consumption) | Connect the Debug USB port on the board to the computer using a micro USB cable | . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/pm/low_power_features_ls60/readme.html#setting-up-the-hardware",
     "relUrl": "/apps/trustZone/pm/low_power_features_ls60/readme.html#setting-up-the-hardware"
-  },"307": {
+  },"313": {
     "doc": "Low-Power Features",
     "title": "Running the Application",
     "content": ". | Build and Program the application using its IDE | Open and Configure the Microchip’s Atmel Data Visualizer . | Open a Data Streamer in Configuration &gt; Protocols | . | Configure and Load the Data Streamer with the DataStream_Configuration text file available in apps/trustZone/low_power_features_ls60/NonSecure/firmware/src/ | . | Open a Graph in Configuration &gt; Visualization | . | Drag &amp; Drop the LightLevel icon to Graph window as a New plot | . | Connect the board with DGI Control Panel | . | Select SPI &amp; Power intefaces | . | Drag &amp; Drop the SPI icon to Data Stream Control Panel | . | Start the communication with the board | . | Cover the light sensor (for example, by placing a hand over it) of I/O1 Xplained Pro Extension Kit and then uncover the light sensor. Observe the SPI Output as below . | Observe the power consumption in IDLE mode as below . | Press SW0 button to enter STANDBY with IRQ mode and observe the power consumption as below . | Press SW0 button to enter STANDBY with SleepWalking mode and observe the power consumption as below . | Press SW0 button to enter OFF mode and observe the power consumption as below . Press RESET button when the device is in OFF mode to restart code example at initial sleep state (IDLE) . | . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/pm/low_power_features_ls60/readme.html#running-the-application",
     "relUrl": "/apps/trustZone/pm/low_power_features_ls60/readme.html#running-the-application"
-  },"308": {
+  },"314": {
     "doc": "Low-Power Features",
     "title": "Low-Power Features",
     "content": ". ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/pm/low_power_features_ls60/readme.html",
     "relUrl": "/apps/trustZone/pm/low_power_features_ls60/readme.html"
-  },"309": {
+  },"315": {
+    "doc": "SERCOM USART Start of Frame (SOF) interrupt",
+    "title": "SERCOM USART Start of Frame (SOF) interrupt",
+    "content": "This example application demonstrates how to use the SERCOM peripheral in USART ring buffer mode with SoF to wake-up device from sleep mode. For this example: . | Performance Level 2 (PL2) is selected | . ",
+    "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/sercom/usart_sof_irq_ls00/readme.html#sercom-usart-start-of-frame-sof-interrupt",
+    "relUrl": "/apps/trustZone/sercom/usart_sof_irq_ls00/readme.html#sercom-usart-start-of-frame-sof-interrupt"
+  },"316": {
+    "doc": "SERCOM USART Start of Frame (SOF) interrupt",
+    "title": "Description",
+    "content": "This example demonstrates how to wake-up from sleep mode using USART + Start of Frame feature. The USART is configured in ring-buffer mode (interrupts enabled). The example asks the user to enter 1 character. Once received, the device wake-up from sleep, displays a message then go back to sleep. For this example the Standby mode is default sleep mode used. ",
+    "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/sercom/usart_sof_irq_ls00/readme.html#description",
+    "relUrl": "/apps/trustZone/sercom/usart_sof_irq_ls00/readme.html#description"
+  },"317": {
+    "doc": "SERCOM USART Start of Frame (SOF) interrupt",
+    "title": "Downloading and building the application",
+    "content": "To clone or download this application from Github, go to the main page of this repository and then click Clone button to clone this repository or download as zip file. This content can also be downloaded using content manager by following these instructions. Path of the application within the repository is as shown below: . | Type | Path |   | . | Project group | apps/trustZone/sercom/usart_sof_irq_ls00 |   | . | Secure Project | apps/trustZone/usart_sof_irq_ls00/Secure/firmware |   | . | Non-Secure Project | apps/trustZone/usart_sof_irq_ls00/NonSecure/firmware |   | . |   |   |   | . To build the application, refer to the following table and open the project using its IDE. | Project Name | Description | . | pic32cm_ls00_cpro.X pic32cm_ls00_cpro_NonSecure.X | Secure and Non-Secure MPLABX projects for MPLABX project for PIC32CM LS00 Curiosity Pro Evaluation Kit | . |   |   | . ",
+    "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/sercom/usart_sof_irq_ls00/readme.html#downloading-and-building-the-application",
+    "relUrl": "/apps/trustZone/sercom/usart_sof_irq_ls00/readme.html#downloading-and-building-the-application"
+  },"318": {
+    "doc": "SERCOM USART Start of Frame (SOF) interrupt",
+    "title": "Setting up the hardware",
+    "content": "The following table shows the target hardware for the application projects. | Project Name | Board | . | pic32cm_ls00_cpro_Secure.X pic32cm_ls00_cpro_NonSecure.X | PIC32CM LS00 Curiosity Pro Evaluation Kit | . |   |   | . Setting up PIC32CM LS00 Curiosity Pro Evaluation Kit . | Connect the Debug USB port on the board to the computer using a micro USB cable | . ",
+    "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/sercom/usart_sof_irq_ls00/readme.html#setting-up-the-hardware",
+    "relUrl": "/apps/trustZone/sercom/usart_sof_irq_ls00/readme.html#setting-up-the-hardware"
+  },"319": {
+    "doc": "SERCOM USART Start of Frame (SOF) interrupt",
+    "title": "Running the Application",
+    "content": ". | Open the Terminal application (Ex.:Tera term) on the computer | Connect to the EDBG Virtual COM port and configure the serial settings as follows: . | Baud : 115200 | Data : 8 Bits | Parity : None | Stop : 1 Bit | Flow Control : None | . | Build and Program the application using its IDE | The console displays the following message . | Console displays the application header followed by message | The message asks user to “Enter character to wake-up from sleep mode” | NOTE: For this example, the sleep mode used is Standby mode | . | Enter 1 character on terminal | The device will wake-up and display message below: . | Then device will go back to sleep until new character is entered | . ",
+    "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/sercom/usart_sof_irq_ls00/readme.html#running-the-application",
+    "relUrl": "/apps/trustZone/sercom/usart_sof_irq_ls00/readme.html#running-the-application"
+  },"320": {
+    "doc": "SERCOM USART Start of Frame (SOF) interrupt",
+    "title": "SERCOM USART Start of Frame (SOF) interrupt",
+    "content": ". ",
+    "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/sercom/usart_sof_irq_ls00/readme.html",
+    "relUrl": "/apps/trustZone/sercom/usart_sof_irq_ls00/readme.html"
+  },"321": {
+    "doc": "SERCOM USART Start of Frame (SOF) interrupt",
+    "title": "SERCOM USART Start of Frame (SOF) interrupt",
+    "content": "This example application demonstrates how to use the SERCOM peripheral in USART ring buffer mode with SoF to wake-up device from sleep mode. For this example: . | Performance Level 2 (PL2) is selected | . ",
+    "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/sercom/usart_sof_irq_ls60/readme.html#sercom-usart-start-of-frame-sof-interrupt",
+    "relUrl": "/apps/trustZone/sercom/usart_sof_irq_ls60/readme.html#sercom-usart-start-of-frame-sof-interrupt"
+  },"322": {
+    "doc": "SERCOM USART Start of Frame (SOF) interrupt",
+    "title": "Description",
+    "content": "This example demonstrates how to wake-up from sleep mode using USART + Start of Frame feature. The USART is configured in ring-buffer mode (interrupts enabled). The example asks the user to enter 1 character. Once received, the device wake-up from sleep, displays a message then go back to sleep. For this example the Standby mode is default sleep mode used. ",
+    "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/sercom/usart_sof_irq_ls60/readme.html#description",
+    "relUrl": "/apps/trustZone/sercom/usart_sof_irq_ls60/readme.html#description"
+  },"323": {
+    "doc": "SERCOM USART Start of Frame (SOF) interrupt",
+    "title": "Downloading and building the application",
+    "content": "To clone or download this application from Github, go to the main page of this repository and then click Clone button to clone this repository or download as zip file. This content can also be downloaded using content manager by following these instructions. Path of the application within the repository is as shown below: . | Type | Path |   | . | Project group | apps/trustZone/sercom/usart_sof_irq_ls60 |   | . | Secure Project | apps/trustZone/usart_sof_irq_ls60/Secure/firmware |   | . | Non-Secure Project | apps/trustZone/usart_sof_irq_ls60/NonSecure/firmware |   | . |   |   |   | . To build the application, refer to the following table and open the project using its IDE. | Project Name | Description | . | pic32cm_ls60_cpro.X pic32cm_ls60_cpro_NonSecure.X | Secure and Non-Secure MPLABX projects for MPLABX project for PIC32CM LS60 Curiosity Pro Evaluation Kit | . |   |   | . ",
+    "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/sercom/usart_sof_irq_ls60/readme.html#downloading-and-building-the-application",
+    "relUrl": "/apps/trustZone/sercom/usart_sof_irq_ls60/readme.html#downloading-and-building-the-application"
+  },"324": {
+    "doc": "SERCOM USART Start of Frame (SOF) interrupt",
+    "title": "Setting up the hardware",
+    "content": "The following table shows the target hardware for the application projects. | Project Name | Board | . | pic32cm_ls60_cpro_Secure.X pic32cm_ls60_cpro_NonSecure.X | PIC32CM LS60 Curiosity Pro Evaluation Kit | . |   |   | . Setting up PIC32CM LS60 Curiosity Pro Evaluation Kit . | Connect the Debug USB port on the board to the computer using a micro USB cable | . ",
+    "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/sercom/usart_sof_irq_ls60/readme.html#setting-up-the-hardware",
+    "relUrl": "/apps/trustZone/sercom/usart_sof_irq_ls60/readme.html#setting-up-the-hardware"
+  },"325": {
+    "doc": "SERCOM USART Start of Frame (SOF) interrupt",
+    "title": "Running the Application",
+    "content": ". | Open the Terminal application (Ex.:Tera term) on the computer | Connect to the EDBG Virtual COM port and configure the serial settings as follows: . | Baud : 115200 | Data : 8 Bits | Parity : None | Stop : 1 Bit | Flow Control : None | . | Build and Program the application using its IDE | The console displays the following message . | Console displays the application header followed by message | The message asks user to “Enter character to wake-up from sleep mode” | NOTE: For this example, the sleep mode used is Standby mode | . | Enter 1 character on terminal | The device will wake-up and display message below: . | Then device will go back to sleep until new character is entered | . ",
+    "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/sercom/usart_sof_irq_ls60/readme.html#running-the-application",
+    "relUrl": "/apps/trustZone/sercom/usart_sof_irq_ls60/readme.html#running-the-application"
+  },"326": {
+    "doc": "SERCOM USART Start of Frame (SOF) interrupt",
+    "title": "SERCOM USART Start of Frame (SOF) interrupt",
+    "content": ". ",
+    "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/sercom/usart_sof_irq_ls60/readme.html",
+    "relUrl": "/apps/trustZone/sercom/usart_sof_irq_ls60/readme.html"
+  },"327": {
     "doc": "TrustZone Systick periodic timeout",
     "title": "TrustZone Systick periodic timeout",
     "content": "This example application shows how to use the SysTick to generate periodic interrupts on both Secure and Non-secure modes. ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/systick/systick_periodic_timeout_ls00/readme.html#trustzone-systick-periodic-timeout",
     "relUrl": "/apps/trustZone/systick/systick_periodic_timeout_ls00/readme.html#trustzone-systick-periodic-timeout"
-  },"310": {
+  },"328": {
     "doc": "TrustZone Systick periodic timeout",
     "title": "Description",
     "content": "This demonstrates TrustZone feature and uses two projects viz., Secure and Non-Secure Project that work together on the same MCU and offering security isolation between the Trusted and the Non-trusted resources in the device. | Secure project uses secure SysTick timer to generate periodic interrupt every 50ms to toggle a GPIO pin and an LED0 | Non-secure project uses non-secure SysTick timer to generate periodic interrupt every 100ms to toggle a GPIO pin and an LED1 | . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/systick/systick_periodic_timeout_ls00/readme.html#description",
     "relUrl": "/apps/trustZone/systick/systick_periodic_timeout_ls00/readme.html#description"
-  },"311": {
+  },"329": {
     "doc": "TrustZone Systick periodic timeout",
     "title": "Components Used",
     "content": ". | Systick - Secure and non-secure systicks | LED0 - Configured as secure mode | LED1 - Configured as non-secure mode | SECURE_PIN and NON_SECURE_PIN - Configured as secure and non-secure mode respectively | . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/systick/systick_periodic_timeout_ls00/readme.html#components-used",
     "relUrl": "/apps/trustZone/systick/systick_periodic_timeout_ls00/readme.html#components-used"
-  },"312": {
+  },"330": {
     "doc": "TrustZone Systick periodic timeout",
     "title": "Downloading and building the application",
     "content": "To clone or download this application from Github, go to the main page of this repository and then click Clone button to clone this repository or download as zip file. This content can also be downloaded using content manager by following these instructions. Path of the application within the repository is as shown below: . | Type | Path |   | . | Project group | apps/trustZone/systick/systick_periodic_timeout_ls00 |   | . | Secure Project | apps/trustZone/systick/systick_periodic_timeout_ls00/Secure/firmware |   | . | Non-Secure Project | apps/trustZone/systick/systick_periodic_timeout_ls00/NonSecure/firmware |   | . |   |   |   | . To build the application, refer to the following table and open the project using its IDE. | Project Name | Description | . | pic32cm_ls00_cpro_Secure.X pic32cm_ls00_cpro_NonSecure.X | Secure and Non-secure MPLABX project for PIC32CM LS00 Curiosity Pro Evaluation Kit | . |   |   | . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/systick/systick_periodic_timeout_ls00/readme.html#downloading-and-building-the-application",
     "relUrl": "/apps/trustZone/systick/systick_periodic_timeout_ls00/readme.html#downloading-and-building-the-application"
-  },"313": {
+  },"331": {
     "doc": "TrustZone Systick periodic timeout",
     "title": "Setting up the hardware",
     "content": "The following table shows the target hardware for the application projects. | Project Name | Board | . | pic32cm_ls00_cpro_Secure.X pic32cm_ls00_cpro_NonSecure.X | PIC32CM LS00 Curiosity Pro Evaluation Kit | . |   |   | . Setting up PIC32CM LS00 Curiosity Pro Evaluation Kit . | Connect the Debug USB port on the board to the computer using a micro USB cable | Connect an oscilloscope/Logic analyzer to monitor the PORT pin PA10 (Pin #5 on EXT1) | Connect an oscilloscope/Logic analyzer to monitor the PORT pin PA11 (Pin #6 on EXT1) | . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/systick/systick_periodic_timeout_ls00/readme.html#setting-up-the-hardware",
     "relUrl": "/apps/trustZone/systick/systick_periodic_timeout_ls00/readme.html#setting-up-the-hardware"
-  },"314": {
+  },"332": {
     "doc": "TrustZone Systick periodic timeout",
     "title": "Running the Application",
     "content": ". | Open the project group in the MPLAB X IDE and set the non-secure project as main project | Build and program the application | Observe the output for PIC32CM LS00 Curiosity Pro Evaluation Kit as follows: . | LED0(Green) and PA10 (Secure pin) is toggled every ~50ms in secure project. | LED1(Red) and PA11 (Non-secure pin) is toggled every ~100ms in non-secure project | . | . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/systick/systick_periodic_timeout_ls00/readme.html#running-the-application",
     "relUrl": "/apps/trustZone/systick/systick_periodic_timeout_ls00/readme.html#running-the-application"
-  },"315": {
+  },"333": {
     "doc": "TrustZone Systick periodic timeout",
     "title": "TrustZone Systick periodic timeout",
     "content": ". ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/systick/systick_periodic_timeout_ls00/readme.html",
     "relUrl": "/apps/trustZone/systick/systick_periodic_timeout_ls00/readme.html"
-  },"316": {
+  },"334": {
     "doc": "TrustZone Systick periodic timeout",
     "title": "TrustZone Systick periodic timeout",
     "content": "This example application shows how to use the SysTick to generate periodic interrupts on both Secure and Non-secure modes. ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/systick/systick_periodic_timeout_ls60/readme.html#trustzone-systick-periodic-timeout",
     "relUrl": "/apps/trustZone/systick/systick_periodic_timeout_ls60/readme.html#trustzone-systick-periodic-timeout"
-  },"317": {
+  },"335": {
     "doc": "TrustZone Systick periodic timeout",
     "title": "Description",
     "content": "This demonstrates TrustZone feature and uses two projects viz., Secure and Non-Secure Project that work together on the same MCU and offering security isolation between the Trusted and the Non-trusted resources in the device. | Secure project uses secure SysTick timer to generate periodic interrupt every 50ms to toggle a GPIO pin and an LED0 | Non-secure project uses non-secure SysTick timer to generate periodic interrupt every 100ms to toggle a GPIO pin and an LED1 | . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/systick/systick_periodic_timeout_ls60/readme.html#description",
     "relUrl": "/apps/trustZone/systick/systick_periodic_timeout_ls60/readme.html#description"
-  },"318": {
+  },"336": {
     "doc": "TrustZone Systick periodic timeout",
     "title": "Components Used",
     "content": ". | Systick - Secure and non-secure systicks | LED0 - Configured as secure mode | LED1 - Configured as non-secure mode | SECURE_PIN and NON_SECURE_PIN - Configured as secure and non-secure mode respectively | . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/systick/systick_periodic_timeout_ls60/readme.html#components-used",
     "relUrl": "/apps/trustZone/systick/systick_periodic_timeout_ls60/readme.html#components-used"
-  },"319": {
+  },"337": {
     "doc": "TrustZone Systick periodic timeout",
     "title": "Downloading and building the application",
     "content": "To clone or download this application from Github, go to the main page of this repository and then click Clone button to clone this repository or download as zip file. This content can also be downloaded using content manager by following these instructions. Path of the application within the repository is as shown below: . | Type | Path |   | . | Project group | apps/trustZone/systick/systick_periodic_timeout_ls60 |   | . | Secure Project | apps/trustZone/systick/systick_periodic_timeout_ls60/Secure/firmware |   | . | Non-Secure Project | apps/trustZone/systick/systick_periodic_timeout_ls60/NonSecure/firmware |   | . |   |   |   | . To build the application, refer to the following table and open the project using its IDE. | Project Name | Description | . | pic32cm_ls60_cpro_Secure.X pic32cm_ls60_cpro_NonSecure.X | Secure and Non-secure MPLABX project for PIC32CM LS60 Curiosity Pro Evaluation Kit | . |   |   | . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/systick/systick_periodic_timeout_ls60/readme.html#downloading-and-building-the-application",
     "relUrl": "/apps/trustZone/systick/systick_periodic_timeout_ls60/readme.html#downloading-and-building-the-application"
-  },"320": {
+  },"338": {
     "doc": "TrustZone Systick periodic timeout",
     "title": "Setting up the hardware",
     "content": "The following table shows the target hardware for the application projects. | Project Name | Board | . | pic32cm_ls60_cpro_Secure.X pic32cm_ls60_cpro_NonSecure.X | PIC32CM LS60 Curiosity Pro Evaluation Kit | . |   |   | . Setting up PIC32CM LS60 Curiosity Pro Evaluation Kit . | Connect the Debug USB port on the board to the computer using a micro USB cable | Connect an oscilloscope/Logic analyzer to monitor the PORT pin PA10 (Pin #5 on EXT1) | Connect an oscilloscope/Logic analyzer to monitor the PORT pin PA11 (Pin #6 on EXT1) | . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/systick/systick_periodic_timeout_ls60/readme.html#setting-up-the-hardware",
     "relUrl": "/apps/trustZone/systick/systick_periodic_timeout_ls60/readme.html#setting-up-the-hardware"
-  },"321": {
+  },"339": {
     "doc": "TrustZone Systick periodic timeout",
     "title": "Running the Application",
     "content": ". | Open the project group in the MPLAB X IDE and set the non-secure project as main project | Build and program the application | Observe the output for PIC32CM LS60 Curiosity Pro Evaluation Kit as follows: . | LED0(Green) and PA10 (Secure pin) is toggled every ~50ms in secure project. | LED1(Red) and PA11 (Non-secure pin) is toggled every ~100ms in non-secure project | . | . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/systick/systick_periodic_timeout_ls60/readme.html#running-the-application",
     "relUrl": "/apps/trustZone/systick/systick_periodic_timeout_ls60/readme.html#running-the-application"
-  },"322": {
+  },"340": {
     "doc": "TrustZone Systick periodic timeout",
     "title": "TrustZone Systick periodic timeout",
     "content": ". ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/systick/systick_periodic_timeout_ls60/readme.html",
     "relUrl": "/apps/trustZone/systick/systick_periodic_timeout_ls60/readme.html"
-  },"323": {
+  },"341": {
     "doc": "Non-Secure TC demonstration",
     "title": "Non-Secure TC demonstration",
     "content": "This example application performs a PWM signal applied on PC19 pin (LED0) based on TC0 peripheral. ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/tc/nonsecure_tc_ls00/readme.html#non-secure-tc-demonstration",
     "relUrl": "/apps/trustZone/tc/nonsecure_tc_ls00/readme.html#non-secure-tc-demonstration"
-  },"324": {
+  },"342": {
     "doc": "Non-Secure TC demonstration",
     "title": "Description",
     "content": "This demonstrates TrustZone feature and uses two projects viz., Secure and Non-Secure Project that work together on the same MCU and offering security isolation between the Trusted and the Non-trusted resources in the device. | Non-Secure project configures the TC0 peripheral to generate interrupts based on Match0 and Overflow IRQs. | Non-Secure project configures the SysTick to generates interrupts | Non-secure project then performs PWM signal (based on TC0 duty cycle management and delays from SysTICK) to apply to LED0 pin | . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/tc/nonsecure_tc_ls00/readme.html#description",
     "relUrl": "/apps/trustZone/tc/nonsecure_tc_ls00/readme.html#description"
-  },"325": {
+  },"343": {
     "doc": "Non-Secure TC demonstration",
     "title": "Components Used",
     "content": ". | TC0 - Configured as Non-secure peripheral | LED0 - Configured as Non-secure pin | SysTick - Configured as Non-secure peripheral | . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/tc/nonsecure_tc_ls00/readme.html#components-used",
     "relUrl": "/apps/trustZone/tc/nonsecure_tc_ls00/readme.html#components-used"
-  },"326": {
+  },"344": {
     "doc": "Non-Secure TC demonstration",
     "title": "Downloading and building the application",
     "content": "To clone or download this application from Github, go to the main page of this repository and then click Clone button to clone this repository or download as zip file. This content can also be downloaded using content manager by following these instructions. Path of the application within the repository is as shown below: . | Type | Path |   | . | Project group | apps/trustZone/tc/nonsecure_tc_ls00 |   | . | Secure Project | apps/trustZone/tc/nonsecure_tc_ls00/Secure/firmware |   | . | Non-Secure Project | apps/trustZone/tc/nonsecure_tc_ls00/NonSecure/firmware |   | . |   |   |   | . To build the application, refer to the following table and open the project using its IDE. | Project Name | Description | . | pic32cm_ls00_cpro_Secure.X pic32cm_ls00_cpro_NonSecure.X | Secure and Non-secure MPLABX project for PIC32CM LS00 Curiosity Pro Evaluation Kit | . |   |   | . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/tc/nonsecure_tc_ls00/readme.html#downloading-and-building-the-application",
     "relUrl": "/apps/trustZone/tc/nonsecure_tc_ls00/readme.html#downloading-and-building-the-application"
-  },"327": {
+  },"345": {
     "doc": "Non-Secure TC demonstration",
     "title": "Setting up the hardware",
     "content": "The following table shows the target hardware for the application projects. | Project Name | Board | . | pic32cm_ls00_cpro_Secure.X pic32cm_ls00_cpro_NonSecure.X | PIC32CM LS00 Curiosity Pro Evaluation Kit | . |   |   | . Setting up PIC32CM LS00 Curiosity Pro Evaluation Kit . | Connect the Debug USB port on the board to the computer using a micro USB cable | . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/tc/nonsecure_tc_ls00/readme.html#setting-up-the-hardware",
     "relUrl": "/apps/trustZone/tc/nonsecure_tc_ls00/readme.html#setting-up-the-hardware"
-  },"328": {
+  },"346": {
     "doc": "Non-Secure TC demonstration",
     "title": "Running the Application",
     "content": ". | Open the project group in the MPLAB X IDE and set the non-secure project as main project | Build and program the application | Observe the output for PIC32CM LS00 Curiosity Pro Evaluation Kit as follows: . | LED0(Green) luminosity is decreasing from maximum to minimum based on PWM signal applied by TC0 peripheral in Non-secure project | . | . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/tc/nonsecure_tc_ls00/readme.html#running-the-application",
     "relUrl": "/apps/trustZone/tc/nonsecure_tc_ls00/readme.html#running-the-application"
-  },"329": {
+  },"347": {
     "doc": "Non-Secure TC demonstration",
     "title": "Non-Secure TC demonstration",
     "content": ". ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/tc/nonsecure_tc_ls00/readme.html",
     "relUrl": "/apps/trustZone/tc/nonsecure_tc_ls00/readme.html"
-  },"330": {
+  },"348": {
     "doc": "Non-Secure TC demonstration",
     "title": "Non-Secure TC demonstration",
     "content": "This example application performs a PWM signal applied on PC19 pin (LED0) based on TC0 peripheral. ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/tc/nonsecure_tc_ls60/readme.html#non-secure-tc-demonstration",
     "relUrl": "/apps/trustZone/tc/nonsecure_tc_ls60/readme.html#non-secure-tc-demonstration"
-  },"331": {
+  },"349": {
     "doc": "Non-Secure TC demonstration",
     "title": "Description",
     "content": "This demonstrates TrustZone feature and uses two projects viz., Secure and Non-Secure Project that work together on the same MCU and offering security isolation between the Trusted and the Non-trusted resources in the device. | Non-Secure project configures the TC0 peripheral to generate interrupts based on Match0 and Overflow IRQs. | Non-Secure project configures the SysTick to generates interrupts | Non-secure project then performs PWM signal (based on TC0 duty cycle management and delays from SysTICK) to apply to LED0 pin | . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/tc/nonsecure_tc_ls60/readme.html#description",
     "relUrl": "/apps/trustZone/tc/nonsecure_tc_ls60/readme.html#description"
-  },"332": {
+  },"350": {
     "doc": "Non-Secure TC demonstration",
     "title": "Components Used",
     "content": ". | TC0 - Configured as Non-secure peripheral | LED0 - Configured as Non-secure pin | SysTick - Configured as Non-secure peripheral | . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/tc/nonsecure_tc_ls60/readme.html#components-used",
     "relUrl": "/apps/trustZone/tc/nonsecure_tc_ls60/readme.html#components-used"
-  },"333": {
+  },"351": {
     "doc": "Non-Secure TC demonstration",
     "title": "Downloading and building the application",
     "content": "To clone or download this application from Github, go to the main page of this repository and then click Clone button to clone this repository or download as zip file. This content can also be downloaded using content manager by following these instructions. Path of the application within the repository is as shown below: . | Type | Path |   | . | Project group | apps/trustZone/tc/nonsecure_tc_ls60 |   | . | Secure Project | apps/trustZone/tc/nonsecure_tc_ls60/Secure/firmware |   | . | Non-Secure Project | apps/trustZone/tc/nonsecure_tc_ls60/NonSecure/firmware |   | . |   |   |   | . To build the application, refer to the following table and open the project using its IDE. | Project Name | Description | . | pic32cm_ls60_cpro_Secure.X pic32cm_ls60_cpro_NonSecure.X | Secure and Non-secure MPLABX project for PIC32CM LS60 Curiosity Pro Evaluation Kit | . |   |   | . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/tc/nonsecure_tc_ls60/readme.html#downloading-and-building-the-application",
     "relUrl": "/apps/trustZone/tc/nonsecure_tc_ls60/readme.html#downloading-and-building-the-application"
-  },"334": {
+  },"352": {
     "doc": "Non-Secure TC demonstration",
     "title": "Setting up the hardware",
     "content": "The following table shows the target hardware for the application projects. | Project Name | Board | . | pic32cm_ls60_cpro_Secure.X pic32cm_ls60_cpro_NonSecure.X | PIC32CM LS60 Curiosity Pro Evaluation Kit | . |   |   | . Setting up PIC32CM LS60 Curiosity Pro Evaluation Kit . | Connect the Debug USB port on the board to the computer using a micro USB cable | . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/tc/nonsecure_tc_ls60/readme.html#setting-up-the-hardware",
     "relUrl": "/apps/trustZone/tc/nonsecure_tc_ls60/readme.html#setting-up-the-hardware"
-  },"335": {
+  },"353": {
     "doc": "Non-Secure TC demonstration",
     "title": "Running the Application",
     "content": ". | Open the project group in the MPLAB X IDE and set the non-secure project as main project | Build and program the application | Observe the output for PIC32CM LS60 Curiosity Pro Evaluation Kit as follows: . | LED0(Green) luminosity is decreasing from maximum to minimum based on PWM signal applied by TC0 peripheral in Non-secure project | . | . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/tc/nonsecure_tc_ls60/readme.html#running-the-application",
     "relUrl": "/apps/trustZone/tc/nonsecure_tc_ls60/readme.html#running-the-application"
-  },"336": {
+  },"354": {
     "doc": "Non-Secure TC demonstration",
     "title": "Non-Secure TC demonstration",
     "content": ". ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/tc/nonsecure_tc_ls60/readme.html",
     "relUrl": "/apps/trustZone/tc/nonsecure_tc_ls60/readme.html"
-  },"337": {
+  },"355": {
     "doc": "Secure TC demonstration",
     "title": "Secure TC demonstration",
     "content": "This example application performs a PWM signal applied on PC19 pin (LED0) based on TC0 peripheral. ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/tc/secure_tc_ls00/readme.html#secure-tc-demonstration",
     "relUrl": "/apps/trustZone/tc/secure_tc_ls00/readme.html#secure-tc-demonstration"
-  },"338": {
+  },"356": {
     "doc": "Secure TC demonstration",
     "title": "Description",
     "content": "This demonstrates TrustZone feature and uses two projects viz., Secure and Non-Secure Project that work together on the same MCU and offering security isolation between the Trusted and the Non-trusted resources in the device. | Secure project configures the TC0 peripheral to generate interrupts based on Match0 and Overflow IRQs. | Secure project configures the SysTick to generates interrupts | Non-secure project uses veneers to request from Secure project, the PWM signal (based on TC0 duty cycle management and delays from SysTICK) to apply to LED0 pin | . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/tc/secure_tc_ls00/readme.html#description",
     "relUrl": "/apps/trustZone/tc/secure_tc_ls00/readme.html#description"
-  },"339": {
+  },"357": {
     "doc": "Secure TC demonstration",
     "title": "Components Used",
     "content": ". | TC0 - Configured as Secure peripheral | LED0 - Configured as Non-secure pin | SysTick - Configured as Secure peripheral | . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/tc/secure_tc_ls00/readme.html#components-used",
     "relUrl": "/apps/trustZone/tc/secure_tc_ls00/readme.html#components-used"
-  },"340": {
+  },"358": {
     "doc": "Secure TC demonstration",
     "title": "Downloading and building the application",
     "content": "To clone or download this application from Github, go to the main page of this repository and then click Clone button to clone this repository or download as zip file. This content can also be downloaded using content manager by following these instructions. Path of the application within the repository is as shown below: . | Type | Path |   | . | Project group | apps/trustZone/tc/nonsecure_tc_ls00 |   | . | Secure Project | apps/trustZone/tc/nonsecure_tc_ls00/Secure/firmware |   | . | Non-Secure Project | apps/trustZone/tc/nonsecure_tc_ls00/NonSecure/firmware |   | . |   |   |   | . To build the application, refer to the following table and open the project using its IDE. | Project Name | Description | . | pic32cm_ls00_cpro_Secure.X pic32cm_ls00_cpro_NonSecure.X | Secure and Non-secure MPLABX project for PIC32CM LS00 Curiosity Pro Evaluation Kit | . |   |   | . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/tc/secure_tc_ls00/readme.html#downloading-and-building-the-application",
     "relUrl": "/apps/trustZone/tc/secure_tc_ls00/readme.html#downloading-and-building-the-application"
-  },"341": {
+  },"359": {
     "doc": "Secure TC demonstration",
     "title": "Setting up the hardware",
     "content": "The following table shows the target hardware for the application projects. | Project Name | Board | . | pic32cm_ls00_cpro_Secure.X pic32cm_ls00_cpro_NonSecure.X | PIC32CM LS00 Curiosity Pro Evaluation Kit | . |   |   | . Setting up PIC32CM LS00 Curiosity Pro Evaluation Kit . | Connect the Debug USB port on the board to the computer using a micro USB cable | . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/tc/secure_tc_ls00/readme.html#setting-up-the-hardware",
     "relUrl": "/apps/trustZone/tc/secure_tc_ls00/readme.html#setting-up-the-hardware"
-  },"342": {
+  },"360": {
     "doc": "Secure TC demonstration",
     "title": "Running the Application",
     "content": ". | Open the project group in the MPLAB X IDE and set the non-secure project as main project | Build and program the application | Observe the output for PIC32CM LS00 Curiosity Pro Evaluation Kit as follows: . | LED0(Green) luminosity is decreasing from maximum to minimum based on PWM signal applied by TC0 peripheral in Secure project with Non-Secure project requests through veneers | . | . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/tc/secure_tc_ls00/readme.html#running-the-application",
     "relUrl": "/apps/trustZone/tc/secure_tc_ls00/readme.html#running-the-application"
-  },"343": {
+  },"361": {
     "doc": "Secure TC demonstration",
     "title": "Secure TC demonstration",
     "content": ". ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/tc/secure_tc_ls00/readme.html",
     "relUrl": "/apps/trustZone/tc/secure_tc_ls00/readme.html"
-  },"344": {
+  },"362": {
     "doc": "Secure TC demonstration",
     "title": "Secure TC demonstration",
     "content": "This example application performs a PWM signal applied on PC19 pin (LED0) based on TC0 peripheral. ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/tc/secure_tc_ls60/readme.html#secure-tc-demonstration",
     "relUrl": "/apps/trustZone/tc/secure_tc_ls60/readme.html#secure-tc-demonstration"
-  },"345": {
+  },"363": {
     "doc": "Secure TC demonstration",
     "title": "Description",
     "content": "This demonstrates TrustZone feature and uses two projects viz., Secure and Non-Secure Project that work together on the same MCU and offering security isolation between the Trusted and the Non-trusted resources in the device. | Secure project configures the TC0 peripheral to generate interrupts based on Match0 and Overflow IRQs. | Secure project configures the SysTick to generates interrupts | Non-secure project uses veneers to request from Secure project, the PWM signal (based on TC0 duty cycle management and delays from SysTICK) to apply to LED0 pin | . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/tc/secure_tc_ls60/readme.html#description",
     "relUrl": "/apps/trustZone/tc/secure_tc_ls60/readme.html#description"
-  },"346": {
+  },"364": {
     "doc": "Secure TC demonstration",
     "title": "Components Used",
     "content": ". | TC0 - Configured as Secure peripheral | LED0 - Configured as Non-secure pin | SysTick - Configured as Secure peripheral | . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/tc/secure_tc_ls60/readme.html#components-used",
     "relUrl": "/apps/trustZone/tc/secure_tc_ls60/readme.html#components-used"
-  },"347": {
+  },"365": {
     "doc": "Secure TC demonstration",
     "title": "Downloading and building the application",
     "content": "To clone or download this application from Github, go to the main page of this repository and then click Clone button to clone this repository or download as zip file. This content can also be downloaded using content manager by following these instructions. Path of the application within the repository is as shown below: . | Type | Path |   | . | Project group | apps/trustZone/tc/nonsecure_tc_ls60 |   | . | Secure Project | apps/trustZone/tc/nonsecure_tc_ls60/Secure/firmware |   | . | Non-Secure Project | apps/trustZone/tc/nonsecure_tc_ls60/NonSecure/firmware |   | . |   |   |   | . To build the application, refer to the following table and open the project using its IDE. | Project Name | Description | . | pic32cm_ls60_cpro_Secure.X pic32cm_ls60_cpro_NonSecure.X | Secure and Non-secure MPLABX project for PIC32CM LS60 Curiosity Pro Evaluation Kit | . |   |   | . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/tc/secure_tc_ls60/readme.html#downloading-and-building-the-application",
     "relUrl": "/apps/trustZone/tc/secure_tc_ls60/readme.html#downloading-and-building-the-application"
-  },"348": {
+  },"366": {
     "doc": "Secure TC demonstration",
     "title": "Setting up the hardware",
     "content": "The following table shows the target hardware for the application projects. | Project Name | Board | . | pic32cm_ls60_cpro_Secure.X pic32cm_ls60_cpro_NonSecure.X | PIC32CM LS60 Curiosity Pro Evaluation Kit | . |   |   | . Setting up PIC32CM LS60 Curiosity Pro Evaluation Kit . | Connect the Debug USB port on the board to the computer using a micro USB cable | . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/tc/secure_tc_ls60/readme.html#setting-up-the-hardware",
     "relUrl": "/apps/trustZone/tc/secure_tc_ls60/readme.html#setting-up-the-hardware"
-  },"349": {
+  },"367": {
     "doc": "Secure TC demonstration",
     "title": "Running the Application",
     "content": ". | Open the project group in the MPLAB X IDE and set the non-secure project as main project | Build and program the application | Observe the output for PIC32CM LS60 Curiosity Pro Evaluation Kit as follows: . | LED0(Green) luminosity is decreasing from maximum to minimum based on PWM signal applied by TC0 peripheral in Secure project with Non-Secure project requests through veneers | . | . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/tc/secure_tc_ls60/readme.html#running-the-application",
     "relUrl": "/apps/trustZone/tc/secure_tc_ls60/readme.html#running-the-application"
-  },"350": {
+  },"368": {
     "doc": "Secure TC demonstration",
     "title": "Secure TC demonstration",
     "content": ". ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/tc/secure_tc_ls60/readme.html",
     "relUrl": "/apps/trustZone/tc/secure_tc_ls60/readme.html"
-  },"351": {
+  },"369": {
     "doc": "Secure TrustRAM demonstration",
     "title": "Secure TrustRAM demonstration",
     "content": "This example application displays the TrustRAM content on a console which is refreshed every seconds. This example allows to experiment static and dynamic tamper detections coupled with a TrustRAM full erase. ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/tram/tram_ls00/readme.html#secure-trustram-demonstration",
     "relUrl": "/apps/trustZone/tram/tram_ls00/readme.html#secure-trustram-demonstration"
-  },"352": {
+  },"370": {
     "doc": "Secure TrustRAM demonstration",
     "title": "Description",
     "content": "This demonstrates TrustZone feature and uses two projects viz., Secure and Non-Secure Project that work together on the same MCU and offering security isolation between the Trusted and the Non-trusted resources in the device. | Secure project configures the TrustRAM security features and the RTC peripheral for tamper detection | Non-secure project configures the SERCOM3 peripheral to display content on console through UART pins | Non-secure project uses veneers to request from Secure project, to fill TrustRAM content and display this content every second. When a Tamper is detected, Non-Secure application is halted and TrustRAM content is fully erased. | . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/tram/tram_ls00/readme.html#description",
     "relUrl": "/apps/trustZone/tram/tram_ls00/readme.html#description"
-  },"353": {
+  },"371": {
     "doc": "Secure TrustRAM demonstration",
     "title": "Components Used",
     "content": ". | TrustRAM - Configured as Secure mode | RTC - Configured as Secure mode | PA08 - Configured as Secure pin (RTC Tamper Pin) | SERCOM3 - Configured as Non-secure mode (USART mode) | . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/tram/tram_ls00/readme.html#components-used",
     "relUrl": "/apps/trustZone/tram/tram_ls00/readme.html#components-used"
-  },"354": {
+  },"372": {
     "doc": "Secure TrustRAM demonstration",
     "title": "Downloading and building the application",
     "content": "To clone or download this application from Github, go to the main page of this repository and then click Clone button to clone this repository or download as zip file. This content can also be downloaded using content manager by following these instructions. Path of the application within the repository is as shown below: . | Type | Path |   | . | Project group | apps/trustZone/tram/tram_ls00 |   | . | Secure Project | apps/trustZone/tram/tram_ls00/Secure/firmware |   | . | Non-Secure Project | apps/trustZone/tram/tram_ls00/NonSecure/firmware |   | . |   |   |   | . To build the application, refer to the following table and open the project using its IDE. | Project Name | Description | . | pic32cm_ls00_cpro_Secure.X pic32cm_ls00_cpro_NonSecure.X | Secure and Non-secure MPLABX project for PIC32CM LS00 Curiosity Pro Evaluation Kit | . |   |   | . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/tram/tram_ls00/readme.html#downloading-and-building-the-application",
     "relUrl": "/apps/trustZone/tram/tram_ls00/readme.html#downloading-and-building-the-application"
-  },"355": {
+  },"373": {
     "doc": "Secure TrustRAM demonstration",
     "title": "Setting up the hardware",
     "content": "The following table shows the target hardware for the application projects. | Project Name | Board | . | pic32cm_ls00_cpro_Secure.X pic32cm_ls00_cpro_NonSecure.X | PIC32CM LS00 Curiosity Pro Evaluation Kit | . |   |   | . Setting up PIC32CM LS00 Curiosity Pro Evaluation Kit . | Connect the Debug USB port on the board to the computer using a micro USB cable | Short PA08 pin (EXT3, PIN 3) to GND | . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/tram/tram_ls00/readme.html#setting-up-the-hardware",
     "relUrl": "/apps/trustZone/tram/tram_ls00/readme.html#setting-up-the-hardware"
-  },"356": {
+  },"374": {
     "doc": "Secure TrustRAM demonstration",
     "title": "Running the Application",
     "content": ". | Open the Terminal application (Ex.:Tera term) on the computer | Connect to the EDBG Virtual COM port and configure the serial settings as follows: . | Baud : 115200 | Data : 8 Bits | Parity : None | Stop : 1 Bit | Flow Control : None | . | Open the project group in the MPLAB X IDE and set the non-secure project as main project | Build and program the application | The console should display the following TrustRAM content: | . | Tied down the PA08 pin with a jumper (Remove short from GND and connect it to Vcc to create a rising edge) | The following TrustRAM content should be observed on console, meaning the TrustRAM Full Erase was performed because of Tamper Erase Detection: | . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/tram/tram_ls00/readme.html#running-the-application",
     "relUrl": "/apps/trustZone/tram/tram_ls00/readme.html#running-the-application"
-  },"357": {
+  },"375": {
     "doc": "Secure TrustRAM demonstration",
     "title": "Secure TrustRAM demonstration",
     "content": ". ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/tram/tram_ls00/readme.html",
     "relUrl": "/apps/trustZone/tram/tram_ls00/readme.html"
-  },"358": {
+  },"376": {
     "doc": "Secure TrustRAM demonstration",
     "title": "Secure TrustRAM demonstration",
     "content": "This example application displays the TrustRAM content on a console which is refreshed every seconds. This example allows to experiment static and dynamic tamper detections coupled with a TrustRAM full erase. ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/tram/tram_ls60/readme.html#secure-trustram-demonstration",
     "relUrl": "/apps/trustZone/tram/tram_ls60/readme.html#secure-trustram-demonstration"
-  },"359": {
+  },"377": {
     "doc": "Secure TrustRAM demonstration",
     "title": "Description",
     "content": "This demonstrates TrustZone feature and uses two projects viz., Secure and Non-Secure Project that work together on the same MCU and offering security isolation between the Trusted and the Non-trusted resources in the device. | Secure project configures the TrustRAM security features and the RTC peripheral for tamper detection | Non-secure project configures the SERCOM3 peripheral to display content on console through UART pins | Non-secure project uses veneers to request from Secure project, to fill TrustRAM content and display this content every second. When a Tamper is detected, Non-Secure application is halted and TrustRAM content is fully erased. | . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/tram/tram_ls60/readme.html#description",
     "relUrl": "/apps/trustZone/tram/tram_ls60/readme.html#description"
-  },"360": {
+  },"378": {
     "doc": "Secure TrustRAM demonstration",
     "title": "Components Used",
     "content": ". | TrustRAM - Configured as Secure mode | RTC - Configured as Secure mode | PA08 - Configured as Secure pin (RTC Tamper Pin) | SERCOM3 - Configured as Non-secure mode (USART mode) | . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/tram/tram_ls60/readme.html#components-used",
     "relUrl": "/apps/trustZone/tram/tram_ls60/readme.html#components-used"
-  },"361": {
+  },"379": {
     "doc": "Secure TrustRAM demonstration",
     "title": "Downloading and building the application",
     "content": "To clone or download this application from Github, go to the main page of this repository and then click Clone button to clone this repository or download as zip file. This content can also be downloaded using content manager by following these instructions. Path of the application within the repository is as shown below: . | Type | Path |   | . | Project group | apps/trustZone/tram/tram_ls60 |   | . | Secure Project | apps/trustZone/tram/tram_ls60/Secure/firmware |   | . | Non-Secure Project | apps/trustZone/tram/tram_ls60/NonSecure/firmware |   | . |   |   |   | . To build the application, refer to the following table and open the project using its IDE. | Project Name | Description | . | pic32cm_ls60_cpro_Secure.X pic32cm_ls60_cpro_NonSecure.X | Secure and Non-secure MPLABX project for PIC32CM LS60 Curiosity Pro Evaluation Kit | . |   |   | . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/tram/tram_ls60/readme.html#downloading-and-building-the-application",
     "relUrl": "/apps/trustZone/tram/tram_ls60/readme.html#downloading-and-building-the-application"
-  },"362": {
+  },"380": {
     "doc": "Secure TrustRAM demonstration",
     "title": "Setting up the hardware",
     "content": "The following table shows the target hardware for the application projects. | Project Name | Board | . | pic32cm_ls60_cpro_Secure.X pic32cm_ls60_cpro_NonSecure.X | PIC32CM LS60 Curiosity Pro Evaluation Kit | . |   |   | . Setting up PIC32CM LS60 Curiosity Pro Evaluation Kit . | Connect the Debug USB port on the board to the computer using a micro USB cable | Short PA08 pin (EXT3, PIN 3) to GND | . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/tram/tram_ls60/readme.html#setting-up-the-hardware",
     "relUrl": "/apps/trustZone/tram/tram_ls60/readme.html#setting-up-the-hardware"
-  },"363": {
+  },"381": {
     "doc": "Secure TrustRAM demonstration",
     "title": "Running the Application",
     "content": ". | Open the Terminal application (Ex.:Tera term) on the computer | Connect to the EDBG Virtual COM port and configure the serial settings as follows: . | Baud : 115200 | Data : 8 Bits | Parity : None | Stop : 1 Bit | Flow Control : None | . | Open the project group in the MPLAB X IDE and set the non-secure project as main project | Build and program the application | The console should display the following TrustRAM content: | . | Tied down the PA08 pin with a jumper (Remove short from GND and connect it to Vcc to create a rising edge) | The following TrustRAM content should be observed on console, meaning the TrustRAM Full Erase was performed because of Tamper Erase Detection: | . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/tram/tram_ls60/readme.html#running-the-application",
     "relUrl": "/apps/trustZone/tram/tram_ls60/readme.html#running-the-application"
-  },"364": {
+  },"382": {
     "doc": "Secure TrustRAM demonstration",
     "title": "Secure TrustRAM demonstration",
     "content": ". ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/tram/tram_ls60/readme.html",
     "relUrl": "/apps/trustZone/tram/tram_ls60/readme.html"
-  },"365": {
+  },"383": {
     "doc": "TrustZone basic demonstration",
     "title": "TrustZone basic demonstration",
     "content": "This example application performs Add and Multiply Math operations in secure mode and I/O operations in non-secure mode. ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/trustZone_basic_ls00/readme.html#trustzone-basic-demonstration",
     "relUrl": "/apps/trustZone/trustZone_basic_ls00/readme.html#trustzone-basic-demonstration"
-  },"366": {
+  },"384": {
     "doc": "TrustZone basic demonstration",
     "title": "Description",
     "content": "This demonstrates TrustZone feature and uses two projects viz., Secure and Non-Secure Project that work together on the same MCU and offering security isolation between the Trusted and the Non-trusted resources in the device. | Secure project implements math functions (add and multiply as example) | Non-secure project uses the math functions exposed by secure project for math operations | . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/trustZone_basic_ls00/readme.html#description",
     "relUrl": "/apps/trustZone/trustZone_basic_ls00/readme.html#description"
-  },"367": {
+  },"385": {
     "doc": "TrustZone basic demonstration",
     "title": "Components Used",
     "content": ". | SERCOM - Configured as Non-secure mode | . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/trustZone_basic_ls00/readme.html#components-used",
     "relUrl": "/apps/trustZone/trustZone_basic_ls00/readme.html#components-used"
-  },"368": {
+  },"386": {
     "doc": "TrustZone basic demonstration",
     "title": "Downloading and building the application",
     "content": "To clone or download this application from Github, go to the main page of this repository and then click Clone button to clone this repository or download as zip file. This content can also be downloaded using content manager by following these instructions. Path of the application within the repository is as shown below: . | Type | Path |   | . | Project group | apps/trustZone/trustZone_basic_ls00 |   | . | Secure Project | apps/trustZone/trustZone_basic_ls00/Secure/firmware |   | . | Non-Secure Project | apps/trustZone/trustZone_basic_ls00/NonSecure/firmware |   | . |   |   |   | . To build the application, refer to the following table and open the project using its IDE. | Project Name | Description | . | pic32cm_ls00_cpro_Secure.X pic32cm_ls00_cpro_NonSecure.X | Secure and Non-secure MPLABX project for PIC32CM LS00 Curiosity Pro Evaluation Kit | . |   |   | . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/trustZone_basic_ls00/readme.html#downloading-and-building-the-application",
     "relUrl": "/apps/trustZone/trustZone_basic_ls00/readme.html#downloading-and-building-the-application"
-  },"369": {
+  },"387": {
     "doc": "TrustZone basic demonstration",
     "title": "Setting up the hardware",
     "content": "The following table shows the target hardware for the application projects. | Project Name | Board | . | pic32cm_ls00_cpro_Secure.X pic32cm_ls00_cpro_NonSecure.X | PIC32CM LS00 Curiosity Pro Evaluation Kit | . |   |   | . Setting up PIC32CM LS00 Curiosity Pro Evaluation Kit . | Connect the Debug USB port on the board to the computer using a micro USB cable | . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/trustZone_basic_ls00/readme.html#setting-up-the-hardware",
     "relUrl": "/apps/trustZone/trustZone_basic_ls00/readme.html#setting-up-the-hardware"
-  },"370": {
+  },"388": {
     "doc": "TrustZone basic demonstration",
     "title": "Running the Application",
     "content": ". | Open the Terminal application (Ex.:Tera term) on the computer | Connect to the EDBG Virtual COM port and configure the serial settings as follows: . | Baud : 115200 | Data : 8 Bits | Parity : None | Stop : 1 Bit | Flow Control : None | . | Open the project group in the MPLAB X IDE and set the non-secure project as main project | Build and program the application | Perform the following sequence of operations to do addition of two numbers: . | Press ‘a’ to start an addition operation | Enter a 16 bit unsigned integer and press ‘Enter’ on keyboard | Enter second 16 bit unsigned number and press ‘Enter’ on keyboard | Observe the result which is addition of first and second 16 bit unsigned number | . | Perform the following sequence of operations to do multiplication of two numbers: . | Press ‘b’ to start an addition operation | Enter a 16 bit unsigned integer and press ‘Enter’ on keyboard | Enter second 16 bit unsigned number and press ‘Enter’ on keyboard | Observe the result which is multiplication of first and second 16 bit unsigned number | . | . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/trustZone_basic_ls00/readme.html#running-the-application",
     "relUrl": "/apps/trustZone/trustZone_basic_ls00/readme.html#running-the-application"
-  },"371": {
+  },"389": {
     "doc": "TrustZone basic demonstration",
     "title": "TrustZone basic demonstration",
     "content": ". ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/trustZone_basic_ls00/readme.html",
     "relUrl": "/apps/trustZone/trustZone_basic_ls00/readme.html"
-  },"372": {
+  },"390": {
     "doc": "TrustZone basic demonstration",
     "title": "TrustZone basic demonstration",
     "content": "This example application performs Add and Multiply Math operations in secure mode and I/O operations in non-secure mode. ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/trustZone_basic_ls60/readme.html#trustzone-basic-demonstration",
     "relUrl": "/apps/trustZone/trustZone_basic_ls60/readme.html#trustzone-basic-demonstration"
-  },"373": {
+  },"391": {
     "doc": "TrustZone basic demonstration",
     "title": "Description",
     "content": "This demonstrates TrustZone feature and uses two projects viz., Secure and Non-Secure Project that work together on the same MCU and offering security isolation between the Trusted and the Non-trusted resources in the device. | Secure project implements math functions (add and multiply as example) | Non-secure project uses the math functions exposed by secure project for math operations | . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/trustZone_basic_ls60/readme.html#description",
     "relUrl": "/apps/trustZone/trustZone_basic_ls60/readme.html#description"
-  },"374": {
+  },"392": {
     "doc": "TrustZone basic demonstration",
     "title": "Components Used",
     "content": ". | SERCOM - Configured as Non-secure mode | . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/trustZone_basic_ls60/readme.html#components-used",
     "relUrl": "/apps/trustZone/trustZone_basic_ls60/readme.html#components-used"
-  },"375": {
+  },"393": {
     "doc": "TrustZone basic demonstration",
     "title": "Downloading and building the application",
     "content": "To clone or download this application from Github, go to the main page of this repository and then click Clone button to clone this repository or download as zip file. This content can also be downloaded using content manager by following these instructions. Path of the application within the repository is as shown below: . | Type | Path |   | . | Project group | apps/trustZone/trustZone_basic_ls60 |   | . | Secure Project | apps/trustZone/trustZone_basic_ls60/Secure/firmware |   | . | Non-Secure Project | apps/trustZone/trustZone_basic_ls60/NonSecure/firmware |   | . |   |   |   | . To build the application, refer to the following table and open the project using its IDE. | Project Name | Description | . | pic32cm_ls60_cpro_Secure.X pic32cm_ls60_cpro_NonSecure.X | Secure and Non-secure MPLABX project for PIC32CM LS60 Curiosity Pro Evaluation Kit | . |   |   | . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/trustZone_basic_ls60/readme.html#downloading-and-building-the-application",
     "relUrl": "/apps/trustZone/trustZone_basic_ls60/readme.html#downloading-and-building-the-application"
-  },"376": {
+  },"394": {
     "doc": "TrustZone basic demonstration",
     "title": "Setting up the hardware",
     "content": "The following table shows the target hardware for the application projects. | Project Name | Board | . | pic32cm_ls60_cpro_Secure.X pic32cm_ls60_cpro_NonSecure.X | PIC32CM LS60 Curiosity Pro Evaluation Kit | . |   |   | . Setting up PIC32CM LS60 Curiosity Pro Evaluation Kit . | Connect the Debug USB port on the board to the computer using a micro USB cable | . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/trustZone_basic_ls60/readme.html#setting-up-the-hardware",
     "relUrl": "/apps/trustZone/trustZone_basic_ls60/readme.html#setting-up-the-hardware"
-  },"377": {
+  },"395": {
     "doc": "TrustZone basic demonstration",
     "title": "Running the Application",
     "content": ". | Open the Terminal application (Ex.:Tera term) on the computer | Connect to the EDBG Virtual COM port and configure the serial settings as follows: . | Baud : 115200 | Data : 8 Bits | Parity : None | Stop : 1 Bit | Flow Control : None | . | Open the project group in the MPLAB X IDE and set the non-secure project as main project | Build and program the application | Perform the following sequence of operations to do addition of two numbers: . | Press ‘a’ to start an addition operation | Enter a 16 bit unsigned integer and press ‘Enter’ on keyboard | Enter second 16 bit unsigned number and press ‘Enter’ on keyboard | Observe the result which is addition of first and second 16 bit unsigned number | . | Perform the following sequence of operations to do multiplication of two numbers: . | Press ‘b’ to start an addition operation | Enter a 16 bit unsigned integer and press ‘Enter’ on keyboard | Enter second 16 bit unsigned number and press ‘Enter’ on keyboard | Observe the result which is multiplication of first and second 16 bit unsigned number | . | . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/trustZone_basic_ls60/readme.html#running-the-application",
     "relUrl": "/apps/trustZone/trustZone_basic_ls60/readme.html#running-the-application"
-  },"378": {
+  },"396": {
     "doc": "TrustZone basic demonstration",
     "title": "TrustZone basic demonstration",
     "content": ". ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/trustZone_basic_ls60/readme.html",
     "relUrl": "/apps/trustZone/trustZone_basic_ls60/readme.html"
-  },"379": {
+  },"397": {
     "doc": "TrustZone basic with Secure Boot demonstration",
     "title": "TrustZone basic with Secure Boot demonstration",
     "content": "This example application performs Add and Multiply math operations in Secure Flash BOOT and APPLICATION regions called through veneers in Non Secure Flash APPLICATION region. The LED0 (Green) is switched on in BootSecure application and the LED1 (Red) in Secure application. For this example: . | BOCOR.BOOTOPT = 0x3, which means the HMAC with BOOTKEY Secure Boot Verification Method is applied at start-up | BOCOR.BOOTKEY filled with 1’s | Performance Level 2 (PL2) is selected | . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/trustZone_basic_SBoot_ls00/readme.html#trustzone-basic-with-secure-boot-demonstration",
     "relUrl": "/apps/trustZone/trustZone_basic_SBoot_ls00/readme.html#trustzone-basic-with-secure-boot-demonstration"
-  },"380": {
+  },"398": {
     "doc": "TrustZone basic with Secure Boot demonstration",
     "title": "Description",
-    "content": "This example is based on trustZone_basic example and provides a BootSecure project in addition to the Secure and NonSeucre projects to demonstrate Secure Boot feature capability over TrustZone feature. The TrustZone basic with Secure Boot demonstration then provides two project groups: . | BootSec_App: Contains BootSecure and Dummy projects. – The Dummy project is not used but is kept for H3 project architecture considerations. – BootSecure project implements math functions (add and multiply as example) and switch on the on-board LED0 (Green) on the BOOT region. | App: Contains Secure and NonSecure projects. – Secure project implements math functions (add and multiply as example) and switch on the on-board LED1 (Red) on the Secure APPLICATION region. – Non-secure project uses the math functions on the Non-Secure APPLICATION region exposed by bootsecure and secure projects for math operations through veneers. | . ",
+    "content": "This example is based on trustZone_basic example and provides a BootSecure project in addition to the Secure and NonSeucre projects to demonstrate Secure Boot feature capability over TrustZone feature. The TrustZone basic with Secure Boot demonstration then provides two project groups: . | BS_App: Contains BootSecure and Dummy projects. – The Dummy project is not used but is kept for H3 project architecture considerations. – BootSecure project implements math functions (add and multiply as example) and switch on the on-board LED0 (Green) on the BOOT region. | App: Contains Secure and NonSecure projects. – Secure project implements math functions (add and multiply as example) and switch on the on-board LED1 (Red) on the Secure APPLICATION region. – Non-secure project uses the math functions on the Non-Secure APPLICATION region exposed by bootsecure and secure projects for math operations through veneers. | . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/trustZone_basic_SBoot_ls00/readme.html#description",
     "relUrl": "/apps/trustZone/trustZone_basic_SBoot_ls00/readme.html#description"
-  },"381": {
+  },"399": {
     "doc": "TrustZone basic with Secure Boot demonstration",
     "title": "Components Used",
     "content": ". | LED0 (Green) Configured as Secure pin (in BOOT region) | LED1 (Red) Configured as Secure pin (in APPLICATION region) | . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/trustZone_basic_SBoot_ls00/readme.html#components-used",
     "relUrl": "/apps/trustZone/trustZone_basic_SBoot_ls00/readme.html#components-used"
-  },"382": {
+  },"400": {
     "doc": "TrustZone basic with Secure Boot demonstration",
     "title": "Downloading and building the application",
     "content": "To clone or download this application from Github, go to the main page of this repository and then click Clone button to clone this repository or download as zip file. This content can also be downloaded using content manager by following these instructions. Path of the application within the repository is as shown below: . | Type | Path |   | . | Project group | apps/trustZone/trustZone_basic_SBoot_ls00/BS_App |   | . | BootSecure Project | apps/trustZone/trustZone_basic_SBoot_ls00/BS_App/Secure/firmware |   | . | Dummy Project | apps/trustZone/trustZone_basic_SBoot_ls00/BS_App/NonSecure/firmware |   | . | Project group | apps/trustZone/trustZone_basic_SBoot_ls00/App |   | . | Secure Project | apps/trustZone/trustZone_basic_SBoot_ls00/App/Secure/firmware |   | . | NonSecure Project | apps/trustZone/trustZone_basic_SBoot_ls00/App/NonSecure/firmware |   | . |   |   |   | . To build the application, refer to the following table and open the project using its IDE. | Project Name | Description | . | pic32cm_ls00_Secure.X pic32cm_ls00_cpro_NonSecure.X | Secure and NonSecure MPLABX projects from BS_App folder for PIC32CM LS00 Curiosity Pro Evaluation Kit | . | pic32cm_ls00_Secure.X pic32cm_ls00_cpro_NonSecure.X | Secure and NonSecure MPLABX projects from App folder for PIC32CM LS00 Curiosity Pro Evaluation Kit | . |   |   | . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/trustZone_basic_SBoot_ls00/readme.html#downloading-and-building-the-application",
     "relUrl": "/apps/trustZone/trustZone_basic_SBoot_ls00/readme.html#downloading-and-building-the-application"
-  },"383": {
+  },"401": {
     "doc": "TrustZone basic with Secure Boot demonstration",
     "title": "Setting up the hardware",
     "content": "The following table shows the target hardware for the application projects. | Project Name | Board | . | pic32cm_ls00_Secure.X pic32cm_ls00_cpro_NonSecure.X | PIC32CM LS00 Curiosity Pro Evaluation Kit | . | pic32cm_ls00_cpro_Secure.X pic32cm_ls00_cpro_NonSecure.X | PIC32CM LS00 Curiosity Pro Evaluation Kit | . |   |   | . Setting up PIC32CM LS00 Curiosity Pro Evaluation Kit . | Connect the Debug USB port on the board to the computer using a micro USB cable | . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/trustZone_basic_SBoot_ls00/readme.html#setting-up-the-hardware",
     "relUrl": "/apps/trustZone/trustZone_basic_SBoot_ls00/readme.html#setting-up-the-hardware"
-  },"384": {
+  },"402": {
     "doc": "TrustZone basic with Secure Boot demonstration",
     "title": "Running the Application",
-    "content": ". | Open the App and BootSecure_App projects group in the MPLAB X IDE | Set the nonsecure project (trustZone_basic_with_secureboot_pic32cm_ls00_cpro_NonSecure) as main project then flash the application | Build and program the application | Set the bootsecure project (trustZone_basic_with_secureboot_pic32cm_ls00_cpro_BootSecure) as main project. And go to Project Properties &gt; EDBG &gt; Program Options &gt; Uncheck “Erase All Before Program” option. | Build and program the application | The two on-board LEDs should switch on with a delay due to the Secure Boot Verification and the math operations are performed in Non-Secure application Note: The application can be launched in debug mode to do step-by-step and observe how the jumps from non-secure project to secure project only are performed | . ",
+    "content": ". | Open the App and BootSecure_App projects group in the MPLAB X IDE | Set the nonsecure project (trustZone_basic_with_secureboot_pic32cm_ls00_cpro_NonSecure) as main project then flash the application | Build and program the application | Set the bootsecure project (trustZone_basic_with_secureboot_BS_pic32cm_ls00_cpro_Secure) as main project. Then go to Project Properties &gt; EDBG &gt; Program Options &gt; Uncheck “Erase All Before Program” option. | Build and program the application | The two on-board LEDs should switch on with a delay due to the Secure Boot Verification and the math operations are performed in Non-Secure application Note: The application can be launched in debug mode to do step-by-step and observe how the jumps from non-secure project to secure project only are performed | . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/trustZone_basic_SBoot_ls00/readme.html#running-the-application",
     "relUrl": "/apps/trustZone/trustZone_basic_SBoot_ls00/readme.html#running-the-application"
-  },"385": {
+  },"403": {
     "doc": "TrustZone basic with Secure Boot demonstration",
     "title": "TrustZone basic with Secure Boot demonstration",
     "content": ". ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/trustZone_basic_SBoot_ls00/readme.html",
     "relUrl": "/apps/trustZone/trustZone_basic_SBoot_ls00/readme.html"
-  },"386": {
+  },"404": {
     "doc": "TrustZone basic with Secure Boot demonstration",
     "title": "TrustZone basic with Secure Boot demonstration",
     "content": "This example application performs Add and Multiply math operations in Secure Flash BOOT and APPLICATION regions called through veneers in Non Secure Flash APPLICATION region. The LED0 (Green) is switched on in BootSecure application and the LED1 (Red) in Secure application. For this example: . | BOCOR.BOOTOPT = 0x3, which means the HMAC with BOOTKEY Secure Boot Verification Method is applied at start-up | BOCOR.BOOTKEY filled with 1’s | Performance Level 2 (PL2) is selected | . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/trustZone_basic_SBoot_ls60/readme.html#trustzone-basic-with-secure-boot-demonstration",
     "relUrl": "/apps/trustZone/trustZone_basic_SBoot_ls60/readme.html#trustzone-basic-with-secure-boot-demonstration"
-  },"387": {
+  },"405": {
     "doc": "TrustZone basic with Secure Boot demonstration",
     "title": "Description",
-    "content": "This example is based on trustZone_basic example and provides a BootSecure project in addition to the Secure and NonSeucre projects to demonstrate Secure Boot feature capability over TrustZone feature. The TrustZone basic with Secure Boot demonstration then provides two project groups: . | BootSec_App: Contains BootSecure and Dummy projects. – The Dummy project is not used but is kept for H3 project architecture considerations. – BootSecure project implements math functions (add and multiply as example) and switch on the on-board LED0 (Green) on the BOOT region. | App: Contains Secure and NonSecure projects. – Secure project implements math functions (add and multiply as example) and switch on the on-board LED1 (Red) on the Secure APPLICATION region. – Non-secure project uses the math functions on the Non-Secure APPLICATION region exposed by bootsecure and secure projects for math operations through veneers. | . ",
+    "content": "This example is based on trustZone_basic example and provides a BootSecure project in addition to the Secure and NonSecure projects to demonstrate Secure Boot feature capability over TrustZone feature. The TrustZone basic with Secure Boot demonstration then provides two project groups: . | BS_App: Contains BootSecure and Dummy projects (containing respectively _Secure and _NonSecure suffixes in project name). – The Dummy project is not used but is kept for H3 project architecture considerations. – BootSecure project implements math functions (add and multiply as example) and switch on the on-board LED0 (Green) on the BOOT region. | App: Contains Secure and NonSecure projects. – Secure project implements math functions (add and multiply as example) and switch on the on-board LED1 (Red) on the Secure APPLICATION region. – Non-secure project uses the math functions on the Non-Secure APPLICATION region exposed by bootsecure and secure projects for math operations through veneers. | . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/trustZone_basic_SBoot_ls60/readme.html#description",
     "relUrl": "/apps/trustZone/trustZone_basic_SBoot_ls60/readme.html#description"
-  },"388": {
+  },"406": {
     "doc": "TrustZone basic with Secure Boot demonstration",
     "title": "Components Used",
     "content": ". | LED0 (Green) Configured as Secure pin (in BOOT region) | LED1 (Red) Configured as Secure pin (in APPLICATION region) | . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/trustZone_basic_SBoot_ls60/readme.html#components-used",
     "relUrl": "/apps/trustZone/trustZone_basic_SBoot_ls60/readme.html#components-used"
-  },"389": {
+  },"407": {
     "doc": "TrustZone basic with Secure Boot demonstration",
     "title": "Downloading and building the application",
     "content": "To clone or download this application from Github, go to the main page of this repository and then click Clone button to clone this repository or download as zip file. This content can also be downloaded using content manager by following these instructions. Path of the application within the repository is as shown below: . | Type | Path |   | . | Project group | apps/trustZone/trustZone_basic_SBoot_ls60/BS_App |   | . | BootSecure Project | apps/trustZone/trustZone_basic_SBoot_ls60/BS_App/Secure/firmware |   | . | Dummy Project | apps/trustZone/trustZone_basic_SBoot_ls60/BS_App/NonSecure/firmware |   | . | Project group | apps/trustZone/trustZone_basic_SBoot_ls60/App |   | . | Secure Project | apps/trustZone/trustZone_basic_SBoot_ls60/App/Secure/firmware |   | . | NonSecure Project | apps/trustZone/trustZone_basic_SBoot_ls60/App/NonSecure/firmware |   | . |   |   |   | . To build the application, refer to the following table and open the project using its IDE. | Project Name | Description | . | pic32cm_ls60_Secure.X pic32cm_ls60_cpro_NonSecure.X | Secure and NonSecure MPLABX projects from BS_App folder for PIC32CM LS60 Curiosity Pro Evaluation Kit | . | pic32cm_ls60_Secure.X pic32cm_ls60_cpro_NonSecure.X | Secure and NonSecure MPLABX projects from App folder for PIC32CM LS60 Curiosity Pro Evaluation Kit | . |   |   | . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/trustZone_basic_SBoot_ls60/readme.html#downloading-and-building-the-application",
     "relUrl": "/apps/trustZone/trustZone_basic_SBoot_ls60/readme.html#downloading-and-building-the-application"
-  },"390": {
+  },"408": {
     "doc": "TrustZone basic with Secure Boot demonstration",
     "title": "Setting up the hardware",
     "content": "The following table shows the target hardware for the application projects. | Project Name | Board | . | pic32cm_ls60_Secure.X pic32cm_ls60_cpro_NonSecure.X | PIC32CM LS60 Curiosity Pro Evaluation Kit | . | pic32cm_ls60_cpro_Secure.X pic32cm_ls60_cpro_NonSecure.X | PIC32CM LS60 Curiosity Pro Evaluation Kit | . |   |   | . Setting up PIC32CM LS60 Curiosity Pro Evaluation Kit . | Connect the Debug USB port on the board to the computer using a micro USB cable | . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/trustZone_basic_SBoot_ls60/readme.html#setting-up-the-hardware",
     "relUrl": "/apps/trustZone/trustZone_basic_SBoot_ls60/readme.html#setting-up-the-hardware"
-  },"391": {
+  },"409": {
     "doc": "TrustZone basic with Secure Boot demonstration",
     "title": "Running the Application",
-    "content": ". | Open the App and BootSecure_App projects group in the MPLAB X IDE | Set the nonsecure project (trustZone_basic_with_secureboot_pic32cm_ls60_cpro_NonSecure) as main project then flash the application | Build and program the application | Set the bootsecure project (trustZone_basic_with_secureboot_pic32cm_ls60_cpro_BootSecure) as main project. And go to Project Properties &gt; EDBG &gt; Program Options &gt; Uncheck “Erase All Before Program” option. | Build and program the application | The two on-board LEDs should switch on with a delay due to the Secure Boot Verification and the math operations are performed in Non-Secure application Note: The application can be launched in debug mode to do step-by-step and observe how the jumps from non-secure project to secure project only are performed | . ",
+    "content": ". | Open the App and BS_App projects group in the MPLAB X IDE | Set the non-secure project (trustZone_basic_with_secureboot_pic32cm_ls60_cpro_NonSecure) as main project then flash the application | Build and program the application | Set the bootsecure project (trustZone_basic_with_secureboot_BS_pic32cm_ls60_cpro_Secure) as main project. Go to Project Properties &gt; EDBG &gt; Program Options &gt; Uncheck “Erase All Before Program” option. | Build and program the application | The two on-board LEDs should switch on with a delay due to the Secure Boot Verification and the math operations are performed in Non-Secure application Note: The application can be launched in debug mode to do step-by-step and observe how the jumps from non-secure project to secure project only are performed | . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/trustZone_basic_SBoot_ls60/readme.html#running-the-application",
     "relUrl": "/apps/trustZone/trustZone_basic_SBoot_ls60/readme.html#running-the-application"
-  },"392": {
+  },"410": {
     "doc": "TrustZone basic with Secure Boot demonstration",
     "title": "TrustZone basic with Secure Boot demonstration",
     "content": ". ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/trustZone/trustZone_basic_SBoot_ls60/readme.html",
     "relUrl": "/apps/trustZone/trustZone_basic_SBoot_ls60/readme.html"
-  },"393": {
+  },"411": {
     "doc": "WDT timeout",
     "title": "WDT timeout",
     "content": "This example shows how to generate a Watchdog timer reset by emulating a deadlock. ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/wdt/wdt_timeout/readme.html#wdt-timeout",
     "relUrl": "/apps/wdt/wdt_timeout/readme.html#wdt-timeout"
-  },"394": {
+  },"412": {
     "doc": "WDT timeout",
     "title": "Description",
     "content": "This example application shows how the WDT peripheral library resets the watchdog timer by not feeding the watchdog on switch press. The application sets up the watchdog to reset the device. The application also sets up the timer to blink an LED to emulate a process. A user switch press forces the device to wait in an infinite loop to emulate a deadlock. As a result a device reset is triggered as the watchdog counter overflows the bounded value. ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/wdt/wdt_timeout/readme.html#description",
     "relUrl": "/apps/wdt/wdt_timeout/readme.html#description"
-  },"395": {
+  },"413": {
     "doc": "WDT timeout",
     "title": "Downloading and building the application",
     "content": "To clone or download this application from Github, go to the main page of this repository and then click Clone button to clone this repository or download as zip file. This content can also be downloaded using content manager by following these instructions. Path of the application within the repository is apps/wdt/wdt_timeout/firmware . To build the application, refer to the following table and open the project using its IDE. | Project Name | Description | . | pic32cm_le00_curiosity_pro.X | MPLABX project for PIC32CM LE00 Curiosity Pro Evaluation Kit | . |   |   | . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/wdt/wdt_timeout/readme.html#downloading-and-building-the-application",
     "relUrl": "/apps/wdt/wdt_timeout/readme.html#downloading-and-building-the-application"
-  },"396": {
+  },"414": {
     "doc": "WDT timeout",
     "title": "Setting up the hardware",
     "content": "The following table shows the target hardware for the application projects. | Project Name | Board | . | pic32cm_le00_curiosity_pro.X | PIC32CM LE00 Curiosity Pro Evaluation Kit | . |   |   | . Setting up PIC32CM LE00 Curiosity Pro Evaluation Kit . | Connect the Debug USB port on the board to the computer using a micro USB cable | . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/wdt/wdt_timeout/readme.html#setting-up-the-hardware",
     "relUrl": "/apps/wdt/wdt_timeout/readme.html#setting-up-the-hardware"
-  },"397": {
+  },"415": {
     "doc": "WDT timeout",
     "title": "Running the Application",
     "content": ". | Open the Terminal application (Ex.:Tera term) on the computer | Connect to the EDBG Virtual COM port and configure the serial settings as follows: . | Baud : 115200 | Data : 8 Bits | Parity : None | Stop : 1 Bit | Flow Control : None | . | Build and Program the application project using its IDE | LED should be blinking and the console displays the following message . | Press the switch to put the system in a deadlock | LED should stop blinking and the console should print the following message . | WDT will reset the device in four seconds and the demonstration should restart | . Refer the table below for details of switch and LED: . | Board | Switch Name | LED Name | . | PIC32CM LE00 Curiosity Pro Evaluation Kit | SW0 | LED0 | . |   |   |   | . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/wdt/wdt_timeout/readme.html#running-the-application",
     "relUrl": "/apps/wdt/wdt_timeout/readme.html#running-the-application"
-  },"398": {
+  },"416": {
     "doc": "WDT timeout",
     "title": "WDT timeout",
     "content": ". ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/wdt/wdt_timeout/readme.html",
     "relUrl": "/apps/wdt/wdt_timeout/readme.html"
-  },"399": {
+  },"417": {
     "doc": "AC Sleepwalking",
     "title": "AC Sleepwalking",
     "content": "This example application shows how to use the AC Peripheral library to perform a single shot comparison in standby sleep mode periodically and wake up the device at the end of a successful comparison. ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/ac/ac_sleepwalk_singleshot/readme.html#ac-sleepwalking",
     "relUrl": "/apps/ac/ac_sleepwalk_singleshot/readme.html#ac-sleepwalking"
-  },"400": {
+  },"418": {
     "doc": "AC Sleepwalking",
     "title": "Description",
     "content": "Single shot conversion is triggered by RTC compare event. Generation of a trigger and compare operation are done while the CPU is in the standby sleep mode. AC generates the interrupt on the end of the comparison which wakes the CPU. ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/ac/ac_sleepwalk_singleshot/readme.html#description",
     "relUrl": "/apps/ac/ac_sleepwalk_singleshot/readme.html#description"
-  },"401": {
+  },"419": {
     "doc": "AC Sleepwalking",
     "title": "Downloading and building the application",
     "content": "To clone or download this application from Github, go to the main page of this repository and then click Clone button to clone this repository or download as zip file. This content can also be downloaded using content manager by following these instructions. Path of the application within the repository is apps/ac/ac_sleepwalk_singleshot/firmware . To build the application, refer to the following table and open the project using its IDE. | Project Name | Description | . | pic32cm_le00_curiosity_pro.X | MPLABX project for PIC32CM LE00 Curiosity Pro Evaluation Kit | . |   |   | . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/ac/ac_sleepwalk_singleshot/readme.html#downloading-and-building-the-application",
     "relUrl": "/apps/ac/ac_sleepwalk_singleshot/readme.html#downloading-and-building-the-application"
-  },"402": {
+  },"420": {
     "doc": "AC Sleepwalking",
     "title": "Setting up the hardware",
     "content": "The following table shows the target hardware for the application projects. | Project Name | Board | . | pic32cm_le00_curiosity_pro.X | PIC32CM LE00 Curiosity Pro Evaluation Kit | . |   |   | . Setting up PIC32CM LE00 Curiosity Pro Evaluation Kit . | Connect a voltage below VDD to pin 4 of the EXT2 connector | Connect the Debug USB port on the board to the computer using a micro USB cable | . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/ac/ac_sleepwalk_singleshot/readme.html#setting-up-the-hardware",
     "relUrl": "/apps/ac/ac_sleepwalk_singleshot/readme.html#setting-up-the-hardware"
-  },"403": {
+  },"421": {
     "doc": "AC Sleepwalking",
     "title": "Running the Application",
     "content": ". | Open the Terminal application (Ex.:Tera term) on the computer | Connect to the EDBG Virtual COM port and configure the serial settings as follows: . | Baud : 115200 | Data : 8 Bits | Parity : None | Stop : 1 Bit | Flow Control : None | . | Build and Program the application using its IDE | Observe output message in console as follows: . | Console displays the message stating whether voltage at AC input is lower or greater than the internal bandgap voltage (1.1 V) | LED toggles when comparison is done | . Below table shows the AC input pin and LED name for the board . | Board | AC input pin | LED name | . | PIC32CM LE00 Curiosity Pro Evaluation Kit | pin 4 of the EXT2 connector | LED0 | . |   |   |   | . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/ac/ac_sleepwalk_singleshot/readme.html#running-the-application",
     "relUrl": "/apps/ac/ac_sleepwalk_singleshot/readme.html#running-the-application"
-  },"404": {
+  },"422": {
     "doc": "AC Sleepwalking",
     "title": "AC Sleepwalking",
     "content": ". ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/apps/ac/ac_sleepwalk_singleshot/readme.html",
     "relUrl": "/apps/ac/ac_sleepwalk_singleshot/readme.html"
-  },"405": {
+  },"423": {
     "doc": "Release notes",
     "title": "Microchip MPLAB® Harmony 3 Release Notes",
     "content": " ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/release_notes.html#microchip-mplab-harmony-3-release-notes",
     "relUrl": "/release_notes.html#microchip-mplab-harmony-3-release-notes"
-  },"406": {
+  },"424": {
+    "doc": "Release notes",
+    "title": "Harmony 3 peripheral library application examples for PIC32CM LE/LS family  v3.4.0",
+    "content": "Development kit and demo application support . Following table provides number of peripheral library examples available for different development kits. | Development Kits | MPLAB X applications | . | PIC32CM LE00 Curiosity Pro Evaluation Kit | 43 | . | PIC32CM LS00 Curiosity Pro Evaluation Kit | 26 | . | PIC32CM LS60 Curiosity Pro Evaluation Kit | 24 | . New Features . | None | . Known Issues . | None | . Development Tools . | MPLAB® X IDE v6.05 | MPLAB® X IDE plug-ins: . | MPLAB® Code Configurator (MCC) v5.3.0 | . | MPLAB® XC32 C/C++ Compiler v4.21 | . ",
+    "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/release_notes.html#harmony-3-peripheral-library-application-examples-for-pic32cm-lels-family--v340",
+    "relUrl": "/release_notes.html#harmony-3-peripheral-library-application-examples-for-pic32cm-lels-family--v340"
+  },"425": {
+    "doc": "Release notes",
+    "title": "Harmony 3 peripheral library application examples for PIC32CM LE/LS family  v3.3.0",
+    "content": "Development kit and demo application support . Following table provides number of peripheral library examples available for different development kits. | Development Kits | MPLAB X applications | . | PIC32CM LE00 Curiosity Pro Evaluation Kit | 43 | . | PIC32CM LS00 Curiosity Pro Evaluation Kit | 26 | . | PIC32CM LS60 Curiosity Pro Evaluation Kit | 24 | . New Features . | None | . Known Issues . | None | . Development Tools . | MPLAB® X IDE v6.00 | MPLAB® X IDE plug-ins: . | MPLAB® Code Configurator (MCC) v5.1.9 | . | MPLAB® XC32 C/C++ Compiler v4.10 | . ",
+    "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/release_notes.html#harmony-3-peripheral-library-application-examples-for-pic32cm-lels-family--v330",
+    "relUrl": "/release_notes.html#harmony-3-peripheral-library-application-examples-for-pic32cm-lels-family--v330"
+  },"426": {
+    "doc": "Release notes",
+    "title": "Harmony 3 peripheral library application examples for PIC32CM LE/LS family  v3.2.1",
+    "content": ". | Updated applications to remove unsupported fuse for PIC32CM LE devices | . Development kit and demo application support . | Same as v3.2.0 | . New Features . | None | . Known Issues . | None | . Development Tools . | Same as v3.2.0 | . ",
+    "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/release_notes.html#harmony-3-peripheral-library-application-examples-for-pic32cm-lels-family--v321",
+    "relUrl": "/release_notes.html#harmony-3-peripheral-library-application-examples-for-pic32cm-lels-family--v321"
+  },"427": {
     "doc": "Release notes",
     "title": "Harmony 3 peripheral library application examples for PIC32CM LE/LS family  v3.2.0",
-    "content": "Development kit and demo application support . Following table provides number of peripheral library examples available for different development kits. | Development Kits | MPLABx applications | . | PIC32CM LE00 Curiosity Pro Evaluation Kit | 42 | . | PIC32CM LS00 Curiosity Pro Evaluation Kit | 24 | . | PIC32CM LS60 Curiosity Pro Evaluation Kit | 24 | . New Features . | None | . Known Issues . | None | . Development Tools . | MPLAB® X IDE v5.50 | MPLAB® X IDE plug-ins: . | MPLAB® Harmony Configurator (MHC) v3.8.0 | . | MPLAB® XC32 C/C++ Compiler v3.01 | . ",
+    "content": "Development kit and demo application support . Following table provides number of peripheral library examples available for different development kits. | Development Kits | MPLAB X applications | . | PIC32CM LE00 Curiosity Pro Evaluation Kit | 42 | . | PIC32CM LS00 Curiosity Pro Evaluation Kit | 24 | . | PIC32CM LS60 Curiosity Pro Evaluation Kit | 24 | . New Features . | None | . Known Issues . | None | . Development Tools . | MPLAB® X IDE v5.50 | MPLAB® X IDE plug-ins: . | MPLAB® Harmony Configurator (MHC) v3.8.0 | . | MPLAB® XC32 C/C++ Compiler v3.01 | . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/release_notes.html#harmony-3-peripheral-library-application-examples-for-pic32cm-lels-family--v320",
     "relUrl": "/release_notes.html#harmony-3-peripheral-library-application-examples-for-pic32cm-lels-family--v320"
-  },"407": {
+  },"428": {
     "doc": "Release notes",
     "title": "Harmony 3 peripheral library application examples for PIC32CM LE/LS family  v3.1.0",
-    "content": "Development kit and demo application support . Following table provides number of peripheral library examples available for different development kits. | Development Kits | MPLABx applications | . | PIC32CM LE00 Curiosity Pro Evaluation Kit | 39 | . | PIC32CM LS00 Curiosity Pro Evaluation Kit | 8 | . | PIC32CM LS60 Curiosity Pro Evaluation Kit | 8 | . New Features . | None | . Known Issues . | None | . Development Tools . | MPLAB® X IDE v5.45 | MPLAB® X IDE plug-ins: . | MPLAB® Harmony Configurator (MHC) v3.7.0 | . | MPLAB® XC32 C/C++ Compiler v2.50 | . ",
+    "content": "Development kit and demo application support . Following table provides number of peripheral library examples available for different development kits. | Development Kits | MPLAB X applications | . | PIC32CM LE00 Curiosity Pro Evaluation Kit | 39 | . | PIC32CM LS00 Curiosity Pro Evaluation Kit | 8 | . | PIC32CM LS60 Curiosity Pro Evaluation Kit | 8 | . New Features . | None | . Known Issues . | None | . Development Tools . | MPLAB® X IDE v5.45 | MPLAB® X IDE plug-ins: . | MPLAB® Harmony Configurator (MHC) v3.7.0 | . | MPLAB® XC32 C/C++ Compiler v2.50 | . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/release_notes.html#harmony-3-peripheral-library-application-examples-for-pic32cm-lels-family--v310",
     "relUrl": "/release_notes.html#harmony-3-peripheral-library-application-examples-for-pic32cm-lels-family--v310"
-  },"408": {
+  },"429": {
     "doc": "Release notes",
     "title": "Harmony 3 peripheral library application examples for PIC32CM LE/LS family  v3.0.1",
     "content": "New Features . | Added discover.microchip.com metadata | . Bug fixes . | Same as v3.0.0 | . Known Issues . | Same as v3.0.0 | . Development Tools . | Same as v3.0.0 | . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/release_notes.html#harmony-3-peripheral-library-application-examples-for-pic32cm-lels-family--v301",
     "relUrl": "/release_notes.html#harmony-3-peripheral-library-application-examples-for-pic32cm-lels-family--v301"
-  },"409": {
+  },"430": {
     "doc": "Release notes",
     "title": "Harmony 3 peripheral library application examples for PIC32CM LE/LS family  v3.0.0",
-    "content": "Development kit and demo application support . Following table provides number of peripheral library examples available for different development kits. | Development Kits | MPLABx applications | . | PIC32CM LS00 Curiosity Pro Evaluation Kit | 8 | . | PIC32CM LE00 Curiosity Pro Evaluation Kit | 39 | . New Features . New features added in this release are as follows: . | Applications migrated from csp repository to this new application repository for PIC32CM LE/LS development boards | . Known Issues . The current known issues are as follows: . | The following product family requires newer DFP version to be downloaded from packs server and to be used in the MPLAB project to build with MPLAB X IDE v5.4. | PIC32CM LE/LS Family: PIC32CM-LE_DFP v1.0.88, PIC32CM-LS_DFP v1.0.88 | . | . Development Tools . | MPLAB® X IDE v5.40 | MPLAB® X IDE plug-ins: . | MPLAB® Harmony Configurator (MHC) v3.6.0 | . | MPLAB® XC32 C/C++ Compiler v2.41 | . ",
+    "content": "Development kit and demo application support . Following table provides number of peripheral library examples available for different development kits. | Development Kits | MPLAB X applications | . | PIC32CM LS00 Curiosity Pro Evaluation Kit | 8 | . | PIC32CM LE00 Curiosity Pro Evaluation Kit | 39 | . New Features . New features added in this release are as follows: . | Applications migrated from csp repository to this new application repository for PIC32CM LE/LS development boards | . Known Issues . The current known issues are as follows: . | The following product family requires newer DFP version to be downloaded from packs server and to be used in the MPLAB project to build with MPLAB X IDE v5.4. | PIC32CM LE/LS Family: PIC32CM-LE_DFP v1.0.88, PIC32CM-LS_DFP v1.0.88 | . | . Development Tools . | MPLAB® X IDE v5.40 | MPLAB® X IDE plug-ins: . | MPLAB® Harmony Configurator (MHC) v3.6.0 | . | MPLAB® XC32 C/C++ Compiler v2.41 | . ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/release_notes.html#harmony-3-peripheral-library-application-examples-for-pic32cm-lels-family--v300",
     "relUrl": "/release_notes.html#harmony-3-peripheral-library-application-examples-for-pic32cm-lels-family--v300"
-  },"410": {
+  },"431": {
     "doc": "Release notes",
     "title": "Release notes",
     "content": ". ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/release_notes.html",
     "relUrl": "/release_notes.html"
-  },"411": {
+  },"432": {
     "doc": "Harmony 3 peripheral library application examples for PIC32CM LE/LS family",
     "title": "Harmony 3 peripheral library application examples for PIC32CM LE/LS family",
-    "content": "[![MCHP](https://www.microchip.com/ResourcePackages/Microchip/assets/dist/images/logo.png)](https://www.microchip.com) # Harmony 3 peripheral library application examples for PIC32CM LE/LS family MPLAB® Harmony 3 is an extension of the MPLAB® ecosystem for creating embedded firmware solutions for Microchip 32-bit SAM and PIC® microcontroller and microprocessor devices. Refer to the following links for more information. - [Microchip 32-bit MCUs](https://www.microchip.com/design-centers/32-bit) - [Microchip 32-bit MPUs](https://www.microchip.com/design-centers/32-bit-mpus) - [Microchip MPLAB X IDE](https://www.microchip.com/mplab/mplab-x-ide) - [Microchip MPLAB® Harmony](https://www.microchip.com/mplab/mplab-harmony) - [Microchip MPLAB® Harmony Pages](https://microchip-mplab-harmony.github.io/) This repository contains the MPLAB® Harmony 3 peripheral library application examples for PIC32CM LE/LS family - [Release Notes](/csp_apps_pic32cm_le_ls/release_notes.html) - [MPLAB® Harmony License](/csp_apps_pic32cm_le_ls/mplab_harmony_license.html) To clone or download these applications from Github, go to the [main page of this repository](https://github.com/Microchip-MPLAB-Harmony/csp_apps_pic32cm_le_ls) and then click **Clone** button to clone this repository or download as zip file. This content can also be downloaded using content manager by following these [instructions](https://github.com/Microchip-MPLAB-Harmony/contentmanager/wiki). ## Contents Summary | Folder | Description | --- | --- | apps | Contains peripheral library example applications | docs | Contains documentation in html format for offline viewing (to be used only after cloning this repository onto a local machine). Use [github pages](https://microchip-mplab-harmony.github.io/csp_apps_pic32cm_le_ls/) of this repository for viewing it online. | ## Code Examples The following applications are provided to demonstrate the typical or interesting usage models of one or more peripheral libraries. | Name | Description | ---- | ----------- | [AC Sleepwalking](/csp_apps_pic32cm_le_ls/apps/ac/ac_sleepwalk_singleshot/readme.html) | This example application shows how to use the AC Peripheral library to perform a single shot comparison in standby sleep mode periodically and wake up the device at the end of a successful comparison | [ADC DMA sleepwalking](/csp_apps_pic32cm_le_ls/apps/adc/adc_dmac_sleepwalking/readme.html) | This application shows how to configure the ADC in a sleepwalking operation, where the input voltage is measured at a fixed interval, and then the device is woken from sleep after conversion of 16 samples | [ADC Sample](/csp_apps_pic32cm_le_ls/apps/adc/adc_sample/readme.html) | This example application shows how to sample an analog input using the ADC and displays the converted samples on a serial terminal | [ADC window sleepwalking](/csp_apps_pic32cm_le_ls/apps/adc/adc_window_sleepwalking/readme.html) | This application shows how to configure ADC in a sleepwalking operation, where input voltage is measured at a fixed interval, but device is not woken from sleep until the measured value is below a given threshold | [CCL Manchester Encoder](/csp_apps_pic32cm_le_ls/apps/ccl/manchester_encoder/readme.html) | This example application shows how to use the CCL peripheral library and generate a Manchester-encoded output | [Clock configuration](/csp_apps_pic32cm_le_ls/apps/clock/clock_config/readme.html) | This example application shows how to configure the clock system to run the device at maximum frequency. It also outputs a prescaled clock signal on a GPIO pin for measurement and verification | [DAC waveform generation](/csp_apps_pic32cm_le_ls/apps/dac/dac_wav_gen/readme.html) | This example application shows how to use the DAC to generate a 1 KHz Sine or Sawtooth wave with a lookup table | [DAC waveform generation with DMA](/csp_apps_pic32cm_le_ls/apps/dac/dac_wav_gen_dma/readme.html) | This example application shows how to use the DAC with the DMA to generate a 5 KHz sinusoidal waveform without CPU intervention | [DMAC memory transfer](/csp_apps_pic32cm_le_ls/apps/dmac/dmac_memory_transfer/readme.html) | This example application demonstrates how to use the DMAC peripheral to do a memory to memory transfer | [DMAC USART echo](/csp_apps_pic32cm_le_ls/apps/dmac/dmac_usart_echo/readme.html) | This example application demonstrates USART transfer with DMA to receive 10 bytes and echo back the received bytes | [DSU compute CRC32](/csp_apps_pic32cm_le_ls/apps/dsu/dsu_crc32_generate/readme.html) | This example application demonstrates how to use the DSU Peripheral library to compute 32-bit Cyclic Redundancy Checksum (CRC) | [EIC Interrupt](/csp_apps_pic32cm_le_ls/apps/eic/eic_led_on_off/readme.html) | This example application demonstrates how to generate interrupt using the EIC on switch press and indicate it through an LED | [EVSYS trigger](/csp_apps_pic32cm_le_ls/apps/evsys/evsys_trigger/readme.html) | This example application demonstrates how to use the EVSYS Peripheral library to setup autonomous, low-latency and configurable communication between peripherals | [FREQM measurement](/csp_apps_pic32cm_le_ls/apps/freqm/freqm_measure_clock_freq/readme.html) | This example application demonstrates how to use the FREQM peripheral to measure the frequency of the internal RC Oscillator | [NVMCTRL Data Flash with Silent Access and RTC Tamper Detection](/csp_apps_pic32cm_le_ls/apps/nvmctrl/nvmctrl_dataflash_SA_TE/readme.html) | This example application displays the Data Flash content on a console which is refreshed every seconds. The Silent Access and Tamper Erase security features of the Data Flash are enabled | [NVMCTRL data flash](/csp_apps_pic32cm_le_ls/apps/nvmctrl/nvmctrl_data_flash/readme.html) | This example application demonstrates code execution from the main Flash memory while performing erase operation in data flash section | [NVMCTRL read write](/csp_apps_pic32cm_le_ls/apps/nvmctrl/nvmctrl_flash_read_write/readme.html) | This example application demonstrates how to use the NVMCTRL to erase and program the internal Flash memory | [OPAMP ADC gain](/csp_apps_pic32cm_le_ls/apps/opamp/opamp_adc_gain/readme.html) | This application shows how OPAMP can be used as gain stage for the internal ADC peripheral | [PM Low-Power Features](/csp_apps_pic32cm_le_ls/apps/pm/low_power_features/readme.html) | This example highlights the power consumption for each sleep mode based on the same application integration | [PM wakeup using EIC](/csp_apps_pic32cm_le_ls/apps/pm/pm_wakeup_eic/readme.html) | This application demonstrates entering the low power modes and exiting it using the EIC | [PM wakeup using RTC](/csp_apps_pic32cm_le_ls/apps/pm/pm_wakeup_rtc/readme.html) | This example demonstrates entering the low power modes and exiting it using the RTC | [PORT polling](/csp_apps_pic32cm_le_ls/apps/port/port_led_on_off_polling/readme.html) | This example application demonstrate how to poll the switch input, and indicate the switch status using the LED | [RSTC reset cause](/csp_apps_pic32cm_le_ls/apps/rstc/rstc_reset_cause/readme.html) | This example shows how to use the RSTC peripheral to indicate the cause of the device reset | [RTC alarm interrupt](/csp_apps_pic32cm_le_ls/apps/rtc/rtc_alarm/readme.html) | This example shows how to use the RTC to configure the time and generate the alarm | [RTC periodic interrupt](/csp_apps_pic32cm_le_ls/apps/rtc/rtc_periodic_timeout/readme.html) | This example application shows how to use the RTC to generate periodic interrupts | [RTC tamper detect](/csp_apps_pic32cm_le_ls/apps/rtc/rtc_tamper_detect/readme.html) | This example application shows how to configure and use tamper detect feature of RTC | [SERCOM I2C EEPROM read write](/csp_apps_pic32cm_le_ls/apps/sercom/i2c/master/i2c_eeprom/readme.html) | This example application demonstrates how to use the SERCOM peripheral to write and read from the I2C serial EEPROM memory | [SERCOM I2C EEPROM emulation (I2C slave)](/csp_apps_pic32cm_le_ls/apps/sercom/i2c/slave/i2c_eeprom_emulation/readme.html) | This example application demonstrates how to use the SERCOM peripheral in slave mode | [SERCOM SPI EEPROM read write](/csp_apps_pic32cm_le_ls/apps/sercom/spi/spi_eeprom_write_read/readme.html) | This example application demonstrates how to use the SERCOM SPI peripheral to write and read from the SPI serial EEPROM memory | [SERCOM SPI ping pong with DMA](/csp_apps_pic32cm_le_ls/apps/sercom/spi/spi_ping_pong_with_dma/readme.html) | This example demonstrates how to continuously transmit and receive data over a SPI interface using ping pong buffers with DMA | [SERCOM USART blocking](/csp_apps_pic32cm_le_ls/apps/sercom/usart/usart_echo_blocking/readme.html) | This example application demonstrates how to use the SERCOM peripheral in USART mode to transfer block of data in a blocking manner | [SERCOM USART interrupt](/csp_apps_pic32cm_le_ls/apps/sercom/usart/usart_echo_interrupt/readme.html) | This example application demonstrates how to use the SERCOM peripheral in USART mode to transfer data in a non-blocking manner | [SERCOM USART ring buffer](/csp_apps_pic32cm_le_ls/apps/sercom/usart/usart_ring_buffer_interrupt/readme.html) | This example application demonstrates how to use the SERCOM peripheral in USART ring buffer mode to transfer data in a non-blocking manner | [Systick periodic interrupt](/csp_apps_pic32cm_le_ls/apps/systick/systick_periodic_timeout/readme.html) | This example shows how to use the SysTick to generate periodic interrupts | [TC capture mode](/csp_apps_pic32cm_le_ls/apps/tc/tc_capture_mode/readme.html) | This example shows how to use the TC module in capture mode to measure duty cycle and frequency of an external input | [TC compare mode](/csp_apps_pic32cm_le_ls/apps/tc/tc_compare_mode/readme.html) | This example shows how to use the TC module in compare mode to generate an active low, active high, and toggle output on compare match | [TC timer mode](/csp_apps_pic32cm_le_ls/apps/tc/tc_timer_mode/readme.html) | This example shows how to use the TC module in timer mode to generate periodic interrupt | [TCC PWM generation](/csp_apps_pic32cm_le_ls/apps/tcc/tcc_synchronous_pwm_channels/readme.html) | This example application shows how to use the TCC to generate a 2 or 3 phase PWM signals for motor control with dead time | [TRAM erase on tamper detect](/csp_apps_pic32cm_le_ls/apps/tram/tram_tamper_erase/readme.html) | This example application shows how to configure and use tamper detect feature of RTC and TrustRam | [TRAM with Security Features demonstration](/csp_apps_pic32cm_le_ls/apps/tram/tram_with_security_features/readme.html) | This example application displays the TrustRAM content on a console which is refreshed every seconds. This example allows to experiment static and dynamic tamper detections coupled with a TrustRAM full erase | [TRNG random number](/csp_apps_pic32cm_le_ls/apps/trng/random_number/readme.html) | This example shows how to use the TRNG Peripheral library to generate and read a random number | [TrustZone EIC pin toggle - PIC32CMLS00](/csp_apps_pic32cm_le_ls/apps/trustZone/eic/eic_pin_toggle_ls00/readme.html) | This example application demonstrates handling of external pin interrupt in secure and non-secure project | [TrustZone EIC pin toggle - PIC32CMLS60](/csp_apps_pic32cm_le_ls/apps/trustZone/eic/eic_pin_toggle_ls60/readme.html) | This example application demonstrates handling of external pin interrupt in secure and non-secure project | [TrustZone EVSYS trigger - PIC32CMLS00](/csp_apps_pic32cm_le_ls/apps/trustZone/evsys/evsys_trigger_ls00/readme.html) | This example application demonstrates peripheral event handling with event system in secure and non-secure project | [TrustZone EVSYS trigger - PIC32CMLS60](/csp_apps_pic32cm_le_ls/apps/trustZone/evsys/evsys_trigger_ls60/readme.html) | This example application demonstrates peripheral event handling with event system in secure and non-secure project | [TrustZone Secure Data Flash with Data Flash Scrambling and RTC Tamper Detection - PIC32CMLS00](/csp_apps_pic32cm_le_ls/apps/trustZone/nvmctrl/secure_dataflash_DS_TE_ls00/readme.html) | This example application displays the Data Flash content on a console which is refreshed every seconds. The Data Flash Scrambling and Tamper Erase security features of the Data Flash are enabled | [TrustZone Secure Data Flash with Data Flash Scrambling and RTC Tamper Detection - PIC32CMLS60](/csp_apps_pic32cm_le_ls/apps/trustZone/nvmctrl/secure_dataflash_DS_TE_ls60/readme.html) | This example application displays the Data Flash content on a console which is refreshed every seconds. The Data Flash Scrambling and Tamper Erase security features of the Data Flash are enabled | [TrustZone Secure Data Flash with Silent Access and RTC Tamper Detection - PIC32CMLS00](/csp_apps_pic32cm_le_ls/apps/trustZone/nvmctrl/secure_dataflash_SA_TE_ls00/readme.html) | This example application displays the Data Flash content on a console which is refreshed every seconds. The Silent Access and Tamper Erase security features of the Secure Data Flash are enabled | [TrustZone Secure Data Flash with Silent Access and RTC Tamper Detection - PIC32CMLS60](/csp_apps_pic32cm_le_ls/apps/trustZone/nvmctrl/secure_dataflash_SA_TE_ls60/readme.html) | This example application displays the Data Flash content on a console which is refreshed every seconds. The Silent Access and Tamper Erase security features of the Secure Data Flash are enabled | [TrustZone Low-Power Features - PIC32CMLS00](/csp_apps_pic32cm_le_ls/apps/trustZone/pm/low_power_features_ls00/readme.html) | This example highlights the power consumption for each sleep mode based on the same application integration | [TrustZone Low-Power Features - PIC32CMLS60](/csp_apps_pic32cm_le_ls/apps/trustZone/pm/low_power_features_ls60/readme.html) | This example highlights the power consumption for each sleep mode based on the same application integration | [TrustZone Systick periodic timeout - PIC32CMLS00](/csp_apps_pic32cm_le_ls/apps/trustZone/systick/systick_periodic_timeout_ls00/readme.html) | This example application shows how to use the SysTick to generate periodic interrupts on both Secure and Non-secure modes | [TrustZone Systick periodic timeout - PIC32CMLS60](/csp_apps_pic32cm_le_ls/apps/trustZone/systick/systick_periodic_timeout_ls60/readme.html) | This example application shows how to use the SysTick to generate periodic interrupts on both Secure and Non-secure modes | [TrustZone Non-Secure TC demonstration - PIC32CMLS00](/csp_apps_pic32cm_le_ls/apps/trustZone/tc/nonsecure_tc_ls00/readme.html) | This example application performs a PWM signal applied on PC19 pin (LED0) based on TC0 peripheral | [TrustZone Non-Secure TC demonstration - PIC32CMLS60](/csp_apps_pic32cm_le_ls/apps/trustZone/tc/nonsecure_tc_ls60/readme.html) | This example application performs a PWM signal applied on PC19 pin (LED0) based on TC0 peripheral | [TrustZone Secure TC demonstration - PIC32CMLS00](/csp_apps_pic32cm_le_ls/apps/trustZone/tc/secure_tc_ls00/readme.html) | This example application performs a PWM signal applied on PC19 pin (LED0) based on TC0 peripheral | [TrustZone Secure TC demonstration - PIC32CMLS60](/csp_apps_pic32cm_le_ls/apps/trustZone/tc/secure_tc_ls60/readme.html) | This example application performs a PWM signal applied on PC19 pin (LED0) based on TC0 peripheral | [TrustZone Secure TrustRAM demonstration - PIC32CMLS00](/csp_apps_pic32cm_le_ls/apps/trustZone/tram/tram_ls00/readme.html) | This example application displays the TrustRAM content on a console which is refreshed every seconds. This example allows to experiment static and dynamic tamper detections coupled with a TrustRAM full erase | [TrustZone Secure TrustRAM demonstration - PIC32CMLS60](/csp_apps_pic32cm_le_ls/apps/trustZone/tram/tram_ls60/readme.html) | This example application displays the TrustRAM content on a console which is refreshed every seconds. This example allows to experiment static and dynamic tamper detections coupled with a TrustRAM full erase | [TrustZone basic demonstration - PIC32CMLS00](/csp_apps_pic32cm_le_ls/apps/trustZone/trustZone_basic_ls00/readme.html) | This example application performs Add and Multiply Math operations in secure mode and I/O operations in non-secure mode | [TrustZone basic demonstration - PIC32CMLS60](/csp_apps_pic32cm_le_ls/apps/trustZone/trustZone_basic_ls60/readme.html) | This example application performs Add and Multiply Math operations in secure mode and I/O operations in non-secure mode | [TrustZone basic with Secure Boot demonstration - PIC32CMLS00](/csp_apps_pic32cm_le_ls/apps/trustZone/trustZone_basic_SBoot_ls00/readme.html) | This example application performs Add and Multiply math operations in Secure Flash BOOT and APPLICATION regions called through veneers in Non Secure Flash APPLICATION region. The LED0 (Green) is switched on in BootSecure application and the LED1 (Red) in Secure application | [TrustZone basic with Secure Boot demonstration - PIC32CMLS60](/csp_apps_pic32cm_le_ls/apps/trustZone/trustZone_basic_SBoot_ls60/readme.html) | This example application performs Add and Multiply math operations in Secure Flash BOOT and APPLICATION regions called through veneers in Non Secure Flash APPLICATION region. The LED0 (Green) is switched on in BootSecure application and the LED1 (Red) in Secure application | [WDT timeout](/csp_apps_pic32cm_le_ls/apps/wdt/wdt_timeout/readme.html) | This example shows how to generate a Watchdog timer reset by emulating a deadlock | ____ [![License](https://img.shields.io/badge/license-Harmony%20license-orange.svg)](https://github.com/Microchip-MPLAB-Harmony/csp_apps_pic32cm_le_ls/blob/master/mplab_harmony_license.md) [![Latest release](https://img.shields.io/github/release/Microchip-MPLAB-Harmony/csp_apps_pic32cm_le_ls.svg)](https://github.com/Microchip-MPLAB-Harmony/csp_apps_pic32cm_le_ls/releases/latest) [![Latest release date](https://img.shields.io/github/release-date/Microchip-MPLAB-Harmony/csp_apps_pic32cm_le_ls.svg)](https://github.com/Microchip-MPLAB-Harmony/csp_apps_pic32cm_le_ls/releases/latest) [![Commit activity](https://img.shields.io/github/commit-activity/y/Microchip-MPLAB-Harmony/csp_apps_pic32cm_le_ls.svg)](https://github.com/Microchip-MPLAB-Harmony/csp_apps_pic32cm_le_ls/graphs/commit-activity) [![Contributors](https://img.shields.io/github/contributors-anon/Microchip-MPLAB-Harmony/csp_apps_pic32cm_le_ls.svg)]() ____ [![Follow us on Youtube](https://img.shields.io/badge/Youtube-Follow%20us%20on%20Youtube-red.svg)](https://www.youtube.com/user/MicrochipTechnology) [![Follow us on LinkedIn](https://img.shields.io/badge/LinkedIn-Follow%20us%20on%20LinkedIn-blue.svg)](https://www.linkedin.com/company/microchip-technology) [![Follow us on Facebook](https://img.shields.io/badge/Facebook-Follow%20us%20on%20Facebook-blue.svg)](https://www.facebook.com/microchiptechnology/) [![Follow us on Twitter](https://img.shields.io/twitter/follow/MicrochipTech.svg?style=social)](https://twitter.com/MicrochipTech) [![](https://img.shields.io/github/stars/Microchip-MPLAB-Harmony/csp_apps_pic32cm_le_ls.svg?style=social)]() [![](https://img.shields.io/github/watchers/Microchip-MPLAB-Harmony/csp_apps_pic32cm_le_ls.svg?style=social)]() ",
+    "content": "[![MCHP](https://www.microchip.com/ResourcePackages/Microchip/assets/dist/images/logo.png)](https://www.microchip.com) # Harmony 3 peripheral library application examples for PIC32CM LE/LS family MPLAB® Harmony 3 is an extension of the MPLAB® ecosystem for creating embedded firmware solutions for Microchip 32-bit SAM and PIC® microcontroller and microprocessor devices. Refer to the following links for more information. - [Microchip 32-bit MCUs](https://www.microchip.com/design-centers/32-bit) - [Microchip 32-bit MPUs](https://www.microchip.com/design-centers/32-bit-mpus) - [Microchip MPLAB X IDE](https://www.microchip.com/mplab/mplab-x-ide) - [Microchip MPLAB® Harmony](https://www.microchip.com/mplab/mplab-harmony) - [Microchip MPLAB® Harmony Pages](https://microchip-mplab-harmony.github.io/) This repository contains the MPLAB® Harmony 3 peripheral library application examples for PIC32CM LE/LS family - [Release Notes](/csp_apps_pic32cm_le_ls/release_notes.html) - [MPLAB® Harmony License](/csp_apps_pic32cm_le_ls/mplab_harmony_license.html) To clone or download these applications from Github, go to the [main page of this repository](https://github.com/Microchip-MPLAB-Harmony/csp_apps_pic32cm_le_ls) and then click **Clone** button to clone this repository or download as zip file. This content can also be downloaded using content manager by following these [instructions](https://github.com/Microchip-MPLAB-Harmony/contentmanager/wiki). ## Contents Summary | Folder | Description | --- | --- | apps | Contains peripheral library example applications | docs | Contains documentation in html format for offline viewing (to be used only after cloning this repository onto a local machine). Use [github pages](https://microchip-mplab-harmony.github.io/csp_apps_pic32cm_le_ls/) of this repository for viewing it online. | ## Code Examples The following applications are provided to demonstrate the typical or interesting usage models of one or more peripheral libraries. | Name | Description | ---- | ----------- | [AC Sleepwalking](/csp_apps_pic32cm_le_ls/apps/ac/ac_sleepwalk_singleshot/readme.html) | This example application shows how to use the AC Peripheral library to perform a single shot comparison in standby sleep mode periodically and wake up the device at the end of a successful comparison | [ADC DMA sleepwalking](/csp_apps_pic32cm_le_ls/apps/adc/adc_dmac_sleepwalking/readme.html) | This application shows how to configure the ADC in a sleepwalking operation, where the input voltage is measured at a fixed interval, and then the device is woken from sleep after conversion of 16 samples | [ADC Sample](/csp_apps_pic32cm_le_ls/apps/adc/adc_sample/readme.html) | This example application shows how to sample an analog input using the ADC and displays the converted samples on a serial terminal | [ADC window sleepwalking](/csp_apps_pic32cm_le_ls/apps/adc/adc_window_sleepwalking/readme.html) | This application shows how to configure ADC in a sleepwalking operation, where input voltage is measured at a fixed interval, but device is not woken from sleep until the measured value is below a given threshold | [CCL Manchester Encoder](/csp_apps_pic32cm_le_ls/apps/ccl/manchester_encoder/readme.html) | This example application shows how to use the CCL peripheral library and generate a Manchester-encoded output | [Clock configuration](/csp_apps_pic32cm_le_ls/apps/clock/clock_config/readme.html) | This example application shows how to configure the clock system to run the device at maximum frequency. It also outputs a prescaled clock signal on a GPIO pin for measurement and verification | [DAC waveform generation](/csp_apps_pic32cm_le_ls/apps/dac/dac_wav_gen/readme.html) | This example application shows how to use the DAC to generate a 1 KHz Sine or Sawtooth wave with a lookup table | [DAC waveform generation with DMA](/csp_apps_pic32cm_le_ls/apps/dac/dac_wav_gen_dma/readme.html) | This example application shows how to use the DAC with the DMA to generate a 5 KHz sinusoidal waveform without CPU intervention | [DMAC memory transfer](/csp_apps_pic32cm_le_ls/apps/dmac/dmac_memory_transfer/readme.html) | This example application demonstrates how to use the DMAC peripheral to do a memory to memory transfer | [DMAC USART echo](/csp_apps_pic32cm_le_ls/apps/dmac/dmac_usart_echo/readme.html) | This example application demonstrates USART transfer with DMA to receive 10 bytes and echo back the received bytes | [DSU compute CRC32](/csp_apps_pic32cm_le_ls/apps/dsu/dsu_crc32_generate/readme.html) | This example application demonstrates how to use the DSU Peripheral library to compute 32-bit Cyclic Redundancy Checksum (CRC) | [EIC Interrupt](/csp_apps_pic32cm_le_ls/apps/eic/eic_led_on_off/readme.html) | This example application demonstrates how to generate interrupt using the EIC on switch press and indicate it through an LED | [EVSYS trigger](/csp_apps_pic32cm_le_ls/apps/evsys/evsys_trigger/readme.html) | This example application demonstrates how to use the EVSYS Peripheral library to setup autonomous, low-latency and configurable communication between peripherals | [FREQM measurement](/csp_apps_pic32cm_le_ls/apps/freqm/freqm_measure_clock_freq/readme.html) | This example application demonstrates how to use the FREQM peripheral to measure the frequency of the internal RC Oscillator | [NVMCTRL Data Flash with Silent Access and RTC Tamper Detection](/csp_apps_pic32cm_le_ls/apps/nvmctrl/nvmctrl_dataflash_SA_TE/readme.html) | This example application displays the Data Flash content on a console which is refreshed every seconds. The Silent Access and Tamper Erase security features of the Data Flash are enabled | [NVMCTRL data flash](/csp_apps_pic32cm_le_ls/apps/nvmctrl/nvmctrl_data_flash/readme.html) | This example application demonstrates code execution from the main Flash memory while performing erase operation in data flash section | [NVMCTRL read write](/csp_apps_pic32cm_le_ls/apps/nvmctrl/nvmctrl_flash_read_write/readme.html) | This example application demonstrates how to use the NVMCTRL to erase and program the internal Flash memory | [OPAMP ADC gain](/csp_apps_pic32cm_le_ls/apps/opamp/opamp_adc_gain/readme.html) | This application shows how OPAMP can be used as gain stage for the internal ADC peripheral | [PM Low-Power Features](/csp_apps_pic32cm_le_ls/apps/pm/low_power_features/readme.html) | This example highlights the power consumption for each sleep mode based on the same application integration | [PM wakeup using EIC](/csp_apps_pic32cm_le_ls/apps/pm/pm_wakeup_eic/readme.html) | This application demonstrates entering the low power modes and exiting it using the EIC | [PM wakeup using RTC](/csp_apps_pic32cm_le_ls/apps/pm/pm_wakeup_rtc/readme.html) | This example demonstrates entering the low power modes and exiting it using the RTC | [PORT polling](/csp_apps_pic32cm_le_ls/apps/port/port_led_on_off_polling/readme.html) | This example application demonstrate how to poll the switch input, and indicate the switch status using the LED | [RSTC reset cause](/csp_apps_pic32cm_le_ls/apps/rstc/rstc_reset_cause/readme.html) | This example shows how to use the RSTC peripheral to indicate the cause of the device reset | [RTC alarm interrupt](/csp_apps_pic32cm_le_ls/apps/rtc/rtc_alarm/readme.html) | This example shows how to use the RTC to configure the time and generate the alarm | [RTC periodic interrupt](/csp_apps_pic32cm_le_ls/apps/rtc/rtc_periodic_timeout/readme.html) | This example application shows how to use the RTC to generate periodic interrupts | [RTC tamper detect](/csp_apps_pic32cm_le_ls/apps/rtc/rtc_tamper_detect/readme.html) | This example application shows how to configure and use tamper detect feature of RTC | [SERCOM I2C EEPROM read write](/csp_apps_pic32cm_le_ls/apps/sercom/i2c/master/i2c_eeprom/readme.html) | This example application demonstrates how to use the SERCOM peripheral to write and read from the I2C serial EEPROM memory | [SERCOM I2C EEPROM emulation (I2C slave)](/csp_apps_pic32cm_le_ls/apps/sercom/i2c/slave/i2c_eeprom_emulation/readme.html) | This example application demonstrates how to use the SERCOM peripheral in slave mode | [SERCOM SPI EEPROM read write](/csp_apps_pic32cm_le_ls/apps/sercom/spi/spi_eeprom_write_read/readme.html) | This example application demonstrates how to use the SERCOM SPI peripheral to write and read from the SPI serial EEPROM memory | [SERCOM SPI ping pong with DMA](/csp_apps_pic32cm_le_ls/apps/sercom/spi/spi_ping_pong_with_dma/readme.html) | This example demonstrates how to continuously transmit and receive data over a SPI interface using ping pong buffers with DMA | [SERCOM USART blocking](/csp_apps_pic32cm_le_ls/apps/sercom/usart/usart_echo_blocking/readme.html) | This example application demonstrates how to use the SERCOM peripheral in USART mode to transfer block of data in a blocking manner | [SERCOM USART interrupt](/csp_apps_pic32cm_le_ls/apps/sercom/usart/usart_echo_interrupt/readme.html) | This example application demonstrates how to use the SERCOM peripheral in USART mode to transfer data in a non-blocking manner | [SERCOM USART ring buffer](/csp_apps_pic32cm_le_ls/apps/sercom/usart/usart_ring_buffer_interrupt/readme.html) | This example application demonstrates how to use the SERCOM peripheral in USART ring buffer mode to transfer data in a non-blocking manner | [SERCOM USART Start of Frame (SOF) interrupt ](/csp_apps_pic32cm_le_ls/apps/sercom/usart/usart_sof_interrupt/readme.html) | This example application demonstrates how to use the SERCOM peripheral in USART ring buffer mode with SoF to wake-up device from sleep mode | [Systick periodic interrupt](/csp_apps_pic32cm_le_ls/apps/systick/systick_periodic_timeout/readme.html) | This example shows how to use the SysTick to generate periodic interrupts | [TC capture mode](/csp_apps_pic32cm_le_ls/apps/tc/tc_capture_mode/readme.html) | This example shows how to use the TC module in capture mode to measure duty cycle and frequency of an external input | [TC compare mode](/csp_apps_pic32cm_le_ls/apps/tc/tc_compare_mode/readme.html) | This example shows how to use the TC module in compare mode to generate an active low, active high, and toggle output on compare match | [TC timer mode](/csp_apps_pic32cm_le_ls/apps/tc/tc_timer_mode/readme.html) | This example shows how to use the TC module in timer mode to generate periodic interrupt | [TCC PWM generation](/csp_apps_pic32cm_le_ls/apps/tcc/tcc_synchronous_pwm_channels/readme.html) | This example application shows how to use the TCC to generate a 2 or 3 phase PWM signals for motor control with dead time | [TRAM erase on tamper detect](/csp_apps_pic32cm_le_ls/apps/tram/tram_tamper_erase/readme.html) | This example application shows how to configure and use tamper detect feature of RTC and TrustRam | [TRAM with Security Features demonstration](/csp_apps_pic32cm_le_ls/apps/tram/tram_with_security_features/readme.html) | This example application displays the TrustRAM content on a console which is refreshed every seconds. This example allows to experiment static and dynamic tamper detections coupled with a TrustRAM full erase | [TRNG random number](/csp_apps_pic32cm_le_ls/apps/trng/random_number/readme.html) | This example shows how to use the TRNG Peripheral library to generate and read a random number | [TrustZone EIC pin toggle - PIC32CMLS00](/csp_apps_pic32cm_le_ls/apps/trustZone/eic/eic_pin_toggle_ls00/readme.html) | This example application demonstrates handling of external pin interrupt in secure and non-secure project | [TrustZone EIC pin toggle - PIC32CMLS60](/csp_apps_pic32cm_le_ls/apps/trustZone/eic/eic_pin_toggle_ls60/readme.html) | This example application demonstrates handling of external pin interrupt in secure and non-secure project | [TrustZone EVSYS trigger - PIC32CMLS00](/csp_apps_pic32cm_le_ls/apps/trustZone/evsys/evsys_trigger_ls00/readme.html) | This example application demonstrates peripheral event handling with event system in secure and non-secure project | [TrustZone EVSYS trigger - PIC32CMLS60](/csp_apps_pic32cm_le_ls/apps/trustZone/evsys/evsys_trigger_ls60/readme.html) | This example application demonstrates peripheral event handling with event system in secure and non-secure project | [TrustZone Data Flash Scrambling and RTC Tamper Detection - PIC32CMLS00](/csp_apps_pic32cm_le_ls/apps/trustZone/nvmctrl/secure_dataflash_DS_TE_ls00/readme.html) | This example application displays the Data Flash content on a console which is refreshed every seconds. The Data Flash Scrambling and Tamper Erase security features of the Data Flash are enabled | [TrustZone Data Flash Scrambling and RTC Tamper Detection - PIC32CMLS60](/csp_apps_pic32cm_le_ls/apps/trustZone/nvmctrl/secure_dataflash_DS_TE_ls60/readme.html) | This example application displays the Data Flash content on a console which is refreshed every seconds. The Data Flash Scrambling and Tamper Erase security features of the Data Flash are enabled | [TrustZone Silent Access and RTC Tamper Detection - PIC32CMLS00](/csp_apps_pic32cm_le_ls/apps/trustZone/nvmctrl/secure_dataflash_SA_TE_ls00/readme.html) | This example application displays the Data Flash content on a console which is refreshed every seconds. The Silent Access and Tamper Erase security features of the Secure Data Flash are enabled | [TrustZone Silent Access and RTC Tamper Detection - PIC32CMLS60](/csp_apps_pic32cm_le_ls/apps/trustZone/nvmctrl/secure_dataflash_SA_TE_ls60/readme.html) | This example application displays the Data Flash content on a console which is refreshed every seconds. The Silent Access and Tamper Erase security features of the Secure Data Flash are enabled | [TrustZone Low-Power Features - PIC32CMLS00](/csp_apps_pic32cm_le_ls/apps/trustZone/pm/low_power_features_ls00/readme.html) | This example highlights the power consumption for each sleep mode based on the same application integration | [TrustZone Low-Power Features - PIC32CMLS60](/csp_apps_pic32cm_le_ls/apps/trustZone/pm/low_power_features_ls60/readme.html) | This example highlights the power consumption for each sleep mode based on the same application integration | [TrustZone SERCOM USART Start of Frame (SOF) interrupt - PIC32CMLS00](/csp_apps_pic32cm_le_ls/apps/trustZone/sercom/usart_sof_irq_ls00/readme.html) | This example application demonstrates how to use the SERCOM peripheral in USART ring buffer mode with SoF to wake-up device from sleep mode | [TrustZone SERCOM USART Start of Frame (SOF) interrupt - PIC32CMLS60](/csp_apps_pic32cm_le_ls/apps/trustZone/sercom/usart_sof_irq_ls60/readme.html) | This example application demonstrates how to use the SERCOM peripheral in USART ring buffer mode with SoF to wake-up device from sleep mode | [TrustZone Systick periodic timeout - PIC32CMLS00](/csp_apps_pic32cm_le_ls/apps/trustZone/systick/systick_periodic_timeout_ls00/readme.html) | This example application shows how to use the SysTick to generate periodic interrupts on both Secure and Non-secure modes | [TrustZone Systick periodic timeout - PIC32CMLS60](/csp_apps_pic32cm_le_ls/apps/trustZone/systick/systick_periodic_timeout_ls60/readme.html) | This example application shows how to use the SysTick to generate periodic interrupts on both Secure and Non-secure modes | [TrustZone Non-Secure TC demonstration - PIC32CMLS00](/csp_apps_pic32cm_le_ls/apps/trustZone/tc/nonsecure_tc_ls00/readme.html) | This example application performs a PWM signal applied on PC19 pin (LED0) based on TC0 peripheral | [TrustZone Non-Secure TC demonstration - PIC32CMLS60](/csp_apps_pic32cm_le_ls/apps/trustZone/tc/nonsecure_tc_ls60/readme.html) | This example application performs a PWM signal applied on PC19 pin (LED0) based on TC0 peripheral | [TrustZone Secure TC demonstration - PIC32CMLS00](/csp_apps_pic32cm_le_ls/apps/trustZone/tc/secure_tc_ls00/readme.html) | This example application performs a PWM signal applied on PC19 pin (LED0) based on TC0 peripheral | [TrustZone Secure TC demonstration - PIC32CMLS60](/csp_apps_pic32cm_le_ls/apps/trustZone/tc/secure_tc_ls60/readme.html) | This example application performs a PWM signal applied on PC19 pin (LED0) based on TC0 peripheral | [TrustZone Secure TrustRAM demonstration - PIC32CMLS00](/csp_apps_pic32cm_le_ls/apps/trustZone/tram/tram_ls00/readme.html) | This example application displays the TrustRAM content on a console which is refreshed every seconds. This example allows to experiment static and dynamic tamper detections coupled with a TrustRAM full erase | [TrustZone Secure TrustRAM demonstration - PIC32CMLS60](/csp_apps_pic32cm_le_ls/apps/trustZone/tram/tram_ls60/readme.html) | This example application displays the TrustRAM content on a console which is refreshed every seconds. This example allows to experiment static and dynamic tamper detections coupled with a TrustRAM full erase | [TrustZone basic demonstration - PIC32CMLS00](/csp_apps_pic32cm_le_ls/apps/trustZone/trustZone_basic_ls00/readme.html) | This example application performs Add and Multiply Math operations in secure mode and I/O operations in non-secure mode | [TrustZone basic demonstration - PIC32CMLS60](/csp_apps_pic32cm_le_ls/apps/trustZone/trustZone_basic_ls60/readme.html) | This example application performs Add and Multiply Math operations in secure mode and I/O operations in non-secure mode | [TrustZone basic with Secure Boot demonstration - PIC32CMLS00](/csp_apps_pic32cm_le_ls/apps/trustZone/trustZone_basic_SBoot_ls00/readme.html) | This example application performs Add and Multiply math operations in Secure Flash BOOT and APPLICATION regions called through veneers in Non Secure Flash APPLICATION region. The LED0 (Green) is switched on in BootSecure application and the LED1 (Red) in Secure application | [TrustZone basic with Secure Boot demonstration - PIC32CMLS60](/csp_apps_pic32cm_le_ls/apps/trustZone/trustZone_basic_SBoot_ls60/readme.html) | This example application performs Add and Multiply math operations in Secure Flash BOOT and APPLICATION regions called through veneers in Non Secure Flash APPLICATION region. The LED0 (Green) is switched on in BootSecure application and the LED1 (Red) in Secure application | [WDT timeout](/csp_apps_pic32cm_le_ls/apps/wdt/wdt_timeout/readme.html) | This example shows how to generate a Watchdog timer reset by emulating a deadlock | ____ [![License](https://img.shields.io/badge/license-Harmony%20license-orange.svg)](https://github.com/Microchip-MPLAB-Harmony/csp_apps_pic32cm_le_ls/blob/master/mplab_harmony_license.md) [![Latest release](https://img.shields.io/github/release/Microchip-MPLAB-Harmony/csp_apps_pic32cm_le_ls.svg)](https://github.com/Microchip-MPLAB-Harmony/csp_apps_pic32cm_le_ls/releases/latest) [![Latest release date](https://img.shields.io/github/release-date/Microchip-MPLAB-Harmony/csp_apps_pic32cm_le_ls.svg)](https://github.com/Microchip-MPLAB-Harmony/csp_apps_pic32cm_le_ls/releases/latest) [![Commit activity](https://img.shields.io/github/commit-activity/y/Microchip-MPLAB-Harmony/csp_apps_pic32cm_le_ls.svg)](https://github.com/Microchip-MPLAB-Harmony/csp_apps_pic32cm_le_ls/graphs/commit-activity) [![Contributors](https://img.shields.io/github/contributors-anon/Microchip-MPLAB-Harmony/csp_apps_pic32cm_le_ls.svg)]() ____ [![Follow us on Youtube](https://img.shields.io/badge/Youtube-Follow%20us%20on%20Youtube-red.svg)](https://www.youtube.com/user/MicrochipTechnology) [![Follow us on LinkedIn](https://img.shields.io/badge/LinkedIn-Follow%20us%20on%20LinkedIn-blue.svg)](https://www.linkedin.com/company/microchip-technology) [![Follow us on Facebook](https://img.shields.io/badge/Facebook-Follow%20us%20on%20Facebook-blue.svg)](https://www.facebook.com/microchiptechnology/) [![Follow us on Twitter](https://img.shields.io/twitter/follow/MicrochipTech.svg?style=social)](https://twitter.com/MicrochipTech) [![](https://img.shields.io/github/stars/Microchip-MPLAB-Harmony/csp_apps_pic32cm_le_ls.svg?style=social)]() [![](https://img.shields.io/github/watchers/Microchip-MPLAB-Harmony/csp_apps_pic32cm_le_ls.svg?style=social)]() ",
     "url": "http://localhost:4000/csp_apps_pic32cm_le_ls/",
     "relUrl": "/"
   }
