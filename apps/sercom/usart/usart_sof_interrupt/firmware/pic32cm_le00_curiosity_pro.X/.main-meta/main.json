@@ -3,11 +3,11 @@
 	"category": "com.microchip.ide.project",
 	"content": {
 		"metaDataVersion": "1.1.0",
-		"name": "com.microchip.mcu32.mplabx.project.csp_apps_pic32cm_le_ls_adc_sample",
+		"name": "com.microchip.mcu32.mplabx.project.csp_apps_pic32cm_le_ls_sercom_usart_start_of_frame_interrupt",
 		"version": "3.4.0",
-		"displayName": "ADC Sample Example for PIC32CM LE00/LS00/LS60 Family",
-		"projectName": "adc_sample_pic32cm_le00_curiosity_pro",
-		"shortDescription": "This example application shows how to sample an analog input using the ADC and displays the converted samples on a serial terminal.",
+		"displayName": "SERCOM USART Start of Frame (SOF) interrupt Example for PIC32CM LE00/LS00/LS60 Family",
+		"projectName": "sercom_usart_start_of_frame_interrupt_pic32cm_le00_curiosity_pro",
+		"shortDescription": "This example application demonstrates how to use the SERCOM peripheral in USART ring buffer mode with SoF to wake-up device from sleep mode.",
 		"ide": {
 			"name": "MPLABX",
 			"semverRange": ">=6.5.0"
@@ -45,25 +45,28 @@
 			[
 				"Harmony",
 				"Peripherals",
-				"ADC"
+				"SERCOM"
 			],
 			[
 				"Peripherals",
-				"ADC"
+				"SERCOM"
 			]
 		],
 		"peripherals": [
-			"ADC"
+			"SERCOM"
 		],
 		"keywords": [
 			"MHC",
 			"Harmony",
 			"PIC32CM5164LE00100",
 			"PIC32CM LE00/LS00/LS60 Family",
-			"AC voltage",
-			"Analog to Digital Converter",
-			"ADC",
-			"Analog"
+			"FLEXCOM",
+			"Serial Communication",
+			"I2C",
+			"SPI",
+			"UART",
+			"SERCOM",
+			"TWI"
 		],
 		"additionalData": {
 			"longDescription": {

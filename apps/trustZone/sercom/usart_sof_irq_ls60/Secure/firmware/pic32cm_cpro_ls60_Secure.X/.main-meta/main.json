@@ -3,11 +3,11 @@
 	"category": "com.microchip.ide.project",
 	"content": {
 		"metaDataVersion": "1.1.0",
-		"name": "com.microchip.mcu32.mplabx.project.csp_apps_pic32cm_le_ls_adc_sample",
+		"name": "com.microchip.mcu32.mplabx.project.csp_apps_pic32cm_le_ls_Secure_sercom_sof",
 		"version": "3.4.0",
-		"displayName": "ADC Sample Example for PIC32CM LE00/LS00/LS60 Family",
-		"projectName": "adc_sample_pic32cm_le00_curiosity_pro",
-		"shortDescription": "This example application shows how to sample an analog input using the ADC and displays the converted samples on a serial terminal.",
+		"displayName": "TrustZone SERCOM USART Start of Frame (SOF) interrupt Example for PIC32CM LE00/LS00/LS60 Family",
+		"projectName": "sercom_usart_start-of-frame_pic32cm_ls00_cpro_Secure",
+		"shortDescription": "This example application demonstrates how to use the SERCOM peripheral in USART ring buffer mode with SoF to wake-up device from sleep mode.",
 		"ide": {
 			"name": "MPLABX",
 			"semverRange": ">=6.5.0"
@@ -19,7 +19,7 @@
 			}
 		],
 		"dfp": {
-			"name": "PIC32CM-LE_DFP",
+			"name": "PIC32CM-LS_DFP",
 			"semverRange": "^1.1.162"
 		},
 		"configurator": {
@@ -32,7 +32,7 @@
 			"content": {
 				"metaDataVersion": "1.0.0",
 				"category": "com.microchip.device",
-				"name": "PIC32CM5164LE00100",
+				"name": "PIC32CM5164LS60100",
 				"versionRange": "*"
 			}
 		},
@@ -40,30 +40,32 @@
 		"subcategories": [
 			[
 				"Development Kit",
-				"PIC32CM LE00 Curiosity Pro Evaluation Kit"
+				"PIC32CM LS60 Curiosity Pro Evaluation Kit"
 			],
 			[
 				"Harmony",
 				"Peripherals",
-				"ADC"
+				"TRUSTZONE",
+				"SERCOM"
 			],
 			[
 				"Peripherals",
-				"ADC"
+				"TRUSTZONE",
+				"SERCOM"
 			]
 		],
 		"peripherals": [
-			"ADC"
+			"TRUSTZONE",
+			"SERCOM"
 		],
 		"keywords": [
 			"MHC",
 			"Harmony",
-			"PIC32CM5164LE00100",
+			"PIC32CM5164LS60100",
 			"PIC32CM LE00/LS00/LS60 Family",
-			"AC voltage",
-			"Analog to Digital Converter",
-			"ADC",
-			"Analog"
+			"TRUSTZONE",
+			"TrustZone",
+			"Security"
 		],
 		"additionalData": {
 			"longDescription": {
@@ -71,7 +73,7 @@
 				"category": "com.microchip.portal.fileRef",
 				"content": {
 					"metaDataVersion": "1.0.0",
-					"fileName": "./../../readme.md",
+					"fileName": "./../../../readme.md",
 					"mimeType": "text/markdown"
 				}
 			}
