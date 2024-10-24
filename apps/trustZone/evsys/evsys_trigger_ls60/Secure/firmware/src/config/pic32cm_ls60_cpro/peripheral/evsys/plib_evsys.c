@@ -43,7 +43,6 @@
 
 
 
-
 void EVSYS_Initialize( void )
 {
     /*Event Channel User Configuration*/
@@ -63,6 +62,7 @@ void EVSYS_Initialize( void )
     /* Event Channel 2 Configuration */
     EVSYS_SEC_REGS->CHANNEL[2].EVSYS_CHANNEL = EVSYS_CHANNEL_EVGEN(21U) | EVSYS_CHANNEL_PATH(2U) | EVSYS_CHANNEL_EDGSEL(0U) \
                                      ;
+    EVSYS_SEC_REGS->EVSYS_NONSECCHAN = 0x2;
 }
 
 void EVSYS_GeneratorEnable(EVSYS_CHANNEL channel, uint8_t generator)

@@ -1,23 +1,22 @@
 /*******************************************************************************
-  CLOCK PLIB
+  EVSYS Peripheral Library
 
   Company:
     Microchip Technology Inc.
 
   File Name:
-    plib_clock.h
+    plib_evsys.c
 
   Summary:
-    CLOCK PLIB Header File.
+    EVSYS Source File
 
   Description:
-    The Clock PLIB initializes all the oscillators based on the
-    requirements.
+    None
 
 *******************************************************************************/
 
 /*******************************************************************************
-* Copyright (C) 2020 Microchip Technology Inc. and its subsidiaries.
+* Copyright (C) 2018 Microchip Technology Inc. and its subsidiaries.
 *
 * Subject to your compliance with these terms, you may use Microchip software
 * and any derivatives exclusively with Microchip products. It is your
@@ -39,32 +38,29 @@
 * THAT YOU HAVE PAID DIRECTLY TO MICROCHIP FOR THIS SOFTWARE.
 *******************************************************************************/
 
-#ifndef PLIB_CLOCK_H
-#define PLIB_CLOCK_H
-
-// *****************************************************************************
-// *****************************************************************************
-// Section: Included Files
-// *****************************************************************************
-// *****************************************************************************
-/* This section lists the other files that are included in this file.
-*/
-#include <stdint.h>
-#include <stdbool.h>
-#include <stddef.h>
-
-// DOM-IGNORE-BEGIN
-#ifdef __cplusplus // Provide C++ Compatibility
-extern "C" {
-#endif
-
-void CLOCK_Initialize (void);
+#include "plib_evsys.h"
+#include "interrupts.h"
 
 
-
-
-#ifdef __cplusplus // Provide C++ Compatibility
+void EVSYS_GeneratorEnable(EVSYS_CHANNEL channel, uint8_t generator)
+{
+    EVSYS_REGS->CHANNEL[channel].EVSYS_CHANNEL = (EVSYS_REGS->CHANNEL[channel].EVSYS_CHANNEL & ~EVSYS_CHANNEL_EVGEN_Msk) | EVSYS_CHANNEL_EVGEN(generator);
 }
-#endif
 
-#endif /* PLIB_CLOCK_H */
+void EVSYS_GeneratorDisable(EVSYS_CHANNEL channel)
+{
+    EVSYS_REGS->CHANNEL[channel].EVSYS_CHANNEL = (EVSYS_REGS->CHANNEL[channel].EVSYS_CHANNEL & ~EVSYS_CHANNEL_EVGEN_Msk);
+}
+
+void EVSYS_UserEnable(EVSYS_CHANNEL channel, uint8_t user)
+{
+    EVSYS_REGS->EVSYS_USER[user] = EVSYS_USER_CHANNEL((channel + 1));
+}
+
+void EVSYS_UserDisable(uint8_t user)
+{
+    EVSYS_REGS->EVSYS_USER[user] = 0x0;
+}
+
+
+

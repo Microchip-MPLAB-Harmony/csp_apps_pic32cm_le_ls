@@ -1,23 +1,22 @@
 /*******************************************************************************
-  CLOCK PLIB
+  Interface definition of EVSYS PLIB.
 
   Company:
     Microchip Technology Inc.
 
   File Name:
-    plib_clock.h
+    plib_evsys.h
 
   Summary:
-    CLOCK PLIB Header File.
+    Interface definition of the Event System Plib (EVSYS).
 
   Description:
-    The Clock PLIB initializes all the oscillators based on the
-    requirements.
-
+    This file defines the interface for the EVSYS Plib.
+    It allows user to setup event generators and users.
 *******************************************************************************/
 
 /*******************************************************************************
-* Copyright (C) 2020 Microchip Technology Inc. and its subsidiaries.
+* Copyright (C) 2018 Microchip Technology Inc. and its subsidiaries.
 *
 * Subject to your compliance with these terms, you may use Microchip software
 * and any derivatives exclusively with Microchip products. It is your
@@ -39,32 +38,38 @@
 * THAT YOU HAVE PAID DIRECTLY TO MICROCHIP FOR THIS SOFTWARE.
 *******************************************************************************/
 
-#ifndef PLIB_CLOCK_H
-#define PLIB_CLOCK_H
+#ifndef EVSYS_H    // Guards against multiple inclusion
+#define EVSYS_H
 
-// *****************************************************************************
-// *****************************************************************************
-// Section: Included Files
-// *****************************************************************************
-// *****************************************************************************
-/* This section lists the other files that are included in this file.
-*/
+#include "device.h"
 #include <stdint.h>
-#include <stdbool.h>
 #include <stddef.h>
 
-// DOM-IGNORE-BEGIN
 #ifdef __cplusplus // Provide C++ Compatibility
-extern "C" {
+ extern "C" {
 #endif
 
-void CLOCK_Initialize (void);
+
+// *****************************************************************************
+// *****************************************************************************
+// Section: Interface
+// *****************************************************************************
+// *****************************************************************************
+typedef enum
+{
+   EVSYS_CHANNEL_1 = 1,
+} EVSYS_CHANNEL;
 
 
+/***************************** EVSYS API *******************************/
+void EVSYS_GeneratorEnable(EVSYS_CHANNEL channel, uint8_t generator);
+void EVSYS_GeneratorDisable(EVSYS_CHANNEL channel);
+void EVSYS_UserEnable(EVSYS_CHANNEL channel, uint8_t user);
+void EVSYS_UserDisable(uint8_t user);
 
 
 #ifdef __cplusplus // Provide C++ Compatibility
-}
+ }
 #endif
 
-#endif /* PLIB_CLOCK_H */
+#endif
