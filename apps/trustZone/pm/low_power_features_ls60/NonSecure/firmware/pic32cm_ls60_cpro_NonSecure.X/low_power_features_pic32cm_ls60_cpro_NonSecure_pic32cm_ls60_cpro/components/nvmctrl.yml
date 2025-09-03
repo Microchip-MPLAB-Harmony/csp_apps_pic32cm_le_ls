@@ -1,0 +1,95 @@
+configVersion: 1.0.0
+componentName: nvmctrl
+coreVersion: 5.8.2
+device: PIC32CM5164LS60100
+library: []
+dependency:
+- dependencyPackage: class com.microchip.mcc.harmony.HarmonyModule
+  name: nvmctrl
+  type: module
+  version: ''
+- dependencyPackage: ''
+  name: csp
+  type: package
+  version: v3.22.7
+customDataClassName: com.microchip.utils_mh3.utils.persistence.CustomModuleData
+data:
+  attachments: {}
+  elementPosition:
+    attributes:
+      id: __ROOTVIEW
+    children:
+    - children:
+      - attributes:
+          id: nvmctrl
+          x: '20'
+          y: '20'
+        type: ElementPosition
+      type: ElementPositions
+    type: ComponentGraph
+  symbols:
+    FAST_WAKEUP_ENABLE:
+      attributes:
+        id: FAST_WAKEUP_ENABLE
+      children:
+      - children:
+        - attributes:
+            value: 'true'
+          type: User
+        type: Values
+      type: Boolean
+    NVMCTRL_CACHE_ENABLE:
+      attributes:
+        id: NVMCTRL_CACHE_ENABLE
+      children:
+      - children:
+        - attributes:
+            value: 'false'
+          type: User
+        type: Values
+      type: Boolean
+    NVMCTRL_CTRLB_POWER_REDUCTION_MODE:
+      attributes:
+        id: NVMCTRL_CTRLB_POWER_REDUCTION_MODE
+      children:
+      - children:
+        - attributes:
+            value: '1'
+          type: User
+        type: Values
+      type: KeyValueSet
+    NVMCTRL_CTRLB_READMODE_SELECTION:
+      attributes:
+        id: NVMCTRL_CTRLB_READMODE_SELECTION
+      children:
+      - children:
+        - attributes:
+            value: '1'
+          type: User
+        type: Values
+      type: KeyValueSet
+    NVM_RWS:
+      attributes:
+        id: NVM_RWS
+      children:
+      - children:
+        - attributes:
+            id: nvmctrl
+            value: '1'
+          type: Dynamic
+        - attributes:
+            value: '0'
+          type: User
+        type: Values
+      type: Integer
+    SILENT_ACCESS_ENABLE:
+      attributes:
+        id: SILENT_ACCESS_ENABLE
+      children:
+      - children:
+        - attributes:
+            value: 'false'
+          type: User
+        type: Values
+      type: Boolean
+  userData: {}
