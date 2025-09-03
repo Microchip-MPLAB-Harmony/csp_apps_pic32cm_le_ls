@@ -1,24 +1,22 @@
 /*******************************************************************************
-  Device Header File
+  EVSYS Peripheral Library
 
   Company:
     Microchip Technology Inc.
 
   File Name:
-    device.h
+    plib_evsys.c
 
   Summary:
-    This file includes the selected device from within the project.
-    The device will provide access to respective device packs.
+    EVSYS Source File
 
   Description:
     None
 
 *******************************************************************************/
 
-// DOM-IGNORE-BEGIN
 /*******************************************************************************
-* Copyright (C) 2025 Microchip Technology Inc. and its subsidiaries.
+* Copyright (C) 2018 Microchip Technology Inc. and its subsidiaries.
 *
 * Subject to your compliance with these terms, you may use Microchip software
 * and any derivatives exclusively with Microchip products. It is your
@@ -39,27 +37,30 @@
 * ANY WAY RELATED TO THIS SOFTWARE WILL NOT EXCEED THE AMOUNT OF FEES, IF ANY,
 * THAT YOU HAVE PAID DIRECTLY TO MICROCHIP FOR THIS SOFTWARE.
 *******************************************************************************/
-// DOM-IGNORE-END
 
-#ifndef DEVICE_H
-#define DEVICE_H
+#include "plib_evsys.h"
+#include "interrupts.h"
 
-#pragma GCC diagnostic push
-#ifndef __cplusplus
-#pragma GCC diagnostic ignored "-Wnested-externs"
-#endif
-#pragma GCC diagnostic ignored "-Wsign-conversion"
-#pragma GCC diagnostic ignored "-Wattributes"
-#pragma GCC diagnostic ignored "-Wundef"
-#ifndef DONT_USE_PREDEFINED_CORE_HANDLERS
-    #define DONT_USE_PREDEFINED_CORE_HANDLERS
-#endif //DONT_USE_PREDEFINED_CORE_HANDLERS
-#ifndef DONT_USE_PREDEFINED_PERIPHERALS_HANDLERS
-    #define DONT_USE_PREDEFINED_PERIPHERALS_HANDLERS
-#endif //DONT_USE_PREDEFINED_PERIPHERALS_HANDLERS
-#include "pic32cm5164ls00100.h"
-#pragma GCC diagnostic pop
-#include "device_cache.h"
-#include "toolchain_specifics.h"
 
-#endif //DEVICE_H
+void EVSYS_GeneratorEnable(EVSYS_CHANNEL channel, uint8_t generator)
+{
+    EVSYS_REGS->CHANNEL[channel].EVSYS_CHANNEL = (EVSYS_REGS->CHANNEL[channel].EVSYS_CHANNEL & ~EVSYS_CHANNEL_EVGEN_Msk) | EVSYS_CHANNEL_EVGEN(generator);
+}
+
+void EVSYS_GeneratorDisable(EVSYS_CHANNEL channel)
+{
+    EVSYS_REGS->CHANNEL[channel].EVSYS_CHANNEL = (EVSYS_REGS->CHANNEL[channel].EVSYS_CHANNEL & ~EVSYS_CHANNEL_EVGEN_Msk);
+}
+
+void EVSYS_UserEnable(EVSYS_CHANNEL channel, uint8_t user)
+{
+    EVSYS_REGS->EVSYS_USER[user] = EVSYS_USER_CHANNEL((channel + 1));
+}
+
+void EVSYS_UserDisable(uint8_t user)
+{
+    EVSYS_REGS->EVSYS_USER[user] = 0x0;
+}
+
+
+
