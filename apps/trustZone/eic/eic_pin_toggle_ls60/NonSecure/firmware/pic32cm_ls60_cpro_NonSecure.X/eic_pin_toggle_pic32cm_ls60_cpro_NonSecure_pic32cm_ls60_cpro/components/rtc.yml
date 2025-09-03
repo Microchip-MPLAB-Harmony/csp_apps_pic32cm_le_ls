@@ -1,0 +1,52 @@
+configVersion: 1.0.0
+componentName: rtc
+coreVersion: 5.8.2
+device: PIC32CM5164LS60100
+library: []
+dependency:
+- dependencyPackage: class com.microchip.mcc.harmony.HarmonyModule
+  name: rtc
+  type: module
+  version: ''
+- dependencyPackage: ''
+  name: csp
+  type: package
+  version: v3.22.7
+customDataClassName: com.microchip.utils_mh3.utils.persistence.CustomModuleData
+data:
+  attachments: {}
+  elementPosition:
+    attributes:
+      id: __ROOTVIEW
+    children:
+    - children:
+      - attributes:
+          id: rtc
+          x: '150'
+          y: '120'
+        type: ElementPosition
+      type: ElementPositions
+    type: ComponentGraph
+  symbols:
+    RTC_MODE0_EVCTRL:
+      attributes:
+        id: RTC_MODE0_EVCTRL
+      children:
+      - children:
+        - attributes:
+            id: rtc
+            value: '4'
+          type: Dynamic
+        type: Values
+      type: Hex
+    RTC_MODE0_EVCTRL_PEREO2_ENABLE:
+      attributes:
+        id: RTC_MODE0_EVCTRL_PEREO2_ENABLE
+      children:
+      - children:
+        - attributes:
+            value: 'true'
+          type: User
+        type: Values
+      type: Boolean
+  userData: {}
