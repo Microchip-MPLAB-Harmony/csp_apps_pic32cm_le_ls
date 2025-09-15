@@ -1,0 +1,135 @@
+configVersion: 1.0.0
+componentName: rtc
+coreVersion: 5.8.2
+device: PIC32CM5164LS00100
+library: []
+dependency:
+- dependencyPackage: class com.microchip.mcc.harmony.HarmonyModule
+  name: rtc
+  type: module
+  version: ''
+- dependencyPackage: ''
+  name: csp
+  type: package
+  version: v3.22.7
+customDataClassName: com.microchip.utils_mh3.utils.persistence.CustomModuleData
+data:
+  attachments: {}
+  elementPosition:
+    attributes:
+      id: __ROOTVIEW
+    children:
+    - children:
+      - attributes:
+          id: rtc
+          x: '310'
+          y: '60'
+        type: ElementPosition
+      type: ElementPositions
+    type: ComponentGraph
+  symbols:
+    RTC_MODE0_EVCTRL:
+      attributes:
+        id: RTC_MODE0_EVCTRL
+      children:
+      - children:
+        - attributes:
+            id: rtc
+            value: '49152'
+          type: Dynamic
+        type: Values
+      type: Hex
+    RTC_MODE0_EVCTRL_OVFEO_ENABLE:
+      attributes:
+        id: RTC_MODE0_EVCTRL_OVFEO_ENABLE
+      children:
+      - children:
+        - attributes:
+            value: 'true'
+          type: User
+        type: Values
+      type: Boolean
+    RTC_MODE0_INTERRUPT:
+      attributes:
+        id: RTC_MODE0_INTERRUPT
+      children:
+      - children:
+        - attributes:
+            value: 'false'
+          type: User
+        type: Values
+      type: Boolean
+    RTC_MODE1_EVCTRL:
+      attributes:
+        id: RTC_MODE1_EVCTRL
+      children:
+      - children:
+        - attributes:
+            id: rtc
+            value: '16384'
+          type: Dynamic
+        type: Values
+      type: Hex
+    RTC_MODE2_EVCTRL:
+      attributes:
+        id: RTC_MODE2_EVCTRL
+      children:
+      - children:
+        - attributes:
+            id: rtc
+            value: '16384'
+          type: Dynamic
+        type: Values
+      type: Hex
+    RTC_TAMPCTRL_REG:
+      attributes:
+        id: RTC_TAMPCTRL_REG
+      children:
+      - children:
+        - attributes:
+            id: rtc
+            value: '16842753'
+          type: Dynamic
+        type: Values
+      type: Hex
+    TAMP_CHANNEL0_ACTION:
+      attributes:
+        id: TAMP_CHANNEL0_ACTION
+      children:
+      - children:
+        - attributes:
+            value: '1'
+          type: User
+        type: Values
+      type: KeyValueSet
+    TAMP_CHANNEL0_DEBNC:
+      attributes:
+        id: TAMP_CHANNEL0_DEBNC
+      children:
+      - children:
+        - attributes:
+            value: 'true'
+          type: User
+        type: Values
+      type: Boolean
+    TAMP_CHANNEL0_LEVEL:
+      attributes:
+        id: TAMP_CHANNEL0_LEVEL
+      children:
+      - children:
+        - attributes:
+            value: '1'
+          type: User
+        type: Values
+      type: KeyValueSet
+    TAMP_EVENTOUT:
+      attributes:
+        id: TAMP_EVENTOUT
+      children:
+      - children:
+        - attributes:
+            value: 'true'
+          type: User
+        type: Values
+      type: Boolean
+  userData: {}
