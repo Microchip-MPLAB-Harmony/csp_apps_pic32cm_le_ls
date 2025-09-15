@@ -136,9 +136,25 @@
     <logicalFolder name="ExternalFiles"
                    displayName="Important Files"
                    projectFiles="true">
+      <logicalFolder name="trustZone_basic_with_secureboot_BS_pic32cm_ls00_cpro_NonSecure_pic32cm_ls00_cpro"
+                     displayName="trustZone_basic_with_secureboot_BS_pic32cm_ls00_cpro_NonSecure_pic32cm_ls00_cpro"
+                     projectFiles="true">
+        <logicalFolder name="components" displayName="components" projectFiles="true">
+          <itemPath>trustZone_basic_with_secureboot_BS_pic32cm_ls00_cpro_NonSecure_pic32cm_ls00_cpro/components/core.yml</itemPath>
+          <itemPath>trustZone_basic_with_secureboot_BS_pic32cm_ls00_cpro_NonSecure_pic32cm_ls00_cpro/components/pm.yml</itemPath>
+          <itemPath>trustZone_basic_with_secureboot_BS_pic32cm_ls00_cpro_NonSecure_pic32cm_ls00_cpro/components/dfp.yml</itemPath>
+          <itemPath>trustZone_basic_with_secureboot_BS_pic32cm_ls00_cpro_NonSecure_pic32cm_ls00_cpro/components/nvmctrl.yml</itemPath>
+          <itemPath>trustZone_basic_with_secureboot_BS_pic32cm_ls00_cpro_NonSecure_pic32cm_ls00_cpro/components/evsys.yml</itemPath>
+          <itemPath>trustZone_basic_with_secureboot_BS_pic32cm_ls00_cpro_NonSecure_pic32cm_ls00_cpro/components/cmsis.yml</itemPath>
+        </logicalFolder>
+        <itemPath>trustZone_basic_with_secureboot_BS_pic32cm_ls00_cpro_NonSecure_pic32cm_ls00_cpro/mcc-config.mc4</itemPath>
+      </logicalFolder>
       <itemPath>Makefile</itemPath>
-      <itemPath>trustZone_with_SBoot_BS_pic32cm_ls00_cpro_NonSecure.mc3</itemPath>
       <itemPath>../src/config/pic32cm_ls00_cpro/harmony-manifest-success.yml</itemPath>
+    </logicalFolder>
+    <logicalFolder name="LibraryFiles"
+                   displayName="LibraryFiles"
+                   projectFiles="true">
     </logicalFolder>
     <logicalFolder name="LinkerScript"
                    displayName="Linker Files"
