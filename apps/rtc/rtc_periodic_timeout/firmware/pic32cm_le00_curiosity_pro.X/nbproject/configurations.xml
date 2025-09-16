@@ -140,9 +140,20 @@
       </logicalFolder>
     </logicalFolder>
     <logicalFolder name="ExternalFiles" displayName="Important Files" projectFiles="true">
+      <logicalFolder name="rtc_periodic_timeout_pic32cm_le00_curiosity_pro_pic32cm_le00_curiosity_pro" displayName="rtc_periodic_timeout_pic32cm_le00_curiosity_pro_pic32cm_le00_curiosity_pro" projectFiles="true">
+        <itemPath>rtc_periodic_timeout_pic32cm_le00_curiosity_pro_pic32cm_le00_curiosity_pro/mcc-config.mc4</itemPath>
+        <logicalFolder name="components" displayName="components" projectFiles="true">
+          <itemPath>rtc_periodic_timeout_pic32cm_le00_curiosity_pro_pic32cm_le00_curiosity_pro/components/cmsis.yml</itemPath>
+          <itemPath>rtc_periodic_timeout_pic32cm_le00_curiosity_pro_pic32cm_le00_curiosity_pro/components/core.yml</itemPath>
+          <itemPath>rtc_periodic_timeout_pic32cm_le00_curiosity_pro_pic32cm_le00_curiosity_pro/components/dfp.yml</itemPath>
+          <itemPath>rtc_periodic_timeout_pic32cm_le00_curiosity_pro_pic32cm_le00_curiosity_pro/components/evsys.yml</itemPath>
+          <itemPath>rtc_periodic_timeout_pic32cm_le00_curiosity_pro_pic32cm_le00_curiosity_pro/components/nvmctrl.yml</itemPath>
+          <itemPath>rtc_periodic_timeout_pic32cm_le00_curiosity_pro_pic32cm_le00_curiosity_pro/components/pm.yml</itemPath>
+          <itemPath>rtc_periodic_timeout_pic32cm_le00_curiosity_pro_pic32cm_le00_curiosity_pro/components/rtc.yml</itemPath>
+        </logicalFolder>
+      </logicalFolder>
       <itemPath>Makefile</itemPath>
       <itemPath>../src/config/pic32cm_le00_curiosity_pro/harmony-manifest-success.yml</itemPath>
-      <itemPath>rtc_periodic_timeout_pic32cm_le00_curiosity_pro.mc3</itemPath>
     </logicalFolder>
     <logicalFolder name="LinkerScript" displayName="Linker Files" projectFiles="true">
       <logicalFolder name="f1" displayName="config" projectFiles="true">
@@ -203,7 +214,7 @@
         <targetPluginBoard/>
         <platformTool>EdbgTool</platformTool>
         <languageToolchain>XC32</languageToolchain>
-        <languageToolchainVersion>4.45</languageToolchainVersion>
+        <languageToolchainVersion>4.60</languageToolchainVersion>
         <platform>3</platform>
       </toolsSet>
       <packs>
