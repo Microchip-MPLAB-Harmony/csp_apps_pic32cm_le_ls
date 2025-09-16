@@ -191,9 +191,20 @@
       <itemPath>../src/config/pic32cm_le00_curiosity_pro/pin_configurations.csv</itemPath>
     </logicalFolder>
     <logicalFolder name="ExternalFiles" displayName="Important Files" projectFiles="false">
+      <logicalFolder name="sercom_usart_start_of_frame_interrupt_pic32cm_le00_curiosity_pro_pic32cm_le00_curiosity_pro" displayName="sercom_usart_start_of_frame_interrupt_pic32cm_le00_curiosity_pro_pic32cm_le00_curiosity_pro" projectFiles="true">
+        <itemPath>sercom_usart_start_of_frame_interrupt_pic32cm_le00_curiosity_pro_pic32cm_le00_curiosity_pro/mcc-config.mc4</itemPath>
+        <logicalFolder name="components" displayName="components" projectFiles="true">
+          <itemPath>sercom_usart_start_of_frame_interrupt_pic32cm_le00_curiosity_pro_pic32cm_le00_curiosity_pro/components/cmsis.yml</itemPath>
+          <itemPath>sercom_usart_start_of_frame_interrupt_pic32cm_le00_curiosity_pro_pic32cm_le00_curiosity_pro/components/core.yml</itemPath>
+          <itemPath>sercom_usart_start_of_frame_interrupt_pic32cm_le00_curiosity_pro_pic32cm_le00_curiosity_pro/components/dfp.yml</itemPath>
+          <itemPath>sercom_usart_start_of_frame_interrupt_pic32cm_le00_curiosity_pro_pic32cm_le00_curiosity_pro/components/evsys.yml</itemPath>
+          <itemPath>sercom_usart_start_of_frame_interrupt_pic32cm_le00_curiosity_pro_pic32cm_le00_curiosity_pro/components/nvmctrl.yml</itemPath>
+          <itemPath>sercom_usart_start_of_frame_interrupt_pic32cm_le00_curiosity_pro_pic32cm_le00_curiosity_pro/components/pm.yml</itemPath>
+          <itemPath>sercom_usart_start_of_frame_interrupt_pic32cm_le00_curiosity_pro_pic32cm_le00_curiosity_pro/components/sercom3.yml</itemPath>
+        </logicalFolder>
+      </logicalFolder>
       <itemPath>Makefile</itemPath>
       <itemPath>../src/config/pic32cm_le00_curiosity_pro/harmony-manifest-success.yml</itemPath>
-      <itemPath>sercom_usart_start_of_frame_interrupt_pic32cm_le00_curiosity_pro.mc3</itemPath>
     </logicalFolder>
   </logicalFolder>
   <sourceRootList>
@@ -209,7 +220,7 @@
         <targetPluginBoard/>
         <platformTool>EdbgTool</platformTool>
         <languageToolchain>XC32</languageToolchain>
-        <languageToolchainVersion>4.45</languageToolchainVersion>
+        <languageToolchainVersion>4.60</languageToolchainVersion>
         <platform>3</platform>
       </toolsSet>
       <packs>
