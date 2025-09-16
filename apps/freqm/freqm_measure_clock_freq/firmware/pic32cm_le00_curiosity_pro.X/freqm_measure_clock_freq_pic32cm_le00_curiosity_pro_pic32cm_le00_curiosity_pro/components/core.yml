@@ -1,0 +1,1074 @@
+configVersion: 1.0.0
+componentName: core
+coreVersion: 5.8.2
+device: PIC32CM5164LE00100
+library: []
+dependency:
+- dependencyPackage: class com.microchip.mcc.harmony.HarmonyModule
+  name: core
+  type: module
+  version: ''
+- dependencyPackage: ''
+  name: CMSIS_5
+  type: package
+  version: 5.9.0
+- dependencyPackage: ''
+  name: csp
+  type: package
+  version: v3.23.0
+customDataClassName: com.microchip.utils_mh3.utils.persistence.CustomModuleData
+data:
+  attachments: {}
+  elementPosition:
+    attributes:
+      id: __ROOTVIEW
+    children:
+    - children:
+      - attributes:
+          id: core
+          x: '310'
+          y: '60'
+        type: ElementPosition
+      type: ElementPositions
+    type: ComponentGraph
+  symbols:
+    COMPILER_CHOICE:
+      attributes:
+        id: COMPILER_CHOICE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    CONFIG_CLOCK_DFLL48M_ENABLE:
+      attributes:
+        id: CONFIG_CLOCK_DFLL48M_ENABLE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    CONF_CLOCK_XOSC32K_ENABLE:
+      attributes:
+        id: CONF_CLOCK_XOSC32K_ENABLE
+      children:
+      - children:
+        - attributes:
+            value: 'true'
+          type: User
+        type: Values
+      type: Boolean
+    CPU_CLOCK_FREQUENCY:
+      attributes:
+        id: CPU_CLOCK_FREQUENCY
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '48000000'
+          type: Dynamic
+        type: Values
+      type: Integer
+    DEVICE_SECURITY:
+      attributes:
+        id: DEVICE_SECURITY
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    DFLL48M_CLOCK_FREQ:
+      attributes:
+        id: DFLL48M_CLOCK_FREQ
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '48000000'
+          type: Dynamic
+        type: Values
+      type: Integer
+    FREQM_INTERRUPT_ENABLE:
+      attributes:
+        id: FREQM_INTERRUPT_ENABLE
+      children:
+      - children:
+        - attributes:
+            id: freqm
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    FREQM_INTERRUPT_ENABLE_UPDATE:
+      attributes:
+        id: FREQM_INTERRUPT_ENABLE_UPDATE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    FREQM_INTERRUPT_HANDLER:
+      attributes:
+        id: FREQM_INTERRUPT_HANDLER
+      children:
+      - children:
+        - attributes:
+            id: freqm
+            value: FREQM_InterruptHandler
+          type: Dynamic
+        type: Values
+      type: String
+    FREQM_INTERRUPT_HANDLER_LOCK:
+      attributes:
+        id: FREQM_INTERRUPT_HANDLER_LOCK
+      children:
+      - children:
+        - attributes:
+            id: freqm
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    FREQM_MSR_CLOCK_ENABLE:
+      attributes:
+        id: FREQM_MSR_CLOCK_ENABLE
+      children:
+      - children:
+        - attributes:
+            id: freqm
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    FREQM_MSR_CLOCK_FREQUENCY:
+      attributes:
+        id: FREQM_MSR_CLOCK_FREQUENCY
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '48000000'
+          type: Dynamic
+        type: Values
+      type: Integer
+    FREQM_REF_CLOCK_ENABLE:
+      attributes:
+        id: FREQM_REF_CLOCK_ENABLE
+      children:
+      - children:
+        - attributes:
+            id: freqm
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    FREQM_REF_CLOCK_FREQUENCY:
+      attributes:
+        id: FREQM_REF_CLOCK_FREQUENCY
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '32768'
+          type: Dynamic
+        type: Values
+      type: Integer
+    GCLK_0_FREQ:
+      attributes:
+        id: GCLK_0_FREQ
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '48000000'
+          type: Dynamic
+        type: Values
+      type: Integer
+    GCLK_0_SRC:
+      attributes:
+        id: GCLK_0_SRC
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '3'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    GCLK_1_FREQ:
+      attributes:
+        id: GCLK_1_FREQ
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '32768'
+          type: Dynamic
+        type: Values
+      type: Integer
+    GCLK_1_SRC:
+      attributes:
+        id: GCLK_1_SRC
+      children:
+      - children:
+        - attributes:
+            value: '6'
+          type: User
+        type: Values
+      type: KeyValueSet
+    GCLK_2_FREQ:
+      attributes:
+        id: GCLK_2_FREQ
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: Integer
+    GCLK_2_SRC:
+      attributes:
+        id: GCLK_2_SRC
+      children:
+      - children:
+        - attributes:
+            value: '1'
+          type: User
+        type: Values
+      type: KeyValueSet
+    GCLK_3_FREQ:
+      attributes:
+        id: GCLK_3_FREQ
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: Integer
+    GCLK_4_FREQ:
+      attributes:
+        id: GCLK_4_FREQ
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: Integer
+    GCLK_5_FREQ:
+      attributes:
+        id: GCLK_5_FREQ
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: Integer
+    GCLK_6_FREQ:
+      attributes:
+        id: GCLK_6_FREQ
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: Integer
+    GCLK_7_FREQ:
+      attributes:
+        id: GCLK_7_FREQ
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: Integer
+    GCLK_CYCLE_FORMED:
+      attributes:
+        id: GCLK_CYCLE_FORMED
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    GCLK_ID_20_CHEN:
+      attributes:
+        id: GCLK_ID_20_CHEN
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    GCLK_ID_20_FREQ:
+      attributes:
+        id: GCLK_ID_20_FREQ
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '48000000'
+          type: Dynamic
+        type: Values
+      type: Integer
+    GCLK_ID_5_CHEN:
+      attributes:
+        id: GCLK_ID_5_CHEN
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    GCLK_ID_5_FREQ:
+      attributes:
+        id: GCLK_ID_5_FREQ
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '48000000'
+          type: Dynamic
+        type: Values
+      type: Integer
+    GCLK_ID_6_CHEN:
+      attributes:
+        id: GCLK_ID_6_CHEN
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    GCLK_ID_6_FREQ:
+      attributes:
+        id: GCLK_ID_6_FREQ
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '32768'
+          type: Dynamic
+        type: Values
+      type: Integer
+    GCLK_ID_6_GENSEL:
+      attributes:
+        id: GCLK_ID_6_GENSEL
+      children:
+      - children:
+        - attributes:
+            value: '1'
+          type: User
+        type: Values
+      type: KeyValueSet
+    GCLK_INST_NUM1:
+      attributes:
+        id: GCLK_INST_NUM1
+      children:
+      - children:
+        - attributes:
+            value: 'true'
+          type: User
+        type: Values
+      type: Boolean
+    KEIL_STACK_HEAP_SIZE:
+      attributes:
+        id: KEIL_STACK_HEAP_SIZE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x1200'
+          type: Dynamic
+        type: Values
+      type: String
+    MCLK_APBC_INITIAL_VALUE:
+      attributes:
+        id: MCLK_APBC_INITIAL_VALUE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x1fffff'
+          type: Dynamic
+        type: Values
+      type: String
+    NVIC_12_0_ENABLE:
+      attributes:
+        id: NVIC_12_0_ENABLE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'true'
+          type: Dynamic
+        - attributes:
+            value: 'true'
+          type: User
+        type: Values
+      type: Boolean
+    NVIC_12_0_HANDLER:
+      attributes:
+        id: NVIC_12_0_HANDLER
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: FREQM_InterruptHandler
+          type: Dynamic
+        - attributes:
+            value: FREQM_InterruptHandler
+          type: User
+        type: Values
+      type: String
+    NVIC_12_0_HANDLER_LOCK:
+      attributes:
+        id: NVIC_12_0_HANDLER_LOCK
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    NVIC_43_0_ENABLE:
+      attributes:
+        id: NVIC_43_0_ENABLE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    NVIC_43_0_HANDLER:
+      attributes:
+        id: NVIC_43_0_HANDLER
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: SERCOM3_0_Handler
+          type: Dynamic
+        type: Values
+      type: String
+    NVIC_43_0_HANDLER_LOCK:
+      attributes:
+        id: NVIC_43_0_HANDLER_LOCK
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    NVIC_44_0_ENABLE:
+      attributes:
+        id: NVIC_44_0_ENABLE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    NVIC_44_0_HANDLER:
+      attributes:
+        id: NVIC_44_0_HANDLER
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: SERCOM3_1_Handler
+          type: Dynamic
+        type: Values
+      type: String
+    NVIC_44_0_HANDLER_LOCK:
+      attributes:
+        id: NVIC_44_0_HANDLER_LOCK
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    NVIC_45_0_ENABLE:
+      attributes:
+        id: NVIC_45_0_ENABLE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    NVIC_45_0_HANDLER:
+      attributes:
+        id: NVIC_45_0_HANDLER
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: SERCOM3_2_Handler
+          type: Dynamic
+        type: Values
+      type: String
+    NVIC_45_0_HANDLER_LOCK:
+      attributes:
+        id: NVIC_45_0_HANDLER_LOCK
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    NVIC_46_0_ENABLE:
+      attributes:
+        id: NVIC_46_0_ENABLE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    NVIC_46_0_HANDLER:
+      attributes:
+        id: NVIC_46_0_HANDLER
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: SERCOM3_OTHER_Handler
+          type: Dynamic
+        type: Values
+      type: String
+    NVIC_46_0_HANDLER_LOCK:
+      attributes:
+        id: NVIC_46_0_HANDLER_LOCK
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    PIN_68_FUNCTION_TYPE:
+      attributes:
+        id: PIN_68_FUNCTION_TYPE
+      children:
+      - children:
+        - attributes:
+            value: SERCOM3_PAD0
+          type: User
+        type: Values
+      type: String
+    PIN_68_MODE:
+      attributes:
+        id: PIN_68_MODE
+      children:
+      - children:
+        - attributes:
+            value: ''
+          type: User
+        type: Values
+      type: String
+    PIN_68_PERIPHERAL_FUNCTION:
+      attributes:
+        id: PIN_68_PERIPHERAL_FUNCTION
+      children:
+      - children:
+        - attributes:
+            value: C
+          type: User
+        type: Values
+      type: String
+    PIN_69_FUNCTION_TYPE:
+      attributes:
+        id: PIN_69_FUNCTION_TYPE
+      children:
+      - children:
+        - attributes:
+            value: SERCOM3_PAD1
+          type: User
+        type: Values
+      type: String
+    PIN_69_MODE:
+      attributes:
+        id: PIN_69_MODE
+      children:
+      - children:
+        - attributes:
+            value: ''
+          type: User
+        type: Values
+      type: String
+    PIN_69_PERIPHERAL_FUNCTION:
+      attributes:
+        id: PIN_69_PERIPHERAL_FUNCTION
+      children:
+      - children:
+        - attributes:
+            value: C
+          type: User
+        type: Values
+      type: String
+    PORT_GROUP_0:
+      attributes:
+        id: PORT_GROUP_0
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    PORT_GROUP_1:
+      attributes:
+        id: PORT_GROUP_1
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    PORT_GROUP_1_PAD_20:
+      attributes:
+        id: PORT_GROUP_1_PAD_20
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: PB20
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_1_PAD_21:
+      attributes:
+        id: PORT_GROUP_1_PAD_21
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: PB21
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_1_PINCFG20:
+      attributes:
+        id: PORT_GROUP_1_PINCFG20
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x1'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_1_PINCFG21:
+      attributes:
+        id: PORT_GROUP_1_PINCFG21
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x1'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_1_PIN_20_USED:
+      attributes:
+        id: PORT_GROUP_1_PIN_20_USED
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    PORT_GROUP_1_PIN_21_USED:
+      attributes:
+        id: PORT_GROUP_1_PIN_21_USED
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    PORT_GROUP_1_PMUX10:
+      attributes:
+        id: PORT_GROUP_1_PMUX10
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x22'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_GROUP_2:
+      attributes:
+        id: PORT_GROUP_2
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    PORT_REG_NAME:
+      attributes:
+        id: PORT_REG_NAME
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: PORT
+          type: Dynamic
+        type: Values
+      type: String
+    RTC_CLOCK_FREQUENCY:
+      attributes:
+        id: RTC_CLOCK_FREQUENCY
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '1024'
+          type: Dynamic
+        type: Values
+      type: Integer
+    SERCOM3_0_INTERRUPT_ENABLE:
+      attributes:
+        id: SERCOM3_0_INTERRUPT_ENABLE
+      children:
+      - children:
+        - attributes:
+            id: sercom3
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    SERCOM3_0_INTERRUPT_ENABLE_UPDATE:
+      attributes:
+        id: SERCOM3_0_INTERRUPT_ENABLE_UPDATE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    SERCOM3_0_INTERRUPT_HANDLER:
+      attributes:
+        id: SERCOM3_0_INTERRUPT_HANDLER
+      children:
+      - children:
+        - attributes:
+            id: sercom3
+            value: SERCOM3_0_Handler
+          type: Dynamic
+        type: Values
+      type: String
+    SERCOM3_0_INTERRUPT_HANDLER_LOCK:
+      attributes:
+        id: SERCOM3_0_INTERRUPT_HANDLER_LOCK
+      children:
+      - children:
+        - attributes:
+            id: sercom3
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    SERCOM3_1_INTERRUPT_ENABLE:
+      attributes:
+        id: SERCOM3_1_INTERRUPT_ENABLE
+      children:
+      - children:
+        - attributes:
+            id: sercom3
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    SERCOM3_1_INTERRUPT_ENABLE_UPDATE:
+      attributes:
+        id: SERCOM3_1_INTERRUPT_ENABLE_UPDATE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    SERCOM3_1_INTERRUPT_HANDLER:
+      attributes:
+        id: SERCOM3_1_INTERRUPT_HANDLER
+      children:
+      - children:
+        - attributes:
+            id: sercom3
+            value: SERCOM3_1_Handler
+          type: Dynamic
+        type: Values
+      type: String
+    SERCOM3_1_INTERRUPT_HANDLER_LOCK:
+      attributes:
+        id: SERCOM3_1_INTERRUPT_HANDLER_LOCK
+      children:
+      - children:
+        - attributes:
+            id: sercom3
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    SERCOM3_2_INTERRUPT_ENABLE:
+      attributes:
+        id: SERCOM3_2_INTERRUPT_ENABLE
+      children:
+      - children:
+        - attributes:
+            id: sercom3
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    SERCOM3_2_INTERRUPT_ENABLE_UPDATE:
+      attributes:
+        id: SERCOM3_2_INTERRUPT_ENABLE_UPDATE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    SERCOM3_2_INTERRUPT_HANDLER:
+      attributes:
+        id: SERCOM3_2_INTERRUPT_HANDLER
+      children:
+      - children:
+        - attributes:
+            id: sercom3
+            value: SERCOM3_2_Handler
+          type: Dynamic
+        type: Values
+      type: String
+    SERCOM3_2_INTERRUPT_HANDLER_LOCK:
+      attributes:
+        id: SERCOM3_2_INTERRUPT_HANDLER_LOCK
+      children:
+      - children:
+        - attributes:
+            id: sercom3
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    SERCOM3_CORE_CLOCK_ENABLE:
+      attributes:
+        id: SERCOM3_CORE_CLOCK_ENABLE
+      children:
+      - children:
+        - attributes:
+            id: sercom3
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    SERCOM3_CORE_CLOCK_FREQUENCY:
+      attributes:
+        id: SERCOM3_CORE_CLOCK_FREQUENCY
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '48000000'
+          type: Dynamic
+        type: Values
+      type: Integer
+    SERCOM3_OTHER_INTERRUPT_ENABLE:
+      attributes:
+        id: SERCOM3_OTHER_INTERRUPT_ENABLE
+      children:
+      - children:
+        - attributes:
+            id: sercom3
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    SERCOM3_OTHER_INTERRUPT_ENABLE_UPDATE:
+      attributes:
+        id: SERCOM3_OTHER_INTERRUPT_ENABLE_UPDATE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    SERCOM3_OTHER_INTERRUPT_HANDLER:
+      attributes:
+        id: SERCOM3_OTHER_INTERRUPT_HANDLER
+      children:
+      - children:
+        - attributes:
+            id: sercom3
+            value: SERCOM3_OTHER_Handler
+          type: Dynamic
+        type: Values
+      type: String
+    SERCOM3_OTHER_INTERRUPT_HANDLER_LOCK:
+      attributes:
+        id: SERCOM3_OTHER_INTERRUPT_HANDLER_LOCK
+      children:
+      - children:
+        - attributes:
+            id: sercom3
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    SYSTICK_PERIOD:
+      attributes:
+        id: SYSTICK_PERIOD
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0xBB80'
+          type: Dynamic
+        type: Values
+      type: String
+    SYSTICK_PERIOD_US:
+      attributes:
+        id: SYSTICK_PERIOD_US
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '1000'
+          type: Dynamic
+        type: Values
+      type: Integer
+    XOSC1K_FREQ:
+      attributes:
+        id: XOSC1K_FREQ
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: Integer
+    XOSC32K_EN32K:
+      attributes:
+        id: XOSC32K_EN32K
+      children:
+      - children:
+        - attributes:
+            value: 'true'
+          type: User
+        type: Values
+      type: Boolean
+    XOSC32K_FREQ:
+      attributes:
+        id: XOSC32K_FREQ
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '32768'
+          type: Dynamic
+        type: Values
+      type: Integer
+    XOSC32K_OSCILLATOR_MODE:
+      attributes:
+        id: XOSC32K_OSCILLATOR_MODE
+      children:
+      - children:
+        - attributes:
+            value: '0'
+          type: User
+        type: Values
+      type: KeyValueSet
+    XOSC_FREQ:
+      attributes:
+        id: XOSC_FREQ
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: Integer
+  userData:
+    children:
+    - attributes:
+        canvasHeight: '400'
+        canvasWidth: '400'
+      type: GraphSettings
+    - children:
+      - attributes:
+          id: profile0
+          name: Main
+        type: Profile
+      type: PowerProfiles
+    type: UserData
