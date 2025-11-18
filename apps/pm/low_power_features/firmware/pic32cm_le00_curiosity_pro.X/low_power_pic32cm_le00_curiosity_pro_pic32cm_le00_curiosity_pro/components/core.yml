@@ -2341,8 +2341,8 @@ data:
   userData:
     children:
     - attributes:
-        canvasHeight: '256'
-        canvasWidth: '872'
+        canvasHeight: '0'
+        canvasWidth: '0'
       type: GraphSettings
     - children:
       - attributes:
